@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff9100aa);
+  animation: logo-bounce infinite 2s linear;
+}
+
+@keyframes logo-bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0) rotate(0);} 
+  40% {transform: translateY(-30px) rotate(-30deg);} 
+  60% {transform: translateY(-15px) rotate(30deg);} 
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
