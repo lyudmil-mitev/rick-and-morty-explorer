@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import React, { useEffect, useState } from "react"
+import { Link, useLocation } from "react-router-dom"
 
 interface TabBarProps {
     tabs: string[];
@@ -8,6 +8,16 @@ interface TabBarProps {
 }
 
 const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
+
+    const [currentTab, setCurrentTab] = useState(selectedTab);
+    const currentRoute = useLocation();
+
+    useEffect(() => {
+        const path = currentRoute.pathname.split("/")[1]
+        const tabname = path.charAt(0).toUpperCase() + path.slice(1)
+        setCurrentTab(tabname)
+    }, [currentRoute])
+
     return (
         <div className="-mt-11">
             <div className="sm:hidden">
@@ -17,7 +27,7 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
                 <select
                     id="Tab"
                     className="w-full rounded-md border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
-                    value={selectedTab}
+                    value={currentTab}
                     onChange={(e) => onSelectTab(e.target.value)}
                 >
                     {tabs.map((tab) => (
