@@ -45,3 +45,12 @@ export async function episodeDetailLoader({ params }: { params: Params<"episodeI
   const response = await getEpisode(parseInt(params.episodeId ?? "", 10))
   return response.data
 }
+
+export function parseAPIId(location: string) {
+    try {
+        const url = new URL(location);
+        return parseInt(url.pathname.split('/').pop() || '', 10);
+    } catch (error) {
+        return -1;
+    }
+}

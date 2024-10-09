@@ -1,6 +1,6 @@
 import { Character } from 'rickmortyapi';
 import { Link, useLoaderData, useSearchParams } from 'react-router-dom';
-import CharacterDetail from '../components/CharacterDetail';
+import CharacterCard from '../components/CharacterCard';
 import Pagination from '../components/Pagination';
 
 export default function Characters() {
@@ -14,7 +14,7 @@ export default function Characters() {
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
             {characters.map((character) => (
                 <Link key={character.id} to={`/characters/${character.id}`}>
-                    <CharacterDetail key={character.id} character={character} />
+                    <CharacterCard key={character.id} character={character} />
                 </Link>
             ))}
             </div>

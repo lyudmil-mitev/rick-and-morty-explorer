@@ -1,6 +1,6 @@
 import { Link, useLoaderData, useSearchParams } from "react-router-dom";
 import { Episode } from "rickmortyapi";
-import EpisodeDetail from "../components/EpisodeDetail";
+import EpisodeCard from "../components/EpisodeCard";
 import Pagination from "../components/Pagination";
 
 export default function Episodes() {
@@ -14,7 +14,7 @@ export default function Episodes() {
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
             {episodes.map((episode) => (
                 <Link key={episode.id} to={`/episodes/${episode.id}`}>
-                    <EpisodeDetail key={episode.id} episode={episode} />
+                    <EpisodeCard key={episode.id} episode={episode} />
                 </Link>
             ))}
             </div>

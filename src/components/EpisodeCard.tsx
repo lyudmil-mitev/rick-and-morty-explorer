@@ -9,7 +9,7 @@ import Season4 from "/seasons/s04.jpg";
 import Season5 from "/seasons/s05.jpg";
 import Season6 from "/seasons/s06.jpg";
 
-export default function EpisodeDetail({ episode }: { episode?: Episode }) {
+export default function EpisodeCard({ episode }: { episode?: Episode }) {
     const ep = episode || useLoaderData() as Episode;
     const season = parseInt(ep.episode.slice(2, 3), 10);
     const images = [Season1, Season2, Season3, Season4, Season5, Season6];

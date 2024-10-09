@@ -5,12 +5,12 @@ import { charactersLoader, characterDetailLoader, episodesLoader, episodeDetailL
 
 import Root from './routes/Root.tsx'
 import Characters from './routes/Characters.tsx'
-import CharacterDetail from './components/CharacterDetail.tsx'
-import EpisodeDetail from './components/EpisodeDetail.tsx'
 import Episodes from './routes/Episodes.tsx'
 import Locations from './routes/Locations.tsx'
-import LocationDetail from './components/LocationDetail.tsx'
 import './index.css'
+import CharacterDetails from './routes/CharacterDetails.tsx'
+import EpisodeDetails from './routes/EpisodeDetails.tsx'
+import LocationDetails from './routes/LocationDetails.tsx'
 
 const router = createBrowserRouter([
   {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/characters/:characterId',
-        element: <CharacterDetail />,
+        element: <CharacterDetails />,
         loader: characterDetailLoader
       },
       {
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/locations/:locationId',
-        element: <LocationDetail />,
+        element: <LocationDetails />,
         loader: locationDetailLoader
       },
       {
@@ -50,7 +50,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/episodes/:episodeId',
-        element: <EpisodeDetail />,
+        element: <EpisodeDetails />,
         loader: episodeDetailLoader
       },
     ]
