@@ -1,11 +1,59 @@
+@font-face {
+  font-family: 'Get Schwifty';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff') format('woff');
+}
+
+.schwifty {
+  font-family: 'Get Schwifty', sans-serif;
+  font-size: 10em;
+  font-display: swap;
+  color: #08BAE3;
+  text-shadow: -2px 0 0px rgba(0, 0, 0, 1), 0 -2px 0px rgba(0, 0, 0, 1), 0 2px 0px rgba(0, 0, 0, 1), 2px 0 0px rgba(0, 0, 0, 1), 0 0 10px rgba(50, 255, 0, 1);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
 }
 
+.portal-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.portal-hover img {
+  z-index: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .portal-hover:hover {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+  }
+}
+
+.portal-hover::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0,255,0,0.5) 0%, rgba(173,255,47,0.5) 25%, rgba(255,255,0,0.5) 50%, rgba(0,128,0,0.5) 75%, rgba(0,0,0,0) 90%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.3s ease-in-out;
+  z-index: 0;
+}
+
+.portal-hover:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+  animation: pulse 0.5s infinite;
+}
+
 .logo {
-  height: 6em;
+  height: 8em;
+  min-width: 128px;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;

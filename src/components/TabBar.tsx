@@ -39,13 +39,12 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
             </div>
 
             <div className="hidden sm:block">
-                <div className="border-b border-gray-300 dark:border-gray-600">
                     <nav className="-mb-px flex gap-6">
                         {tabs.map((tab) => (
                             <Link key={tab} to={`/${tab.toLowerCase()}`}
-                                className={`shrink-0 border border-transparent p-3 text-sm font-medium ${tab === selectedTab
-                                        ? "rounded-t-lg border-gray-500 border-b-white text-sky-600 dark:border-gray-400 dark:border-b-gray-800 bg-gray-200 dark:bg-gray-700"
-                                        : "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
+                                className={`shrink-0  p-3 text-sm font-medium ${tab === selectedTab
+                                        ? "rounded-t-lg border-b-white text-sky-600 bg-gray-100 dark:bg-gray-700"
+                                        : "text-gray-300 hover:text-gray-100 dark:text-gray-400 dark:hover:text-gray-300"
 
                                     }`}
                             >
@@ -53,7 +52,6 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
                             </Link>
                         ))}
                     </nav>
-                </div>
             </div>
         </div>
     );

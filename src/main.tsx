@@ -4,11 +4,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { charactersLoader, characterDetailLoader, episodesLoader, episodeDetailLoader, locationsLoader, locationDetailLoader } from './loaders.ts'
 
 import Root from './routes/Root.tsx'
-import Characters from './components/Characters.tsx'
+import Characters from './routes/Characters.tsx'
 import CharacterDetail from './components/CharacterDetail.tsx'
 import EpisodeDetail from './components/EpisodeDetail.tsx'
-import Episodes from './components/Episodes.tsx'
-import Locations from './components/Locations.tsx'
+import Episodes from './routes/Episodes.tsx'
+import Locations from './routes/Locations.tsx'
 import LocationDetail from './components/LocationDetail.tsx'
 import './index.css'
 
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         loader: charactersLoader,
       },
       {
-        path: '/character/:characterId',
+        path: '/characters/:characterId',
         element: <CharacterDetail />,
         loader: characterDetailLoader
       },
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
         loader: locationsLoader,
       },
       {
-        path: '/location/:locationId',
+        path: '/locations/:locationId',
         element: <LocationDetail />,
         loader: locationDetailLoader
       },

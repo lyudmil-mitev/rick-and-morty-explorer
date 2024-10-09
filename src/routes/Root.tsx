@@ -8,7 +8,7 @@ function capitalizeString(str: string) {
 }
 
 function formatLocation(location: string) {
-    const path = location.split("/").pop();
+    const path = location.split("/")[1]
 
     if (typeof path === "undefined" || path.length < 2) {
         return "Characters";
@@ -31,7 +31,7 @@ export default function Root() {
             selectedTab={formatLocation(location.pathname)}
             onSelectTab={handleSelectTab}
         />
-        <main>
+        <main className='bg-gray-100 dark:bg-gray-700'>
             <Outlet />
         </main>
         <footer>
