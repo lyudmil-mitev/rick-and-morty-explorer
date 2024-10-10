@@ -18,6 +18,7 @@ export default function Characters() {
                 </Link>
             ))}
             </div>
+            <Pagination page={page} totalPages={pages} />
         </section>
     );
 };

@@ -11,46 +11,54 @@ import './index.css'
 import CharacterDetails from './routes/CharacterDetails.tsx'
 import EpisodeDetails from './routes/EpisodeDetails.tsx'
 import LocationDetails from './routes/LocationDetails.tsx'
+import ErrorPage from './routes/ErrorPage.tsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root />,
-    // errorElement: <h1>404 Not Found</h1>, // TODO
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
         element: <Characters />,
+        errorElement: <ErrorPage />,
         loader: charactersLoader,
       },
       {
         path: '/characters',
         element: <Characters />,
+        errorElement: <ErrorPage />,
         loader: charactersLoader,
       },
       {
         path: '/characters/:characterId',
         element: <CharacterDetails />,
+        errorElement: <ErrorPage />,
         loader: characterDetailLoader
       },
       {
         path: '/locations',
         element: <Locations />,
+        errorElement: <ErrorPage />,
         loader: locationsLoader,
       },
       {
         path: '/locations/:locationId',
         element: <LocationDetails />,
+        errorElement: <ErrorPage />,
         loader: locationDetailLoader
       },
       {
         path: '/episodes',
         element: <Episodes />,
+        errorElement: <ErrorPage />,
         loader: episodesLoader,
       },
       {
         path: '/episodes/:episodeId',
         element: <EpisodeDetails />,
+        errorElement: <ErrorPage />,
         loader: episodeDetailLoader
       },
     ]

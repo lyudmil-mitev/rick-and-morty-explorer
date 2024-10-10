@@ -18,6 +18,7 @@ export default function Episodes() {
                 </Link>
             ))}
             </div>
+            <Pagination page={page} totalPages={pages} />
         </section>
     );
 }

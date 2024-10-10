@@ -4,6 +4,7 @@ import { Character, Episode, getEpisode } from "rickmortyapi";
 import { parseAPIId } from "../loaders";
 import EpisodeCard from "../components/EpisodeCard";
 import DetailsLayout, { DetailFacts } from "../components/DetailsLayout";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 export default function CharacterDetails() {
     const char = useLoaderData() as Character;
@@ -40,7 +41,7 @@ export default function CharacterDetails() {
                 <Link to={`/episodes/${episode.id}`} key={index}>
                     <EpisodeCard episode={episode} />
                 </Link>
-            )) : "Loading..."}
+            )) : <><LoadingSpinner/> Loading...</>}
         </DetailsLayout>
     );
 }

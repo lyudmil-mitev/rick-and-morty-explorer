@@ -18,6 +18,7 @@ export default function Locations() {
                 </Link>
             ))}
             </div>
+            <Pagination page={page} totalPages={pages} />
         </section>
     );
 }

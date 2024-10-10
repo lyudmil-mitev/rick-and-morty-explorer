@@ -6,6 +6,7 @@ import PlanetImage from "/planet.png"
 import { useEffect, useState } from "react";
 import { parseAPIId } from "../loaders";
 import CharacterCard from "../components/CharacterCard";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 export default function LocationDetails() {
     const location = useLoaderData() as Location;
@@ -38,7 +39,7 @@ export default function LocationDetails() {
                 <Link to={`/characters/${character.id}`} key={index}>
                     <CharacterCard character={character} />
                 </Link>
-            )) : location.residents.length > 0 ? "Loading..." : "No residents"}
+            )) : location.residents.length > 0 ? <><LoadingSpinner/> Loading...</> : "No residents"}
         </DetailsLayout>
     );
 }
