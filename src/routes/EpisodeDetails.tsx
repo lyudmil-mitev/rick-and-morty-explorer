@@ -11,6 +11,7 @@ import Season3 from "/seasons/s03.jpg";
 import Season4 from "/seasons/s04.jpg";
 import Season5 from "/seasons/s05.jpg";
 import Season6 from "/seasons/s06.jpg";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 export default function EpisodeDetails() {
     const episode = useLoaderData() as Episode;
@@ -47,7 +48,7 @@ export default function EpisodeDetails() {
                 <Link to={`/characters/${character.id}`} key={index}>
                     <CharacterCard character={character} />
                 </Link>
-            )) : "Loading..."}
+            )) : <><LoadingSpinner/> Loading...</>}
         </DetailsLayout>
     )
 }

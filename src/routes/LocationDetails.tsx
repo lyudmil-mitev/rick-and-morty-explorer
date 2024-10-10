@@ -10,6 +10,7 @@ import LoadingSpinner from "../components/LoadingSpinner";
 
 export default function LocationDetails() {
     const location = useLoaderData() as Location;
+    console.log(location)
     const facts:DetailFacts[] = [
         { type: "Type", value: location.type },
         { type: "Dimension", value: location.dimension },
