@@ -1,5 +1,14 @@
-import { getCharacters, getCharacter, getLocations, getLocation, getEpisodes, getEpisode } from 'rickmortyapi'
+import { Character, Episode, getCharacter, getEpisode, getLocation, Location, Params as APIParams } from 'rickmortyapi'
 import { Params } from 'react-router-dom'
+
+type PaginatedResponse<T> = {
+  info: {
+    pages: number
+  }
+  results: T[]
+}
+
+const API_BASE_URL = 'https://rickandmortyapi.com/api'
 
 function parsePage(request: Request) {
   const rawPage = new URL(request.url).searchParams.get('page')
@@ -8,14 +17,23 @@ function parsePage(request: Request) {
   return Number.isFinite(page) && page > 0 ? page : 1
 }
 
+async function fetchPaginatedResource<T>(resource: 'character' | 'location' | 'episode', page: number) {
+  const url = new URL(`${API_BASE_URL}/${resource}`)
+  url.searchParams.set('page', String(page))
+
+  const response = await fetch(url)
+
+  if (!response.ok) {
+    throw new Error(`Failed to load ${resource}s`)
+  }
+
+  return response.json() as Promise<PaginatedResponse<T>>
+}
+
 export async function charactersLoader({ request }: { request: Request }) {
   const page = parsePage(request)
-  const response = await getCharacters({ page })
-  if (typeof response.data === "undefined" || typeof response.data.info === "undefined") {
-    throw new Error(`Failed to load characters`)
-  } else {
-    return { pages: response.data.info.pages, characters: response.data.results }
-  }
+  const response = await fetchPaginatedResource<Character>('character', page)
+  return { pages: response.info.pages, characters: response.results }
 }
 
 export async function characterDetailLoader({ params }: { params: Params<"characterId"> }) {
@@ -25,12 +43,8 @@ export async function characterDetailLoader({ params }: { params: Params<"charac
 
 export async function locationsLoader({ request }: { request: Request }) {
   const page = parsePage(request)
-  const response = await getLocations({ page })
-  if (typeof response.data === "undefined" || typeof response.data.info === "undefined") {
-    throw new Error(`Failed to load locations`)
-  } else {
-    return { pages: response.data.info.pages, locations: response.data.results }
-  }
+  const response = await fetchPaginatedResource<Location>('location', page)
+  return { pages: response.info.pages, locations: response.results }
 }
 
 export async function locationDetailLoader({ params }: { params: Params<"locationId"> }) {
@@ -40,12 +54,8 @@ export async function locationDetailLoader({ params }: { params: Params<"locatio
 
 export async function episodesLoader({ request }: { request: Request }) {
   const page = parsePage(request)
-  const response = await getEpisodes({ page })
-  if (typeof response.data === "undefined" || typeof response.data.info === "undefined") {
-    throw new Error(`Failed to load episodes`)
-  } else {
-    return { pages: response.data.info.pages, episodes: response.data.results }
-  }
+  const response = await fetchPaginatedResource<Episode>('episode', page)
+  return { pages: response.info.pages, episodes: response.results }
 }
 
 export async function episodeDetailLoader({ params }: { params: Params<"episodeId"> }) {
