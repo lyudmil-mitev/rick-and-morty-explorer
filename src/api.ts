@@ -19,9 +19,19 @@ export function parseApiId(id: string | undefined, resource: ApiResource) {
   return parsedId
 }
 
-export async function fetchApiResource<T>(resource: ApiResource, id: number) {
+export function parseApiUrlId(location: string) {
+  try {
+    const url = new URL(location)
+    const id = Number.parseInt(url.pathname.split('/').pop() ?? '', 10)
+    return Number.isFinite(id) && id > 0 ? id : null
+  } catch {
+    return null
+  }
+}
+
+export async function fetchApiResource<T>(resource: ApiResource, id: number, signal?: AbortSignal) {
   const url = new URL(`${API_BASE_URL}/${resource}/${id}`)
-  const response = await fetch(url)
+  const response = await fetch(url, { signal })
 
   if (!response.ok) {
     throw new Error(`Failed to load ${resource}`)
@@ -30,7 +40,7 @@ export async function fetchApiResource<T>(resource: ApiResource, id: number) {
   return response.json() as Promise<T>
 }
 
-export async function fetchApiResources<T>(resource: ApiResource, ids: number[]) {
+export async function fetchApiResources<T>(resource: ApiResource, ids: number[], signal?: AbortSignal) {
   const validIds = ids.filter((id) => Number.isFinite(id) && id > 0)
 
   if (validIds.length === 0) {
@@ -38,7 +48,7 @@ export async function fetchApiResources<T>(resource: ApiResource, ids: number[])
   }
 
   const url = new URL(`${API_BASE_URL}/${resource}/${validIds.join(',')}`)
-  const response = await fetch(url)
+  const response = await fetch(url, { signal })
 
   if (!response.ok) {
     throw new Error(`Failed to load ${resource}s`)
@@ -48,11 +58,11 @@ export async function fetchApiResources<T>(resource: ApiResource, ids: number[])
   return Array.isArray(data) ? data : [data]
 }
 
-export async function fetchPaginatedResource<T>(resource: ApiResource, page: number) {
+export async function fetchPaginatedResource<T>(resource: ApiResource, page: number, signal?: AbortSignal) {
   const url = new URL(`${API_BASE_URL}/${resource}`)
   url.searchParams.set('page', String(page))
 
-  const response = await fetch(url)
+  const response = await fetch(url, { signal })
 
   if (!response.ok) {
     throw new Error(`Failed to load ${resource}s`)
