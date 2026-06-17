@@ -3,7 +3,7 @@ import starrySpace from '/StarrySpace.svg'
 
 const Banner = () => (
   <section
-    className="flex flex-col items-center justify-center bg-cover bg-center px-4 py-10 sm:flex-row sm:py-14"
+    className="flex flex-col items-center justify-center bg-cover bg-center px-4 pb-8 pt-6 sm:flex-row sm:pb-10 sm:pt-8"
     style={{ backgroundImage: `url(${starrySpace})` }}
   >
     <a
@@ -14,7 +14,7 @@ const Banner = () => (
       <img src={mortyLogo} className="logo" alt="Morty Logo" />
     </a>
 
-    <h1 className="schwifty text-center text-5xl sm:text-7xl lg:text-8xl">
+    <h1 className="schwifty text-center">
       Rick and Morty Explorer
     </h1>
   </section>
