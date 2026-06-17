@@ -24,6 +24,7 @@ I have annotated the project structure below
 ├── package.json
 ├── README.md
 ├── src
+│   ├── api.ts # Rick and Morty API client helpers and URL/id parsing utilities
 │   ├── components
 │   │   ├── Banner.tsx # Banner component with title header and awesome space background SVG that's less than 1KB
 │   │   ├── CharacterCard.tsx # Character card based on MiniCard
@@ -35,7 +36,7 @@ I have annotated the project structure below
 │   │   ├── Pagination.tsx # Pagination component for Characters, Locations and Episodes
 │   │   └── TabBar.tsx # Main navigation tab bar
 │   ├── index.css # Global CSS file, includes TailwindCSS and custom styles
-│   ├── loaders.ts # Custom loaders for Characters, Locations and Episodes and some API helpers
+│   ├── loaders.ts # Route loaders for list/detail pages and related-resource loading
 │   ├── main.tsx # Main entrypoint for React, Routes are configured here
 │   ├── mocks # Mock data for Characters, Locations and Episodes, copied from the Rick and Morty API JS Client Object
 │   │   ├── characterDetail.mock.tsx
