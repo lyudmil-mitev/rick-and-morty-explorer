@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { Link, useLocation } from "react-router-dom"
 
 interface TabBarProps {
@@ -7,15 +7,14 @@ interface TabBarProps {
     onSelectTab: (tab: string) => void;
 }
 
-const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
-    const [currentTab, setCurrentTab] = useState(selectedTab);
-    const currentRoute = useLocation();
+function getTabFromPath(pathname: string, fallback: string) {
+    const path = pathname.split("/")[1]
+    return path.length > 0 ? path.charAt(0).toUpperCase() + path.slice(1) : fallback
+}
 
-    useEffect(() => {
-        const path = currentRoute.pathname.split("/")[1]
-        const tabname = path.length > 0 ? path.charAt(0).toUpperCase() + path.slice(1) : selectedTab
-        setCurrentTab(tabname)
-    }, [currentRoute, selectedTab])
+const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
+    const currentRoute = useLocation();
+    const currentTab = getTabFromPath(currentRoute.pathname, selectedTab);
 
     return (
         <div className="absolute left-1/2 bottom-0 z-20 w-fit -translate-x-1/2 translate-y-1/2 px-4">

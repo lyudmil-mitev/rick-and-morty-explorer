@@ -43,7 +43,7 @@ export function parseAPIId(location: string) {
     try {
         const url = new URL(location);
         return parseInt(url.pathname.split('/').pop() || '', 10);
-    } catch (error) {
+    } catch {
         return -1;
     }
 }

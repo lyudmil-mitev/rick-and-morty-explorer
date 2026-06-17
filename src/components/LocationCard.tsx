@@ -5,7 +5,8 @@ import PortalImage from "/portal.png"
 import PlanetImage from "/planet.png"
 
 export default function LocationCard({ location }: { location?: Location }) {
-    const place = location || useLoaderData() as Location;
+    const loaderLocation = useLoaderData() as Location;
+    const place = location ?? loaderLocation;
     return (
         <MiniCard title={place.name} image={place.type === "Planet" ? PlanetImage : PortalImage} description={`${place.type}`} />
     );

@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: Lint, test, and build
     runs-on: ubuntu-latest
 
     steps:
@@ -18,11 +18,18 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: 24
+          cache: npm
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm ci
 
-      - name: Build project
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm run test -- --coverage --run
+
+      - name: Build
         run: npm run build
 
       - name: Upload production-ready build files
