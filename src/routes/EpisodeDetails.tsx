@@ -1,8 +1,9 @@
-import { Character, Episode, getCharacter } from "rickmortyapi";
+import { Character, Episode } from "rickmortyapi";
 import DetailsLayout, { DetailFacts } from "../components/DetailsLayout";
 import { Link, useLoaderData } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { parseAPIId } from "../loaders";
+import { fetchApiResources } from "../api";
 import CharacterCard from "../components/CharacterCard";
 
 import Season1 from "/seasons/s01.jpg";
@@ -27,20 +28,9 @@ export default function EpisodeDetails() {
     ]
 
     useEffect(() => {
-        const characterList = episode.characters.map((episode) => parseAPIId(episode));
-        getCharacter(characterList).then((data) => {
-            if (data.status === 200 && data.data) {
-                if (data.data.length) {
-                    setCharacters(data.data)
-                    return
-                } else if (typeof data.data === 'object' && typeof data.data.length === "undefined") {
-                    // XXX: Wrong type from client library, when there's only one result the type is Episode and not Episode[]
-                    // @ts-ignore
-                    setCharacters([data.data]);
-                }
-            }
-        })
-    }, [])
+        const characterList = episode.characters.map((character) => parseAPIId(character));
+        fetchApiResources<Character>('character', characterList).then(setCharacters)
+    }, [episode.characters])
 
     return (
         <DetailsLayout title={episode.name} image={image} facts={DetailFacts} childrenTitle={"Characters"}>
