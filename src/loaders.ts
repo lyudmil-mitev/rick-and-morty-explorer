@@ -1,4 +1,4 @@
-import { Character, Episode, getCharacter, getEpisode, getLocation, Location } from 'rickmortyapi'
+import { Character, Episode, Location } from 'rickmortyapi'
 import { Params } from 'react-router-dom'
 
 type PaginatedResponse<T> = {
@@ -9,6 +9,7 @@ type PaginatedResponse<T> = {
 }
 
 const API_BASE_URL = 'https://rickandmortyapi.com/api'
+type ApiResource = 'character' | 'location' | 'episode'
 
 function parsePage(request: Request) {
   const rawPage = new URL(request.url).searchParams.get('page')
@@ -17,7 +18,28 @@ function parsePage(request: Request) {
   return Number.isFinite(page) && page > 0 ? page : 1
 }
 
-async function fetchPaginatedResource<T>(resource: 'character' | 'location' | 'episode', page: number) {
+function parseId(id: string | undefined, resource: ApiResource) {
+  const parsedId = Number.parseInt(id ?? '', 10)
+
+  if (!Number.isFinite(parsedId) || parsedId < 1) {
+    throw new Error(`Invalid ${resource} id`)
+  }
+
+  return parsedId
+}
+
+async function fetchApiResource<T>(resource: ApiResource, id?: number) {
+  const url = new URL(`${API_BASE_URL}/${resource}${typeof id === 'number' ? `/${id}` : ''}`)
+  const response = await fetch(url)
+
+  if (!response.ok) {
+    throw new Error(`Failed to load ${resource}`)
+  }
+
+  return response.json() as Promise<T>
+}
+
+async function fetchPaginatedResource<T>(resource: ApiResource, page: number) {
   const url = new URL(`${API_BASE_URL}/${resource}`)
   url.searchParams.set('page', String(page))
 
@@ -37,8 +59,7 @@ export async function charactersLoader({ request }: { request: Request }) {
 }
 
 export async function characterDetailLoader({ params }: { params: Params<"characterId"> }) {
-  const response = await getCharacter(parseInt(params.characterId ?? "", 10))
-  return response.data
+  return fetchApiResource<Character>('character', parseId(params.characterId, 'character'))
 }
 
 export async function locationsLoader({ request }: { request: Request }) {
@@ -48,8 +69,7 @@ export async function locationsLoader({ request }: { request: Request }) {
 }
 
 export async function locationDetailLoader({ params }: { params: Params<"locationId"> }) {
-  const response = await getLocation(parseInt(params.locationId ?? "", 10))
-  return response.data
+  return fetchApiResource<Location>('location', parseId(params.locationId, 'location'))
 }
 
 export async function episodesLoader({ request }: { request: Request }) {
@@ -59,8 +79,7 @@ export async function episodesLoader({ request }: { request: Request }) {
 }
 
 export async function episodeDetailLoader({ params }: { params: Params<"episodeId"> }) {
-  const response = await getEpisode(parseInt(params.episodeId ?? "", 10))
-  return response.data
+  return fetchApiResource<Episode>('episode', parseId(params.episodeId, 'episode'))
 }
 
 export function parseAPIId(location: string) {
