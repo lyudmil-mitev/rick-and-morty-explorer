@@ -5,6 +5,7 @@ import Root from './Root';
 import { createMemoryRouter, RouterProvider } from 'react-router-dom';
 import CharacterDetails from './CharacterDetails';
 import characterDetailMock from '../mocks/characterDetail.mock';
+import episodesMock from '../mocks/episodes.mock';
 
 const mockRoutes = [{
     path: '/',
@@ -13,7 +14,7 @@ const mockRoutes = [{
       {
         index: true,
         element: <CharacterDetails />,
-        loader: () => characterDetailMock,
+        loader: () => ({ character: characterDetailMock, episodes: episodesMock.episodes.slice(0, 2) }),
       },
     ]
 }];
@@ -31,6 +32,12 @@ describe('Root', () => {
     it('should have character', async () => {
         render(<RouterProvider router={router}></RouterProvider>)
         expect(screen.getByText('Rick Sanchez')).toBeDefined();
+    });
+
+    it('should have related episodes', async () => {
+        render(<RouterProvider router={router}></RouterProvider>)
+        expect(screen.getByText('Pilot')).toBeDefined();
+        expect(screen.getByText('Lawnmower Dog')).toBeDefined();
     });
 
     it('should have tabs', async () => {
