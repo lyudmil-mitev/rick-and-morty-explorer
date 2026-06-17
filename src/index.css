@@ -31,6 +31,10 @@ body {
   margin: 0;
 }
 
+#root > main {
+  padding-top: 3rem;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
