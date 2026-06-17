@@ -12,6 +12,8 @@ vi.mock('rickmortyapi', () => ({
 }))
 
 const mockPaginatedResponse = {
+  status: 200,
+  statusMessage: 'OK',
   data: {
     info: { pages: 3 },
     results: [],
