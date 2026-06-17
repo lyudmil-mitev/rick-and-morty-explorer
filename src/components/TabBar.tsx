@@ -8,7 +8,6 @@ interface TabBarProps {
 }
 
 const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
-
     const [currentTab, setCurrentTab] = useState(selectedTab);
     const currentRoute = useLocation();
 
@@ -19,7 +18,7 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
     }, [currentRoute, selectedTab])
 
     return (
-        <div className="relative z-10 -mt-10 px-4 sm:-mt-14">
+        <div className="absolute left-1/2 bottom-0 z-20 w-fit -translate-x-1/2 translate-y-1/2 px-4">
             <div className="mx-auto w-fit">
                 <div className="sm:hidden rounded-2xl border border-white/20 bg-white/90 p-2 shadow-xl shadow-black/20 backdrop-blur dark:border-gray-600/50 dark:bg-gray-800/90">
                     <label htmlFor="Tab" className="sr-only">Tab</label>
@@ -36,7 +35,7 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
                 </div>
 
                 <div className="hidden sm:block">
-                    <nav className="inline-flex rounded-full border border-white/20 bg-gray-950/80 p-2 shadow-2xl shadow-black/30 backdrop-blur dark:border-lime-300/20 dark:bg-gray-900/90" aria-label="Main sections">
+                    <nav className="inline-flex rounded-full border border-white/20 bg-gray-950/85 p-2 shadow-2xl shadow-black/40 backdrop-blur" aria-label="Main sections">
                         {tabs.map((tab) => {
                             const isSelected = tab === selectedTab
                             return (
@@ -45,14 +44,14 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
                                     to={`/${tab.toLowerCase()}`}
                                     className={`relative mx-1 rounded-full px-6 py-3 text-sm font-bold tracking-wide transition duration-200 ${isSelected
                                         ? "bg-lime-300 text-gray-950 shadow-lg shadow-lime-300/30"
-                                        : "text-gray-300 hover:bg-white/10 hover:text-white dark:text-gray-300 dark:hover:text-white"
+                                        : "text-gray-300 hover:bg-white/10 hover:text-white"
                                     }`}
                                     aria-current={isSelected ? "page" : undefined}
                                 >
                                     {tab}
                                 </Link>
-                            )
-                        })}
+                            )}
+                        )}
                     </nav>
                 </div>
             </div>
