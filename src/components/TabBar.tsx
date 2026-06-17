@@ -19,8 +19,8 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
     }, [currentRoute, selectedTab])
 
     return (
-        <div className="relative z-10 -mt-8 px-4 sm:-mt-10">
-            <div className="mx-auto max-w-4xl">
+        <div className="relative z-10 -mt-4 px-4 sm:-mt-6">
+            <div className="mx-auto w-fit">
                 <div className="sm:hidden rounded-2xl border border-white/20 bg-white/90 p-2 shadow-xl shadow-black/20 backdrop-blur dark:border-gray-600/50 dark:bg-gray-800/90">
                     <label htmlFor="Tab" className="sr-only">
                         Tab
@@ -40,7 +40,7 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
                 </div>
 
                 <div className="hidden sm:block">
-                    <nav className="flex justify-center rounded-full border border-white/20 bg-gray-950/80 p-2 shadow-2xl shadow-black/30 backdrop-blur dark:border-lime-300/20 dark:bg-gray-900/90" aria-label="Main sections">
+                    <nav className="inline-flex rounded-full border border-white/20 bg-gray-950/80 p-2 shadow-2xl shadow-black/30 backdrop-blur dark:border-lime-300/20 dark:bg-gray-900/90" aria-label="Main sections">
                         {tabs.map((tab) => {
                             const isSelected = tab === selectedTab
 
