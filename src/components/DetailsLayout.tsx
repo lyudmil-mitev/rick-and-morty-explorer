@@ -9,17 +9,17 @@ export type DetailFacts = {
 
 export default function DetailsLayout({ image, title, facts, childrenTitle, children }: { image: string, title: string, facts: DetailFacts[], childrenTitle: string, children?: React.ReactNode }) {
     return (
-        <section className="flex flex-col md:flex-row gap-4 p-4">
-            <div className="flex flex-col md:flex-row bg-white dark:bg-gray-800 shadow-lg rounded-lg">
-                <div className="p-4 flex-1">
-                    <img className="mx-auto" src={image} alt={title} />
-                    <h1 className="text-2xl font-bold mb-4 dark:text-white">{title}</h1>
+        <section className="mx-auto flex w-full max-w-7xl flex-col gap-6 p-4 lg:grid lg:grid-cols-[minmax(18rem,24rem)_1fr] lg:items-start lg:p-6">
+            <aside className="rounded-lg bg-white shadow-lg dark:bg-gray-800">
+                <div className="p-4 sm:p-6">
+                    <img className="mx-auto aspect-square w-full max-w-xs rounded object-cover" src={image} alt={title} />
+                    <h1 className="mt-4 break-words text-3xl font-bold leading-tight dark:text-white lg:text-4xl">{title}</h1>
 
-                    <dl className="space-y-2">
+                    <dl className="mt-6 space-y-2">
                         {facts.map((fact, index) => (
-                            <div key={index} className="flex justify-between items-center hover:bg-gray-200 dark:hover:bg-gray-700 p-2 rounded">
+                            <div key={index} className="flex justify-between gap-4 rounded p-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                                 <dt className="font-semibold dark:text-gray-300">{fact.type}</dt>
-                                <dd className="dark:text-gray-300">
+                                <dd className="text-right dark:text-gray-300">
                                     {fact.url ? (
                                         <Link to={fact.url} className="text-blue-500 hover:underline dark:text-blue-400">{fact.value}</Link>
                                     ) : fact.value}
@@ -28,13 +28,13 @@ export default function DetailsLayout({ image, title, facts, childrenTitle, chil
                         ))}
                     </dl>
                 </div>
-            </div>
-            <div className="flex-1">
-                <h2 className="text-xl text-left font-semibold mb-4">{childrenTitle}:</h2>
-                <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            </aside>
+            <section className="min-w-0">
+                <h2 className="mb-4 text-left text-2xl font-semibold dark:text-gray-100">{childrenTitle}:</h2>
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
                     {children}
                 </div>
-            </div>
+            </section>
         </section>
     );
 }
