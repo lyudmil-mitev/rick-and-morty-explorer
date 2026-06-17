@@ -18,21 +18,20 @@ const paginatedApiResponse = {
   results: [],
 }
 
-function mockFetchJson(data: unknown) {
-  return vi.fn<Parameters<typeof fetch>, ReturnType<typeof fetch>>().mockResolvedValue(
-    new Response(JSON.stringify(data), {
-      status: 200,
-      headers: { 'Content-Type': 'application/json' },
-    }),
-  )
+function mockFetchJson(data: unknown): typeof fetch {
+  return vi.fn(async () => new Response(JSON.stringify(data), {
+    status: 200,
+    headers: { 'Content-Type': 'application/json' },
+  })) as unknown as typeof fetch
 }
 
 describe('loaders API requests', () => {
   beforeEach(() => {
-    globalThis.fetch = mockFetchJson(paginatedApiResponse)
+    vi.stubGlobal('fetch', mockFetchJson(paginatedApiResponse))
   })
 
   afterEach(() => {
+    vi.unstubAllGlobals()
     vi.restoreAllMocks()
   })
 
