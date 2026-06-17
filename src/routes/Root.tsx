@@ -25,12 +25,14 @@ export default function Root() {
     }
 
     return (<>
-        <Banner />
-        <TabBar
-            tabs={["Characters", "Locations", "Episodes"]}
-            selectedTab={formatLocation(location.pathname)}
-            onSelectTab={handleSelectTab}
-        />
+        <div className="relative">
+            <Banner />
+            <TabBar
+                tabs={["Characters", "Locations", "Episodes"]}
+                selectedTab={formatLocation(location.pathname)}
+                onSelectTab={handleSelectTab}
+            />
+        </div>
         <main className='bg-gray-100 dark:bg-gray-700'>
             <Outlet />
         </main>
