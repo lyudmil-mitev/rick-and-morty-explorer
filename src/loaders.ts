@@ -1,4 +1,4 @@
-import { Character, Episode, getCharacter, getEpisode, getLocation, Location, Params as APIParams } from 'rickmortyapi'
+import { Character, Episode, getCharacter, getEpisode, getLocation, Location } from 'rickmortyapi'
 import { Params } from 'react-router-dom'
 
 type PaginatedResponse<T> = {
