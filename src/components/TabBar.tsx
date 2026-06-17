@@ -35,9 +35,9 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab, onSelectTab }) => {
                                 <Link
                                     key={tab}
                                     to={`/${tab.toLowerCase()}`}
-                                    className={`portal-hover relative mx-1 rounded-full px-6 py-3 text-sm font-bold tracking-wide !text-white transition duration-200 hover:!text-white hover:[text-shadow:0_0_8px_rgba(255,255,255,0.9)] ${isSelected
-                                        ? "bg-lime-300 shadow-lg shadow-lime-300/30 [text-shadow:0_0_8px_rgba(255,255,255,0.9)]"
-                                        : "text-gray-300"
+                                    className={`relative mx-1 rounded-full px-6 py-3 text-sm font-bold tracking-wide !text-white transition duration-200 ${isSelected
+                                        ? "bg-lime-300 shadow-lg shadow-lime-300/30 [text-shadow:0_0_8px_rgba(255,255,255,0.95),0_1px_2px_rgba(0,0,0,0.9)]"
+                                        : "portal-hover hover:!text-white hover:[text-shadow:0_0_8px_rgba(255,255,255,0.9)]"
                                     }`}
                                     aria-current={isSelected ? "page" : undefined}
                                 >
