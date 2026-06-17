@@ -8,7 +8,7 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
     }
 
     return (
-        <nav className="flex justify-center gap-4 p-4">
+        <nav className="flex justify-center gap-4 px-4 pb-4 pt-8">
             <Link to={`?page=${page - 1}`} className={`p-2 rounded-lg ${page === 1 ? 'invisible' : 'bg-gray-100 dark:bg-gray-800'}`}>
                 &lt;
                 <span> Previous</span>
