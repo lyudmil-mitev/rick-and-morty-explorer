@@ -19,7 +19,7 @@ describe('Rick and Morty API helpers', () => {
 
     await fetchPaginatedResource('character', 1)
 
-    expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character?page=1'))
+    expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character?page=1'), { signal: undefined })
   })
 
   it('fetches a detail resource without an empty path segment', async () => {
@@ -27,7 +27,7 @@ describe('Rick and Morty API helpers', () => {
 
     await fetchApiResource('character', 6)
 
-    expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character/6'))
+    expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character/6'), { signal: undefined })
   })
 
   it('fetches multiple related resources without an empty path segment', async () => {
@@ -35,6 +35,6 @@ describe('Rick and Morty API helpers', () => {
 
     await fetchApiResources('character', [1, 2, 38])
 
-    expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character/1,2,38'))
+    expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character/1,2,38'), { signal: undefined })
   })
 })
