@@ -1,8 +1,15 @@
 import { getCharacters, getCharacter, getLocations, getLocation, getEpisodes, getEpisode } from 'rickmortyapi'
 import { Params } from 'react-router-dom'
 
+function parsePage(request: Request) {
+  const rawPage = new URL(request.url).searchParams.get('page')
+  const page = Number.parseInt(rawPage ?? '1', 10)
+
+  return Number.isFinite(page) && page > 0 ? page : 1
+}
+
 export async function charactersLoader({ request }: { request: Request }) {
-  const page = parseInt(new URL(request.url).searchParams.get('page') ?? "", 10) ?? 1;
+  const page = parsePage(request)
   const response = await getCharacters({ page })
   if (typeof response.data === "undefined" || typeof response.data.info === "undefined") {
     throw new Error(`Failed to load characters`)
@@ -17,7 +24,7 @@ export async function characterDetailLoader({ params }: { params: Params<"charac
 }
 
 export async function locationsLoader({ request }: { request: Request }) {
-  const page = parseInt(new URL(request.url).searchParams.get('page') ?? "", 10) ?? 1;
+  const page = parsePage(request)
   const response = await getLocations({ page })
   if (typeof response.data === "undefined" || typeof response.data.info === "undefined") {
     throw new Error(`Failed to load locations`)
@@ -32,7 +39,7 @@ export async function locationDetailLoader({ params }: { params: Params<"locatio
 }
 
 export async function episodesLoader({ request }: { request: Request }) {
-  const page = parseInt(new URL(request.url).searchParams.get('page') ?? "", 10) ?? 1;
+  const page = parsePage(request)
   const response = await getEpisodes({ page })
   if (typeof response.data === "undefined" || typeof response.data.info === "undefined") {
     throw new Error(`Failed to load episodes`)
