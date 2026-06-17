@@ -15,7 +15,12 @@ const mockPaginatedResponse = {
   status: 200,
   statusMessage: 'OK',
   data: {
-    info: { pages: 3 },
+    info: {
+      count: 0,
+      pages: 3,
+      next: null,
+      prev: null,
+    },
     results: [],
   },
 }
