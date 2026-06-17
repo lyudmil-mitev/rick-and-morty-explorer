@@ -33,7 +33,7 @@ I have annotated the project structure below
 │   │   ├── LocationCard.tsx # Location card based on MiniCard
 │   │   ├── MiniCard.tsx # Base card component for CharacterCard, EpisodeCard and LocationCard
 │   │   ├── Pagination.tsx # Pagination component for Characters, Locations and Episodes
-│   │   └── TabBar.tsx # Man navigation tab bar
+│   │   └── TabBar.tsx # Main navigation tab bar
 │   ├── index.css # Global CSS file, includes TailwindCSS and custom styles
 │   ├── loaders.ts # Custom loaders for Characters, Locations and Episodes and some API helpers
 │   ├── main.tsx # Main entrypoint for React, Routes are configured here
@@ -60,8 +60,9 @@ I have annotated the project structure below
 
 To clone the application run:
 
-```
-https://github.com/lyudmil-mitev/rick-and-morty-explorer.git
+```bash
+git clone https://github.com/lyudmil-mitev/rick-and-morty-explorer.git
+cd rick-and-morty-explorer
 ```
 
 To run the development server, use:
