@@ -21,7 +21,10 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
 
         const nextPage = Math.min(Math.max(requestedPage, 1), totalPages);
         if (form) {
-            form.page.value = String(nextPage);
+            const pageInput = form.elements.namedItem("page");
+            if (pageInput instanceof HTMLInputElement) {
+                pageInput.value = String(nextPage);
+            }
         }
         navigate(`?page=${nextPage}`);
     }

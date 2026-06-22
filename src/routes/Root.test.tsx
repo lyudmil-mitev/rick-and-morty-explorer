@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 
 import Root from './Root';
 import { createMemoryRouter, RouterProvider } from 'react-router-dom';
@@ -43,8 +43,21 @@ describe('Root', () => {
 
     it('should have tabs', async () => {
         render(<RouterProvider router={router}></RouterProvider>)
-        expect(screen.getAllByText('Characters')).toBeDefined();
-        expect(screen.getAllByText('Episodes')).toBeDefined();
-        expect(screen.getAllByText('Locations')).toBeDefined();
+        const mainNav = screen.getByRole('navigation', { name: 'Main sections' });
+
+        expect(within(mainNav).getByRole('link', { name: 'Characters' }).getAttribute('href')).toBe('/characters');
+        expect(within(mainNav).getByRole('link', { name: 'Episodes' }).getAttribute('href')).toBe('/episodes');
+        expect(within(mainNav).getByRole('link', { name: 'Locations' }).getAttribute('href')).toBe('/locations');
+        expect(within(mainNav).getByRole('link', { name: 'About' }).getAttribute('href')).toBe('/about');
+    });
+
+    it('should have footer navigation links', async () => {
+        render(<RouterProvider router={router}></RouterProvider>)
+        const footerNav = screen.getByRole('navigation', { name: 'Footer navigation' });
+
+        expect(within(footerNav).getByRole('link', { name: 'Characters' }).getAttribute('href')).toBe('/characters');
+        expect(within(footerNav).getByRole('link', { name: 'Episodes' }).getAttribute('href')).toBe('/episodes');
+        expect(within(footerNav).getByRole('link', { name: 'Locations' }).getAttribute('href')).toBe('/locations');
+        expect(within(footerNav).getByRole('link', { name: 'About' }).getAttribute('href')).toBe('/about');
     });
 });
