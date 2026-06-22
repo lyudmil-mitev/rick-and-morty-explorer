@@ -1,6 +1,6 @@
 import TabBar from '../components/TabBar'
 import Banner from '../components/Banner'
-import { Outlet, useNavigate, useLocation } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import "./Root.css"
 
 function capitalizeString(str: string) {
@@ -18,11 +18,7 @@ function formatLocation(location: string) {
 }
 
 export default function Root() {
-    const navigate = useNavigate()
     const location = useLocation()
-    function handleSelectTab(tab: string) {
-        navigate(`${tab.toLowerCase()}/`)
-    }
 
     return (<>
         <div className="relative">
@@ -30,7 +26,6 @@ export default function Root() {
             <TabBar
                 tabs={["Characters", "Locations", "Episodes"]}
                 selectedTab={formatLocation(location.pathname)}
-                onSelectTab={handleSelectTab}
             />
         </div>
         <main className='bg-gray-100 dark:bg-gray-700'>
