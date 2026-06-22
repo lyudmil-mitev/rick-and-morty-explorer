@@ -22,7 +22,7 @@ describe('Root', () => {
     const router = createMemoryRouter(mockRoutes);
     it('should have heading title', async () => {
         render(<RouterProvider router={router}></RouterProvider>)
-        expect(screen.getByText('Rick and Morty Explorer')).toBeDefined();
+        expect(screen.getByRole('heading', { level: 1, name: 'Rick and Morty Explorer' })).toBeDefined();
     });
 
     it('should have episodes', async () => {
@@ -33,7 +33,9 @@ describe('Root', () => {
 
     it('should have pagination', async () => {
         render(<RouterProvider router={router}></RouterProvider>)
-        expect(screen.getAllByText(`Page 1 of ${episodesMock.pages}`)).toBeDefined();
+        expect(screen.getAllByLabelText('Page')).toHaveLength(2);
+        expect(screen.getAllByDisplayValue('1')).toHaveLength(2);
+        expect(screen.getAllByText(`of ${episodesMock.pages}`)).toHaveLength(2);
     });
 
     it('should have tabs', async () => {

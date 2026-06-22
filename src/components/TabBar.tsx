@@ -17,7 +17,7 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab }) => {
                             <Link
                                 key={tab}
                                 to={`/${tab.toLowerCase()}`}
-                                className={`${isSelected ? "" : "portal-hover"} relative mx-0.5 rounded-lg px-3 py-2 text-xs font-bold tracking-wide transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-950 max-[360px]:px-2 max-[360px]:text-[11px] sm:mx-1 sm:px-6 sm:py-3 sm:text-sm ${isSelected
+                                className={`${isSelected ? "" : "portal-hover"} relative mx-0.5 rounded-lg px-2.5 py-2 text-[11px] font-bold tracking-wide transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-950 max-[360px]:px-2 max-[360px]:text-[10px] sm:mx-1 sm:px-6 sm:py-3 sm:text-sm ${isSelected
                                     ? "bg-lime-300 !text-gray-950 shadow-lg shadow-lime-300/30"
                                     : "!text-white hover:!text-white hover:[text-shadow:0_0_8px_rgba(255,255,255,0.9)]"
                                 }`}

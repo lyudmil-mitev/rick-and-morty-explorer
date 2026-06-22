@@ -27,7 +27,7 @@ describe('Root', () => {
             <RouterProvider router={router}>
             </RouterProvider>
         )
-        expect(screen.getByText('Rick and Morty Explorer')).toBeDefined();
+        expect(screen.getByRole('heading', { level: 1, name: 'Rick and Morty Explorer' })).toBeDefined();
     });
 
     it('should have error message', async () => {

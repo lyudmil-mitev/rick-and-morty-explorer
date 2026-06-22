@@ -12,6 +12,7 @@ import CharacterDetails from './routes/CharacterDetails.tsx'
 import EpisodeDetails from './routes/EpisodeDetails.tsx'
 import LocationDetails from './routes/LocationDetails.tsx'
 import ErrorPage from './routes/ErrorPage.tsx'
+import About from './routes/About.tsx'
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,11 @@ const router = createBrowserRouter([
         element: <EpisodeDetails />,
         errorElement: <ErrorPage />,
         loader: episodeDetailLoader
+      },
+      {
+        path: '/about',
+        element: <About />,
+        errorElement: <ErrorPage />,
       },
     ]
   },
