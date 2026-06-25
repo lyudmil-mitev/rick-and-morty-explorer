@@ -4,11 +4,12 @@ import EmptyResults from "../components/EmptyResults";
 import FilterPanel, { FilterField } from "../components/FilterPanel";
 import LocationCard from "../components/LocationCard";
 import PaginatedGrid from "../components/PaginatedGrid";
+import { locationDimensionOptions, locationTypeOptions } from "../filterOptions";
 
 const locationFilters: FilterField[] = [
     { name: "name", label: "Name", control: "text", placeholder: "Earth" },
-    { name: "type", label: "Type", control: "text", placeholder: "Planet" },
-    { name: "dimension", label: "Dimension", control: "text", placeholder: "C-137" },
+    { name: "type", label: "Type", control: "select", options: locationTypeOptions },
+    { name: "dimension", label: "Dimension", control: "select", options: locationDimensionOptions },
 ];
 
 export default function Locations() {

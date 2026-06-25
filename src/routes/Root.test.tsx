@@ -41,6 +41,18 @@ describe('Root', () => {
         expect(screen.getAllByText(`of ${charactersMock.pages}`)).toHaveLength(1);
     });
 
+    it('should render character species and type as dropdown filters', async () => {
+        render(<RouterProvider router={router}></RouterProvider>)
+
+        const speciesFilters = screen.getAllByLabelText('Species');
+        const typeFilters = screen.getAllByLabelText('Type');
+
+        expect(speciesFilters[0]).toBeInstanceOf(HTMLSelectElement);
+        expect(typeFilters[0]).toBeInstanceOf(HTMLSelectElement);
+        expect(within(speciesFilters[0]).getByRole('option', { name: 'Human' })).toBeDefined();
+        expect(within(typeFilters[0]).getByRole('option', { name: 'Parasite' })).toBeDefined();
+    });
+
     it('should have tabs', async () => {
         render(<RouterProvider router={router}></RouterProvider>)
         const mainNav = screen.getByRole('navigation', { name: 'Main sections' });

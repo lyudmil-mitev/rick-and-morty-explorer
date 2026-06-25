@@ -4,6 +4,7 @@ import CharacterCard from '../components/CharacterCard';
 import EmptyResults from '../components/EmptyResults';
 import FilterPanel, { FilterField } from '../components/FilterPanel';
 import PaginatedGrid from '../components/PaginatedGrid';
+import { characterSpeciesOptions, characterTypeOptions } from '../filterOptions';
 
 const characterFilters: FilterField[] = [
     { name: "name", label: "Name", control: "text", placeholder: "Rick" },
@@ -17,8 +18,8 @@ const characterFilters: FilterField[] = [
             { label: "unknown", value: "unknown" },
         ],
     },
-    { name: "species", label: "Species", control: "text", placeholder: "Human" },
-    { name: "type", label: "Type", control: "text", placeholder: "Toxic" },
+    { name: "species", label: "Species", control: "select", options: characterSpeciesOptions },
+    { name: "type", label: "Type", control: "select", options: characterTypeOptions },
     {
         name: "gender",
         label: "Gender",
