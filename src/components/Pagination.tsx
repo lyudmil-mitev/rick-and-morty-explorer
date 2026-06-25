@@ -1,30 +1,36 @@
-import { FormEvent, KeyboardEvent, PointerEvent, useId, useRef } from "react";
+import { FormEvent, useId } from "react";
 import { Link, useNavigate, useNavigation } from "react-router-dom";
 import LoadingSpinner from "./LoadingSpinner";
+
+function parsePageValue(pageValue: FormDataEntryValue | string | number | null) {
+    const page = Number.parseInt(String(pageValue), 10);
+    return Number.isFinite(page) ? page : null;
+}
+
+function clampPage(page: number, totalPages: number) {
+    return Math.min(Math.max(page, 1), totalPages);
+}
 
 export default function Pagination({ page, totalPages }: { page: number, totalPages: number }) {
     const { state } = useNavigation();
     const navigate = useNavigate();
     const pageInputId = useId();
-    const shouldNavigateOnChange = useRef(false);
 
-    if (isNaN(page) || isNaN(totalPages) || page < 1 || page > totalPages) {
-        throw new Error('Page not found');
+    if (!Number.isFinite(page) || !Number.isFinite(totalPages) || page < 1 || page > totalPages) {
+        throw new Error("Page not found");
     }
 
-    function navigateToPage(pageValue: FormDataEntryValue | string | number | null, form?: HTMLFormElement) {
-        const requestedPage = Number.parseInt(String(pageValue), 10);
-        if (!Number.isFinite(requestedPage)) {
+    function navigateToPage(pageValue: FormDataEntryValue | string | number | null, form: HTMLFormElement) {
+        const requestedPage = parsePageValue(pageValue);
+        if (requestedPage === null) {
             form?.reset();
             return;
         }
 
-        const nextPage = Math.min(Math.max(requestedPage, 1), totalPages);
-        if (form) {
-            const pageInput = form.elements.namedItem("page");
-            if (pageInput instanceof HTMLInputElement) {
-                pageInput.value = String(nextPage);
-            }
+        const nextPage = clampPage(requestedPage, totalPages);
+        const pageInput = form.elements.namedItem("page");
+        if (pageInput instanceof HTMLInputElement) {
+            pageInput.value = String(nextPage);
         }
         navigate(`?page=${nextPage}`);
     }
@@ -35,15 +41,6 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
         const formData = new FormData(form);
 
         navigateToPage(formData.get("page"), form);
-    }
-
-    function handleInputPointerDown(event: PointerEvent<HTMLInputElement>) {
-        const inputRect = event.currentTarget.getBoundingClientRect();
-        shouldNavigateOnChange.current = event.clientX > inputRect.right - 24;
-    }
-
-    function handleInputKeyDown(event: KeyboardEvent<HTMLInputElement>) {
-        shouldNavigateOnChange.current = event.key === "ArrowUp" || event.key === "ArrowDown";
     }
 
     const pageButtonClass = "flex h-9 w-9 items-center justify-center rounded-full text-xl font-bold leading-none text-gray-600 transition hover:bg-lime-100 hover:text-gray-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:text-gray-200 dark:hover:bg-lime-300 dark:hover:text-gray-950";
@@ -74,14 +71,6 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
                         max={totalPages}
                         type="number"
                         defaultValue={page}
-                        onPointerDown={handleInputPointerDown}
-                        onKeyDown={handleInputKeyDown}
-                        onChange={(event) => {
-                            if (shouldNavigateOnChange.current) {
-                                navigateToPage(event.currentTarget.value, event.currentTarget.form ?? undefined);
-                            }
-                            shouldNavigateOnChange.current = false;
-                        }}
                         onBlur={(event) => {
                             if (event.currentTarget.value.trim().length === 0) {
                                 event.currentTarget.value = String(page);
