@@ -1,22 +1,23 @@
 import MrPbhImage from "/mr_pbh.webp";
 
-const linkClass = "font-semibold text-blue-600 underline-offset-4 hover:underline dark:text-blue-300";
+const linkClass = "font-semibold text-cyan-700 underline-offset-4 hover:text-lime-700 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:text-cyan-300 dark:hover:text-lime-200";
+const panelClass = "rounded-lg border border-cyan-700/15 bg-[#fbfaf2] p-5 shadow-md shadow-slate-300/30 dark:border-cyan-300/15 dark:bg-slate-800 dark:shadow-black/20 sm:p-6";
 
 export default function About() {
     return (
-        <section className="px-4 py-10 text-left sm:px-6 lg:px-8">
-            <article className="mx-auto grid max-w-5xl grid-cols-[7rem_1fr] gap-4 text-gray-700 dark:text-gray-200 sm:grid-cols-[9rem_1fr] sm:gap-6 lg:grid-cols-[16rem_1fr] lg:items-start">
+        <section className="px-4 pb-10 pt-5 text-left sm:px-6 lg:px-8">
+            <article className="mx-auto grid max-w-5xl grid-cols-[7rem_1fr] gap-4 text-slate-700 dark:text-slate-200 sm:grid-cols-[9rem_1fr] sm:gap-6 lg:grid-cols-[16rem_1fr] lg:items-start">
                 <header className="col-span-2 space-y-3">
-                    <p className="text-sm font-bold uppercase tracking-wide text-lime-700 dark:text-lime-300">About</p>
-                    <h1 className="text-3xl font-bold leading-tight text-gray-950 dark:text-white sm:text-4xl">
+                    <p className="text-xs font-bold uppercase tracking-[0.18em] text-cyan-700 dark:text-cyan-300">Fan project file</p>
+                    <h1 className="text-3xl font-extrabold leading-tight text-slate-950 dark:text-white sm:text-4xl">
                         Rick and Morty Explorer
                     </h1>
-                    <p className="text-lg leading-8 text-gray-600 dark:text-gray-300">
+                    <p className="text-lg leading-8 text-slate-600 dark:text-slate-300">
                         A fan-built browser for characters, locations, and episodes using the Rick and Morty API.
                     </p>
                 </header>
 
-                <aside className="sticky top-4 w-full self-start lg:top-6">
+                <aside className="sticky top-4 w-full self-start rounded-lg border border-lime-400/25 bg-white/60 p-3 shadow-inner dark:bg-slate-900/40 lg:top-6">
                     <img
                         src={MrPbhImage}
                         alt="Mr. Poopybutthole"
@@ -25,8 +26,8 @@ export default function About() {
                 </aside>
 
                 <div className="space-y-6">
-                    <section className="rounded-lg bg-white p-5 shadow-sm dark:bg-gray-800 sm:p-6">
-                        <h2 className="text-xl font-semibold text-gray-950 dark:text-white">Project</h2>
+                    <section className={panelClass}>
+                        <h2 className="text-xl font-bold text-slate-950 dark:text-white">Project</h2>
                         <p className="mt-3 leading-7">
                             Thank you for visiting Rick and Morty Explorer. This project was created by{" "}
                             <a className={linkClass} href="https://www.linkedin.com/in/lyudmil-mitev-97556318/" target="_blank" rel="noreferrer">
@@ -43,8 +44,8 @@ export default function About() {
                         </p>
                     </section>
 
-                    <section className="rounded-lg bg-white p-5 shadow-sm dark:bg-gray-800 sm:p-6">
-                        <h2 className="text-xl font-semibold text-gray-950 dark:text-white">Data and Ownership</h2>
+                    <section className={panelClass}>
+                        <h2 className="text-xl font-bold text-slate-950 dark:text-white">Data and Ownership</h2>
                         <p className="mt-3 leading-7">
                             Implemented with{" "}
                             <a className={linkClass} href="https://rickandmortyapi.com/" target="_blank" rel="noreferrer">
@@ -62,8 +63,8 @@ export default function About() {
                         </p>
                     </section>
 
-                    <section className="rounded-lg bg-white p-5 shadow-sm dark:bg-gray-800 sm:p-6">
-                        <h2 className="text-xl font-semibold text-gray-950 dark:text-white">Credits</h2>
+                    <section className={panelClass}>
+                        <h2 className="text-xl font-bold text-slate-950 dark:text-white">Credits</h2>
                         <p className="mt-3 leading-7">
                             The title font is made and{" "}
                             <a className={linkClass} href="https://www.deviantart.com/jonizaak/art/Get-Schwifty-A-Rick-and-Morty-font-638073728" target="_blank" rel="noreferrer">
