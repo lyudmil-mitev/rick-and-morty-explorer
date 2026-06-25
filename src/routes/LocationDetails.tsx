@@ -1,9 +1,8 @@
 import { Link, useLoaderData } from "react-router-dom";
 import DetailsLayout, { DetailFacts } from "../components/DetailsLayout";
-import PortalImage from "/portal.png"
-import PlanetImage from "/planet.png"
 import CharacterCard from "../components/CharacterCard";
 import { LocationDetailsLoaderData } from "../loaders";
+import { getLocationImage } from "../media";
 
 export default function LocationDetails() {
     const { location, residents } = useLoaderData() as LocationDetailsLoaderData;
@@ -14,7 +13,7 @@ export default function LocationDetails() {
     ]
 
     return (
-        <DetailsLayout title={location.name} image={location.type === "Planet" ? PlanetImage : PortalImage} facts={facts} childrenTitle="Residents">
+        <DetailsLayout title={location.name} image={getLocationImage(location.type)} facts={facts} childrenTitle="Residents">
             {residents.length > 0 ? residents.map((character) => (
                 <Link to={`/characters/${character.id}`} key={character.id}>
                     <CharacterCard character={character} />

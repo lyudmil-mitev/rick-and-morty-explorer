@@ -1,21 +1,10 @@
-import { useLoaderData } from "react-router-dom";
 import { Episode } from "rickmortyapi";
 import MiniCard from "./MiniCard";
+import { getEpisodeSeasonImage } from "../media";
 
-import Season1 from "/seasons/s01.jpg";
-import Season2 from "/seasons/s02.jpg";
-import Season3 from "/seasons/s03.jpg";
-import Season4 from "/seasons/s04.jpg";
-import Season5 from "/seasons/s05.jpg";
-import Season6 from "/seasons/s06.jpg";
-
-export default function EpisodeCard({ episode }: { episode?: Episode }) {
-    const loaderEpisode = useLoaderData() as Episode;
-    const ep = episode ?? loaderEpisode;
-    const season = parseInt(ep.episode.slice(2, 3), 10);
-    const images = [Season1, Season2, Season3, Season4, Season5, Season6];
-    const image = season <= 6 ? images[season - 1] : images[0];
+export default function EpisodeCard({ episode }: { episode: Episode }) {
+    const image = getEpisodeSeasonImage(episode.episode);
     return (
-        <MiniCard title={`${ep.episode}`} image={image} description={`${ep.name}`} />
+        <MiniCard title={episode.episode} image={image} description={episode.name} />
     );
 }
