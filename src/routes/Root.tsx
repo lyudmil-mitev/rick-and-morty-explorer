@@ -1,5 +1,6 @@
 import TabBar from '../components/TabBar'
 import Banner from '../components/Banner'
+import ScrollToTop from '../components/ScrollToTop'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { useLayoutEffect, useState } from 'react'
 import "./Root.css"
@@ -48,6 +49,7 @@ export default function Root() {
     const nextTheme = theme === "dark" ? "light" : "dark";
 
     return (<>
+        <ScrollToTop />
         <div className="relative">
             <Banner theme={theme} />
             <button
