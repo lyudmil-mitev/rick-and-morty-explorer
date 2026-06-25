@@ -7,7 +7,7 @@ export default function Locations() {
     const { locations, pages } = useLoaderData() as { locations: Location[], pages: number };
 
     return (
-        <PaginatedGrid pages={pages}>
+        <PaginatedGrid pages={pages} title="Locations" description="Track planets, stations, dimensions, and the places everyone probably should have avoided.">
             {locations.map((location) => (
                 <Link key={location.id} to={`/locations/${location.id}`}>
                     <LocationCard location={location} />

@@ -7,7 +7,7 @@ export default function Episodes() {
     const { episodes, pages } = useLoaderData() as { episodes: Episode[], pages: number };
 
     return (
-        <PaginatedGrid pages={pages}>
+        <PaginatedGrid pages={pages} title="Episodes" description="Jump through broadcasts, season arcs, and whatever passed for continuity this week.">
             {episodes.map((episode) => (
                 <Link key={episode.id} to={`/episodes/${episode.id}`}>
                     <EpisodeCard episode={episode} />

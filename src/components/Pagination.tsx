@@ -43,12 +43,12 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
         navigateToPage(formData.get("page"), form);
     }
 
-    const pageButtonClass = "flex h-9 w-9 items-center justify-center rounded-full text-xl font-bold leading-none text-gray-600 transition hover:bg-lime-100 hover:text-gray-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:text-gray-200 dark:hover:bg-lime-300 dark:hover:text-gray-950";
+    const pageButtonClass = "flex h-9 w-9 items-center justify-center rounded-full text-xl font-bold leading-none text-slate-600 transition hover:bg-lime-200 hover:text-slate-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:text-slate-200 dark:hover:bg-lime-300 dark:hover:text-slate-950";
     const disabledPageButtonClass = "pointer-events-none opacity-40";
 
     return (
-        <nav className="flex justify-center px-4 pb-4 pt-8" aria-label="Pagination">
-            <div className="flex w-full max-w-md items-center justify-center gap-4">
+        <nav className="flex justify-center px-4 py-5" aria-label="Pagination">
+            <div className="flex w-full max-w-md items-center justify-center gap-4 rounded-full border border-cyan-700/20 bg-white/70 px-4 py-2 shadow-sm backdrop-blur dark:border-cyan-300/15 dark:bg-slate-950/45 dark:shadow-lime-950/20">
                 <Link
                     to={`?page=${page - 1}`}
                     className={`${pageButtonClass} ${page === 1 ? disabledPageButtonClass : ""}`}
@@ -59,13 +59,13 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
                     ‹
                 </Link>
 
-                <form className="flex min-w-0 items-center justify-center gap-2 text-sm font-semibold text-gray-600 dark:text-gray-300" onSubmit={handleSubmit}>
+                <form className="flex min-w-0 items-center justify-center gap-2 text-sm font-semibold text-slate-600 dark:text-slate-300" onSubmit={handleSubmit}>
                     <label htmlFor={pageInputId} className="shrink-0">Page</label>
                     <input
                         key={page}
                         id={pageInputId}
                         name="page"
-                        className="h-9 w-14 rounded-md border border-transparent bg-transparent text-center font-bold text-gray-900 outline-none transition hover:border-gray-300 hover:bg-white/70 focus:border-lime-400 focus:bg-white focus:ring-2 focus:ring-lime-300 dark:text-gray-100 dark:hover:border-gray-600 dark:hover:bg-gray-800/70 dark:focus:bg-gray-900"
+                        className="h-9 w-14 rounded-md border border-transparent bg-transparent text-center font-bold text-slate-950 outline-none transition hover:border-cyan-600/30 hover:bg-white/90 focus:border-lime-500 focus:bg-white focus:ring-2 focus:ring-lime-300 dark:text-slate-100 dark:hover:border-cyan-300/30 dark:hover:bg-slate-800/70 dark:focus:bg-slate-900"
                         inputMode="numeric"
                         min={1}
                         max={totalPages}

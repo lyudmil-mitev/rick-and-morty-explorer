@@ -7,7 +7,7 @@ export default function Characters() {
     const { characters, pages } = useLoaderData() as { characters: Character[], pages: number };
 
     return (
-        <PaginatedGrid pages={pages}>
+        <PaginatedGrid pages={pages} title="Characters" description="Browse known beings, variants, and questionable life choices across the multiverse.">
             {characters.map((character) => (
                 <Link key={character.id} to={`/characters/${character.id}`}>
                     <CharacterCard character={character} />
