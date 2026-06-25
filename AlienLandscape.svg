@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 360" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eaffd1"/>
+      <stop offset="45%" stop-color="#9ff4d5"/>
+      <stop offset="100%" stop-color="#eef2ed"/>
+    </linearGradient>
+    <linearGradient id="fade" x2="0" y2="1">
+      <stop stop-color="#102030" stop-opacity=".46"/>
+      <stop offset="100%" stop-color="#102030" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#08bae3" stop-opacity=".16"/>
+      <stop offset="48%" stop-color="#b7ff44" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#ff4fa3" stop-opacity=".12"/>
+    </linearGradient>
+    <filter id="terrainNoise">
+      <feComponentTransfer>
+        <feFuncA type="discrete" tableValues="0 0 .17 .33 .5 .67 .83 1 1"/>
+      </feComponentTransfer>
+      <feColorMatrix values="0 0 0 .06 0
+                             0 0 0 .85 .02
+                             0 0 0 .45 .02
+                             0 0 0 0 1" result="s"/>
+      <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="2"/>
+      <feDisplacementMap in="s" scale="99"/>
+    </filter>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="360" fill="url(#sky)"/>
+  <rect x="-10%" y="-18%" width="120%" height="122%" fill="url(#fade)" filter="url(#terrainNoise)" opacity=".5"/>
+  <ellipse cx="1130" cy="74" rx="120" ry="34" fill="#b7ff44" opacity=".55" filter="url(#softBlur)"/>
+  <ellipse cx="1160" cy="72" rx="92" ry="22" fill="#f5ffd6" opacity=".5"/>
+  <path d="M0 238 L90 165 L170 236 L260 128 L340 238 L440 178 L530 242 L650 110 L770 240 L875 150 L980 236 L1090 120 L1220 236 L1335 158 L1440 234 L1545 132 L1600 210 L1600 360 L0 360Z" fill="#1ba68a" opacity=".86"/>
+  <path d="M0 270 L115 204 L225 276 L340 190 L455 274 L560 224 L680 282 L810 180 L925 278 L1030 214 L1150 278 L1270 190 L1405 274 L1518 214 L1600 258 L1600 360 L0 360Z" fill="#096f77" opacity=".9"/>
+  <path d="M0 300 C120 275 185 320 295 292 C410 260 505 320 640 284 C790 244 882 316 1015 286 C1155 254 1248 316 1385 286 C1480 264 1538 284 1600 272 L1600 360 L0 360Z" fill="#073c59"/>
+  <path d="M0 332 C190 296 282 346 438 318 C610 287 728 344 890 316 C1034 292 1175 344 1304 316 C1430 288 1510 306 1600 294 L1600 360 L0 360Z" fill="#102030"/>
+  <rect width="1600" height="360" fill="url(#haze)"/>
+</svg>
