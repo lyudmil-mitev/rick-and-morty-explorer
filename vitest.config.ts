@@ -7,6 +7,7 @@ export default defineConfig({
     test: {
         globals: true,
         environment: 'jsdom',
+        exclude: ['src/screenshot.test.ts', '**/node_modules/**', '**/dist/**'],
         /*
         // if the types are not picked up, add `vitest-browser-react` to
         // "compilerOptions.types" in your tsconfig or
