@@ -52,13 +52,13 @@ export default function Root() {
             <Banner />
             <button
                 type="button"
-                className="absolute right-3 top-3 z-30 inline-flex items-center gap-2 rounded-full border border-cyan-300/25 bg-slate-950/85 px-2.5 py-1.5 text-xs font-bold text-slate-100 shadow-lg shadow-black/25 backdrop-blur transition hover:border-lime-300/70 hover:text-lime-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 sm:right-4 sm:top-4"
+                className="absolute right-3 top-3 z-30 inline-flex h-10 items-center gap-2 rounded-full border border-cyan-300/25 bg-slate-950/85 px-2.5 pr-3 text-xs font-bold text-slate-100 shadow-lg shadow-black/25 backdrop-blur transition hover:border-lime-300/70 hover:text-lime-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 sm:right-4 sm:top-4"
                 onClick={() => setTheme(nextTheme)}
                 aria-label={`Switch to ${nextTheme} theme`}
                 aria-pressed={theme === "dark"}
             >
-                <span className="relative h-5 w-9 rounded-full border border-cyan-300/30 bg-slate-900 shadow-inner">
-                    <span className={`absolute top-1/2 h-3.5 w-3.5 -translate-y-1/2 rounded-full bg-lime-300 shadow-[0_0_10px_rgba(190,242,100,0.8)] transition-transform ${theme === "dark" ? "translate-x-4" : "translate-x-1"}`} />
+                <span className="relative h-6 w-11 rounded-full border border-cyan-300/35 bg-slate-900 shadow-inner">
+                    <span className={`absolute top-1/2 h-4 w-4 -translate-y-1/2 rounded-full bg-lime-300 shadow-[0_0_10px_rgba(190,242,100,0.8)] transition-[left] ${theme === "dark" ? "left-[1.45rem]" : "left-1"}`} />
                 </span>
                 <span>{theme === "dark" ? "Dark" : "Light"}</span>
             </button>
