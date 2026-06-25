@@ -39,15 +39,19 @@ export default function MiniCard({
                     <img src={image} alt={title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105 group-hover:saturate-125" />
                     <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-white/10" />
                 </div>
-                <div className="z-10 flex min-w-0 flex-col justify-center p-4">
-                    <div className="mb-2 flex flex-wrap items-center gap-2">
-                        {eyebrow ? <span className="text-[0.68rem] font-bold uppercase tracking-wide text-cyan-700 dark:text-cyan-300">{eyebrow}</span> : null}
-                        {badge ? <span className={`rounded-full border px-2 py-0.5 text-[0.68rem] font-bold uppercase tracking-wide ${badgeToneClass[badgeTone]}`}>{badge}</span> : null}
+                <div className="z-10 flex min-w-0 flex-col justify-between gap-3 p-4">
+                    <div>
+                        <h2 className="break-words text-lg font-bold leading-tight text-slate-900 dark:text-slate-100 sm:text-xl">{title}</h2>
+                        <p className="mt-2 break-words text-sm leading-snug text-slate-600 dark:text-slate-400 sm:text-base">
+                            {description}
+                        </p>
                     </div>
-                    <h2 className="break-words text-lg font-bold leading-tight text-slate-900 dark:text-slate-100 sm:text-xl">{title}</h2>
-                    <p className="mt-2 break-words text-sm leading-snug text-slate-600 dark:text-slate-400 sm:text-base">
-                        {description}
-                    </p>
+                    {eyebrow || badge ? (
+                        <div className="flex flex-wrap items-center gap-1.5">
+                            {eyebrow ? <span className="text-[0.58rem] font-bold uppercase tracking-wide text-cyan-700 dark:text-cyan-300">{eyebrow}</span> : null}
+                            {badge ? <span className={`rounded-full border px-1.5 py-px text-[0.58rem] font-bold uppercase tracking-wide ${badgeToneClass[badgeTone]}`}>{badge}</span> : null}
+                        </div>
+                    ) : null}
                 </div>
             </div>
         </section>
