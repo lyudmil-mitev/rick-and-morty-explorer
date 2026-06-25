@@ -2,12 +2,14 @@
 @plugin "@tailwindcss/forms";
 @source "../index.html";
 @source "./**/*.{js,ts,jsx,tsx}";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
+  background: #0d1320;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,8 +18,13 @@
 
 body {
   margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(8, 186, 227, 0.12), transparent 32rem),
+    #0d1320;
 }
 
 #root > main {
-  padding-top: 3rem;
+  min-height: 60vh;
+  padding-top: 4rem;
 }

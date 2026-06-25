@@ -6,7 +6,9 @@
 
 .schwifty {
   font-family: 'Get Schwifty', sans-serif;
-  font-size: 4em;
+  max-width: 12ch;
+  font-size: clamp(2.6rem, 10vw, 5.25rem);
+  line-height: 0.95;
   color: #08BAE3;
   text-shadow: -2px 0 0px rgba(0, 0, 0, 1), 0 -2px 0px rgba(0, 0, 0, 1), 0 2px 0px rgba(0, 0, 0, 1), 2px 0 0px rgba(0, 0, 0, 1), 0 0 10px rgba(50, 255, 0, 1);
 }
@@ -15,6 +17,8 @@
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
+  background: #eef2ed;
+  box-shadow: 0 0 0 1px rgba(8, 186, 227, 0.14), 0 0 70px rgba(82, 255, 15, 0.08);
 }
 
 .portal-hover {
@@ -26,10 +30,8 @@
   z-index: 1;
 }
 
-@media (prefers-color-scheme: dark) {
-  .portal-hover:hover {
-    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
-  }
+:root.dark .portal-hover:hover {
+  text-shadow: 0 0 2px rgba(0, 0, 0, 1);
 }
 
 .portal-hover::before {
@@ -54,9 +56,9 @@
 }
 
 .logo {
-  height: 8em;
-  min-width: 128px;
-  padding: 1.5em;
+  height: clamp(4.5rem, 12vw, 7.5rem);
+  min-width: 76px;
+  padding: 0.75rem;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -69,4 +71,19 @@
   0%, 20%, 50%, 80%, 100% {transform: translateY(0) rotate(0);} 
   40% {transform: translateY(-30px) rotate(-30deg);} 
   60% {transform: translateY(-15px) rotate(30deg);} 
+}
+
+:root.dark #root {
+  background: #111827;
+  box-shadow: 0 0 0 1px rgba(8, 186, 227, 0.2), 0 0 80px rgba(82, 255, 15, 0.1);
+}
+
+@media (min-width: 640px) {
+  .schwifty {
+    max-width: none;
+  }
+
+  .logo {
+    padding: 1rem;
+  }
 }
