@@ -1,6 +1,10 @@
 import { Character, Episode, Location } from 'rickmortyapi'
 import { Params } from 'react-router-dom'
-import { fetchApiResource, fetchApiResources, fetchPaginatedResource, parseApiId, parseApiUrlId } from './api'
+import { ApiResource, fetchApiResource, fetchApiResources, fetchPaginatedResource, parseApiId, parseApiUrlId } from './api'
+
+type PaginatedLoaderData<TKey extends string, TResource> = {
+  pages: number
+} & Record<TKey, TResource[]>
 
 export type CharacterDetailsLoaderData = {
   character: Character
@@ -31,10 +35,22 @@ function parseApiUrlIds(urls: string[]) {
   })
 }
 
-export async function charactersLoader({ request }: { request: Request }) {
+async function loadPaginatedResource<TKey extends string, TResource>(
+  request: Request,
+  resource: ApiResource,
+  resultKey: TKey,
+): Promise<PaginatedLoaderData<TKey, TResource>> {
   const page = parsePage(request)
-  const response = await fetchPaginatedResource<Character>('character', page, request.signal)
-  return { pages: response.info.pages, characters: response.results }
+  const response = await fetchPaginatedResource<TResource>(resource, page, request.signal)
+
+  return {
+    pages: response.info.pages,
+    [resultKey]: response.results,
+  } as PaginatedLoaderData<TKey, TResource>
+}
+
+export function charactersLoader({ request }: { request: Request }) {
+  return loadPaginatedResource<'characters', Character>(request, 'character', 'characters')
 }
 
 export async function characterDetailLoader({ params, request }: { params: Params<"characterId">, request: Request }): Promise<CharacterDetailsLoaderData> {
@@ -44,10 +60,8 @@ export async function characterDetailLoader({ params, request }: { params: Param
   return { character, episodes }
 }
 
-export async function locationsLoader({ request }: { request: Request }) {
-  const page = parsePage(request)
-  const response = await fetchPaginatedResource<Location>('location', page, request.signal)
-  return { pages: response.info.pages, locations: response.results }
+export function locationsLoader({ request }: { request: Request }) {
+  return loadPaginatedResource<'locations', Location>(request, 'location', 'locations')
 }
 
 export async function locationDetailLoader({ params, request }: { params: Params<"locationId">, request: Request }): Promise<LocationDetailsLoaderData> {
@@ -57,10 +71,8 @@ export async function locationDetailLoader({ params, request }: { params: Params
   return { location, residents }
 }
 
-export async function episodesLoader({ request }: { request: Request }) {
-  const page = parsePage(request)
-  const response = await fetchPaginatedResource<Episode>('episode', page, request.signal)
-  return { pages: response.info.pages, episodes: response.results }
+export function episodesLoader({ request }: { request: Request }) {
+  return loadPaginatedResource<'episodes', Episode>(request, 'episode', 'episodes')
 }
 
 export async function episodeDetailLoader({ params, request }: { params: Params<"episodeId">, request: Request }): Promise<EpisodeDetailsLoaderData> {
