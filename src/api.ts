@@ -9,11 +9,15 @@ export type PaginatedResponse<T> = {
 
 const API_BASE_URL = 'https://rickandmortyapi.com/api'
 
+function routeError(message: string, status = 500, statusText = message) {
+  return new Response(message, { status, statusText })
+}
+
 export function parseApiId(id: string | undefined, resource: ApiResource) {
   const parsedId = Number.parseInt(id ?? '', 10)
 
   if (!Number.isFinite(parsedId) || parsedId < 1) {
-    throw new Error(`Invalid ${resource} id`)
+    throw routeError(`Invalid ${resource} id`, 404, 'Not Found')
   }
 
   return parsedId
@@ -34,7 +38,7 @@ export async function fetchApiResource<T>(resource: ApiResource, id: number, sig
   const response = await fetch(url, { signal })
 
   if (!response.ok) {
-    throw new Error(`Failed to load ${resource}`)
+    throw routeError(`Failed to load ${resource}`, response.status, response.statusText)
   }
 
   return response.json() as Promise<T>
@@ -51,7 +55,7 @@ export async function fetchApiResources<T>(resource: ApiResource, ids: number[],
   const response = await fetch(url, { signal })
 
   if (!response.ok) {
-    throw new Error(`Failed to load ${resource}s`)
+    throw routeError(`Failed to load ${resource}s`, response.status, response.statusText)
   }
 
   const data = await response.json() as T | T[]
@@ -65,7 +69,7 @@ export async function fetchPaginatedResource<T>(resource: ApiResource, page: num
   const response = await fetch(url, { signal })
 
   if (!response.ok) {
-    throw new Error(`Failed to load ${resource}s`)
+    throw routeError(`Failed to load ${resource}s`, response.status, response.statusText)
   }
 
   return response.json() as Promise<PaginatedResponse<T>>

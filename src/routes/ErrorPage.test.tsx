@@ -44,3 +44,23 @@ describe('Root', () => {
         expect(screen.getAllByText('Locations')).toBeDefined();
     });
 });
+
+describe('route response errors', () => {
+    it('should show route error status text', async () => {
+        const router = createMemoryRouter([{
+            path: '/',
+            element: <Root />,
+            errorElement: <ErrorPage />,
+            children: [{
+                index: true,
+                element: <Characters />,
+                errorElement: <ErrorPage />,
+                loader: () => { throw new Response('Missing', { status: 404, statusText: 'Not Found' }) },
+            }],
+        }]);
+
+        render(<RouterProvider router={router}></RouterProvider>)
+
+        expect(await screen.findByText('404 Not Found')).toBeDefined();
+    })
+});

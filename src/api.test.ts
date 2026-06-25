@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { fetchApiResource, fetchApiResources, fetchPaginatedResource } from './api'
+import { fetchApiResource, fetchApiResources, fetchPaginatedResource, parseApiId } from './api'
 
 function mockFetchJson(data: unknown): typeof fetch {
   return vi.fn(async () => new Response(JSON.stringify(data), {
@@ -36,5 +36,28 @@ describe('Rick and Morty API helpers', () => {
     await fetchApiResources('character', [1, 2, 38])
 
     expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character/1,2,38'), { signal: undefined })
+  })
+
+  it('throws a not found response for invalid route ids', () => {
+    try {
+      parseApiId('nope', 'character')
+      throw new Error('Expected parseApiId to throw')
+    } catch (error) {
+      expect(error).toBeInstanceOf(Response)
+      expect((error as Response).status).toBe(404)
+      expect((error as Response).statusText).toBe('Not Found')
+    }
+  })
+
+  it('preserves failed API response status codes', async () => {
+    vi.stubGlobal('fetch', vi.fn(async () => new Response('Not found', {
+      status: 404,
+      statusText: 'Not Found',
+    })) as unknown as typeof fetch)
+
+    await expect(fetchApiResource('character', 999999)).rejects.toMatchObject({
+      status: 404,
+      statusText: 'Not Found',
+    })
   })
 })
