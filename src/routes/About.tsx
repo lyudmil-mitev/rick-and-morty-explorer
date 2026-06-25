@@ -77,8 +77,8 @@ export default function About() {
                             .
                         </p>
                         <p className="mt-3 leading-7">
-                            The deep space background SVG image is adapted from{" "}
-                            <a className={linkClass} href="https://codepen.io/finnhvman/pen/bGOYpbO" target="_blank" rel="noreferrer">
+                            The light-mode alien landscape SVG image is adapted from{" "}
+                            <a className={linkClass} href="https://codepen.io/finnhvman/pen/bGopgee" target="_blank" rel="noreferrer">
                                 work by Bence Szabo
                             </a>
                             .

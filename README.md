@@ -90,7 +90,8 @@ cd dist && ln -s . rick-and-morty-explorer # Symlink rick-and-morty-explorer, be
 - This is a fan project for educational purpose and is in no way affiliated to them.
 - The data and images are used without claim of ownership and belong to their respective owners.
 - The title font is made and [generously provided by John Izaak](https://www.deviantart.com/jonizaak/art/Get-Schwifty-A-Rick-and-Morty-font-638073728)
-- The deep space background svg image is adapted from [work by Bence Szabo](https://www.deviantart.com/jonizaak/art/Get-Schwifty-A-Rick-and-Morty-font-638073728)
+- The deep space background SVG image is adapted from [work by Bence Szabo](https://codepen.io/finnhvman/pen/bGOYpbO)
+- The light-mode alien landscape SVG image is adapted from [work by Bence Szabo](https://codepen.io/finnhvman/pen/bGopgee)
 - This project includes posters for seasons from [TVMaze](https://www.tvmaze.com/)
 - This project uses the [Rick and Morty API](https://rickandmortyapi.com/)
 
