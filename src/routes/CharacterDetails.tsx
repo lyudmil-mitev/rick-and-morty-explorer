@@ -1,8 +1,9 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import EpisodeCard from "../components/EpisodeCard";
 import DetailsLayout, { DetailFacts } from "../components/DetailsLayout";
 import { CharacterDetailsLoaderData } from "../loaders";
 import { parseApiUrlId } from "../api";
+import DetailLinkGrid from "../components/DetailLinkGrid";
 
 export default function CharacterDetails() {
     const { character: char, episodes } = useLoaderData() as CharacterDetailsLoaderData;
@@ -19,11 +20,11 @@ export default function CharacterDetails() {
 
     return (
         <DetailsLayout title={char.name} image={char.image} facts={facts} childrenTitle={"Episodes"}>
-            {episodes.map((episode) => (
-                <Link to={`/episodes/${episode.id}`} key={episode.id}>
-                    <EpisodeCard episode={episode} />
-                </Link>
-            ))}
+            <DetailLinkGrid
+                items={episodes}
+                getPath={(episode) => `/episodes/${episode.id}`}
+                renderItem={(episode) => <EpisodeCard episode={episode} />}
+            />
         </DetailsLayout>
     );
 }

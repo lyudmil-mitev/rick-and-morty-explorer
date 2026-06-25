@@ -23,49 +23,41 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Characters />,
-        errorElement: <ErrorPage />,
         loader: charactersLoader,
       },
       {
         path: '/characters',
         element: <Characters />,
-        errorElement: <ErrorPage />,
         loader: charactersLoader,
       },
       {
         path: '/characters/:characterId',
         element: <CharacterDetails />,
-        errorElement: <ErrorPage />,
         loader: characterDetailLoader
       },
       {
         path: '/locations',
         element: <Locations />,
-        errorElement: <ErrorPage />,
         loader: locationsLoader,
       },
       {
         path: '/locations/:locationId',
         element: <LocationDetails />,
-        errorElement: <ErrorPage />,
         loader: locationDetailLoader
       },
       {
         path: '/episodes',
         element: <Episodes />,
-        errorElement: <ErrorPage />,
         loader: episodesLoader,
       },
       {
         path: '/episodes/:episodeId',
         element: <EpisodeDetails />,
-        errorElement: <ErrorPage />,
         loader: episodeDetailLoader
       },
       {
         path: '/about',
         element: <About />,
-        errorElement: <ErrorPage />,
       },
     ]
   },

@@ -1,8 +1,9 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import DetailsLayout, { DetailFacts } from "../components/DetailsLayout";
 import CharacterCard from "../components/CharacterCard";
 import { LocationDetailsLoaderData } from "../loaders";
 import { getLocationImage } from "../media";
+import DetailLinkGrid from "../components/DetailLinkGrid";
 
 export default function LocationDetails() {
     const { location, residents } = useLoaderData() as LocationDetailsLoaderData;
@@ -14,11 +15,13 @@ export default function LocationDetails() {
 
     return (
         <DetailsLayout title={location.name} image={getLocationImage(location.type)} facts={facts} childrenTitle="Residents">
-            {residents.length > 0 ? residents.map((character) => (
-                <Link to={`/characters/${character.id}`} key={character.id}>
-                    <CharacterCard character={character} />
-                </Link>
-            )) : "No residents"}
+            {residents.length > 0 ? (
+                <DetailLinkGrid
+                    items={residents}
+                    getPath={(character) => `/characters/${character.id}`}
+                    renderItem={(character) => <CharacterCard character={character} />}
+                />
+            ) : "No residents"}
         </DetailsLayout>
     );
 }
