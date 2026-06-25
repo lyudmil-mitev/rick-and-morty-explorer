@@ -36,9 +36,9 @@ describe('Root', () => {
 
     it('should have pagination', async () => {
         render(<RouterProvider router={router}></RouterProvider>)
-        expect(screen.getAllByLabelText('Page')).toHaveLength(2);
-        expect(screen.getAllByDisplayValue('1')).toHaveLength(2);
-        expect(screen.getAllByText(`of ${charactersMock.pages}`)).toHaveLength(2);
+        expect(screen.getAllByLabelText('Page')).toHaveLength(1);
+        expect(screen.getAllByDisplayValue('1')).toHaveLength(1);
+        expect(screen.getAllByText(`of ${charactersMock.pages}`)).toHaveLength(1);
     });
 
     it('should have tabs', async () => {
