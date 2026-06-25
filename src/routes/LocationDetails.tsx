@@ -14,14 +14,18 @@ export default function LocationDetails() {
     ]
 
     return (
-        <DetailsLayout title={location.name} image={getLocationImage(location.type)} facts={facts} childrenTitle="Residents">
+        <DetailsLayout title={location.name} image={getLocationImage(location.type)} facts={facts} childrenTitle="Residents" recordLabel="Location Record" variant="location">
             {residents.length > 0 ? (
                 <DetailLinkGrid
                     items={residents}
                     getPath={(character) => `/characters/${character.id}`}
                     renderItem={(character) => <CharacterCard character={character} />}
                 />
-            ) : "No residents"}
+            ) : (
+                <div className="rounded-lg border border-cyan-700/15 bg-white/70 p-6 text-slate-600 shadow-sm dark:border-cyan-300/15 dark:bg-slate-800/70 dark:text-slate-300">
+                    No residents logged for this location.
+                </div>
+            )}
         </DetailsLayout>
     );
 }

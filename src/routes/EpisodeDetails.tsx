@@ -16,7 +16,7 @@ export default function EpisodeDetails() {
     ]
 
     return (
-        <DetailsLayout title={episode.name} image={image} facts={DetailFacts} childrenTitle={"Characters"}>
+        <DetailsLayout title={episode.name} image={image} facts={DetailFacts} childrenTitle="Characters" recordLabel="Episode Record" variant="episode">
             <DetailLinkGrid
                 items={characters}
                 getPath={(character) => `/characters/${character.id}`}

@@ -7,21 +7,54 @@ export type DetailFacts = {
     url?: string;
 }
 
-export default function DetailsLayout({ image, title, facts, childrenTitle, children }: { image: string, title: string, facts: DetailFacts[], childrenTitle: string, children?: React.ReactNode }) {
-    return (
-        <section className="mx-auto flex w-full max-w-7xl flex-col gap-6 p-4 lg:grid lg:grid-cols-[minmax(18rem,24rem)_1fr] lg:items-start lg:p-6">
-            <aside className="rounded-lg bg-white shadow-lg dark:bg-gray-800">
-                <div className="p-4 sm:p-6">
-                    <img className="mx-auto aspect-square w-full max-w-xs rounded object-cover" src={image} alt={title} />
-                    <h1 className="mt-4 break-words text-3xl font-bold leading-tight dark:text-white lg:text-4xl">{title}</h1>
+type DetailsVariant = "character" | "location" | "episode";
 
-                    <dl className="mt-6 space-y-2">
+const variantLabel: Record<DetailsVariant, string> = {
+    character: "Character Record",
+    location: "Location Record",
+    episode: "Episode Record",
+};
+
+const variantAccent: Record<DetailsVariant, string> = {
+    character: "border-lime-300/35 shadow-lime-950/10",
+    location: "border-cyan-300/35 shadow-cyan-950/10",
+    episode: "border-yellow-300/35 shadow-yellow-950/10",
+};
+
+export default function DetailsLayout({
+    image,
+    title,
+    facts,
+    childrenTitle,
+    children,
+    recordLabel,
+    variant = "character",
+}: {
+    image: string,
+    title: string,
+    facts: DetailFacts[],
+    childrenTitle: string,
+    children?: React.ReactNode,
+    recordLabel?: string,
+    variant?: DetailsVariant,
+}) {
+    return (
+        <section className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 pb-8 pt-3 sm:px-6 lg:grid lg:grid-cols-[minmax(18rem,24rem)_1fr] lg:items-start lg:px-8">
+            <aside className={`rounded-lg border bg-[#fbfaf2] shadow-xl dark:bg-slate-800 ${variantAccent[variant]}`}>
+                <div className="p-4 sm:p-6">
+                    <div className="rounded-lg border border-cyan-700/15 bg-slate-950 p-2 shadow-inner dark:border-cyan-300/15">
+                        <img className="mx-auto aspect-square w-full max-w-xs rounded object-cover ring-1 ring-white/10" src={image} alt={title} />
+                    </div>
+                    <p className="mt-5 text-xs font-bold uppercase tracking-[0.18em] text-cyan-700 dark:text-cyan-300">{recordLabel ?? variantLabel[variant]}</p>
+                    <h1 className="mt-2 break-words text-3xl font-extrabold leading-tight text-slate-950 dark:text-white lg:text-4xl">{title}</h1>
+
+                    <dl className="mt-6 grid gap-2">
                         {facts.map((fact, index) => (
-                            <div key={index} className="flex justify-between gap-4 rounded p-2 hover:bg-gray-200 dark:hover:bg-gray-700">
-                                <dt className="font-semibold dark:text-gray-300">{fact.type}</dt>
-                                <dd className="text-right dark:text-gray-300">
+                            <div key={index} className="flex justify-between gap-4 rounded-md border border-slate-900/5 bg-white/70 p-3 shadow-sm transition hover:border-cyan-500/25 dark:border-white/5 dark:bg-slate-900/45">
+                                <dt className="text-sm font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">{fact.type}</dt>
+                                <dd className="min-w-0 text-right font-semibold text-slate-800 dark:text-slate-200">
                                     {fact.url ? (
-                                        <Link to={fact.url} className="text-blue-500 hover:underline dark:text-blue-400">{fact.value}</Link>
+                                        <Link to={fact.url} className="rounded text-cyan-700 underline-offset-4 hover:text-lime-700 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:text-cyan-300 dark:hover:text-lime-200">{fact.value}</Link>
                                     ) : fact.value}
                                 </dd>
                             </div>
@@ -30,7 +63,7 @@ export default function DetailsLayout({ image, title, facts, childrenTitle, chil
                 </div>
             </aside>
             <section className="min-w-0">
-                <h2 className="mb-4 text-left text-2xl font-semibold dark:text-gray-100">{childrenTitle}:</h2>
+                <h2 className="mb-4 text-left text-2xl font-bold text-slate-950 dark:text-slate-100">{childrenTitle}</h2>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
                     {children}
                 </div>
