@@ -4,7 +4,7 @@ import Pagination from "./Pagination";
 
 const swipeDistanceThreshold = 60;
 const swipeVerticalTolerance = 75;
-const maxDragOffset = 36;
+const maxDragOffset = 58;
 
 export default function PaginatedGrid({
     pages,
@@ -24,6 +24,8 @@ export default function PaginatedGrid({
     const [dragOffset, setDragOffset] = useState(0);
     const [transitionDirection, setTransitionDirection] = useState<"next" | "previous" | null>(null);
     const page = Number.parseInt(params.get("page") || "1", 10);
+    const canGoPrevious = page > 1;
+    const canGoNext = page < pages;
 
     useEffect(() => {
         if (previousPage.current === null) {
@@ -78,7 +80,13 @@ export default function PaginatedGrid({
             return;
         }
 
-        const resistedOffset = Math.max(Math.min(deltaX * 0.22, maxDragOffset), -maxDragOffset);
+        const isBlockedEdgeSwipe = (deltaX > 0 && !canGoPrevious) || (deltaX < 0 && !canGoNext);
+        if (isBlockedEdgeSwipe) {
+            setDragOffset(0);
+            return;
+        }
+
+        const resistedOffset = Math.max(Math.min(deltaX * 0.34, maxDragOffset), -maxDragOffset);
         setDragOffset(resistedOffset);
     }
 
@@ -100,7 +108,11 @@ export default function PaginatedGrid({
             return;
         }
 
-        goToPage(deltaX < 0 ? page + 1 : page - 1);
+        if (deltaX < 0 && canGoNext) {
+            goToPage(page + 1);
+        } else if (deltaX > 0 && canGoPrevious) {
+            goToPage(page - 1);
+        }
     }
 
     return (
@@ -120,7 +132,7 @@ export default function PaginatedGrid({
                 className={`mx-auto mt-6 grid max-w-7xl grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ${transitionDirection === "next" ? "page-transition-next" : ""} ${transitionDirection === "previous" ? "page-transition-previous" : ""}`}
                 data-testid="paginated-grid-cards"
                 style={{
-                    opacity: dragOffset === 0 ? undefined : 0.94,
+                    opacity: dragOffset === 0 ? undefined : 0.9,
                     transform: dragOffset === 0 ? undefined : `translateX(${dragOffset}px)`,
                     transition: dragOffset === 0 ? undefined : "none",
                 }}

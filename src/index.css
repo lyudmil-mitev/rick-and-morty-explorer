@@ -31,8 +31,8 @@ body {
 
 @keyframes page-slide-next {
   from {
-    opacity: 0.78;
-    transform: translateX(1rem) scale(0.995);
+    opacity: 0.66;
+    transform: translateX(2rem) scale(0.99);
   }
 
   to {
@@ -43,8 +43,8 @@ body {
 
 @keyframes page-slide-previous {
   from {
-    opacity: 0.78;
-    transform: translateX(-1rem) scale(0.995);
+    opacity: 0.66;
+    transform: translateX(-2rem) scale(0.99);
   }
 
   to {
@@ -54,9 +54,9 @@ body {
 }
 
 .page-transition-next {
-  animation: page-slide-next 220ms ease-out;
+  animation: page-slide-next 280ms ease-out;
 }
 
 .page-transition-previous {
-  animation: page-slide-previous 220ms ease-out;
+  animation: page-slide-previous 280ms ease-out;
 }
