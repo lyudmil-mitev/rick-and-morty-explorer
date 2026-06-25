@@ -69,6 +69,10 @@ export default function About() {
                             <a className={linkClass} href="https://www.deviantart.com/jonizaak/art/Get-Schwifty-A-Rick-and-Morty-font-638073728" target="_blank" rel="noreferrer">
                                 generously provided by John Izaak
                             </a>
+                            , with the self-hosted webfont converted by{" "}
+                            <a className={linkClass} href="https://github.com/tommyeastman/getSchwifty" target="_blank" rel="noreferrer">
+                                tommyeastman/getSchwifty
+                            </a>
                             .
                         </p>
                         <p className="mt-3 leading-7">

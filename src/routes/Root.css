@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Get Schwifty';
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff') format('woff');
+  src: url('../assets/fonts/get-schwifty.woff2') format('woff2');
   font-display: swap;
 }
 
