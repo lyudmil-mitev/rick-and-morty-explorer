@@ -17,13 +17,13 @@ function PaginatedGridHarness() {
     );
 }
 
-function renderPaginatedGrid(initialPage = 1) {
+function renderPaginatedGrid(initialPage = 1, initialSearch = `?page=${initialPage}`) {
     const router = createMemoryRouter([
         {
             path: '/',
             element: <PaginatedGridHarness />,
         },
-    ], { initialEntries: [`/?page=${initialPage}`] });
+    ], { initialEntries: [`/${initialSearch}`] });
 
     render(<RouterProvider router={router} />);
 }
@@ -38,6 +38,18 @@ describe('PaginatedGrid', () => {
 
         await waitFor(() => {
             expect(screen.getByTestId('location-search').textContent).toBe('?page=2');
+        });
+    });
+
+    it('preserves filters when swiping between pages', async () => {
+        renderPaginatedGrid(1, '?page=1&status=alive');
+
+        const list = screen.getByRole('region', { name: 'Characters list' });
+        fireEvent.touchStart(list, { touches: [{ clientX: 260, clientY: 120 }] });
+        fireEvent.touchEnd(list, { changedTouches: [{ clientX: 120, clientY: 130 }] });
+
+        await waitFor(() => {
+            expect(screen.getByTestId('location-search').textContent).toBe('?page=2&status=alive');
         });
     });
 

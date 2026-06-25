@@ -57,6 +57,16 @@ describe('loaders API requests', () => {
     expectFetchUrl(1, 'https://rickandmortyapi.com/api/character?page=2')
   })
 
+  it('forwards supported listing filters and ignores unsupported query params', async () => {
+    await charactersLoader({ request: new Request('https://example.com/characters?page=3&status=dead&species=Human&dimension=C-137') })
+    await locationsLoader({ request: new Request('https://example.com/locations?dimension=C-137&type=Planet&status=alive') })
+    await episodesLoader({ request: new Request('https://example.com/episodes?episode=S02&gender=male') })
+
+    expectFetchUrl(1, 'https://rickandmortyapi.com/api/character?page=3&status=dead&species=Human')
+    expectFetchUrl(2, 'https://rickandmortyapi.com/api/location?page=1&type=Planet&dimension=C-137')
+    expectFetchUrl(3, 'https://rickandmortyapi.com/api/episode?page=1&episode=S02')
+  })
+
   it('loads detail pages without adding an empty URL segment', async () => {
     vi.stubGlobal('fetch', vi.fn(async (url: URL) => {
       const responses: Record<string, unknown> = {

@@ -10,11 +10,17 @@ export default function PaginatedGrid({
     pages,
     title,
     description,
+    filterPanel,
+    isEmpty = false,
+    emptyState,
     children,
 }: {
     pages: number,
     title: string,
     description: string,
+    filterPanel?: ReactNode,
+    isEmpty?: boolean,
+    emptyState?: ReactNode,
     children: ReactNode,
 }) {
     const [params] = useSearchParams();
@@ -50,7 +56,9 @@ export default function PaginatedGrid({
     function goToPage(nextPage: number) {
         const clampedPage = Math.min(Math.max(nextPage, 1), pages);
         if (clampedPage !== page) {
-            navigate(`?page=${clampedPage}`);
+            const nextParams = new URLSearchParams(params);
+            nextParams.set("page", String(clampedPage));
+            navigate(`?${nextParams.toString()}`);
         }
     }
 
@@ -128,18 +136,27 @@ export default function PaginatedGrid({
                 <h1 className="mt-2 text-2xl font-extrabold tracking-normal text-slate-950 dark:text-white sm:text-3xl">{title}</h1>
                 <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300 sm:text-base">{description}</p>
             </header>
-            <div
-                className={`mx-auto mt-6 grid max-w-7xl grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ${transitionDirection === "next" ? "page-transition-next" : ""} ${transitionDirection === "previous" ? "page-transition-previous" : ""}`}
-                data-testid="paginated-grid-cards"
-                style={{
-                    opacity: dragOffset === 0 ? undefined : 0.9,
-                    transform: dragOffset === 0 ? undefined : `translateX(${dragOffset}px)`,
-                    transition: dragOffset === 0 ? undefined : "none",
-                }}
-            >
-                {children}
+            <div className={`mx-auto mt-6 grid max-w-7xl gap-5 ${filterPanel ? "md:grid-cols-[16rem_1fr] md:items-start" : ""}`}>
+                {filterPanel}
+                <div className="min-w-0">
+                    {isEmpty ? (
+                        emptyState
+                    ) : (
+                        <div
+                            className={`grid grid-cols-1 gap-5 sm:grid-cols-2 ${filterPanel ? "lg:grid-cols-3" : "md:grid-cols-3 lg:grid-cols-4"} ${transitionDirection === "next" ? "page-transition-next" : ""} ${transitionDirection === "previous" ? "page-transition-previous" : ""}`}
+                            data-testid="paginated-grid-cards"
+                            style={{
+                                opacity: dragOffset === 0 ? undefined : 0.9,
+                                transform: dragOffset === 0 ? undefined : `translateX(${dragOffset}px)`,
+                                transition: dragOffset === 0 ? undefined : "none",
+                            }}
+                        >
+                            {children}
+                        </div>
+                    )}
+                </div>
             </div>
-            <Pagination page={page} totalPages={pages} />
+            {isEmpty ? null : <Pagination page={page} totalPages={pages} />}
         </section>
     );
 }

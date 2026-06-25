@@ -22,6 +22,34 @@ describe('Rick and Morty API helpers', () => {
     expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character?page=1'), { signal: undefined })
   })
 
+  it('passes non-empty filters to paginated resource requests', async () => {
+    vi.stubGlobal('fetch', mockFetchJson({ info: { pages: 1 }, results: [] }))
+
+    await fetchPaginatedResource('character', 2, new URLSearchParams([
+      ['status', 'alive'],
+      ['name', ''],
+    ]))
+
+    expect(fetch).toHaveBeenCalledWith(new URL('https://rickandmortyapi.com/api/character?page=2&status=alive'), { signal: undefined })
+  })
+
+  it('returns empty paginated results for filtered no-match responses', async () => {
+    vi.stubGlobal('fetch', vi.fn(async () => new Response('Not found', {
+      status: 404,
+      statusText: 'Not Found',
+    })) as unknown as typeof fetch)
+
+    await expect(fetchPaginatedResource('episode', 1, new URLSearchParams([['episode', 'S99']]))).resolves.toEqual({
+      info: {
+        count: 0,
+        pages: 1,
+        next: null,
+        prev: null,
+      },
+      results: [],
+    })
+  })
+
   it('fetches a detail resource without an empty path segment', async () => {
     vi.stubGlobal('fetch', mockFetchJson({ id: 6 }))
 

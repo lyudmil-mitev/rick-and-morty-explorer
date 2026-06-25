@@ -1,5 +1,5 @@
 import { FormEvent, useId } from "react";
-import { Link, useNavigate, useNavigation } from "react-router-dom";
+import { Link, useNavigate, useNavigation, useSearchParams } from "react-router-dom";
 import LoadingSpinner from "./LoadingSpinner";
 
 function parsePageValue(pageValue: FormDataEntryValue | string | number | null) {
@@ -14,10 +14,17 @@ function clampPage(page: number, totalPages: number) {
 export default function Pagination({ page, totalPages }: { page: number, totalPages: number }) {
     const { state } = useNavigation();
     const navigate = useNavigate();
+    const [params] = useSearchParams();
     const pageInputId = useId();
 
     if (!Number.isFinite(page) || !Number.isFinite(totalPages) || page < 1 || page > totalPages) {
         throw new Error("Page not found");
+    }
+
+    function getPageUrl(nextPage: number) {
+        const nextParams = new URLSearchParams(params);
+        nextParams.set("page", String(nextPage));
+        return `?${nextParams.toString()}`;
     }
 
     function navigateToPage(pageValue: FormDataEntryValue | string | number | null, form: HTMLFormElement) {
@@ -32,7 +39,9 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
         if (pageInput instanceof HTMLInputElement) {
             pageInput.value = String(nextPage);
         }
-        navigate(`?page=${nextPage}`);
+        const nextParams = new URLSearchParams(params);
+        nextParams.set("page", String(nextPage));
+        navigate(`?${nextParams.toString()}`);
     }
 
     function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -50,7 +59,7 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
         <nav className="flex justify-center px-4 py-5" aria-label="Pagination">
             <div className="flex w-full max-w-md items-center justify-center gap-4 rounded-full border border-cyan-700/20 bg-white/70 px-4 py-2 shadow-sm backdrop-blur dark:border-cyan-300/15 dark:bg-slate-950/45 dark:shadow-lime-950/20">
                 <Link
-                    to={`?page=${page - 1}`}
+                    to={getPageUrl(page - 1)}
                     className={`${pageButtonClass} ${page === 1 ? disabledPageButtonClass : ""}`}
                     aria-label="Previous page"
                     aria-disabled={page === 1}
@@ -84,7 +93,7 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
                 </form>
 
                 <Link
-                    to={`?page=${page + 1}`}
+                    to={getPageUrl(page + 1)}
                     className={`${pageButtonClass} ${page === totalPages ? disabledPageButtonClass : ""}`}
                     aria-label="Next page"
                     aria-disabled={page === totalPages}

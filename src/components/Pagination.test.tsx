@@ -15,13 +15,13 @@ function PaginationHarness({ page, totalPages }: { page: number, totalPages: num
     );
 }
 
-function renderPagination(page = 2, totalPages = 5) {
+function renderPagination(page = 2, totalPages = 5, initialSearch = `?page=${page}`) {
     const router = createMemoryRouter([
         {
             path: '/',
             element: <PaginationHarness page={page} totalPages={totalPages} />,
         },
-    ], { initialEntries: [`/?page=${page}`] });
+    ], { initialEntries: [`/${initialSearch}`] });
 
     render(<RouterProvider router={router} />);
 }
@@ -68,6 +68,16 @@ describe('Pagination', () => {
 
         expect(input.value).toBe('2');
         expect(screen.getByTestId('location-search').textContent).toBe('?page=2');
+    });
+
+    it('preserves filters when navigating pages', async () => {
+        renderPagination(2, 5, '?page=2&status=alive');
+
+        fireEvent.click(screen.getByLabelText('Next page'));
+
+        await waitFor(() => {
+            expect(screen.getByTestId('location-search').textContent).toBe('?page=3&status=alive');
+        });
     });
 
     it('keeps first and last page chevrons disabled at the boundaries', () => {

@@ -2,7 +2,10 @@ export type ApiResource = 'character' | 'location' | 'episode'
 
 export type PaginatedResponse<T> = {
   info: {
+    count?: number
     pages: number
+    next?: string | null
+    prev?: string | null
   }
   results: T[]
 }
@@ -62,11 +65,28 @@ export async function fetchApiResources<T>(resource: ApiResource, ids: number[],
   return Array.isArray(data) ? data : [data]
 }
 
-export async function fetchPaginatedResource<T>(resource: ApiResource, page: number, signal?: AbortSignal) {
+export async function fetchPaginatedResource<T>(resource: ApiResource, page: number, filters = new URLSearchParams(), signal?: AbortSignal) {
   const url = new URL(`${API_BASE_URL}/${resource}`)
   url.searchParams.set('page', String(page))
+  filters.forEach((value, key) => {
+    if (key !== 'page' && value.trim().length > 0) {
+      url.searchParams.set(key, value)
+    }
+  })
 
   const response = await fetch(url, { signal })
+
+  if (response.status === 404 && Array.from(filters.values()).some((value) => value.trim().length > 0)) {
+    return {
+      info: {
+        count: 0,
+        pages: 1,
+        next: null,
+        prev: null,
+      },
+      results: [],
+    } satisfies PaginatedResponse<T>
+  }
 
   if (!response.ok) {
     throw routeError(`Failed to load ${resource}s`, response.status, response.statusText)

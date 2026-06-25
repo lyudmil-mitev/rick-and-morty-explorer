@@ -28,6 +28,20 @@ function parsePage(request: Request) {
   return Number.isFinite(page) && page > 0 ? page : 1
 }
 
+function pickFilters(request: Request, allowedFilters: string[]) {
+  const requestParams = new URL(request.url).searchParams
+  const filters = new URLSearchParams()
+
+  for (const filter of allowedFilters) {
+    const value = requestParams.get(filter)?.trim()
+    if (value) {
+      filters.set(filter, value)
+    }
+  }
+
+  return filters
+}
+
 function parseApiUrlIds(urls: string[]) {
   return urls.flatMap((url) => {
     const id = parseApiUrlId(url)
@@ -39,9 +53,11 @@ async function loadPaginatedResource<TKey extends string, TResource>(
   request: Request,
   resource: ApiResource,
   resultKey: TKey,
+  allowedFilters: string[],
 ): Promise<PaginatedLoaderData<TKey, TResource>> {
   const page = parsePage(request)
-  const response = await fetchPaginatedResource<TResource>(resource, page, request.signal)
+  const filters = pickFilters(request, allowedFilters)
+  const response = await fetchPaginatedResource<TResource>(resource, page, filters, request.signal)
 
   return {
     pages: response.info.pages,
@@ -50,7 +66,7 @@ async function loadPaginatedResource<TKey extends string, TResource>(
 }
 
 export function charactersLoader({ request }: { request: Request }) {
-  return loadPaginatedResource<'characters', Character>(request, 'character', 'characters')
+  return loadPaginatedResource<'characters', Character>(request, 'character', 'characters', ['name', 'status', 'species', 'type', 'gender'])
 }
 
 export async function characterDetailLoader({ params, request }: { params: Params<"characterId">, request: Request }): Promise<CharacterDetailsLoaderData> {
@@ -61,7 +77,7 @@ export async function characterDetailLoader({ params, request }: { params: Param
 }
 
 export function locationsLoader({ request }: { request: Request }) {
-  return loadPaginatedResource<'locations', Location>(request, 'location', 'locations')
+  return loadPaginatedResource<'locations', Location>(request, 'location', 'locations', ['name', 'type', 'dimension'])
 }
 
 export async function locationDetailLoader({ params, request }: { params: Params<"locationId">, request: Request }): Promise<LocationDetailsLoaderData> {
@@ -72,7 +88,7 @@ export async function locationDetailLoader({ params, request }: { params: Params
 }
 
 export function episodesLoader({ request }: { request: Request }) {
-  return loadPaginatedResource<'episodes', Episode>(request, 'episode', 'episodes')
+  return loadPaginatedResource<'episodes', Episode>(request, 'episode', 'episodes', ['name', 'episode'])
 }
 
 export async function episodeDetailLoader({ params, request }: { params: Params<"episodeId">, request: Request }): Promise<EpisodeDetailsLoaderData> {
