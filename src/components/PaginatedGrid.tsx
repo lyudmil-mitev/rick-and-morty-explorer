@@ -1,9 +1,10 @@
-import { ReactNode, TouchEvent, useRef } from "react";
+import { ReactNode, TouchEvent, useEffect, useRef, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import Pagination from "./Pagination";
 
 const swipeDistanceThreshold = 60;
 const swipeVerticalTolerance = 75;
+const maxDragOffset = 36;
 
 export default function PaginatedGrid({
     pages,
@@ -19,7 +20,30 @@ export default function PaginatedGrid({
     const [params] = useSearchParams();
     const navigate = useNavigate();
     const swipeStart = useRef<{ x: number, y: number } | null>(null);
+    const previousPage = useRef<number | null>(null);
+    const [dragOffset, setDragOffset] = useState(0);
+    const [transitionDirection, setTransitionDirection] = useState<"next" | "previous" | null>(null);
     const page = Number.parseInt(params.get("page") || "1", 10);
+
+    useEffect(() => {
+        if (previousPage.current === null) {
+            previousPage.current = page;
+            return;
+        }
+
+        if (previousPage.current === page) {
+            return;
+        }
+
+        setTransitionDirection(page > previousPage.current ? "next" : "previous");
+        previousPage.current = page;
+
+        const timeout = window.setTimeout(() => {
+            setTransitionDirection(null);
+        }, 240);
+
+        return () => window.clearTimeout(timeout);
+    }, [page]);
 
     function goToPage(nextPage: number) {
         const clampedPage = Math.min(Math.max(nextPage, 1), pages);
@@ -34,13 +58,35 @@ export default function PaginatedGrid({
             return;
         }
 
+        setTransitionDirection(null);
+        setDragOffset(0);
         swipeStart.current = { x: touch.clientX, y: touch.clientY };
+    }
+
+    function handleTouchMove(event: TouchEvent<HTMLElement>) {
+        const start = swipeStart.current;
+        const touch = event.touches[0];
+        if (!start || !touch) {
+            return;
+        }
+
+        const deltaX = touch.clientX - start.x;
+        const deltaY = touch.clientY - start.y;
+
+        if (Math.abs(deltaX) <= Math.abs(deltaY)) {
+            setDragOffset(0);
+            return;
+        }
+
+        const resistedOffset = Math.max(Math.min(deltaX * 0.22, maxDragOffset), -maxDragOffset);
+        setDragOffset(resistedOffset);
     }
 
     function handleTouchEnd(event: TouchEvent<HTMLElement>) {
         const start = swipeStart.current;
         const touch = event.changedTouches[0];
         swipeStart.current = null;
+        setDragOffset(0);
 
         if (!start || !touch) {
             return;
@@ -62,6 +108,7 @@ export default function PaginatedGrid({
             className="px-4 pb-8 pt-2 text-left sm:px-6 lg:px-8"
             aria-label={`${title} list`}
             onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd}
         >
             <header className="mx-auto max-w-7xl pb-1 pt-4">
@@ -69,7 +116,15 @@ export default function PaginatedGrid({
                 <h1 className="mt-2 text-2xl font-extrabold tracking-normal text-slate-950 dark:text-white sm:text-3xl">{title}</h1>
                 <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300 sm:text-base">{description}</p>
             </header>
-            <div className="mx-auto mt-6 grid max-w-7xl grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div
+                className={`mx-auto mt-6 grid max-w-7xl grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ${transitionDirection === "next" ? "page-transition-next" : ""} ${transitionDirection === "previous" ? "page-transition-previous" : ""}`}
+                data-testid="paginated-grid-cards"
+                style={{
+                    opacity: dragOffset === 0 ? undefined : 0.94,
+                    transform: dragOffset === 0 ? undefined : `translateX(${dragOffset}px)`,
+                    transition: dragOffset === 0 ? undefined : "none",
+                }}
+            >
                 {children}
             </div>
             <Pagination page={page} totalPages={pages} />

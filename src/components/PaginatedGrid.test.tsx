@@ -41,6 +41,18 @@ describe('PaginatedGrid', () => {
         });
     });
 
+    it('moves the card grid subtly during horizontal drag', () => {
+        renderPaginatedGrid(1);
+
+        const list = screen.getByRole('region', { name: 'Characters list' });
+        const grid = screen.getByTestId('paginated-grid-cards');
+
+        fireEvent.touchStart(list, { touches: [{ clientX: 260, clientY: 120 }] });
+        fireEvent.touchMove(list, { touches: [{ clientX: 160, clientY: 126 }] });
+
+        expect(grid.getAttribute('style')).toContain('translateX(-22px)');
+    });
+
     it('navigates to the previous page on right swipe', async () => {
         renderPaginatedGrid(2);
 

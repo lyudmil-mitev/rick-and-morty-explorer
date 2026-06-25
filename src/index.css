@@ -28,3 +28,35 @@ body {
   min-height: 60vh;
   padding-top: 4rem;
 }
+
+@keyframes page-slide-next {
+  from {
+    opacity: 0.78;
+    transform: translateX(1rem) scale(0.995);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes page-slide-previous {
+  from {
+    opacity: 0.78;
+    transform: translateX(-1rem) scale(0.995);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.page-transition-next {
+  animation: page-slide-next 220ms ease-out;
+}
+
+.page-transition-previous {
+  animation: page-slide-previous 220ms ease-out;
+}
