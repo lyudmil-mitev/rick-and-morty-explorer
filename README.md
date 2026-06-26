@@ -23,8 +23,10 @@ I have annotated the project structure below
 ├── index.html # Main entrypoint for Vite build
 ├── package.json
 ├── README.md
+├── scripts
+│   └── prepare-kaggle-dataset.mjs # Downloads the Kaggle dataset and copies it into public/data/rick-and-morty
 ├── src
-│   ├── api.ts # Rick and Morty API client helpers and URL/id parsing utilities
+│   ├── api.ts # Dataset-backed resource helpers and URL/id parsing utilities
 │   ├── components
 │   │   ├── Banner.tsx # Banner component with title header and awesome space background SVG that's less than 1KB
 │   │   ├── CharacterCard.tsx # Character card based on MiniCard
@@ -36,15 +38,17 @@ I have annotated the project structure below
 │   │   ├── Pagination.tsx # Pagination component for Characters, Locations and Episodes
 │   │   └── TabBar.tsx # Main navigation tab bar
 │   ├── index.css # Global CSS file, includes TailwindCSS and custom styles
+│   ├── dataset.ts # Loads and parses the Kaggle CSV dataset, builds in-memory indexes
 │   ├── loaders.ts # Route loaders for list/detail pages and related-resource loading
 │   ├── main.tsx # Main entrypoint for React, Routes are configured here
-│   ├── mocks # Mock data for Characters, Locations and Episodes, copied from the Rick and Morty API JS Client Object
+│   ├── mocks # Mock data for Characters, Locations and Episodes
 │   │   ├── characterDetail.mock.tsx
 │   │   ├── characters.mock.tsx
 │   │   ├── episodeDetail.mock.tsx
 │   │   ├── episodes.mock.tsx
 │   │   ├── locationDetail.mock.tsx
 │   │   └── locations.mock.tsx
+│   ├── rickmorty.ts # Local Rick and Morty data types used across the app
 │   ├── routes
 │   │   ├── CharacterDetails.tsx # Route for Character Details /characters/:id
 │   │   ├── Characters.tsx # Route for Characters /characters and /
@@ -55,7 +59,19 @@ I have annotated the project structure below
 │   │   ├── Locations.tsx # Route for Locations /locations
 │   │   ├── Root.css # Global CSS for the root component
 │   │   └── Root.tsx # Root component for the application, the other components are nested as Root children
+└── public
+    └── data
+        └── rick-and-morty # Generated dataset assets copied from Kaggle for the app build
 ```
+
+## Data Flow
+The Kaggle dataset is prepared locally or in CI with:
+
+```bash
+npm run dataset:prepare
+```
+
+That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built from the Rick and Morty API, then copies the CSVs and character images into `public/data/rick-and-morty/` so Vite serves them as static assets.
 
 ## Setup
 
@@ -79,10 +95,14 @@ npm run test
 npx vitest --coverage # Measure test coverage
 ```
 
+To refresh the local dataset assets, use:
+```bash
+npm run dataset:prepare
+```
+
 To create a local build run:
 ```bash
 npm run build
-cd dist && ln -s . rick-and-morty-explorer # Symlink rick-and-morty-explorer, because that's configured as a base dir in vite.config.ts due to github pages structure
 ```
 
 ## Credits
