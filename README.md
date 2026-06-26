@@ -39,8 +39,10 @@ I have annotated the project structure below
 │   │   └── TabBar.tsx # Main navigation tab bar
 │   ├── index.css # Global CSS file, includes TailwindCSS and custom styles
 │   ├── dataset.ts # Loads and parses the Kaggle CSV dataset, builds in-memory indexes
+│   ├── filterOptions.ts # Shared filter select options derived from the dataset
 │   ├── loaders.ts # Route loaders for list/detail pages and related-resource loading
 │   ├── main.tsx # Main entrypoint for React, Routes are configured here
+│   ├── media.ts # Local media helper functions for cards and detail pages
 │   ├── mocks # Mock data for Characters, Locations and Episodes
 │   │   ├── characterDetail.mock.tsx
 │   │   ├── characters.mock.tsx
@@ -49,6 +51,8 @@ I have annotated the project structure below
 │   │   ├── locationDetail.mock.tsx
 │   │   └── locations.mock.tsx
 │   ├── rickmorty.ts # Local Rick and Morty data types used across the app
+│   ├── styles
+│   │   └── ui.ts # Shared Tailwind class primitives and conditional class helper
 │   ├── routes
 │   │   ├── CharacterDetails.tsx # Route for Character Details /characters/:id
 │   │   ├── Characters.tsx # Route for Characters /characters and /
@@ -76,6 +80,12 @@ That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built
 `npm run dev` checks for those generated assets before starting Vite. If they are missing, it first tries to download a `.zip` dataset asset from the latest GitHub release, which works anonymously for public releases. You can override that URL with `DATASET_RELEASE_URL`.
 
 If the release download is unavailable, the script falls back to Kaggle. Kaggle downloads require `KAGGLE_USERNAME` and `KAGGLE_KEY` or `KAGGLE_API_TOKEN` to be set in your environment or in a local `.env` file.
+
+## Styling
+
+Most component layout is still written with Tailwind utility classes. Repeated visual primitives live in `src/styles/ui.ts`, including shared panel, button, link, input, badge, card, and eyebrow styles, plus the small `cx()` helper for conditional class composition.
+
+When changing the UI, prefer using those shared primitives for repeated styling and keep one-off layout classes close to the component markup. Global CSS is reserved for font loading, root page styling, and custom animations such as page transitions, logo motion, and portal hover effects.
 
 ## Setup
 

@@ -1,6 +1,7 @@
 import { ReactNode, TouchEvent, useEffect, useRef, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import Pagination from "./Pagination";
+import { cx, ui } from "../styles/ui";
 
 const swipeDistanceThreshold = 60;
 const swipeVerticalTolerance = 75;
@@ -132,7 +133,7 @@ export default function PaginatedGrid({
             onTouchEnd={handleTouchEnd}
         >
             <header className="mx-auto max-w-7xl pb-1 pt-4">
-                <p className="text-xs font-bold uppercase tracking-[0.18em] text-cyan-700 dark:text-cyan-300">Multiverse index</p>
+                <p className={ui.eyebrow}>Multiverse index</p>
                 <h1 className="mt-2 text-2xl font-extrabold tracking-normal text-slate-950 dark:text-white sm:text-3xl">{title}</h1>
                 <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300 sm:text-base">{description}</p>
             </header>
@@ -143,7 +144,12 @@ export default function PaginatedGrid({
                         emptyState
                     ) : (
                         <div
-                            className={`grid grid-cols-1 gap-5 sm:grid-cols-2 ${filterPanel ? "lg:grid-cols-3" : "md:grid-cols-3 lg:grid-cols-4"} ${transitionDirection === "next" ? "page-transition-next" : ""} ${transitionDirection === "previous" ? "page-transition-previous" : ""}`}
+                            className={cx(
+                                "grid grid-cols-1 gap-5 sm:grid-cols-2",
+                                filterPanel ? "lg:grid-cols-3" : "md:grid-cols-3 lg:grid-cols-4",
+                                transitionDirection === "next" && "page-transition-next",
+                                transitionDirection === "previous" && "page-transition-previous",
+                            )}
                             data-testid="paginated-grid-cards"
                             style={{
                                 opacity: dragOffset === 0 ? undefined : 0.9,

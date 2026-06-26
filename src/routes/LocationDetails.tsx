@@ -4,6 +4,7 @@ import CharacterCard from "../components/CharacterCard";
 import { LocationDetailsLoaderData } from "../loaders";
 import { getLocationImage } from "../media";
 import DetailLinkGrid from "../components/DetailLinkGrid";
+import { cx, ui } from "../styles/ui";
 
 export default function LocationDetails() {
     const { location, residents } = useLoaderData() as LocationDetailsLoaderData;
@@ -22,7 +23,7 @@ export default function LocationDetails() {
                     renderItem={(character) => <CharacterCard character={character} />}
                 />
             ) : (
-                <div className="rounded-lg border border-cyan-700/15 bg-white/70 p-6 text-slate-600 shadow-sm dark:border-cyan-300/15 dark:bg-slate-800/70 dark:text-slate-300">
+                <div className={cx("p-6", ui.mutedPanel)}>
                     No residents logged for this location.
                 </div>
             )}

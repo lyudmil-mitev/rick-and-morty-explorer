@@ -4,6 +4,7 @@ import ScrollToTop from '../components/ScrollToTop'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { useLayoutEffect, useState } from 'react'
 import "./Root.css"
+import { cx } from '../styles/ui'
 
 type Theme = "light" | "dark";
 
@@ -60,7 +61,10 @@ export default function Root() {
                 aria-pressed={theme === "dark"}
             >
                 <span className="relative h-6 w-11 rounded-full border border-cyan-700/30 bg-cyan-50 shadow-inner dark:border-cyan-300/35 dark:bg-slate-900">
-                    <span className={`absolute top-1/2 h-4 w-4 -translate-y-1/2 rounded-full bg-lime-300 shadow-[0_0_10px_rgba(190,242,100,0.8)] transition-[left] ${theme === "dark" ? "left-[1.45rem]" : "left-1"}`} />
+                    <span className={cx(
+                        "absolute top-1/2 h-4 w-4 -translate-y-1/2 rounded-full bg-lime-300 shadow-[0_0_10px_rgba(190,242,100,0.8)] transition-[left]",
+                        theme === "dark" ? "left-[1.45rem]" : "left-1",
+                    )} />
                 </span>
                 <span>{theme === "dark" ? "Dark" : "Light"}</span>
             </button>

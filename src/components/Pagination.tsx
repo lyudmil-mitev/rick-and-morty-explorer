@@ -1,6 +1,7 @@
 import { FormEvent, useId } from "react";
 import { Link, useNavigate, useNavigation, useSearchParams } from "react-router-dom";
 import LoadingSpinner from "./LoadingSpinner";
+import { cx } from "../styles/ui";
 
 function parsePageValue(pageValue: FormDataEntryValue | string | number | null) {
     const page = Number.parseInt(String(pageValue), 10);
@@ -60,7 +61,7 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
             <div className="flex w-full max-w-md items-center justify-center gap-4 rounded-full border border-cyan-700/20 bg-white/70 px-4 py-2 shadow-sm backdrop-blur dark:border-cyan-300/15 dark:bg-slate-950/45 dark:shadow-lime-950/20">
                 <Link
                     to={getPageUrl(page - 1)}
-                    className={`${pageButtonClass} ${page === 1 ? disabledPageButtonClass : ""}`}
+                    className={cx(pageButtonClass, page === 1 && disabledPageButtonClass)}
                     aria-label="Previous page"
                     aria-disabled={page === 1}
                     tabIndex={page === 1 ? -1 : undefined}
@@ -94,7 +95,7 @@ export default function Pagination({ page, totalPages }: { page: number, totalPa
 
                 <Link
                     to={getPageUrl(page + 1)}
-                    className={`${pageButtonClass} ${page === totalPages ? disabledPageButtonClass : ""}`}
+                    className={cx(pageButtonClass, page === totalPages && disabledPageButtonClass)}
                     aria-label="Next page"
                     aria-disabled={page === totalPages}
                     tabIndex={page === totalPages ? -1 : undefined}

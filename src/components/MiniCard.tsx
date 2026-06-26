@@ -1,3 +1,5 @@
+import { cx, ui } from "../styles/ui";
+
 type BadgeTone = "green" | "red" | "gray" | "cyan" | "yellow";
 type CardVariant = "character" | "location" | "episode";
 
@@ -33,7 +35,7 @@ export default function MiniCard({
     variant?: CardVariant,
 }) {
     return (
-        <section className={`portal-hover group relative h-full overflow-hidden rounded-lg border border-cyan-700/15 bg-[#fbfaf2] text-left shadow-md shadow-slate-300/40 transition duration-200 before:absolute before:inset-y-0 before:left-0 before:w-1 hover:-translate-y-0.5 hover:border-cyan-500/40 hover:shadow-lg hover:shadow-lime-500/10 focus-within:border-lime-400 dark:border-cyan-300/10 dark:bg-slate-800 dark:shadow-black/25 dark:hover:border-cyan-300/40 ${variantClass[variant]}`}>
+        <section className={cx(ui.cardShell, variantClass[variant])}>
             <div className="grid h-full min-h-28 grid-cols-[6.75rem_1fr] sm:grid-cols-[7rem_1fr]">
                 <div className="relative overflow-hidden bg-slate-950">
                     <img src={image} alt={title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105 group-hover:saturate-125" />
@@ -48,8 +50,8 @@ export default function MiniCard({
                     </div>
                     {eyebrow || badge ? (
                         <div className="flex flex-wrap items-center gap-1.5">
-                            {eyebrow ? <span className="text-[0.58rem] font-bold uppercase tracking-wide text-cyan-700 dark:text-cyan-300">{eyebrow}</span> : null}
-                            {badge ? <span className={`rounded-full border px-1.5 py-px text-[0.58rem] font-bold uppercase tracking-wide ${badgeToneClass[badgeTone]}`}>{badge}</span> : null}
+                            {eyebrow ? <span className={ui.compactEyebrow}>{eyebrow}</span> : null}
+                            {badge ? <span className={cx(ui.badgeBase, badgeToneClass[badgeTone])}>{badge}</span> : null}
                         </div>
                     ) : null}
                 </div>

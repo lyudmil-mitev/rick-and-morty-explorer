@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import { cx } from "../styles/ui";
 
 interface TabBarProps {
     tabs: string[];
@@ -17,10 +18,13 @@ const TabBar: React.FC<TabBarProps> = ({ tabs, selectedTab }) => {
                             <Link
                                 key={tab}
                                 to={`/${tab.toLowerCase()}`}
-                                className={`${isSelected ? "" : "portal-hover"} relative mx-0.5 overflow-hidden rounded-md px-2.5 py-2 text-[11px] font-bold tracking-wide transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#eef2ed] dark:focus-visible:ring-lime-300 dark:focus-visible:ring-offset-slate-950 max-[360px]:px-2 max-[360px]:text-[10px] sm:mx-1 sm:px-6 sm:py-3 sm:text-sm ${isSelected
-                                    ? "bg-lime-300 !text-slate-950 shadow-lg shadow-lime-300/25 ring-1 ring-cyan-700/20 dark:shadow-lime-300/30 dark:ring-cyan-200/70"
-                                    : "!text-slate-700 hover:!text-slate-950 hover:bg-cyan-200/40 hover:[text-shadow:0_0_8px_rgba(183,255,68,0.65)] dark:!text-slate-100 dark:hover:!text-white dark:hover:bg-cyan-300/10 dark:hover:[text-shadow:0_0_8px_rgba(183,255,68,0.85)]"
-                                }`}
+                                className={cx(
+                                    !isSelected && "portal-hover",
+                                    "relative mx-0.5 overflow-hidden rounded-md px-2.5 py-2 text-[11px] font-bold tracking-wide transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#eef2ed] dark:focus-visible:ring-lime-300 dark:focus-visible:ring-offset-slate-950 max-[360px]:px-2 max-[360px]:text-[10px] sm:mx-1 sm:px-6 sm:py-3 sm:text-sm",
+                                    isSelected
+                                        ? "bg-lime-300 !text-slate-950 shadow-lg shadow-lime-300/25 ring-1 ring-cyan-700/20 dark:shadow-lime-300/30 dark:ring-cyan-200/70"
+                                        : "!text-slate-700 hover:!text-slate-950 hover:bg-cyan-200/40 hover:[text-shadow:0_0_8px_rgba(183,255,68,0.65)] dark:!text-slate-100 dark:hover:!text-white dark:hover:bg-cyan-300/10 dark:hover:[text-shadow:0_0_8px_rgba(183,255,68,0.85)]",
+                                )}
                                 aria-current={isSelected ? "page" : undefined}
                             >
                                 <span className="relative z-10">{tab}</span>
