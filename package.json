@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "test:screenshots": "node -e \"import { mkdirSync } from 'node:fs'; mkdirSync('screenshots', { recursive: true });\" && npx playwright test src/screenshot.test.ts"
+    "test:screenshots": "playwright test src/screenshot.test.ts"
   },
   "dependencies": {
     "react": "^19.2.7",

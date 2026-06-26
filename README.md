@@ -1,11 +1,11 @@
-# Rick and Morty API explorer
+# Rick and Morty Explorer
 ![Morty logo](public/android-chrome-192x192.png)
 
 Rick and Morty 100 years! Rick and Morty 20 Seasons!
 
 ## [Open in GitHub Pages](https://lyudmil-mitev.github.io/rick-and-morty-explorer/)
 
-This is a React application built with React, React Router v6, TailwindCSS, Vite, Vitest, and static data prepared from the Kaggle `robbroadhead/rick-and-morty-api-dataset` export. That Kaggle dataset is itself sourced from the Rick and Morty API.
+This is a React application built with React, React Router v7, TailwindCSS, Vite, Vitest, and static data prepared from the Kaggle `robbroadhead/rick-and-morty-api-dataset` export. That Kaggle dataset is itself sourced from the Rick and Morty API.
 
 ## Features
 - Simple responsive design implemented with TailwindCSS
@@ -71,7 +71,7 @@ The Kaggle dataset is prepared locally or in CI with:
 npm run dataset:prepare
 ```
 
-That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built from the Rick and Morty API, then copies the CSVs and character images into `public/data/rick-and-morty/` so Vite serves them as static assets.
+That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built from the Rick and Morty API, then copies the CSVs and character images into `public/data/rick-and-morty/` so Vite serves them as static assets. The running app reads those generated static files; it does not call the live Rick and Morty API while users browse the site.
 
 `npm run dev` checks for those generated assets before starting Vite. If they are missing, it first tries to download a `.zip` dataset asset from the latest GitHub release, which works anonymously for public releases. You can override that URL with `DATASET_RELEASE_URL`.
 
@@ -98,6 +98,13 @@ Then, to run the tests, use:
 npm run test
 npx vitest --coverage # Measure test coverage
 ```
+
+To generate local screenshots for visual review, use:
+```bash
+npm run test:screenshots
+```
+
+This prepares the dataset if needed, builds the app, starts a local preview server, and writes screenshots to `screenshots/`.
 
 To refresh the local dataset assets, use:
 ```bash
