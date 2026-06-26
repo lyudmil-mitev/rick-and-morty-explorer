@@ -37,7 +37,7 @@ export default function MiniCard({
     return (
         <section className={cx(ui.cardShell, variantClass[variant])}>
             <div className="grid h-full min-h-28 grid-cols-[6.75rem_1fr] sm:grid-cols-[7rem_1fr]">
-                <div className="relative overflow-hidden bg-slate-950">
+                <div className="relative overflow-hidden bg-cyan-50 dark:bg-slate-950">
                     <img src={image} alt={title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105 group-hover:saturate-125" />
                     <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-white/10" />
                 </div>

@@ -72,7 +72,7 @@ const Banner = ({ theme }: { theme: "light" | "dark" }) => (
     style={{ backgroundImage: bannerBackgroundImage[theme] }}
   >
     <a
-      className="relative z-10 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+      className="relative z-10 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#eef2ed] dark:focus-visible:ring-lime-300 dark:focus-visible:ring-offset-slate-950"
       title="Powered by Rick and Morty API!"
       href="https://rickandmortyapi.com/"
       target="_blank"

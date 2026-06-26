@@ -76,14 +76,14 @@ export default function Root() {
         <main className='bg-[#eef2ed] text-slate-900 dark:bg-[#111827] dark:text-slate-100'>
             <Outlet />
         </main>
-        <footer className='border-t border-cyan-300/20 bg-slate-950 p-4 text-sm text-slate-300 shadow-[0_-12px_40px_rgba(82,255,15,0.08)]'>
+        <footer className='border-t border-cyan-700/15 bg-[#fbfaf2] p-4 text-sm text-slate-600 shadow-[0_-12px_40px_rgba(8,186,227,0.08)] dark:border-cyan-300/20 dark:bg-slate-950 dark:text-slate-300 dark:shadow-[0_-12px_40px_rgba(82,255,15,0.08)]'>
           <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-3 sm:flex-row">
-            <p className="font-semibold text-cyan-200">Rick and Morty Explorer</p>
+            <p className="font-semibold text-cyan-700 dark:text-cyan-200">Rick and Morty Explorer</p>
             <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2" aria-label="Footer navigation">
-              <Link className="transition hover:text-lime-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300" to="/characters">Characters</Link>
-              <Link className="transition hover:text-lime-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300" to="/locations">Locations</Link>
-              <Link className="transition hover:text-lime-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300" to="/episodes">Episodes</Link>
-              <Link className="transition hover:text-lime-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-300" to="/about">About</Link>
+              <Link className="transition hover:text-lime-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:hover:text-lime-300 dark:focus-visible:ring-lime-300" to="/characters">Characters</Link>
+              <Link className="transition hover:text-lime-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:hover:text-lime-300 dark:focus-visible:ring-lime-300" to="/locations">Locations</Link>
+              <Link className="transition hover:text-lime-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:hover:text-lime-300 dark:focus-visible:ring-lime-300" to="/episodes">Episodes</Link>
+              <Link className="transition hover:text-lime-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 dark:hover:text-lime-300 dark:focus-visible:ring-lime-300" to="/about">About</Link>
             </nav>
           </div>
         </footer>

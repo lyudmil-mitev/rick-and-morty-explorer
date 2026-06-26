@@ -43,7 +43,7 @@ export default function DetailsLayout({
         <section className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 pb-8 pt-3 sm:px-6 lg:grid lg:grid-cols-[minmax(18rem,24rem)_1fr] lg:items-start lg:px-8">
             <aside className={cx("rounded-lg border bg-[#fbfaf2] shadow-xl dark:bg-slate-800", variantAccent[variant])}>
                 <div className="p-4 sm:p-6">
-                    <div className="rounded-lg border border-cyan-700/15 bg-slate-950 p-2 shadow-inner dark:border-cyan-300/15">
+                    <div className="rounded-lg border border-cyan-700/15 bg-white/75 p-2 shadow-inner dark:border-cyan-300/15 dark:bg-slate-950">
                         <img className="mx-auto aspect-square w-full max-w-xs rounded object-cover ring-1 ring-white/10" src={image} alt={title} />
                     </div>
                     <p className={cx("mt-5", ui.eyebrow)}>{recordLabel ?? variantLabel[variant]}</p>
