@@ -13,7 +13,7 @@ export default function About() {
                         Rick and Morty Explorer
                     </h1>
                     <p className="text-lg leading-8 text-slate-600 dark:text-slate-300">
-                        A fan-built browser for characters, locations, and episodes using the Rick and Morty API.
+                        A fan-built browser for characters, locations, and episodes using a Kaggle dataset sourced from the Rick and Morty API.
                     </p>
                 </header>
 
@@ -47,7 +47,11 @@ export default function About() {
                     <section className={panelClass}>
                         <h2 className="text-xl font-bold text-slate-950 dark:text-white">Data and Ownership</h2>
                         <p className="mt-3 leading-7">
-                            Implemented with{" "}
+                            Data is downloaded from{" "}
+                            <a className={linkClass} href="https://www.kaggle.com/datasets/robbroadhead/rick-and-morty-api-dataset" target="_blank" rel="noreferrer">
+                                Kaggle&apos;s Rick and Morty API dataset
+                            </a>
+                            , which is sourced from the{" "}
                             <a className={linkClass} href="https://rickandmortyapi.com/" target="_blank" rel="noreferrer">
                                 Rick and Morty API
                             </a>

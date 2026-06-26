@@ -5,7 +5,7 @@ Rick and Morty 100 years! Rick and Morty 20 Seasons!
 
 ## [Open in GitHub Pages](https://lyudmil-mitev.github.io/rick-and-morty-explorer/)
 
-This is a React application built with React, React Router v6, TailwindCSS, Vite, Vitest and the Rick and Morty API
+This is a React application built with React, React Router v6, TailwindCSS, Vite, Vitest, and static data prepared from the Kaggle `robbroadhead/rick-and-morty-api-dataset` export. That Kaggle dataset is itself sourced from the Rick and Morty API.
 
 ## Features
 - Simple responsive design implemented with TailwindCSS
@@ -93,6 +93,6 @@ cd dist && ln -s . rick-and-morty-explorer # Symlink rick-and-morty-explorer, be
 - The deep space background SVG image is adapted from [work by Bence Szabo](https://codepen.io/finnhvman/pen/bGOYpbO)
 - The light-mode alien landscape SVG image is adapted from [work by Bence Szabo](https://codepen.io/finnhvman/pen/bGopgee)
 - This project includes posters for seasons from [TVMaze](https://www.tvmaze.com/)
-- This project uses the [Rick and Morty API](https://rickandmortyapi.com/)
+- This project uses the [Rick and Morty API](https://rickandmortyapi.com/) through the Kaggle dataset [`robbroadhead/rick-and-morty-api-dataset`](https://www.kaggle.com/datasets/robbroadhead/rick-and-morty-api-dataset)
 
 ![Mr Poopybutthole logo](public/mr_pbh.webp)
