@@ -1,0 +1,15 @@
+{
+  "dataset": "robbroadhead/rick-and-morty-api-dataset",
+  "generatedAt": "2026-06-26T00:43:07.020Z",
+  "cacheVersion": "robbroadhead/rick-and-morty-api-dataset:1782434587020",
+  "files": [
+    "characters.csv",
+    "locations.csv",
+    "episodes.csv",
+    "character_episodes.csv",
+    "location_residents.csv"
+  ],
+  "images": {
+    "characters": 826
+  }
+}
