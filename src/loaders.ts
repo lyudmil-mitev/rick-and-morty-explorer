@@ -1,4 +1,4 @@
-import { Character, Episode, Location } from 'rickmortyapi'
+import { Character, Episode, Location } from './rickmorty'
 import { Params } from 'react-router-dom'
 import { ApiResource, fetchApiResource, fetchApiResources, fetchPaginatedResource, parseApiId, parseApiUrlId } from './api'
 

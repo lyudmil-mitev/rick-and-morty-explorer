@@ -1,4 +1,4 @@
-import { Character } from 'rickmortyapi';
+import type { Character } from '../rickmorty';
 import { Link, useLoaderData } from 'react-router-dom';
 import CharacterCard from '../components/CharacterCard';
 import EmptyResults from '../components/EmptyResults';

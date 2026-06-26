@@ -1,4 +1,4 @@
-import { Character } from 'rickmortyapi';
+import type { Character } from '../rickmorty';
 import MiniCard from './MiniCard';
 
 function getStatusTone(status: Character["status"]) {

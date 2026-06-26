@@ -1,4 +1,4 @@
-import { Location } from "rickmortyapi";
+import type { Location } from "../rickmorty";
 import MiniCard from "./MiniCard";
 import { getLocationImage } from "../media";
 

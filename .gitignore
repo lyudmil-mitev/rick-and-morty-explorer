@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
 *.tsbuildinfo
 
 # Editor directories and files
@@ -26,6 +27,12 @@ dist-ssr
 
 # Generated screenshots
 screenshots/
+coverage/
+
+# Generated Kaggle dataset export
+.kaggle/
+kaggle-dataset/
+public/data/rick-and-morty/
 
 # Playwright test output
 test-results/

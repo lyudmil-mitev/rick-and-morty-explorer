@@ -1,5 +1,5 @@
 import { Link, useLoaderData } from "react-router-dom";
-import { Episode } from "rickmortyapi";
+import type { Episode } from "../rickmorty";
 import EmptyResults from "../components/EmptyResults";
 import EpisodeCard from "../components/EpisodeCard";
 import FilterPanel, { FilterField } from "../components/FilterPanel";

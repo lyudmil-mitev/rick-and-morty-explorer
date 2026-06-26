@@ -1,4 +1,4 @@
-import { Episode } from "rickmortyapi";
+import type { Episode } from "../rickmorty";
 import MiniCard from "./MiniCard";
 import { getEpisodeSeasonImage } from "../media";
 

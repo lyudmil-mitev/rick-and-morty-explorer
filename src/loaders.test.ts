@@ -1,4 +1,5 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import type { Character, Episode, Location } from './rickmorty'
+import { afterEach, describe, expect, it, vi } from 'vitest'
 import {
   characterDetailLoader,
   charactersLoader,
@@ -8,7 +9,24 @@ import {
   locationsLoader,
 } from './loaders'
 
-const paginatedApiResponse = {
+const apiMocks = vi.hoisted(() => ({
+  fetchApiResource: vi.fn(),
+  fetchApiResources: vi.fn(),
+  fetchPaginatedResource: vi.fn(),
+}))
+
+vi.mock('./api', async (importActual) => {
+  const actual = await importActual<typeof import('./api')>()
+
+  return {
+    ...actual,
+    fetchApiResource: apiMocks.fetchApiResource,
+    fetchApiResources: apiMocks.fetchApiResources,
+    fetchPaginatedResource: apiMocks.fetchPaginatedResource,
+  }
+})
+
+const emptyPage = {
   info: {
     count: 0,
     pages: 3,
@@ -18,75 +36,71 @@ const paginatedApiResponse = {
   results: [],
 }
 
-function mockFetchJson(data: unknown): typeof fetch {
-  return vi.fn(async () => new Response(JSON.stringify(data), {
-    status: 200,
-    headers: { 'Content-Type': 'application/json' },
-  })) as unknown as typeof fetch
-}
-
-function expectFetchUrl(callIndex: number, url: string) {
-  const call = vi.mocked(fetch).mock.calls[callIndex - 1]
-  expect(call[0]).toEqual(new URL(url))
-  expect(call[1]).toEqual({ signal: expect.any(AbortSignal) })
-}
-
 describe('loaders API requests', () => {
-  beforeEach(() => {
-    vi.stubGlobal('fetch', mockFetchJson(paginatedApiResponse))
-  })
-
   afterEach(() => {
-    vi.unstubAllGlobals()
-    vi.restoreAllMocks()
+    vi.clearAllMocks()
   })
 
   it('falls back to page 1 when the page query parameter is missing or invalid', async () => {
+    apiMocks.fetchPaginatedResource.mockResolvedValue(emptyPage)
+
     await charactersLoader({ request: new Request('https://example.com/characters') })
     await locationsLoader({ request: new Request('https://example.com/locations?page=NaN') })
     await episodesLoader({ request: new Request('https://example.com/episodes?page=0') })
 
-    expectFetchUrl(1, 'https://rickandmortyapi.com/api/character?page=1')
-    expectFetchUrl(2, 'https://rickandmortyapi.com/api/location?page=1')
-    expectFetchUrl(3, 'https://rickandmortyapi.com/api/episode?page=1')
+    expect(apiMocks.fetchPaginatedResource).toHaveBeenNthCalledWith(1, 'character', 1, new URLSearchParams(), expect.any(AbortSignal))
+    expect(apiMocks.fetchPaginatedResource).toHaveBeenNthCalledWith(2, 'location', 1, new URLSearchParams(), expect.any(AbortSignal))
+    expect(apiMocks.fetchPaginatedResource).toHaveBeenNthCalledWith(3, 'episode', 1, new URLSearchParams(), expect.any(AbortSignal))
   })
 
   it('uses the page query parameter when it is valid', async () => {
+    apiMocks.fetchPaginatedResource.mockResolvedValue(emptyPage)
+
     await charactersLoader({ request: new Request('https://example.com/characters?page=2') })
 
-    expectFetchUrl(1, 'https://rickandmortyapi.com/api/character?page=2')
+    expect(apiMocks.fetchPaginatedResource).toHaveBeenCalledWith('character', 2, new URLSearchParams(), expect.any(AbortSignal))
   })
 
   it('forwards supported listing filters and ignores unsupported query params', async () => {
+    apiMocks.fetchPaginatedResource.mockResolvedValue(emptyPage)
+
     await charactersLoader({ request: new Request('https://example.com/characters?page=3&status=dead&species=Human&dimension=C-137') })
     await locationsLoader({ request: new Request('https://example.com/locations?dimension=C-137&type=Planet&status=alive') })
     await episodesLoader({ request: new Request('https://example.com/episodes?episode=S02&gender=male') })
 
-    expectFetchUrl(1, 'https://rickandmortyapi.com/api/character?page=3&status=dead&species=Human')
-    expectFetchUrl(2, 'https://rickandmortyapi.com/api/location?page=1&type=Planet&dimension=C-137')
-    expectFetchUrl(3, 'https://rickandmortyapi.com/api/episode?page=1&episode=S02')
+    expect(apiMocks.fetchPaginatedResource).toHaveBeenNthCalledWith(1, 'character', 3, new URLSearchParams([
+      ['status', 'dead'],
+      ['species', 'Human'],
+    ]), expect.any(AbortSignal))
+    expect(apiMocks.fetchPaginatedResource).toHaveBeenNthCalledWith(2, 'location', 1, new URLSearchParams([
+      ['type', 'Planet'],
+      ['dimension', 'C-137'],
+    ]), expect.any(AbortSignal))
+    expect(apiMocks.fetchPaginatedResource).toHaveBeenNthCalledWith(3, 'episode', 1, new URLSearchParams([
+      ['episode', 'S02'],
+    ]), expect.any(AbortSignal))
   })
 
-  it('loads detail pages without adding an empty URL segment', async () => {
-    vi.stubGlobal('fetch', vi.fn(async (url: URL) => {
-      const responses: Record<string, unknown> = {
-        'https://rickandmortyapi.com/api/character/2': { id: 2, episode: [] },
-        'https://rickandmortyapi.com/api/location/3': { id: 3, residents: [] },
-        'https://rickandmortyapi.com/api/episode/4': { id: 4, characters: [] },
-      }
+  it('loads detail resources and their relationships', async () => {
+    const character = { id: 2, episode: ['https://rickandmortyapi.com/api/episode/1', 'bad-url'] } as Character
+    const location = { id: 3, residents: ['https://rickandmortyapi.com/api/character/1'] } as Location
+    const episode = { id: 4, characters: ['https://rickandmortyapi.com/api/character/1', 'https://rickandmortyapi.com/api/character/2'] } as Episode
 
-      return new Response(JSON.stringify(responses[url.toString()]), {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' },
-      })
-    }) as unknown as typeof fetch)
+    apiMocks.fetchApiResource
+      .mockResolvedValueOnce(character)
+      .mockResolvedValueOnce(location)
+      .mockResolvedValueOnce(episode)
+    apiMocks.fetchApiResources.mockResolvedValue([])
 
     await characterDetailLoader({ params: { characterId: '2' }, request: new Request('https://example.com/characters/2') })
     await locationDetailLoader({ params: { locationId: '3' }, request: new Request('https://example.com/locations/3') })
     await episodeDetailLoader({ params: { episodeId: '4' }, request: new Request('https://example.com/episodes/4') })
 
-    expectFetchUrl(1, 'https://rickandmortyapi.com/api/character/2')
-    expectFetchUrl(2, 'https://rickandmortyapi.com/api/location/3')
-    expectFetchUrl(3, 'https://rickandmortyapi.com/api/episode/4')
+    expect(apiMocks.fetchApiResource).toHaveBeenNthCalledWith(1, 'character', 2, expect.any(AbortSignal))
+    expect(apiMocks.fetchApiResources).toHaveBeenNthCalledWith(1, 'episode', [1], expect.any(AbortSignal))
+    expect(apiMocks.fetchApiResource).toHaveBeenNthCalledWith(2, 'location', 3, expect.any(AbortSignal))
+    expect(apiMocks.fetchApiResources).toHaveBeenNthCalledWith(2, 'character', [1], expect.any(AbortSignal))
+    expect(apiMocks.fetchApiResource).toHaveBeenNthCalledWith(3, 'episode', 4, expect.any(AbortSignal))
+    expect(apiMocks.fetchApiResources).toHaveBeenNthCalledWith(3, 'character', [1, 2], expect.any(AbortSignal))
   })
 })

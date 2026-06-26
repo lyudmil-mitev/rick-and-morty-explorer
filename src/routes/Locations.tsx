@@ -1,5 +1,5 @@
 import { Link, useLoaderData } from "react-router-dom";
-import { Location } from "rickmortyapi";
+import type { Location } from "../rickmorty";
 import EmptyResults from "../components/EmptyResults";
 import FilterPanel, { FilterField } from "../components/FilterPanel";
 import LocationCard from "../components/LocationCard";
