@@ -73,6 +73,10 @@ npm run dataset:prepare
 
 That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built from the Rick and Morty API, then copies the CSVs and character images into `public/data/rick-and-morty/` so Vite serves them as static assets.
 
+`npm run dev` checks for those generated assets before starting Vite. If they are missing, it first tries to download a `.zip` dataset asset from the latest GitHub release, which works anonymously for public releases. You can override that URL with `DATASET_RELEASE_URL`.
+
+If the release download is unavailable, the script falls back to Kaggle. Kaggle downloads require `KAGGLE_USERNAME` and `KAGGLE_KEY` or `KAGGLE_API_TOKEN` to be set in your environment or in a local `.env` file.
+
 ## Setup
 
 To clone the application run:

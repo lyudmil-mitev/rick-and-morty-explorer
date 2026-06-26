@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm run dataset:prepare -- --if-missing && vite",
     "build": "tsc -b && vite build && cp -v dist/index.html dist/404.html",
     "dataset:prepare": "node scripts/prepare-kaggle-dataset.mjs",
     "dataset:kaggle": "npm run dataset:prepare",

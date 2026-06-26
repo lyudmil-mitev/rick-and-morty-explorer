@@ -6,6 +6,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const DATASET_SLUG = 'robbroadhead/rick-and-morty-api-dataset'
+const GITHUB_REPOSITORY = 'lyudmil-mitev/rick-and-morty-explorer'
 const REQUIRED_CSVS = [
   'characters.csv',
   'locations.csv',
@@ -19,43 +20,120 @@ const projectRoot = path.resolve(__dirname, '..')
 const options = parseArgs(process.argv.slice(2))
 const downloadDir = path.resolve(projectRoot, options.downloadDir)
 const publicDataDir = path.resolve(projectRoot, 'public/data/rick-and-morty')
-
-await rm(downloadDir, { recursive: true, force: true })
-await rm(publicDataDir, { recursive: true, force: true })
-await mkdir(downloadDir, { recursive: true })
-await mkdir(publicDataDir, { recursive: true })
-
-const kaggleUsername = process.env.KAGGLE_USERNAME?.trim() || await readDotEnvValue('KAGGLE_USERNAME')
-const kaggleKey = process.env.KAGGLE_KEY?.trim() || process.env.KAGGLE_API_TOKEN?.trim() || await readDotEnvValue('KAGGLE_KEY') || await readDotEnvValue('KAGGLE_API_TOKEN')
-
-if (!kaggleUsername || !kaggleKey) {
-  throw new Error('Set KAGGLE_USERNAME and KAGGLE_KEY before running dataset:prepare.')
-}
-
-await downloadDatasetArchive({ username: kaggleUsername, key: kaggleKey })
-
-for (const fileName of REQUIRED_CSVS) {
-  await copyRequired(path.join(downloadDir, fileName), path.join(publicDataDir, fileName))
-}
-
-const sourceImageDir = path.join(downloadDir, 'images', 'characters')
 const targetImageDir = path.join(publicDataDir, 'images', 'characters')
-await assertDirectory(sourceImageDir)
-await cp(sourceImageDir, targetImageDir, { recursive: true })
 
-const imageCount = await countFiles(targetImageDir)
-const manifest = {
-  dataset: DATASET_SLUG,
-  generatedAt: new Date().toISOString(),
-  cacheVersion: `${DATASET_SLUG}:${Date.now()}`,
-  files: REQUIRED_CSVS,
-  images: {
-    characters: imageCount,
-  },
+if (options.ifMissing && await hasPreparedDataset()) {
+  console.log(`Using existing ${DATASET_SLUG} dataset in ${path.relative(projectRoot, publicDataDir)}`)
+} else {
+  await prepareDataset()
 }
 
-await writeFile(path.join(publicDataDir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`)
-console.log(`Prepared ${DATASET_SLUG} in ${path.relative(projectRoot, publicDataDir)}`)
+async function prepareDataset() {
+  let releaseError = null
+
+  if (options.ifMissing) {
+    try {
+      await resetDatasetDirectories()
+      await downloadReleaseDatasetArchive()
+      await installDatasetFromDirectory(await findPreparedDatasetDirectory(downloadDir))
+      console.log(`Prepared ${DATASET_SLUG} from the latest GitHub release in ${path.relative(projectRoot, publicDataDir)}`)
+      return
+    } catch (error) {
+      releaseError = error
+      console.warn(`GitHub release dataset download failed: ${formatError(error)}`)
+    }
+  }
+
+  await resetDatasetDirectories()
+
+  const kaggleUsername = process.env.KAGGLE_USERNAME?.trim() || await readDotEnvValue('KAGGLE_USERNAME')
+  const kaggleKey = process.env.KAGGLE_KEY?.trim() || process.env.KAGGLE_API_TOKEN?.trim() || await readDotEnvValue('KAGGLE_KEY') || await readDotEnvValue('KAGGLE_API_TOKEN')
+
+  if (!kaggleUsername || !kaggleKey) {
+    const releaseMessage = releaseError ? ` Latest GitHub release fallback failed: ${formatError(releaseError)}.` : ''
+    throw new Error(`${releaseMessage} Set KAGGLE_USERNAME and KAGGLE_KEY before running dataset:prepare.`.trim())
+  }
+
+  await downloadKaggleDatasetArchive({ username: kaggleUsername, key: kaggleKey })
+  await installDatasetFromDirectory(downloadDir)
+  console.log(`Prepared ${DATASET_SLUG} in ${path.relative(projectRoot, publicDataDir)}`)
+}
+
+async function resetDatasetDirectories() {
+  await rm(downloadDir, { recursive: true, force: true })
+  await rm(publicDataDir, { recursive: true, force: true })
+  await mkdir(downloadDir, { recursive: true })
+  await mkdir(publicDataDir, { recursive: true })
+}
+
+async function installDatasetFromDirectory(sourceDataDir) {
+  for (const fileName of REQUIRED_CSVS) {
+    await copyRequired(path.join(sourceDataDir, fileName), path.join(publicDataDir, fileName))
+  }
+
+  const sourceImageDir = path.join(sourceDataDir, 'images', 'characters')
+  await assertDirectory(sourceImageDir)
+  await cp(sourceImageDir, targetImageDir, { recursive: true })
+
+  const imageCount = await countFiles(targetImageDir)
+  const manifest = {
+    dataset: DATASET_SLUG,
+    generatedAt: new Date().toISOString(),
+    cacheVersion: `${DATASET_SLUG}:${Date.now()}`,
+    files: REQUIRED_CSVS,
+    images: {
+      characters: imageCount,
+    },
+  }
+
+  await writeFile(path.join(publicDataDir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`)
+}
+
+async function hasPreparedDataset() {
+  try {
+    for (const fileName of [...REQUIRED_CSVS, 'manifest.json']) {
+      await assertFile(path.join(publicDataDir, fileName))
+    }
+
+    await assertDirectory(targetImageDir)
+    return await countFiles(targetImageDir) > 0
+  } catch {
+    return false
+  }
+}
+
+async function findPreparedDatasetDirectory(rootDirectory) {
+  const queue = [rootDirectory]
+
+  while (queue.length > 0) {
+    const currentDirectory = queue.shift()
+    if (await hasDatasetFiles(currentDirectory)) {
+      return currentDirectory
+    }
+
+    const entries = await readdir(currentDirectory, { withFileTypes: true })
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        queue.push(path.join(currentDirectory, entry.name))
+      }
+    }
+  }
+
+  throw new Error('Release archive does not contain the expected CSV files and images/characters directory.')
+}
+
+async function hasDatasetFiles(directory) {
+  try {
+    for (const fileName of REQUIRED_CSVS) {
+      await assertFile(path.join(directory, fileName))
+    }
+
+    await assertDirectory(path.join(directory, 'images', 'characters'))
+    return true
+  } catch {
+    return false
+  }
+}
 
 async function copyRequired(source, target) {
   await assertFile(source)
@@ -104,20 +182,64 @@ async function countFiles(directory) {
   return count
 }
 
-async function downloadDatasetArchive(credentials) {
-  const response = await fetch(`https://www.kaggle.com/api/v1/datasets/download/${DATASET_SLUG}`, {
+async function downloadReleaseDatasetArchive() {
+  const archiveUrl = await resolveReleaseDatasetArchiveUrl()
+  const archivePath = path.join(downloadDir, 'release-dataset.zip')
+
+  await downloadArchive(archiveUrl, archivePath)
+  await run('unzip', ['-q', archivePath, '-d', downloadDir], process.env)
+}
+
+async function resolveReleaseDatasetArchiveUrl() {
+  const configuredUrl = process.env.DATASET_RELEASE_URL?.trim() || await readDotEnvValue('DATASET_RELEASE_URL')
+  if (configuredUrl) {
+    return configuredUrl
+  }
+
+  const response = await fetch(`https://api.github.com/repos/${GITHUB_REPOSITORY}/releases/latest`, {
     headers: {
-      authorization: `Basic ${Buffer.from(`${credentials.username}:${credentials.key}`).toString('base64')}`,
+      accept: 'application/vnd.github+json',
+      'user-agent': 'rick-and-morty-explorer-dataset-prep',
     },
   })
 
   if (!response.ok) {
-    throw new Error(`Kaggle dataset download failed with ${response.status} ${response.statusText}`)
+    throw new Error(`GitHub latest release lookup failed with ${response.status} ${response.statusText}`)
   }
 
-  const archivePath = path.join(downloadDir, 'dataset.zip')
-  await writeFile(archivePath, Buffer.from(await response.arrayBuffer()))
+  const release = await response.json()
+  const assets = Array.isArray(release.assets) ? release.assets : []
+  const zipAssets = assets.filter((asset) => (
+    typeof asset.name === 'string' &&
+    typeof asset.browser_download_url === 'string' &&
+    asset.name.endsWith('.zip')
+  ))
+  const releaseAsset = zipAssets.find((asset) => /rick.*morty|dataset|data/i.test(asset.name)) ?? zipAssets[0]
+
+  if (!releaseAsset) {
+    throw new Error('Latest GitHub release does not include a .zip dataset asset.')
+  }
+
+  return releaseAsset.browser_download_url
+}
+
+async function downloadKaggleDatasetArchive(credentials) {
+  const archivePath = path.join(downloadDir, 'kaggle-dataset.zip')
+
+  await downloadArchive(`https://www.kaggle.com/api/v1/datasets/download/${DATASET_SLUG}`, archivePath, {
+    authorization: `Basic ${Buffer.from(`${credentials.username}:${credentials.key}`).toString('base64')}`,
+  })
   await run('unzip', ['-q', archivePath, '-d', downloadDir], process.env)
+}
+
+async function downloadArchive(url, archivePath, headers = {}) {
+  const response = await fetch(url, { headers })
+
+  if (!response.ok) {
+    throw new Error(`${url} failed with ${response.status} ${response.statusText}`)
+  }
+
+  await writeFile(archivePath, Buffer.from(await response.arrayBuffer()))
 }
 
 async function readDotEnvValue(key) {
@@ -150,6 +272,10 @@ function unquoteEnvValue(value) {
   return value
 }
 
+function formatError(error) {
+  return error instanceof Error ? error.message : String(error)
+}
+
 function run(command, args, env) {
   return new Promise((resolve, reject) => {
     const child = spawn(command, args, {
@@ -172,11 +298,14 @@ function run(command, args, env) {
 function parseArgs(args) {
   const parsed = {
     downloadDir: '.kaggle/rick-and-morty-api-dataset',
+    ifMissing: false,
   }
 
   for (const arg of args) {
     if (arg.startsWith('--download-dir=')) {
       parsed.downloadDir = arg.slice('--download-dir='.length)
+    } else if (arg === '--if-missing') {
+      parsed.ifMissing = true
     } else {
       throw new Error(`Unknown option: ${arg}`)
     }
