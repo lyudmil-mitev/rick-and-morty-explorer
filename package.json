@@ -1,7 +1,7 @@
 {
   "name": "rick-and-morty-explorer",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "scripts": {
     "dev": "npm run dataset:prepare -- --if-missing && vite",

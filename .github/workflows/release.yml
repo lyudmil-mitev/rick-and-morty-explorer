@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 jobs:
-  dataset:
-    name: Package dataset backup
+  release:
+    name: Package release assets
     runs-on: ubuntu-latest
 
     steps:
@@ -47,29 +47,39 @@ jobs:
           console.log(`Prepared details: ${details.counts.characters} characters, ${details.counts.locations} locations, ${details.counts.episodes} episodes`)
           NODE
 
+      - name: Build
+        run: npm run build
+
       - name: Package dataset
         run: |
           cd public/data
           zip -qr "$GITHUB_WORKSPACE/rick-and-morty-dataset-${GITHUB_REF_NAME}.zip" rick-and-morty
 
+      - name: Package build
+        run: |
+          cd dist
+          zip -qr "$GITHUB_WORKSPACE/rick-and-morty-build-${GITHUB_REF_NAME}.zip" .
+
       - name: Write release notes
         run: |
           cat > release-notes.md <<'EOF'
-          Dataset backup for Rick and Morty Explorer.
+          Release assets for Rick and Morty Explorer.
 
           Includes:
           - Base Kaggle API dataset CSVs and character images
           - Prepared detail JSON generated from the Fandom Wiki details Kaggle dataset
+          - Full production build from `npm run build`
           EOF
 
       - name: Publish release asset
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          asset="rick-and-morty-dataset-${GITHUB_REF_NAME}.zip"
+          dataset_asset="rick-and-morty-dataset-${GITHUB_REF_NAME}.zip"
+          build_asset="rick-and-morty-build-${GITHUB_REF_NAME}.zip"
 
           if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
-            gh release upload "$GITHUB_REF_NAME" "$asset" --clobber
+            gh release upload "$GITHUB_REF_NAME" "$dataset_asset" "$build_asset" --clobber
           else
-            gh release create "$GITHUB_REF_NAME" "$asset" --title "$GITHUB_REF_NAME" --notes-file release-notes.md --latest
+            gh release create "$GITHUB_REF_NAME" "$dataset_asset" "$build_asset" --title "$GITHUB_REF_NAME" --notes-file release-notes.md --latest
           fi
