@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npm run dataset:prepare -- --if-missing && vite",
     "build": "tsc -b && vite build && cp -v dist/index.html dist/404.html",
+    "assets:backgrounds": "node scripts/render-background-assets.mjs",
     "dataset:prepare": "node scripts/prepare-kaggle-dataset.mjs",
     "dataset:kaggle": "npm run dataset:prepare",
     "lint": "eslint .",
