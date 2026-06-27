@@ -8,7 +8,7 @@ const viewports = [
   { name: 'desktop', width: 1440, height: 900 },
 ] as const;
 const routes = [
-  { path: '/', readyHeading: 'Characters' },
+  { path: '/', readyHeading: 'Rick and Morty Explorer' },
   { path: '/characters', readyHeading: 'Characters' },
   { path: '/locations', readyHeading: 'Locations' },
   { path: '/episodes', readyHeading: 'Episodes' },

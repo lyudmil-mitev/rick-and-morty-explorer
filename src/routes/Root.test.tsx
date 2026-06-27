@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { render, screen, within } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 
 import Root from './Root';
 import { createMemoryRouter, RouterProvider } from 'react-router-dom';
@@ -26,6 +26,17 @@ describe('Root', () => {
             </RouterProvider>
         )
         expect(screen.getByRole('heading', { level: 1, name: 'Rick and Morty Explorer' })).toBeDefined();
+    });
+
+    it('should replay the banner title animation', async () => {
+        render(<RouterProvider router={router}></RouterProvider>)
+
+        const titleReplay = screen.getByRole('button', { name: 'Replay title animation' });
+
+        expect(titleReplay.getAttribute('data-title-zap-version')).toBe('0');
+
+        fireEvent.click(titleReplay);
+        expect(titleReplay.getAttribute('data-title-zap-version')).toBe('1');
     });
 
     it('should have characters', async () => {
@@ -57,6 +68,7 @@ describe('Root', () => {
         render(<RouterProvider router={router}></RouterProvider>)
         const mainNav = screen.getByRole('navigation', { name: 'Main sections' });
 
+        expect(within(mainNav).getByRole('link', { name: 'Home' }).getAttribute('href')).toBe('/');
         expect(within(mainNav).getByRole('link', { name: 'Characters' }).getAttribute('href')).toBe('/characters');
         expect(within(mainNav).getByRole('link', { name: 'Episodes' }).getAttribute('href')).toBe('/episodes');
         expect(within(mainNav).getByRole('link', { name: 'Locations' }).getAttribute('href')).toBe('/locations');
@@ -67,6 +79,7 @@ describe('Root', () => {
         render(<RouterProvider router={router}></RouterProvider>)
         const footerNav = screen.getByRole('navigation', { name: 'Footer navigation' });
 
+        expect(within(footerNav).getByRole('link', { name: 'Home' }).getAttribute('href')).toBe('/');
         expect(within(footerNav).getByRole('link', { name: 'Characters' }).getAttribute('href')).toBe('/characters');
         expect(within(footerNav).getByRole('link', { name: 'Episodes' }).getAttribute('href')).toBe('/episodes');
         expect(within(footerNav).getByRole('link', { name: 'Locations' }).getAttribute('href')).toBe('/locations');
