@@ -13,6 +13,7 @@ import EpisodeDetails from './routes/EpisodeDetails.tsx'
 import LocationDetails from './routes/LocationDetails.tsx'
 import ErrorPage from './routes/ErrorPage.tsx'
 import About from './routes/About.tsx'
+import HomeSplash from './routes/HomeSplash.tsx'
 
 const router = createBrowserRouter([
   {
@@ -22,8 +23,8 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Characters />,
-        loader: charactersLoader,
+        element: <HomeSplash />,
+        handle: { splash: true },
       },
       {
         path: '/characters',
