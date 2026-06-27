@@ -1,7 +1,7 @@
 {
   "dataset": "robbroadhead/rick-and-morty-api-dataset",
-  "generatedAt": "2026-06-27T00:54:57.231Z",
-  "cacheVersion": "robbroadhead/rick-and-morty-api-dataset:1782521697231",
+  "generatedAt": "2026-06-27T09:48:52.980Z",
+  "cacheVersion": "robbroadhead/rick-and-morty-api-dataset:1782553732980",
   "files": [
     "characters.csv",
     "locations.csv",
@@ -12,18 +12,8 @@
   "images": {
     "characters": 826
   },
-  "detailsSourceMaterial": {
-    "dataset": "robbroadhead/rick-and-morty-details-fandom-wiki-dataset",
-    "path": "details-source-material",
-    "files": [
-      "characters_source_material.csv",
-      "locations_source_material.csv",
-      "episodes_source_material.csv",
-      "sources.csv",
-      "manifest.json"
-    ]
-  },
   "details": {
+    "dataset": "robbroadhead/rick-and-morty-details-fandom-wiki-dataset",
     "path": "details",
     "files": [
       "characters/1.json",
