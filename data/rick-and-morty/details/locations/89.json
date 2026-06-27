@@ -1,0 +1,27 @@
+{
+  "id": 89,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Morty Smith (304-X)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Morty_Smith_(304-X)",
+  "text": "Mortimer \"Morty\" Smith (304-X) was an alternative version of Morty, he was also the son of a Jerry and Beth Smith, the step-son of Jerry Smith, the younger brother of Summer Smith, and the grandson of a Rick Sanchez, whom he left after Rick destroyed their world. In their new dimension, Morty became an oppressive dictator with his mother as his helper.\n\nSeveral years ago, Beth (35 years old) brought Morty (14 years old) and Summer (17 years old) to the Dimension 304-X by using his grandfather Rick's Portal gun. Their Rick had destroyed their world, so they had to escape him. When they entered their new world, Morty became a scientific genius, but instead he used it for personal purposes, such as his obsession with ridding the multiverse of Ricks.\n\nAt some point, he decided to seize power as dictator and never let it go, allowing it to corrupt him and drive him crazy. He created tools to look through realities, but not being able to travel there himself due to the low battery on the portal gun. This meant he had to find someone else who could travel between dimensions, Rick Sanchez from Dimension C-132. Morty set his scientists out to create a monster to kill all Ricks in all dimensions, but this drove him to a fight with Summer and Morty to leave him and Beth.",
+  "sources": [
+    {
+      "id": "locations-89-wiki",
+      "title": "Morty Smith (304-X)",
+      "url": "https://rickandmorty.fandom.com/wiki/Morty_Smith_(304-X)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-89-api",
+      "title": "Heistotron Base API record",
+      "url": "https://rickandmortyapi.com/api/location/89",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

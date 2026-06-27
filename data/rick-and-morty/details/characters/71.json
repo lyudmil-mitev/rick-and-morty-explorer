@@ -1,0 +1,27 @@
+{
+  "id": 71,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Conroy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Conroy",
+  "text": "Conroy is a series of robots owned by most aliens and humans, produced by the Galactic Federation to monitor you and help you. One of the Conroy robots is destroyed by Jerry Prime first appearance is in \"The Rickshank Rickdemption\"",
+  "sources": [
+    {
+      "id": "characters-71-wiki",
+      "title": "Conroy",
+      "url": "https://rickandmorty.fandom.com/wiki/Conroy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-71-api",
+      "title": "Conroy API record",
+      "url": "https://rickandmortyapi.com/api/character/71",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

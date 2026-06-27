@@ -1,0 +1,27 @@
+{
+  "id": 143,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glasses Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glasses_Morty",
+  "text": ":For the version in Pocket Mortys, see Specs Morty.\n\nGlasses Morty (aka Specs) is a version of Morty who wears glasses. He made his first official appearance as a supporting character in a quartet of other Mortys in the Season 3 episode, \"The Ricklantis Mixup\". He attends the Morty Academy, and is close friends with Left-Handed Morty, Lizard Morty, and formerly Slick Morty, before the latter supposedly committed suicide.\n\nLike the other Morty's, Glasses Morty is good-natured, kindhearted, and abnormally hormonal. He is also slightly more emotionally intelligent and understanding than other Mortys.",
+  "sources": [
+    {
+      "id": "characters-143-wiki",
+      "title": "Glasses Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Glasses_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-143-api",
+      "title": "Glasses Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/143",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

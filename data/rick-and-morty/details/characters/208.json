@@ -1,0 +1,27 @@
+{
+  "id": 208,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Logic",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Logic",
+  "text": "Logic is an American rapper, singer, songwriter and record rapper. He is best known for his work on Young Sinatra: Welcome to Forever and Everybody. In Rick and Morty, he is the voice of himself.",
+  "sources": [
+    {
+      "id": "characters-208-wiki",
+      "title": "Logic",
+      "url": "https://rickandmorty.fandom.com/wiki/Logic",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-208-api",
+      "title": "Logic API record",
+      "url": "https://rickandmortyapi.com/api/character/208",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

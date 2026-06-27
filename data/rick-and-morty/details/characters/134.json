@@ -1,0 +1,27 @@
+{
+  "id": 134,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Garmanarnar",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Garmanarnar",
+  "text": "Garmanarnar is mentioned in the episode \"Rixty Minutes\" as a recurring player on an alternate dimension's version of Saturday Night Live.",
+  "sources": [
+    {
+      "id": "characters-134-wiki",
+      "title": "Garmanarnar",
+      "url": "https://rickandmorty.fandom.com/wiki/Garmanarnar",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-134-api",
+      "title": "Garmanarnar API record",
+      "url": "https://rickandmortyapi.com/api/character/134",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

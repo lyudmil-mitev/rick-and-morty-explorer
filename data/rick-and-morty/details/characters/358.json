@@ -1,0 +1,27 @@
+{
+  "id": 358,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tophat Jones",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tophat_Jones",
+  "text": "Tophat Jones is a breakfast cereal mascot that appears in a commercial for Strawberry Smiggles in the episode \"Rixty Minutes\", and has since then made numerous appearances in Rick and Morty, along with the Strawberry Smiggles product itself. Jones is a parody of Lucky the Leprechaun, the mascot for Lucky Charms, and the Trix Rabbit, the mascot for Trix Cereal. In his first appearance, Rick and Morty are watching his commercial where Tophat Jones is eating Strawberry Smiggles to prevent anyone other than him having them, only for two kids to bound and disembowel him to eat the cereal with Morty distraught over how violent the commercial is.\n\nTophat Jones' selfishness and greed led to the dismemberment of his flesh and organs. It can be assumed that he was not a very good person outside from what we have seen of him either since he immediately saw demons during his death.",
+  "sources": [
+    {
+      "id": "characters-358-wiki",
+      "title": "Tophat Jones",
+      "url": "https://rickandmorty.fandom.com/wiki/Tophat_Jones",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-358-api",
+      "title": "Tophat Jones API record",
+      "url": "https://rickandmortyapi.com/api/character/358",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

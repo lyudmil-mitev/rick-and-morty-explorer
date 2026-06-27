@@ -1,0 +1,27 @@
+{
+  "id": 281,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Reverse Rick Outrage",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Reverse_Rick_Outrage",
+  "text": "Reverse Rick Outrage was a presidential candidate in the Citadel Election in \"The Ricklantis Mixup.\" His character is likely designed to resemble U.S. Senator and former presidential candidate Bernie Sanders.\n\nReverse Rick Outrage was one of the runners up for the President of The Citadel, he failing, like the other candidates and The Adjudicator, to take President Morty seriously in the campaign.\n\nAt some point, during the episode, he is killed on the orders of Evil Morty, with his lifeless body later being seen floating in space with other Ricks and Mortys ejected from the Citadel.",
+  "sources": [
+    {
+      "id": "characters-281-wiki",
+      "title": "Reverse Rick Outrage",
+      "url": "https://rickandmorty.fandom.com/wiki/Reverse_Rick_Outrage",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-281-api",
+      "title": "Reverse Rick Outrage API record",
+      "url": "https://rickandmortyapi.com/api/character/281",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

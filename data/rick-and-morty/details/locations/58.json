@@ -1,0 +1,27 @@
+{
+  "id": 58,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez (D-99)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D-99)",
+  "text": "Rick D-99 was a member of SEAL Team Ricks who was sent by the Citadel of Ricks to assassinate Rick Sanchez (C-137). He was clearly among the toughest and most dangerous Ricks as he was part of their elite assassination unit. His body was used by Rick C-137 in his elaborate plot to destroy the Galactic Federation. He was blown up when C-137 took control of a higher-class Rick and ordered another Rick to blow him up.",
+  "sources": [
+    {
+      "id": "locations-58-wiki",
+      "title": "Rick Sanchez (D-99)",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D-99)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-58-api",
+      "title": "Earth (D-99) API record",
+      "url": "https://rickandmortyapi.com/api/location/58",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 77,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Western Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Western_Morty",
+  "text": ", also known as Cowboy Morty, is a cowboy version of Morty who travels with his Rick on adventures and to The Citadel.\n\nThis Morty was born and raised in a cowboy dimension with his family and Rick. He often joined his Rick on visits to The Citadel, one of which coincided with the trial of Rick C-137. Morty took notice of his cowboy counterpart passing by, but his Rick dismissed it, saying Morty was easily impressed.\n\nHe appeared in a leaflet for Mortyism where he was sitting in the waiting room at a Morty hospital (St. Mortimers Hospital) and talking to other Mortys. While doing homework, his Rick had portaled him into a battle arena to fight a monster and had his left arm ripped off. He was then taught by Nurse Morty that Rick will leave him alone if he's busy masturbating. He quickly acted on this advice once his arm was reattached, only to return to the hospital later, but this time because of skin burns on his penis.\n\nHe also appeared in another leaflet where he had built a soapbox race car for the annual Morty Carlo Rally. Though it's not known shown how he placed in the race.",
+  "sources": [
+    {
+      "id": "characters-77-wiki",
+      "title": "Western Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Western_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-77-api",
+      "title": "Cowboy Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/77",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 300,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Roger",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Roger",
+  "text": "Roger was a member of the team working on Anatomy Park. He appears in the episode of the same name \"Anatomy Park\".\n\nRoger appeared to be the \"zoo keeper\" of Dr. Xenon Bloom's team at Anatomy Park, a theme park built inside a homeless man named Reuben. He also had a wife and children.\n\nRoger was part of a team investigating Anatomy Park after several deadly diseases escape their enclosures. The team, consisting of Roger, Dr. Xenon Bloom, Morty, Annie and Poncho, discover Reuben has tuberculosis and is dying. They escape from several diseases trying to kill them until they encounter a dam built inside Reuben's sphincter. The dam's collapse is imminent, so Roger stays behind to try and stop it whilst everyone else escapes. Roger is unsuccessful and attempts to save himself, but gets his leg stuck before he can do so.\n\nIn his final moments, Roger tells the group to tell his family that he loves them, but goes on a long ramble about the possibility of the group finding them with no details of their names or where they are. Ironically, this was time wasted Roger could've used to save himself. Ultimately, the dam collapses and Roger is killed by a wave of faeces, devastating Annie.\n\nLittle is known about Roger's personality due to his low screen time in his one and only appearance. From what was seen, Roger had at least a basic understanding of human anatomy and was presumably scientifically gifted to a degree, as he attempted to use a control panel to prevent the collapse of the sphincter dam. This also demonstrated his willingness to sacrifice himself for his team, as he stayed behind whilst the others escaped. Unfortunately, in turn, this also showed Roger to be somewhat incompetent at this. His leg became stuck and used vital seconds, which could have been used to free himself and escape, to instead ramble about the others finding his family without any details about their names. He also seemingly had a strong relationship with Annie, as whilst it was never shown on-screen, Annie appeared to be particularly exasperated about his death.",
+  "sources": [
+    {
+      "id": "characters-300-wiki",
+      "title": "Roger",
+      "url": "https://rickandmorty.fandom.com/wiki/Roger",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-300-api",
+      "title": "Roger API record",
+      "url": "https://rickandmortyapi.com/api/character/300",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

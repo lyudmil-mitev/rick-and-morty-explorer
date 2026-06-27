@@ -1,0 +1,27 @@
+{
+  "id": 357,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tommy's Clone",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tommy's_Clone",
+  "text": "{{SimilarName| |Thomas Lipnip}}\n\n is a genetic clone of Thomas \"Tommy\" Lipnip. He appeared in \"The ABC's of Beth\".\n\nThe original Thomas Lipnip was presumed dead, being killed and eaten by his father, Mr. Joseph Eli Lipnip. In actuality, Tommy was trapped in Froopyland by his childhood friend, Beth Smith. Years after the event, Joseph was on verge of being executed. Beth tried to patch up for her mistakes, but the original Tommy didn't want to leave Froopyland. She attempted to force him to return, though she quickly resorted to all-out bloodshed.\n\nBeth returned home and used the DNA of one of Tommy's severed fingers to create a genetic clone with the help of her father, Rick Sanchez. The clone was given all the memories and personality traits of the original Tommy, with a few exceptions to the reasons for his absence, so Beth could stay out of trouble. The duo returned Tommy to his home, with a shirt that said \"My Father Didn't Eat Me\". His mother recognized him as the original Tommy and was able to present him at the execution of his father, just in the nick of time. It is likely the clone of Tommy went onto live with Tommy's parents.\n\nIn \"Solaricks\", he is killed along with the entire human population of Dimension C-131 by Mr. Frundles. In the Parmesan Dimension, he is probably alive.",
+  "sources": [
+    {
+      "id": "characters-357-wiki",
+      "title": "Tommy's Clone",
+      "url": "https://rickandmorty.fandom.com/wiki/Tommy's_Clone",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-357-api",
+      "title": "Tommy's Clone API record",
+      "url": "https://rickandmortyapi.com/api/character/357",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

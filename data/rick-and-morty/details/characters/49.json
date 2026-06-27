@@ -1,0 +1,27 @@
+{
+  "id": 49,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Blamphs",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Blamphs",
+  "text": "Blamphs are an interdimensional alien species that appeared in the episode Interdimensional Cable 2: Tempting Fate . A group of them work in a factory, where they produce Plumbuses.",
+  "sources": [
+    {
+      "id": "characters-49-wiki",
+      "title": "Blamphs",
+      "url": "https://rickandmorty.fandom.com/wiki/Blamphs",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-49-api",
+      "title": "Blamph API record",
+      "url": "https://rickandmortyapi.com/api/character/49",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

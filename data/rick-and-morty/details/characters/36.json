@@ -1,0 +1,27 @@
+{
+  "id": 36,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Beta-Seven",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Beta-Seven",
+  "text": "Beta-Seven is a Hivemind who has a planet near Unity's Planet and trades with Unity as part of an alliance. Beta-Seven seems to want to be seen as more than an \"ally\" to Unity; when Beta-Seven first meets Rick, it appears to be jealous of his relationship with Unity, and begins stammering when Unity confronts it about screeching at Rick.\n\nIt is suggested that after Rick and Unity break up again. Rick grew depressed, and tried to kill himself. Beta-Seven now may have a closer relationship with Unity. In a post-credits scene Beta-Seven prevents Rick from seeing Unity, saying that Rick is classified as a hostile entity, and that Unity does not wish to speak with him.\n\nWhile Unity returns in Air Force Wong, Beta-Seven isn't mentioned implying that Unity broke up with it sometime later.",
+  "sources": [
+    {
+      "id": "characters-36-wiki",
+      "title": "Beta-Seven",
+      "url": "https://rickandmorty.fandom.com/wiki/Beta-Seven",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-36-api",
+      "title": "Beta-Seven API record",
+      "url": "https://rickandmortyapi.com/api/character/36",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

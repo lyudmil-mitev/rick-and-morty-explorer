@@ -1,0 +1,27 @@
+{
+  "id": 38,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Interdimensional Customs",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Interdimensional_Customs",
+  "text": "Intergalactic Customs is a location shown in the episode \"Pilot\".\n\nRick Sanchez and Morty Smith passed through customs on their way from Dimension 35-C to the Prime Dimension while smuggling Mega Seeds. Morty hid the seeds up his butt in order to pass through the scanners undetected, but Morty was randomly picked to go through a new machine which can detect stuff up someone's butt. The duo pushed away the guard and ran through the scanners. Security was quick to pursue them, but could not stop them before they reached a portal. While Rick typed in their coordinates, Morty covered him by shooting at the guards. He mortally wounded the guard Glenn before he and Rick escaped back to Earth.",
+  "sources": [
+    {
+      "id": "locations-38-wiki",
+      "title": "Interdimensional Customs",
+      "url": "https://rickandmorty.fandom.com/wiki/Interdimensional_Customs",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-38-api",
+      "title": "Interdimensional Customs API record",
+      "url": "https://rickandmortyapi.com/api/location/38",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

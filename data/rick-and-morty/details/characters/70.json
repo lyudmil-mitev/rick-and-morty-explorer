@@ -1,0 +1,27 @@
+{
+  "id": 70,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Concerto",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Concerto",
+  "text": "Concerto is a minor, one-time villain, who only appeared in the ending credits of \"Pickle Rick\" as well as in the theme song for Season 3. He is a music-related villain, who attempted to crush Rick and Morty with the hammers on a giant piano. He was killed by Jaguar before he could do any harm to Rick and Morty. He also killed 3 other people. He has piano teeth and piano hammer elbows.\n\nru:Концерто",
+  "sources": [
+    {
+      "id": "characters-70-wiki",
+      "title": "Concerto",
+      "url": "https://rickandmorty.fandom.com/wiki/Concerto",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-70-api",
+      "title": "Concerto API record",
+      "url": "https://rickandmortyapi.com/api/character/70",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

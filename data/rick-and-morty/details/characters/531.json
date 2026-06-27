@@ -1,0 +1,27 @@
+{
+  "id": 531,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tony (The Old Man and the Seat)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tony_(The_Old_Man_and_the_Seat)",
+  "text": "Tony is a character that appeared in The Old Man and the Seat. He is a fellow \"shy pooper\" who occupied an office cubicle before meeting Rick.\n\nAt some point before The Old Man and the Seat, Tony used Rick Sanchez's personal toilet. When Rick discovers that somebody had invaded his private space, he decides to track down the perpetrator and eventually finds Tony.\n\nTony proves to be a pleasant fellow with a chocolatey voice, and being a widower, unafraid of death. Tony's nonchalant attitude unsettles Rick, and he spares the creature's life, leaving behind a \"fart bomb\" as a warning.\n\nBut Tony is tempted back to Rick's safe space once again, and this time, unsettles Rick with his defiance, informing Rick that neither of them have any control over this particular domain, and even makes an allusion to Rick's mysterious ex-wife.\n\nRick, on the other hand, has laid a trap for Tony in his toilet, but is devastated to learn that Tony died while living life to the fullest, skiing down \"space Everest\". Rick's frictional friendship is over before he had the chance to fully reject it, and he returns to his peaceful squatting spot, now occupied by annoying Rick holograms, placed there to push away the only person in the galaxy who wanted to get to know him.\n\nWhile his wife was alive, he used to call her \"baby bee\" and she called him \"little mouse\". Tony became depressed after his wife died of cancer, feeling his life became hollow without her and did not resist when Rick said he had come to kill him. When Rick did not kill him, he became more of a friend towards Rick and wanted to help him. After Rick sent him into a simulation of heaven created by Tony's own mind, he became more optimistic about life and started living it to the fullest, which led to his death.",
+  "sources": [
+    {
+      "id": "characters-531-wiki",
+      "title": "Tony (The Old Man and the Seat)",
+      "url": "https://rickandmorty.fandom.com/wiki/Tony_(The_Old_Man_and_the_Seat)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-531-api",
+      "title": "Tony API record",
+      "url": "https://rickandmortyapi.com/api/character/531",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

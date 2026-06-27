@@ -1,0 +1,27 @@
+{
+  "id": 662,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gaia",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gaia",
+  "text": "Gaia is a sentient planet that Rick thought he impregnated.\n\nThough Gaia is a planet, she acts and has the personality of a standard yet emotional woman and communicates to Rick through earthquakes, which Rick can translate. Gaia seems to have an emotional attachments to Rick, whereas Rick does not reciprocate the same feelings. She showcases extreme care for her children, wanting them to have a father present in their lives.\n\nSome time before the events of \"Childrick of Mort\", Gaia had a relationship with Rick Sanchez and a \"Zeus\" named Reggie. The exact nature, length and timeline of the relationship with those two is unknown, but what is certain is that Gaia had sexual relations with both of them, leaving Gaia pregnant and emotionally attached to Rick. The relationships are severed by the end of the episode.",
+  "sources": [
+    {
+      "id": "characters-662-wiki",
+      "title": "Gaia",
+      "url": "https://rickandmorty.fandom.com/wiki/Gaia",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-662-api",
+      "title": "Gaia API record",
+      "url": "https://rickandmortyapi.com/api/character/662",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

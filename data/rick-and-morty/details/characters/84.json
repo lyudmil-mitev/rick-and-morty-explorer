@@ -1,0 +1,27 @@
+{
+  "id": 84,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cult Leader Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cult_Leader_Morty",
+  "text": "Cult Leader Morty is a character that appeared in the episode Close Rick-Counters of the Rick Kind. He is the leader of a cult of Mortys that are trapped in the dungeon of Evil Rick's torture chamber, and he awaits the arrival of a holy deity to come and save him. The cult is a religion called Mortyism.\n\nCult Leader Morty is one of the many Mortys that have been kidnapped by Evil Rick and held hostage on a Hideout Planet, where they are constantly tortured day in and day out. A large amount of the Mortys have read a book called The Good Morty, which tells them that there's a prophet called The One True Morty, that will one day come to rescue them from the dungeon. This has formed a cult, where they await the arrival of The One True Morty to save them. This specific Morty is the one who takes charge of everything, and is seen as the one who can deliver the word of The One True Morty, while they wait for him to arrive.",
+  "sources": [
+    {
+      "id": "characters-84-wiki",
+      "title": "Cult Leader Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Cult_Leader_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-84-api",
+      "title": "Cult Leader Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/84",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

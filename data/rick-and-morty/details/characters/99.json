@@ -1,0 +1,27 @@
+{
+  "id": 99,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Diseases",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Diseases",
+  "text": "Diseases are characters that are featured in the episode Anatomy Park. They are found inside the attraction also named Anatomy Park, inside the homeless man Ruben.",
+  "sources": [
+    {
+      "id": "characters-99-wiki",
+      "title": "Diseases",
+      "url": "https://rickandmorty.fandom.com/wiki/Diseases",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-99-api",
+      "title": "Hepatitis C API record",
+      "url": "https://rickandmortyapi.com/api/character/99",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

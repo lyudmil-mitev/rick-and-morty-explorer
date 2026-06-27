@@ -1,0 +1,27 @@
+{
+  "id": 564,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Talking Cat",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Talking_Cat",
+  "text": "The Talking Cat was a character featured in the fourth season episode \"Claw and Hoarder: Special Ricktim's Morty\".\n\nIn the beginning of the episode, the Talking Cat was discovered by Jerry in his bedroom. After asking the cat where it came from, it brushes the question aside and merely requests that Jerry take it to Florida. When Jerry inquires as to why, the cat merely states that it wants to have fun there. After it plays volleyball with some party-goers on a Florida beach, the cat poops in the sand and barely covers it up. When one of the party-goers steps in it, the cat quickly shifts the blame onto Jerry.\n\nAs the party continues onto a boat out in the ocean, the cat becomes puzzled as to why no one has commented on how it is able to speak and continually asks the party-goers if they are at all curious. This causes the cat to be thrown off the boat and it swims back to shore. After meeting back up with Jerry, the cat is picked up by Rick who drives them home. As they stop for a break, the cat is caught in a energy box by Rick who proceeds to start a mind scan on the cat to discover its origins. The cat begins to slightly panic and insists that it is simply from outer space and nothing more. This does not satisfy Rick or Jerry and they look through the vision goggles. The sounds of mass screams of terror can be heard, as Rick and Jerry viewed the cat's memories. Both are horrified by what they see with Jerry frantically crawling away to vomit several times and Rick nearly killing himself. The cat is set free and, when ordered to leave, protests that it has nowhere to go. Its pleas fall on deaf ears as both Rick and Jerry scream at it to go away. Dejected, the cat sadly walks off into the desert and Rick erases Jerry's memories of the event.\n\nLater, the cat encounters Balthromaw from earlier in the episode after he becomes tired of a man's company and roasts his car with fire. The dragon asks why it can speak, but the cat lowers its head and says the reason it can is shameful. After the dragon does not push the topic further, the cat asks how fast it can take them both to Florida.",
+  "sources": [
+    {
+      "id": "characters-564-wiki",
+      "title": "Talking Cat",
+      "url": "https://rickandmorty.fandom.com/wiki/Talking_Cat",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-564-api",
+      "title": "Talking Cat API record",
+      "url": "https://rickandmortyapi.com/api/character/564",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

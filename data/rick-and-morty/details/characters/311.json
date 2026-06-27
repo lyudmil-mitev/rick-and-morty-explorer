@@ -1,0 +1,27 @@
+{
+  "id": 311,
+  "status": "contextual_source",
+  "textType": "description",
+  "wikiTitle": "Shimshamians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shimshamians",
+  "text": "Shimshamians are three-eyed humanoid aliens in Rick and Morty, seen in the background among other aliens. This contextual species page supports the API record type and appearances, but does not identify this record as a distinct named individual.",
+  "sources": [
+    {
+      "id": "characters-311-api",
+      "title": "Shimshamian API record",
+      "url": "https://rickandmortyapi.com/api/character/311",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "characters-311-wiki-context",
+      "title": "Shimshamians",
+      "url": "https://rickandmorty.fandom.com/wiki/Shimshamians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "No individual character page found; use Shimshamians species page as contextual source."
+}

@@ -1,0 +1,27 @@
+{
+  "id": 518,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Wasp Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Wasp_Morty",
+  "text": "Wasp Morty is an alternate version of Morty Smith who live in the Wasp Universe.\n\nWasp Rick, after Rick C-137's appearance in his garage and doing a nervous \"heil wasp Hitler\", mentioned how Morty had been on some crazy message boards and asked Rick to drop the \"Hitler-stuff\". The Smith family gathered around the dinner table and ate Caterpillar Mr. Goldenfold with the newly arrived Rick C-137. Morty ate a couple of Goldenfold's side eyes and some intestants before Wasp Rick asked Beth if he could borrow his grandson to help their guest return to his reality. Morty was then asked by his mother if he had completed his homework, which he had not, so Rick could not borrow him after all. Goldenfold then produced three baby caterpillars, which Morty called \"Bonus\" and ate whole.\n\nJust like his human counterparts, Wasp Morty is a teenage boy who seems to have anxiety problems and may not be very intelligent. The notable differences between this Morty and others is that he's a wasp and has wasp like instincts like hunting for insects and eating them alive, or stinging people. In this universe the Smith family doesn't seem dysfunctional, a given example is when Wasp Rick called his whole family \"Beautiful\" or when he asked Beth if he could use Morty to bring Rick C-137 back to his reality instead of forcing him.",
+  "sources": [
+    {
+      "id": "characters-518-wiki",
+      "title": "Wasp Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Wasp_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-518-api",
+      "title": "Wasp Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/518",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 425,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pizza Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pizza_Universe",
+  "text": "The Pizza Universe is a dimension where Pizza and Humans are in the opposite roles than they are in the real world.",
+  "sources": [
+    {
+      "id": "characters-425-wiki",
+      "title": "Pizza Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Pizza_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-425-api",
+      "title": "Pizza-person API record",
+      "url": "https://rickandmortyapi.com/api/character/425",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

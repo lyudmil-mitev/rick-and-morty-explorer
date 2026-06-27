@@ -1,0 +1,27 @@
+{
+  "id": 230,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Morty Jr.",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Morty_Jr.",
+  "text": ":For the version in Pocket Mortys, see Morty Jr. (Pocket Mortys). For the version from the episode Morty Daddy, see Morty Jr. (Parmesan Dimension).\n\nMortimer \"Morty\" Smith Jr. from Dimension C-131 is Morty Smith's son. He was conceived by Morty and a Gazorpian sex robot named Gwendolyn in the episode \"Raising Gazorpazorp.\" Morty Jr. grew from an infant to a full adult at a hyper-increased rate, allowing him to quickly outgrow his father.\n\nBeing half-Gazorpian, Morty Jr. is prone to violence and destruction and has a difficult time fending off these urges. While he has the human tendencies to listen and be non-violent, his Gazorpian genetics influence him to seek out destruction and death. After being swayed with words, he decides to be a creative type and later channels his destructive nature in writing.\n\nPost-credits, an aged Morty Jr. has an interview about a book he wrote, \"My Horrible Father\". Becoming much calmer and suppressing his Gazorpian urges to kill and conquer, Morty Jr. expresses a cynic and dark view of his childhood, criticizing his father Morty for raising him imprisoned, even though he knew of his own violent and sadistic senses and would have most likely killed many innocent people if he had not changed.",
+  "sources": [
+    {
+      "id": "characters-230-wiki",
+      "title": "Morty Jr.",
+      "url": "https://rickandmorty.fandom.com/wiki/Morty_Jr.",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-230-api",
+      "title": "Morty Jr. API record",
+      "url": "https://rickandmortyapi.com/api/character/230",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

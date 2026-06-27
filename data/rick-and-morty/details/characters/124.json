@@ -1,0 +1,27 @@
+{
+  "id": 124,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Father Bob",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Father_Bob",
+  "text": "Father Bob is the priest at the town Church. He appeared in the episodes \"Get Schwifty\" and \"Rest and Ricklaxation\". In \"Get Schwifty\", he was giving a sermon to everyone in the city, helping them cope with the Cromulon head, confronting the Earth.",
+  "sources": [
+    {
+      "id": "characters-124-wiki",
+      "title": "Father Bob",
+      "url": "https://rickandmorty.fandom.com/wiki/Father_Bob",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-124-api",
+      "title": "Father Bob API record",
+      "url": "https://rickandmortyapi.com/api/character/124",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

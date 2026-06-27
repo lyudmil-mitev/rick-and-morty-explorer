@@ -1,0 +1,27 @@
+{
+  "id": 100,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Story Lord",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Story_Lord",
+  "text": "Story Lord is an extradimensional recurring antagonist in the adult-animated science-fiction series Rick and Morty.\n\nStory Lord was the conductor of the Story Train and the main antagonist of the episode \"Never Ricking Morty\". He also sets the events of \"Full Meta Jackrick\" into motion by sending Previous Leon to lure Rick Sanchez into the Meta Reality. He possesses story-based powers, is one of Rick's few enemies shown to be capable of traversing dimensions, and is the only antagonist exhibited to share Rick's meta knowledge in some degree.",
+  "sources": [
+    {
+      "id": "locations-100-wiki",
+      "title": "Story Lord",
+      "url": "https://rickandmorty.fandom.com/wiki/Story_Lord",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-100-api",
+      "title": "Ricks’s Story API record",
+      "url": "https://rickandmortyapi.com/api/location/100",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

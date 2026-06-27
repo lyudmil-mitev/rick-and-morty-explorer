@@ -1,0 +1,27 @@
+{
+  "id": 95,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dipper and Mabel Mortys",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dipper_and_Mabel_Mortys",
+  "text": "The Dipper and Mabel Mortys are alternate versions of Morty Smith, modeled after the characters Dipper and Mabel Pines from the show Gravity Falls, voiced by Kristen Schaal and Jason Ritter. They appeared in the Citadel of Ricks in the episode \"The Rickshank Rickdemption\", when Morty is explaining The Citadel to Summer.\n\nIn the same episode, many Mortys are killed when the Citadel of Ricks is transported into a prison of the Galactic Federation, it is unknown if Dipper and Mabel Mortys are some of the Mortys who died.",
+  "sources": [
+    {
+      "id": "characters-95-wiki",
+      "title": "Dipper and Mabel Mortys",
+      "url": "https://rickandmorty.fandom.com/wiki/Dipper_and_Mabel_Mortys",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-95-api",
+      "title": "Dipper and Mabel Mortys API record",
+      "url": "https://rickandmortyapi.com/api/character/95",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

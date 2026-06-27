@@ -1,0 +1,27 @@
+{
+  "id": 172,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Jamey",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Jamey",
+  "text": "Jamey is a military flight attendant that appeared in the episode Get Schwifty. He helped Rick and Morty out of the helicopter and to their performance for the Cromulons at the sonic testing facility in Area 51.",
+  "sources": [
+    {
+      "id": "characters-172-wiki",
+      "title": "Jamey",
+      "url": "https://rickandmorty.fandom.com/wiki/Jamey",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-172-api",
+      "title": "Jamey API record",
+      "url": "https://rickandmortyapi.com/api/character/172",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

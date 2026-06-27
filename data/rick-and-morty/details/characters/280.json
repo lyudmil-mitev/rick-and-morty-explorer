@@ -1,0 +1,27 @@
+{
+  "id": 280,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Reverse Giraffe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Reverse_Giraffe",
+  "text": "Reverse Giraffe is a false character portrayed by the shape-shifting Memory Parasites.\n\nReverse Giraffe was one of the many Alien Parasites who invaded the Smith house and implanted false memories into the family's minds. He first appears in a false memory of a barbecue, created by Sleepy Gary in the mind of Rick Sanchez. This prompts him to show up in the Smith house as a \"real\" character, along with countless others.\n\nAfter Rick refuses to open the blast shield doors keeping everyone inside the house, he is subdued by two other false characters and begins loudly questioning whether or not everyone else on Earth is real. Reverse Giraffe interrupts and introduces himself to everyone before accusing Rick of being a false character himself. Reverse Giraffe claimed that he went to college with Hamurai, saved Ghost in a Jar's life in Vietnam, and has been a shoulder for Beth Smith to cry on. His plan seems to work at first as everyone, even Beth and Morty Smith, starts questioning Rick's authenticity and prepares to execute him.\n\nAfter Rick and Morty discover the parasites' weakness, they arm themselves and proceed to kill all the false characters in the house. Rick personally chases Reverse Giraffe into the kitchen for revenge for turning his family on him and coldly shoots him in the back as he tries to flee, killing him instantly.\n\nReverse Giraffe is an eloquent speaker, easily capable of making convincing arguments. This is exemplified by his ability to make even Morty and Beth speculate over whether or not Rick is a parasite.\n\nHe is also a loyal friend to the other residents of the house, as he cites several instances where he acted selflessly for his friends (such as saving Ghost in a Jar's life in Vietnam and being \"a shoulder\" for Beth to cry on). However, these memories are obviously false so as to deceive the Smiths into accepting him further.",
+  "sources": [
+    {
+      "id": "characters-280-wiki",
+      "title": "Reverse Giraffe",
+      "url": "https://rickandmorty.fandom.com/wiki/Reverse_Giraffe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-280-api",
+      "title": "Reverse Giraffe API record",
+      "url": "https://rickandmortyapi.com/api/character/280",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

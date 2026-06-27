@@ -1,0 +1,27 @@
+{
+  "id": 75,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Arboles Mentirosos",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Arboles_Mentirosos",
+  "text": "Arboles Mentirosos is a currently destroyed planet that appeared in the episode \"Get Schwifty\". It was home to a species called Arbolian Mentirososians who had their planet featured on the in-series TV show Planet Music. They were then disqualified and their planet was destroyed.",
+  "sources": [
+    {
+      "id": "locations-75-wiki",
+      "title": "Arboles Mentirosos",
+      "url": "https://rickandmorty.fandom.com/wiki/Arboles_Mentirosos",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-75-api",
+      "title": "Árboles Mentirosos API record",
+      "url": "https://rickandmortyapi.com/api/location/75",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

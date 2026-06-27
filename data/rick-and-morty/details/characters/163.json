@@ -1,0 +1,27 @@
+{
+  "id": 163,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Ideal Jerry",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Ideal_Jerry",
+  "text": "Ideal Jerry is one of the Mythologs of Jerry Smith. He appeared in the episode \" Big Trouble In Little Sanchez\".\nIdeal Jerry was created by the Mytholog helmet whilst it was worn by Beth. Sinc e it creates Mythologs b a s e d o n someone's perception of their partner, it created Ideal Jerry after Beth saw the original Jerry acting heroic.\n\nSince Ideal Jerry was based on Beth's perception of a heroic Jerry Smith, he was created to be extremely brave and courageous, as well as an excellent fighter. As soon as he is created, he kills one of Jerry's original worm-like Mythologs and makes a quip.",
+  "sources": [
+    {
+      "id": "characters-163-wiki",
+      "title": "Ideal Jerry",
+      "url": "https://rickandmorty.fandom.com/wiki/Ideal_Jerry",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-163-api",
+      "title": "Ideal Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/163",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

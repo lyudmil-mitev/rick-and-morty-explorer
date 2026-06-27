@@ -1,0 +1,27 @@
+{
+  "id": 81,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Crocubot",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Crocubot",
+  "text": "Crocubot is a superhero and a member of The Vindicators who first appeared in Vindicators 3: The Return of Worldender\n\nLittle is known about Crocubot's past. He has some sort of tragic backstory, as all of the members of the Vindicators have one. At some point he teamed up with Rick and Morty in the past. Eventually, he goes with the team to defeat Worldender. He doesn't end up doing much, as Rick had destroyed Worldender the night before in a drunken spree. This causes all of the Vindicators to be stuck in a parody of Saw.\n\nIn the second challenge, Rick wants the Vindicators (who SAY their job is to fight evil WHEREVER it hides) to acknowledge the location they'll never mention (because to fight darkness is to fight yourself) and Crocubot thinks it's Dorian 5, as that's where they destroyed an entire planet to get rid of one of their enemies. He was wrong (the correct answer was Israel) and so he ends up being smashed to death by a giant pair of metallic jaw-like platforms.",
+  "sources": [
+    {
+      "id": "characters-81-wiki",
+      "title": "Crocubot",
+      "url": "https://rickandmorty.fandom.com/wiki/Crocubot",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-81-api",
+      "title": "Crocubot API record",
+      "url": "https://rickandmortyapi.com/api/character/81",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

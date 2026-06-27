@@ -1,0 +1,27 @@
+{
+  "id": 31,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dimension J19ζ7",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dimension_J19%CE%B67",
+  "text": "{{Location\n|image =\n|name =\n|type = Dimension\n|owner = Doofus Jerry (former)\n|first = Close Rick-counters of the Rick Kind (mentioned) There's Something About Morty\n}}\nDimension J19ζ7 (Jay-Nineteen-Zeta-Seven) is the universe where Doofus Rick and Doofus Jerry come from.",
+  "sources": [
+    {
+      "id": "locations-31-wiki",
+      "title": "Dimension J19ζ7",
+      "url": "https://rickandmorty.fandom.com/wiki/Dimension_J19%CE%B67",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-31-api",
+      "title": "Earth (J19ζ7) API record",
+      "url": "https://rickandmortyapi.com/api/location/31",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

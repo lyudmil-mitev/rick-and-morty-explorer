@@ -1,0 +1,27 @@
+{
+  "id": 72,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Phone Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Phone_Universe",
+  "text": "The Phone Universe is an alternate reality where phones are sentient beings who use pizzas as furniture, eat furniture for sustenance and use people as phones.\n\nIn \"Rixty Minutes\" a Michael Jackson video of \"Thriller\" featuring phone people appears in one of the channels Rick flips through.\n\nIn \"Close Rick-Counters of the Rick Kind\" Rick and Morty run through it as they're pursued by the Council of Ricks.\n\nDuring the memory flashback featured in \"Rickmurai Jack\" it is confirmed that the Phone Universe was an early (possibly even the first) dimension explored by Rick C-137 on his journey to find the alternate Rick who was responsible for the untimely deaths of his family.",
+  "sources": [
+    {
+      "id": "locations-72-wiki",
+      "title": "Phone Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Phone_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-72-api",
+      "title": "Earth (Phone Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/72",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

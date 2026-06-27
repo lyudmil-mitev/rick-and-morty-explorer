@@ -1,0 +1,27 @@
+{
+  "id": 10,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Venzenulon 7",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Venzenulon_7",
+  "text": "Venzenulon 7 is a planet in the Venzenulon planetary system. It orbits its star at a distance which makes it able to sustain life and water. It hold a very similar appearance to Venzenulon 9, but does not experience the extreme night cold found on Venzenulon 9.\n\nThe planet is inhabited by a race of blue- and yellow-colored birds and a large woolly race of creatures, one of which was named Beebo. The planet appears mountainous, with grass covering most flat surfaces. Bushes and trees can also be seen here, while the animal population appears low.\n\nIn \"Morty's Mind Blowers\", Morty sees a memory where he and Rick were stuck in this planet, but Rick was convinced they were on Venzenulon 9. As night fell, Rick began panicking due to the extreme night cold on Venzenulon 9, leading him to kill Beebo and use its body for shelter. Soon after, Rick realized they were in fact on Venzenulon 7 and not in any danger.",
+  "sources": [
+    {
+      "id": "locations-10-wiki",
+      "title": "Venzenulon 7",
+      "url": "https://rickandmorty.fandom.com/wiki/Venzenulon_7",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-10-api",
+      "title": "Venzenulon 7 API record",
+      "url": "https://rickandmortyapi.com/api/location/10",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

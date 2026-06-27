@@ -1,0 +1,27 @@
+{
+  "id": 328,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Slow Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Slow_Rick",
+  "text": "(also known as \"Tall Morty\", as he is called by Teacher Rick) is a version of Rick Sanchez that lives in the The Citadel. He is shown being educated at the Morty Academy during the episode \"The Ricklantis Mixup.\"\n\nSlow Rick, Tall Morty, is much kinder than most Ricks. He is in the Morty School in The Citadel with many Mortys as his classmates. Slow Rick, staters when speaking like most Mortys",
+  "sources": [
+    {
+      "id": "characters-328-wiki",
+      "title": "Slow Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Slow_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-328-api",
+      "title": "Slow Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/328",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

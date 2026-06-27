@@ -1,0 +1,27 @@
+{
+  "id": 533,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Monogatron Queen",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Monogatron_Queen",
+  "text": "The Monogatron Queen is the wife of the High Intern who appears in the episode \"The Old Man and the Seat\".\n\nThe Monogatron Queen with the Monogatrons create the Lovefinderrz app to distract the people on Earth and steal their water supply due to human’s failure to master love. She loves to listen to podcasts and fight with her husband. Later on, the Monogatron Queen argues with her husband about their plan and his water tubes plugged into his back as they get divorced.",
+  "sources": [
+    {
+      "id": "characters-533-wiki",
+      "title": "Monogatron Queen",
+      "url": "https://rickandmorty.fandom.com/wiki/Monogatron_Queen",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-533-api",
+      "title": "Monogatron Queen API record",
+      "url": "https://rickandmortyapi.com/api/character/533",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

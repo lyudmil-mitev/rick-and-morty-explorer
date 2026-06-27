@@ -1,0 +1,27 @@
+{
+  "id": 433,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Doopidoo Dimension",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Doopidoo_Dimension",
+  "text": "The Doopidoo dimension is a dimension that Rick and Morty pass through while pursued by the Council of Ricks in \"Close Rick-counters of the Rick Kind.\"",
+  "sources": [
+    {
+      "id": "characters-433-wiki",
+      "title": "Doopidoo Dimension",
+      "url": "https://rickandmorty.fandom.com/wiki/Doopidoo_Dimension",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-433-api",
+      "title": "Doopidoo API record",
+      "url": "https://rickandmortyapi.com/api/character/433",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

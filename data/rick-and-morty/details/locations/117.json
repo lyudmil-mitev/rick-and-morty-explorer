@@ -1,0 +1,27 @@
+{
+  "id": 117,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rickipedia",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rickipedia",
+  "text": "-----\n This wiki is a non-affiliated and fan-oriented website for archival and informational purposes only. Rick and Morty is a registered trademark of The Cartoon Network, Inc. and Warner Bros. Entertainment Inc.\n__NOTOC__\n__NOEDITSECTION__\nde:\nes:\nfr:\nit:\npl:\nuk:\nzh:\nru:",
+  "sources": [
+    {
+      "id": "locations-117-wiki",
+      "title": "Rickipedia",
+      "url": "https://rickandmorty.fandom.com/wiki/Rickipedia",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-117-api",
+      "title": "Z. Q. P. D. API record",
+      "url": "https://rickandmortyapi.com/api/location/117",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 480,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Purple Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Purple_Morty",
+  "text": "{{Character\n|name =\n|image = Purple boi.PNG\n|species = Unknown\n|age = 14\n|status = Alive\n|job = Janitor at the Morty Mart\n|affiliation = Morty Mart The Citadel\n|first = The Ricklantis Mixup\n|voice actor = Justin Roiland}}\n\n is an alien-like version of Morty who works at the local Morty Mart and owns a blog.\n\nThis Morty worked as a cleaner, or perhaps a trainee, at the local Morty Mart in the Mortytown district of The Citadel. A robbery happened, presumably during his shift, where the Mortytown Locos held Morty Mart Manager Morty at gunpoint while stealing money from the store. They were later visited by Cop Rick and Cop Morty, interviewing the manager about the robbery. got offended when the manager described the robbers as \"normal Mortys\", who also told him to vent his irritation on his blog rather than on his boss.",
+  "sources": [
+    {
+      "id": "characters-480-wiki",
+      "title": "Purple Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Purple_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-480-api",
+      "title": "Purple Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/480",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 42,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The President (Ice Cream Universe)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_President_(Ice_Cream_Universe)",
+  "text": "While most known dimensions have Andre Curtis as the President of the United States, “The Ricks Must Be Crazy” features a different President from an alternate Earth that is home to Giant Telepathic Spiders.\n\nFollowing the protocol of “keep summer safe”, the Space Cruiser killed a pediatrician and paralyzed his friend, both for approaching the car. The police tried to intervene, but were stopped after the ship scared them. This resulted in the military getting involved.\n\nTo solve the situation without using physical or psychological methods, the ship contacted a representative of the Giant Telepathic Spiders and the President, and convinced them to form a peace agreement. The President made a public announcement about this decision, stating that the government will stop bombing the spiders, and the latter will stop consuming humans. He also pardoned the Space Cruiser and told the military to leave it alone.",
+  "sources": [
+    {
+      "id": "locations-42-wiki",
+      "title": "The President (Ice Cream Universe)",
+      "url": "https://rickandmorty.fandom.com/wiki/The_President_(Ice_Cream_Universe)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-42-api",
+      "title": "Earth (Giant Telepathic Spiders Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/42",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 310,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Self-Congratulatory Jerry",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Self-Congratulatory_Jerry",
+  "text": "is one of the mythologs of Jerry Smith. He appears in the episode \"Big Trouble In Little Sanchez\". When Jerry says \"Beth, it's me, your husband. I'm here to save you, or my name isn't Jerry Smith!\" Beth's new mental image of egocentric Jerry comes marching out of the mytholog machine.",
+  "sources": [
+    {
+      "id": "characters-310-wiki",
+      "title": "Self-Congratulatory Jerry",
+      "url": "https://rickandmorty.fandom.com/wiki/Self-Congratulatory_Jerry",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-310-api",
+      "title": "Self-Congratulatory Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/310",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

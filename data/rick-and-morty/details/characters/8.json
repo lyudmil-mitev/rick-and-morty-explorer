@@ -1,0 +1,27 @@
+{
+  "id": 8,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Adjudicator Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Adjudicator_Rick",
+  "text": "to Candidate Morty}}\n was the adjudicator at the first presidential debate at The Citadel.\n\n along with other Ricks in the crowd were judging the candidates for the next President of The Citadel. It was shown that he didn't take President Morty very seriously and neither did the other candidates. He mocked Candidate Morty while asking his question, to the entertainment of both the Rick audience and the Rick candidates. His reaction after Candidate Morty's answer is not known, but presumed to be equal to that of the other candidates, who did not join the audience in cheering.\n\nHis disrespect towards Candidate Morty would soon come back to bite him when Candidate Morty became President Morty. After seizing control of The Citadel, the new president ordered the arrest and assassination of a number of Ricks and Mortys he felt wronged by. was one of them, and he was soon arrested and/or killed by the Guard Ricks. His lifeless body was later dumped into space along with a great amount of other dead Ricks and Mortys.",
+  "sources": [
+    {
+      "id": "characters-8-wiki",
+      "title": "Adjudicator Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Adjudicator_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-8-api",
+      "title": "Adjudicator Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/8",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

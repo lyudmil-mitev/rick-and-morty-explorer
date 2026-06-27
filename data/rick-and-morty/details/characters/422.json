@@ -1,0 +1,27 @@
+{
+  "id": 422,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Plutonian",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Plutonian",
+  "text": "Plutonians are the people of Pluto. Their first notable appearance is in \"Something Ricked This Way Comes\". However, they appear multiple times in \"M. Night Shaym-Aliens!\", presumably as test subjects for the Zigerion simulations. Delusional against the fact that their planet is fine and not getting smaller or mined from the inside, but in fact it is getting smaller because of the mining tunnels that harvest the Plutonians planet.",
+  "sources": [
+    {
+      "id": "characters-422-wiki",
+      "title": "Plutonian",
+      "url": "https://rickandmorty.fandom.com/wiki/Plutonian",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-422-api",
+      "title": "Rich Plutonian API record",
+      "url": "https://rickandmortyapi.com/api/character/422",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

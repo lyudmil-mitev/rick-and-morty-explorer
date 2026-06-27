@@ -1,0 +1,27 @@
+{
+  "id": 385,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Yellow Shirt Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Yellow_Shirt_Rick",
+  "text": "Yellow Shirt Rick is a Rick that wears a yellow shirt instead of the blue shirt commonly worn by Ricks. He is paired with Blue Shirt Morty; both of whom are similar to the originals, as only the colors of their shirts are swapped.\n\nHe first appears in the episode Close Rick-Counters of the Rick Kind, where he is standing around with his Morty and talking with a Guard Rick. The captured mainline Rick and Morty are escorted past them on their way to the Council of Ricks. He was not present at the trial.\n\nYellow Shirt Rick was part of the Season 2 opening sequence, getting disintegrated by a machine.\n\nRick's backstory of Rickmurai Jack shows what seems to be Yellow Shirt Rick getting killed by Rick C-137.",
+  "sources": [
+    {
+      "id": "characters-385-wiki",
+      "title": "Yellow Shirt Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Yellow_Shirt_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-385-api",
+      "title": "Yellow Shirt Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/385",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

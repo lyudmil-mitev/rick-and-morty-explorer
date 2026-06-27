@@ -1,0 +1,27 @@
+{
+  "id": 486,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Living Room",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Living_Room",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-486-wiki",
+      "title": "Living Room",
+      "url": "https://rickandmorty.fandom.com/wiki/Living_Room",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-486-api",
+      "title": "Tan Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/486",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

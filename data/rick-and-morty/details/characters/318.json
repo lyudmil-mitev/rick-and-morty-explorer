@@ -1,0 +1,27 @@
+{
+  "id": 318,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shmlony Shmlicelli",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shmlony_Shmlicelli",
+  "text": "Shmlony Shmlicelli is a character who appeared in the episode \"Rixty Minutes\". He is a character from the series Shmlo's the Shmloss?, an alternate version of Who's the Boss?. He is a parody on Tony Micelli. He comes from an alternate dimension where all nouns have been replaces with the \"Shml\" prefix.",
+  "sources": [
+    {
+      "id": "characters-318-wiki",
+      "title": "Shmlony Shmlicelli",
+      "url": "https://rickandmorty.fandom.com/wiki/Shmlony_Shmlicelli",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-318-api",
+      "title": "Shmlony Shmlicelli API record",
+      "url": "https://rickandmortyapi.com/api/character/318",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

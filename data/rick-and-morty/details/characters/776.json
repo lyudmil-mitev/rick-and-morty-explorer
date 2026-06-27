@@ -1,0 +1,27 @@
+{
+  "id": 776,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gotron Jerrysis Rickvangelion",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gotron_Jerrysis_Rickvangelion",
+  "text": "\"Gotron Jerrysis Rickvangelion\" is the seventh episode of the fifth season of Rick and Morty, and the 48th episode of the series overall. It premiered on August 1, 2021. It was written by John Harris and directed by Jacob Hair. The episode is rated TV-14-DLV.",
+  "sources": [
+    {
+      "id": "characters-776-wiki",
+      "title": "Gotron Jerrysis Rickvangelion",
+      "url": "https://rickandmorty.fandom.com/wiki/Gotron_Jerrysis_Rickvangelion",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-776-api",
+      "title": "Gotron Pilot API record",
+      "url": "https://rickandmortyapi.com/api/character/776",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

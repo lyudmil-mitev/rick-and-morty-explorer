@@ -1,0 +1,27 @@
+{
+  "id": 633,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Story Train",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Story_Train",
+  "text": "The Story Train is a huge spacefaring train that appears to be able to portal through space and possibly through stories. The train is conducted by Story Lord. Some of the events and \"stories\" that occur due to the train's power or Story Lord's power may be non-canon.\n\nThe Story Train has also appeared as a multitude of toys manufactured and stored by Citadel Toyz LLC. Morty bought one of these Story Trains at the Citadel, Rick has advertised them, and they appeared as part of Story Lord's motivation siphoning array. Even as a toy, they seem to be a component of Story Lord's power.\n\nThe Story Train first appeared in Never Ricking Morty, flying through space, and filled with an eclectic cast of characters throughout its cars. It was used by Story Lord, who trapped Rick and Morty inside a tangle of narratives related to the duo. Rick and Morty manage to utilize the anthological powers of the train to attempt to escape, eventually arriving at the engine where they confront Story Lord. By the end of the battle. Rick traps Story Lord himself within the train with Jesus Christ, while Morty provides the narrative that he bought the train from a store on the Citadel, reducing it to a cheap toy in the living room of the Smith Residence. It then toy-crashes as a result of Story Lord soliciting Jesus' power.\n\nThe Story Train returns in its toy form in Full Meta Jackrick, as Story Lord escapes Meta Reality and follows the toy box's address to Citadel Toyz LLC., who created the Story Train and Story Lord. Several unsold Story Trains are stacked within the Citadel Toyz office, and later, Story Lord will build his motivation siphoning array within a warehouse containing Story Trains, with Story Trains also shunting around on the array. After defeating Story Lord between their two toy warehouses, Rick Sanchez would then burn down the Story Train warehouse and the motivation array.",
+  "sources": [
+    {
+      "id": "characters-633-wiki",
+      "title": "Story Train",
+      "url": "https://rickandmorty.fandom.com/wiki/Story_Train",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-633-api",
+      "title": "Train Cops API record",
+      "url": "https://rickandmortyapi.com/api/character/633",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

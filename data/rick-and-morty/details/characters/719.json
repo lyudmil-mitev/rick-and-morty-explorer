@@ -1,0 +1,27 @@
+{
+  "id": 719,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Diesel Weasel",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Diesel_Weasel",
+  "text": "Diesel Weasel is an evil mutant Weasel who causes acid rain.\n\nAs Rick notes, Diesel Weasel has little in the way of characterization. He enjoys creating clouds of acid rain because he wants to make people suffer, regardless that gains nothing from it. He appears early on in \"A Rickconvenient Mort\" but is only seen once as a minor antagonist.",
+  "sources": [
+    {
+      "id": "characters-719-wiki",
+      "title": "Diesel Weasel",
+      "url": "https://rickandmorty.fandom.com/wiki/Diesel_Weasel",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-719-api",
+      "title": "Diesel Weasel API record",
+      "url": "https://rickandmortyapi.com/api/character/719",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

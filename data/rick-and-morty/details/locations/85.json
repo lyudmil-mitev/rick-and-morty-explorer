@@ -1,0 +1,27 @@
+{
+  "id": 85,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Midland Quasar",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Midland_Quasar",
+  "text": "{{Location\n|image = S4e2 robot wars.png\n|name =\n|dimension = Dimension C-131\n|type = Quasar\n|first = The Old Man and the Seat\n}}The was the site of the Robot Wars, fought between the robots and the Lizards.\n\nThe Robot Wars were fought around the between the Lizards and the robot. The Lizards used lasers and aircrafts to defeat the robots' attack, while the robots called inn all mechanical beings in the surrounding part of the universe. The war was raging when Rick Sanchez appeared to acquire information from a Delivery Drone, but was prevented by the attacking Lizards. He killed the Lizards and guarateed the robots' victory in the war, and successfully retrieved the drone's memory archive.",
+  "sources": [
+    {
+      "id": "locations-85-wiki",
+      "title": "Midland Quasar",
+      "url": "https://rickandmorty.fandom.com/wiki/Midland_Quasar",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-85-api",
+      "title": "Midland Quasar API record",
+      "url": "https://rickandmortyapi.com/api/location/85",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

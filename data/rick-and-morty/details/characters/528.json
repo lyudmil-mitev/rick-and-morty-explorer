@@ -1,0 +1,27 @@
+{
+  "id": 528,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The High Intern",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_High_Intern",
+  "text": "The High Intern is the king of the Monogatrons and the main antagonist of the episode \"The Old Man and the Seat\".\n\nThe High Intern with the Monogatrons create the Lovefinderrz app to distract the people on Earth and steal their water supply due to human’s failure to master love. He is also at first shown to be a caring husband to his wife, the Monogatron Queen. Later on, the High Intern argues with his wife about their plan and his water tubes plugged into his back as they get divorced.",
+  "sources": [
+    {
+      "id": "characters-528-wiki",
+      "title": "The High Intern",
+      "url": "https://rickandmorty.fandom.com/wiki/The_High_Intern",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-528-api",
+      "title": "Monogatron Leader API record",
+      "url": "https://rickandmortyapi.com/api/character/528",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

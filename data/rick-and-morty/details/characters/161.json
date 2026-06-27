@@ -1,0 +1,27 @@
+{
+  "id": 161,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hydrogen-F",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hydrogen-F",
+  "text": "{{Character\n|name =\n|image = Hydrogen F.png\n|species = Alphabetrian\n|status = Alive\n|job = Elder\n|origin = Alphabetrium\n|first = Get Schwifty\n}}Hydrogen-F is an Alphabetrian who is a letter F made out of hydrogen. She is a royal figure of the Alphabetrian empire along with Magnesium-J and Helium-Q.\n\nThe Alphabetrians turned Water-T into Ice-T when he refused to care about anyone, and banished him from their world. He would only be able to return if he learned to care about other people.\n\nAfter Ice-T helped save Earth from the Cromulons, he returned to his home planet to meet with the elders. and her fellow elders had heard of Ice-T's feat, and granted him back his original form. This was immediately followed by the Numbericons attacking Alphabetrium, causing a large rock to fall down on Helium-Q and kill him. Water-T drew his guns and attacked the Numbericons to avenge his father.",
+  "sources": [
+    {
+      "id": "characters-161-wiki",
+      "title": "Hydrogen-F",
+      "url": "https://rickandmorty.fandom.com/wiki/Hydrogen-F",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-161-api",
+      "title": "Hydrogen-F API record",
+      "url": "https://rickandmortyapi.com/api/character/161",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

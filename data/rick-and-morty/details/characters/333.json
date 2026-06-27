@@ -1,0 +1,27 @@
+{
+  "id": 333,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Stair Goblins",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Stair_Goblins",
+  "text": "Stair Goblins are a race of stair creatures from the Fantasy World dimension who first appeared in the episode \"Meeseeks and Destroy\". They were seen in the Thirsty Step tavern and they were known to be moody.",
+  "sources": [
+    {
+      "id": "characters-333-wiki",
+      "title": "Stair Goblins",
+      "url": "https://rickandmorty.fandom.com/wiki/Stair_Goblins",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-333-api",
+      "title": "Stair Goblin API record",
+      "url": "https://rickandmortyapi.com/api/character/333",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

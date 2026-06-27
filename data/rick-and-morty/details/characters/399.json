@@ -1,0 +1,27 @@
+{
+  "id": 399,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Meeseeks and Destroy/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Meeseeks_and_Destroy%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-399-wiki",
+      "title": "Meeseeks and Destroy/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Meeseeks_and_Destroy%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-399-api",
+      "title": "Tiny-persons advocacy group lawyer API record",
+      "url": "https://rickandmortyapi.com/api/character/399",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

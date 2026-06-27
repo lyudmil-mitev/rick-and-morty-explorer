@@ -1,0 +1,27 @@
+{
+  "id": 456,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "St. Gloopy Noops Hospital",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/St._Gloopy_Noops_Hospital",
+  "text": "St. Gloopy Noops Hospital is, according to Rick, the best hospital in the galaxy, that was featured in the episode, Interdimensional Cable 2: Tempting Fate. It is a hospital that is designed to help out numerous aliens who were hospitalized through injury or illness and is also capable of treating humans.",
+  "sources": [
+    {
+      "id": "characters-456-wiki",
+      "title": "St. Gloopy Noops Hospital",
+      "url": "https://rickandmorty.fandom.com/wiki/St._Gloopy_Noops_Hospital",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-456-api",
+      "title": "Nano Doctor API record",
+      "url": "https://rickandmortyapi.com/api/character/456",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

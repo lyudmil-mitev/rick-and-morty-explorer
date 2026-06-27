@@ -1,0 +1,27 @@
+{
+  "id": 490,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Chang",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Chang",
+  "text": "Chang was a NASA employee sent to pilot an interstellar vehicle, which turned out to be a trick by Rick Sanchez to save himself and Morty Smith from The Menagerie.\n\nAfter Rick Sanchez and Morty Smith got stuck in the Collector's menagerie, Rick sent a message to NASA with instructions to build an interstellar vehicle to find them. Chang and Jodie was sent to pilot the vehicle, and met Rick and Morty in the menagerie. Chang and Jodie were tricked by Rick and Morty to trade places, allowing the duo to escape in the vehicle and leave the two NASA employees with the Collector. Rick later removed this incident from Morty's memories.",
+  "sources": [
+    {
+      "id": "characters-490-wiki",
+      "title": "Chang",
+      "url": "https://rickandmorty.fandom.com/wiki/Chang",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-490-api",
+      "title": "Chang API record",
+      "url": "https://rickandmortyapi.com/api/character/490",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

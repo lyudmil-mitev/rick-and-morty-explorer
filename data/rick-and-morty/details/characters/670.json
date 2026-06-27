@@ -1,0 +1,27 @@
+{
+  "id": 670,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Galactic Federation",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Galactic_Federation",
+  "text": "The Galactic Federation was a major galactic organization which controlled significant areas of the universe until it was dismantled by Rick in The Rickshank Rickdemption. There was a surviving part of the militia, seemingly run by Tammy Guterman until her death in Star Mort Rickturn of the Jerri.",
+  "sources": [
+    {
+      "id": "characters-670-wiki",
+      "title": "Galactic Federation",
+      "url": "https://rickandmorty.fandom.com/wiki/Galactic_Federation",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-670-api",
+      "title": "New Improved Galactic Federation Guard API record",
+      "url": "https://rickandmortyapi.com/api/character/670",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

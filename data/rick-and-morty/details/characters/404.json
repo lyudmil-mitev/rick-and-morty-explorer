@@ -1,0 +1,27 @@
+{
+  "id": 404,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Phone Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Phone_Universe",
+  "text": "The Phone Universe is an alternate reality where phones are sentient beings who use pizzas as furniture, eat furniture for sustenance and use people as phones.",
+  "sources": [
+    {
+      "id": "characters-404-wiki",
+      "title": "Phone Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Phone_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-404-api",
+      "title": "Michael Jackson API record",
+      "url": "https://rickandmortyapi.com/api/character/404",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

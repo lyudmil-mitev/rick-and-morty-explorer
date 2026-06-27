@@ -1,0 +1,27 @@
+{
+  "id": 390,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Zick Zack",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Zick_Zack",
+  "text": "Zick Zack is a Floop Floopian warlord who sought to be killed by a great warrior, Rick Sanchez. He was later hit by a car and his spirit was dragged down under the ground by demonic spirits.\n\nZick Zack teleported to the Dimension C-131 and sought out Rick Sanchez, whom he considered a great warrior. Rick was first surprised to be visited by an alien overlord, before Zick Zack handed him a paper explaining who Zick Zack was and what he wanted; to achieve an eternal orgasmic afterlife by getting killed by a great warrior. Rick was flattered at first, but took Zick Zack to lunch first.\n\n When Rick went to the bathroom, Zick Zack started to doubt his promised afterlife after a conversation with Morty. No longer wishing to die, Zick Zack ran out of the restaurant to escape from Rick, but was hit by a car in the middle of the road. His spirit emerged from his body and was immediately grabbed by demonic spirits, confirming the existence of a Floop Floopian afterlife.\n\nDue to not being killed by a great warrior, Zick Zack's spirit was dragged underground by the demons. As he wails in agony, Zick Zack blames Morty for causing him to be condemned to a terrible fate.",
+  "sources": [
+    {
+      "id": "characters-390-wiki",
+      "title": "Zick Zack",
+      "url": "https://rickandmorty.fandom.com/wiki/Zick_Zack",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-390-api",
+      "title": "Zick Zack API record",
+      "url": "https://rickandmortyapi.com/api/character/390",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

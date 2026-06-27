@@ -1,0 +1,27 @@
+{
+  "id": 442,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Abandoned Jerrys",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Abandoned_Jerrys",
+  "text": "The Abandoned Jerrys are a group of Jerrys who reside in the Jerryboree because their Ricks and Mortys never returned to pick them up. They live in a backroom, away from the Jerrys who only stay at Jerryboree temporarily.\n\nThey received a new temporary member in Jerry Smith, with whom they played cards. He came up with an idea to escape the daycare, to which they stated that no one in Jerryboree is kept against their will. When Jerry asked them why they chose to remain in the daycare, they answered with the same reason he himself was still there; because \"they're Jerrys\", coupled with the fact that the world outside the building is comparatively unknown and potentially hostile.\n\nThe abandoned Jerrys will all have returned to their original universes after the events of \"Solaricks\".",
+  "sources": [
+    {
+      "id": "characters-442-wiki",
+      "title": "Abandoned Jerrys",
+      "url": "https://rickandmorty.fandom.com/wiki/Abandoned_Jerrys",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-442-api",
+      "title": "Shaved Head Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/442",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

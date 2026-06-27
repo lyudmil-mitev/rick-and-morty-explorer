@@ -1,0 +1,27 @@
+{
+  "id": 78,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Western Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Western_Rick",
+  "text": "{{SimilarName| |other versions of Rick}}\n\n , also known as Cowboy Rick , is an alternate version of Rick who, along with his Morty, hails from a cowboy dimension.\n\n was on a visit to The Citadel with his Morty at the same time as Rick and Morty of Dimension C-137 was brought in to be judged by the Council of Ricks. They later came to the trial and kept in the far back.\n\nHe portaled his Morty, without warning, into a battle arena where his Morty fought against a giant spider and had his arm ripped off. He later walked in on Morty masturbating and left in disgust without forcing him on another adventure.\n\nHe survived the events of the fall of the Galactic Federation and temporary destruction of The Citadel by either fighting, hiding or not being present at The Citadel at the time.\n\nDuring the presidential debate, was backstage with Salesman Rick and was arguing with Black Rick about something. most likely related to the upcoming election.",
+  "sources": [
+    {
+      "id": "characters-78-wiki",
+      "title": "Western Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Western_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-78-api",
+      "title": "Cowboy Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/78",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

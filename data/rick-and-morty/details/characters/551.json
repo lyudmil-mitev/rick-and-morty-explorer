@@ -1,0 +1,27 @@
+{
+  "id": 551,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Monitor Lord",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Monitor_Lord",
+  "text": "Monitor Lord is a member of Miles Knightly's heist crew who appears in the episode \"One Crew Over the Crewcoo's Morty\".\n\nMonitor Lord is first seen as apart of Miles Knightly’s crew in stealing the Crystal Skull of Horwitz. However, Rick reveals that he built a robot named Heistotron and hypnotizes him with the other crew members to give him and Morty the crystal instead.",
+  "sources": [
+    {
+      "id": "characters-551-wiki",
+      "title": "Monitor Lord",
+      "url": "https://rickandmorty.fandom.com/wiki/Monitor_Lord",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-551-api",
+      "title": "Monitor Lord API record",
+      "url": "https://rickandmortyapi.com/api/character/551",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

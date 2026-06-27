@@ -1,0 +1,27 @@
+{
+  "id": 388,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Zeep Xanflorp",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Zeep_Xanflorp",
+  "text": "Zeep Xanflorp is a scientist within Rick's Microverse Battery who creates his own micro-planet power supply called the Miniverse. His development of a new power supply prevents Rick from using his flying car. Zeep is depicted as arrogant and very intelligent, and in many ways a parallel of Rick Sanchez.\n\nZeep appears to function as the Microverse's version of Rick Sanchez. Much like the latter, Zeep is arrogant, self-loathing and prideful; traits which are outshined by his sheer genius. Zeep constantly talks down to the people around him and shows little care for social status when doing so. He is condescending towards Chris, the president of his home planet, and refuses to make time for Rick and Morty, despite Rick being a revered figure in his planet's culture.\n\nZeep also mimicks Rick's ruthless personality. Once he, Rick and Morty were trapped inside the Teenyverse, Zeep constantly tried to one-up Rick and tried to kill him multiple times. He also betrayed Rick after the two built a way to escape the Teenyverse and attempted to destroy the Miniverse Battery with Rick and Morty inside it. This, of course, would've also destroyed an entire universe of his own creation, fully demonstrating his ruthless capabilities. However, after Rick destroyed the Miniverse Battery instead, Zeep was temporarily distraught and called Rick a \"monster\". This may imply Zeep never intended to destroy the battery and was merely bluffing.\n\nDespite his similarities to Rick, Zeep is seemingly more altrusitic than him. Whilst Rick invented the Microverse Battery just to power his car or charge his phone, Zeep invented his Miniverse Battery to benefit his entire society.",
+  "sources": [
+    {
+      "id": "characters-388-wiki",
+      "title": "Zeep Xanflorp",
+      "url": "https://rickandmorty.fandom.com/wiki/Zeep_Xanflorp",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-388-api",
+      "title": "Zeep Xanflorp API record",
+      "url": "https://rickandmortyapi.com/api/character/388",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

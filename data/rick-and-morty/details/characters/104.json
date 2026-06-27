@@ -1,0 +1,27 @@
+{
+  "id": 104,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Doom-Nomitron",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Doom-Nomitron",
+  "text": "Doom-Nomitron was a villain, who fought The Vindicators in their second battle. He was mentioned, but not seen, in \"Vindicators 3: The Return of Worldender\". He officially appears in Vindicators 2.",
+  "sources": [
+    {
+      "id": "characters-104-wiki",
+      "title": "Doom-Nomitron",
+      "url": "https://rickandmorty.fandom.com/wiki/Doom-Nomitron",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-104-api",
+      "title": "Doom-Nomitron API record",
+      "url": "https://rickandmortyapi.com/api/character/104",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 136,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gazorpazorpfield",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gazorpazorpfield",
+  "text": "Gazorpazorpfield is an interdimensional television series based on the popular animated/comic series Garfield. It is a popular TV show in Gazorpazorp, about a cat that hates Mumunmununsdays, likes enchiladas and mistreats his owner, Jon.",
+  "sources": [
+    {
+      "id": "characters-136-wiki",
+      "title": "Gazorpazorpfield",
+      "url": "https://rickandmorty.fandom.com/wiki/Gazorpazorpfield",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-136-api",
+      "title": "Gazorpazorpfield API record",
+      "url": "https://rickandmortyapi.com/api/character/136",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 325,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Slick Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Slick_Morty",
+  "text": "Slick Morty is a Morty on the The Citadel. He appears in the episode \"The Ricklantis Mixup\".\n\nAt the time of his series debut, Slick Morty lived on the The Citadel attending the Morty Academy. He was depressed because he had five previous Ricks, all of whom died, and his life had become defined by being passed around interchangeably without autonomy or concern for his wants. He also had an existential crisis because he believed all Mortys on the Citadel were doomed to the same fate, leaving no chance for escape or betterment of their lives. Due to his drama implant, he also believed that he personally would always make the people around him sad and a little bored and tried to counter that by acting as a class clown (which got him berated by Teacher Rick).\n\nOn his last day at Morty Academy, before he would be assigned to his sixth Rick, Slick Morty convinced his friends to journey to the Wishing Portal, a semi-mythical place to Mortys on the Citadel where their wishes may come true if they throw something important into it. Despite instigating the journey, Slick Morty made it clear that he didn't believe in the portal's power to grant wishes. He bitterly believed it to be a hole where the Citadel dumps its broken dreams, although he conceded that his reaction may be due in part to his drama implant. He was only ever seen smiling in the embrace of his friends and fellow Mortys, as they assured him of his uniqueness and individuality.\n\nUpon arriving at the Wishing Portal, Slick Morty again stated that he did not then and never had believed in its power to grant wishes. He only wished that anything about their powerless, miserable lives as Mortys on the Citadel would change. When told by Glasses Morty that he better be throwing in something very important to get that wish, Slick Morty said that he hopes so too, but doubted it. To his friends’ horror, Slick Morty then threw himself into the Wishing Portal, attempting suicide. Despite the desperate hopes of his friends that the portal may actually lead somewhere better, it was immediately revealed by nearby machinery that the portal is nothing more than garbage disposal for the Citadel. While it is possible that Slick Morty survived his plunge into the well, the likelihood that he landed on a mountain of garbage, possibly in a hostile alien environment, or been buried by the flood of debris that followed shortly after him makes this an unlikely hope.\n\nDue to unrelated events in the same episode, the lives of Mortys across the Citadel did see positive change following Slick Morty's suicide. His friends can be seen later, dressed in uniforms just like Ricks, laughing and harvesting mega fruit together in fields where they were previously excluded. This leads some of Slick Morty's friends to believe that he got his wish.\n\nIn the commentary for \"Tales From the Citadel\", it's revealed that the other side of The Wishing Portal was a universe/planet that complained to a Rick once about not leaving a tip. In retaliation, the Citadel decided to dump all their garbage onto that planet. Slick Morty survived by landing on a heap of garbage. It is possible that after that, he returned to his original universe after Rick C-137 reset multidimensional travelers in \"Solaricks\".",
+  "sources": [
+    {
+      "id": "characters-325-wiki",
+      "title": "Slick Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Slick_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-325-api",
+      "title": "Slick Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/325",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

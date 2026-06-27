@@ -1,0 +1,27 @@
+{
+  "id": 655,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Heroin Keith",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Heroin_Keith",
+  "text": "The original Heroin Keith presumably became a Cronenberg in the Cronenberged dimension.\n\nHeroin Keith is a heroin addict that appears in The Vat of Acid Episode. He goes on a joyride with Morty who is running people over but Keith is concerned that Morty is living too fast. Morty then tells him that he doesn't pay for his friendship which leaves Keith speechless. Keith is then seen with a crowd of protesters in the Merged Universe looking at the vat of \"acid\" that Morty jumped into.\n\nHeroin Keith presumably has a counterpart in Dimension C-131.",
+  "sources": [
+    {
+      "id": "characters-655-wiki",
+      "title": "Heroin Keith",
+      "url": "https://rickandmorty.fandom.com/wiki/Heroin_Keith",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-655-api",
+      "title": "Heroine Keith API record",
+      "url": "https://rickandmortyapi.com/api/character/655",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

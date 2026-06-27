@@ -1,0 +1,27 @@
+{
+  "id": 691,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scarecrow Beth",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scarecrow_Beth",
+  "text": "Scarecrow Beth is a scarecrow version of Beth. She appears in the episode \"Mortyplicity\".\n\nScarecrow Beth is a decoy version of Beth who is seen locked in a cage with the rest of the scarecrow Smith Family. Scarecrow Rick promises to find skin and create pelts for himself and his family to make them \"beautiful again\". Scarecrow Beth is then killed by the Glockenspiel family as they burn their cage.",
+  "sources": [
+    {
+      "id": "characters-691-wiki",
+      "title": "Scarecrow Beth",
+      "url": "https://rickandmorty.fandom.com/wiki/Scarecrow_Beth",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-691-api",
+      "title": "Scarecrow Beth API record",
+      "url": "https://rickandmortyapi.com/api/character/691",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

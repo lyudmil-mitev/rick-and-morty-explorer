@@ -1,0 +1,27 @@
+{
+  "id": 611,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Leah",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Leah",
+  "text": "Leah is a Story Train character who appears in the episode \"Never Ricking Morty\".\n\nLeah introduces herself to Morty in disguise within the Story Train and tells her story when she dated Rick Sanchez. Leah is seen talking to her family at her castle, which is interrupted by a warning shot from Rick in disguise.",
+  "sources": [
+    {
+      "id": "characters-611-wiki",
+      "title": "Leah",
+      "url": "https://rickandmorty.fandom.com/wiki/Leah",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-611-api",
+      "title": "Leah API record",
+      "url": "https://rickandmortyapi.com/api/character/611",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

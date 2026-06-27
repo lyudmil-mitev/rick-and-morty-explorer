@@ -1,0 +1,27 @@
+{
+  "id": 523,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Edge of Tomorty: Rick Die Rickpeat/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Edge_of_Tomorty%3A_Rick_Die_Rickpeat%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-523-wiki",
+      "title": "Edge of Tomorty: Rick Die Rickpeat/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Edge_of_Tomorty%3A_Rick_Die_Rickpeat%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-523-api",
+      "title": "Boglin API record",
+      "url": "https://rickandmortyapi.com/api/character/523",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

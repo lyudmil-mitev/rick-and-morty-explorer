@@ -1,0 +1,27 @@
+{
+  "id": 313,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shleemypants",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shleemypants",
+  "text": "Shleemypants is an immortal and omniscient Time Cop with the ability to time travel, who appeared in the episode A Rickle in Time. He is an alien who works as a multidimensional police officer, keeping the multiverse safe from all benders of spacetime. He confronts Rick about a stolen time crystal after Morty and Summer's indecisiveness splits time and brings them to uncertainty. His weapon of choice is a live, slug-like creature named Chris.\n\nHe later appears in Rattlestar Ricklactica, where he is seen receiving a phone call about time traveling snakes. He, along with another fourth dimensional cop, travel back in time and beat up a caveman snake. This causes all of the snakes to eat their tails like an ouroboros, making them disappear and ending the invasion.\n\nShleemypants is a very sassy, trash-talking creature who does not take shit from anyone and gets very rude and even violent when angered. He enjoys using the word \"ass\" as substitute for other curses. He even acts like this towards other members of his species, cussing one colleague out for being lazy, although he gets the same from said colleague.",
+  "sources": [
+    {
+      "id": "characters-313-wiki",
+      "title": "Shleemypants",
+      "url": "https://rickandmorty.fandom.com/wiki/Shleemypants",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-313-api",
+      "title": "Shleemypants API record",
+      "url": "https://rickandmortyapi.com/api/character/313",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 635,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Darth Poopybutthole",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Darth_Poopybutthole",
+  "text": "is a character that appears breifly in the Rick and Morty episode \"Never Ricking Morty\".\n\nIn \"Never Ricking Morty\", Darth Poopybutthole is a member of the army facing off against Rick and Morty, alongside Evil Morty, the Citadel's militia, a large group of Mr. Meeseeks, and an army of male Gazorpians.\n\nHe is seen with Evil Morty and his army, presumably an important figure in the hierarchy.\n\nHe ends the episode proclaiming his newfound faith to Jesus Christ.",
+  "sources": [
+    {
+      "id": "characters-635-wiki",
+      "title": "Darth Poopybutthole",
+      "url": "https://rickandmorty.fandom.com/wiki/Darth_Poopybutthole",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-635-api",
+      "title": "Darth Poopybutthole API record",
+      "url": "https://rickandmortyapi.com/api/character/635",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

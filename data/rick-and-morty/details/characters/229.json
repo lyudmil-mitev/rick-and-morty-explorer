@@ -1,0 +1,27 @@
+{
+  "id": 229,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Morty Mart Manager Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Morty_Mart_Manager_Morty",
+  "text": "Morty Mart Manager Morty is a Morty living in Mortytown, a district in the The Citadel. He manages the local Morty Mart and was robbed by the Mortytown Locos in the episode The Ricklantis Mixup.\n\nMorty was managing his store, a Morty Mart, when a gang of four Mortys came in and robbed him at gunpoint. He was unable to see any unusual features on any of the Mortys before they ran off with an unspecified amount of money. Soon after, he was visited by Cop Rick and Cop Morty to investigate the robbery. Only giving the general description of a normal Morty, the Morty Mart Manager Morty proved of little use to the officers. The robbers were later found by Cop Morty threatening to shoot a Morty tagging on a wall across the street from the store.",
+  "sources": [
+    {
+      "id": "characters-229-wiki",
+      "title": "Morty Mart Manager Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Morty_Mart_Manager_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-229-api",
+      "title": "Morty Mart Manager Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/229",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

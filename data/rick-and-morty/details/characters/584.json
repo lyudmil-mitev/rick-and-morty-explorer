@@ -1,0 +1,27 @@
+{
+  "id": 584,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fascist dimension",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fascist_dimension",
+  "text": "The fascist dimension is an alternative dimension where Earth turned into a global fascist society. Rick and Morty went on a massacre in this dimension to save it from fascism in Rick and Morty Issue 29.",
+  "sources": [
+    {
+      "id": "characters-584-wiki",
+      "title": "Fascist dimension",
+      "url": "https://rickandmorty.fandom.com/wiki/Fascist_dimension",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-584-api",
+      "title": "Bar Customer API record",
+      "url": "https://rickandmortyapi.com/api/character/584",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 54,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Vindicators 3: The Return of Worldender/Gallery",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Vindicators_3%3A_The_Return_of_Worldender%2FGallery",
+  "text": "",
+  "sources": [
+    {
+      "id": "locations-54-wiki",
+      "title": "Vindicators 3: The Return of Worldender/Gallery",
+      "url": "https://rickandmorty.fandom.com/wiki/Vindicators_3%3A_The_Return_of_Worldender%2FGallery",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-54-api",
+      "title": "Vindicator's Base API record",
+      "url": "https://rickandmortyapi.com/api/location/54",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

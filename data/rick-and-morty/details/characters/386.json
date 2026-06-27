@@ -1,0 +1,27 @@
+{
+  "id": 386,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Zarbadar Gloonch",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Zarbadar_Gloonch",
+  "text": "Zarbadar Gloonch was a Drumbloxian that appeared in Big Trouble In Little Sanchez. She and her husband, Gar were having marital issues and went to Nuptia 4 for counseling. Unfortunately for them, their attempt to repair their marriage ended in disaster when Beth and Jerry Smith's mythologs broke out of their cells and went on a murderous rampage, killing Zarbadar and her husband in the process.",
+  "sources": [
+    {
+      "id": "characters-386-wiki",
+      "title": "Zarbadar Gloonch",
+      "url": "https://rickandmorty.fandom.com/wiki/Zarbadar_Gloonch",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-386-api",
+      "title": "Zarbadar Gloonch API record",
+      "url": "https://rickandmortyapi.com/api/character/386",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

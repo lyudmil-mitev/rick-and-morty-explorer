@@ -1,0 +1,27 @@
+{
+  "id": 166,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Invisi-troopers",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Invisi-troopers",
+  "text": "Invisi-Troopers are United States soldiers that are equipped with technology that enables them to turn invisible. They appear during the season three finale \"The Rickchurian Mortydate\".\n\nThey are positioned all around Rick with one holding a knife to his throat. This is during Rick and the President's fight over Morty's unwanted selfie. After the President tells them to stand down, they become visible. However, Rick claims he \"could see them [the] whole time\".\n\nIn the episode \"Solaricks\", despite Rick Prime's lair being initially invisible, Rick appears to have no trouble locating it or seeing it before he disables the invisibility. This makes it believable that he could, as he claimed, see the Invisi-troopers the whole time. It's possible he has some sort of implant that lets him see things outside of the range of unenhanced human perception, like how the thermal imaging goggles counteract the invisibility belt in \"Star Mort Rick Turn of the Jeri\".",
+  "sources": [
+    {
+      "id": "characters-166-wiki",
+      "title": "Invisi-troopers",
+      "url": "https://rickandmorty.fandom.com/wiki/Invisi-troopers",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-166-api",
+      "title": "Invisi-trooper API record",
+      "url": "https://rickandmortyapi.com/api/character/166",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

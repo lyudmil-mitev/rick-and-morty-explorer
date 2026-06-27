@@ -1,0 +1,27 @@
+{
+  "id": 75,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Courier Flap",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Courier_Flap",
+  "text": "Courier Flaps are an organic species introduced in \"The Wedding Squanchers\" that delivers messages and packages across the galaxy.",
+  "sources": [
+    {
+      "id": "characters-75-wiki",
+      "title": "Courier Flap",
+      "url": "https://rickandmorty.fandom.com/wiki/Courier_Flap",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-75-api",
+      "title": "Courier Flap API record",
+      "url": "https://rickandmortyapi.com/api/character/75",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

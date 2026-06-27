@@ -1,0 +1,27 @@
+{
+  "id": 155,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Harold",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Harold",
+  "text": "Harold was a news reporter at Channel 58 during the events of \"Rick Potion 9\". He was turned into a Mantis-person before turning into a Cronenberg, like the rest of the human race.\n\nHarold worked at Channel 58 for its breaking news update, which interfered with Summer watching Pregnant Baby. He and his co-host reported that Morty's whereabouts were still unknown before expressing their \"love\" for him, which resulted in a fight between them.\n\nHarold's replacement version is assumed to have remained human, as the originals Rick and Morty have managed to ward off the disaster.",
+  "sources": [
+    {
+      "id": "characters-155-wiki",
+      "title": "Harold",
+      "url": "https://rickandmorty.fandom.com/wiki/Harold",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-155-api",
+      "title": "Harold API record",
+      "url": "https://rickandmortyapi.com/api/character/155",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

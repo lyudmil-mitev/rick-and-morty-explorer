@@ -1,0 +1,27 @@
+{
+  "id": 98,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tickets Please Guy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tickets_Please_Guy",
+  "text": "The Tickets Please Guy was a Story Train character who appeared in the episode \"Never Ricking Morty\".",
+  "sources": [
+    {
+      "id": "locations-98-wiki",
+      "title": "Tickets Please Guy",
+      "url": "https://rickandmorty.fandom.com/wiki/Tickets_Please_Guy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-98-api",
+      "title": "Tickets Please Guy Nightmare API record",
+      "url": "https://rickandmortyapi.com/api/location/98",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

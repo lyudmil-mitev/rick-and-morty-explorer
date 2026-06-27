@@ -1,0 +1,27 @@
+{
+  "id": 112,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Morglutz",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Morglutz",
+  "text": "Morglutz is a planet that appears in the episode \"A Rickconvenient Mort.\" The residents of the world are Hrinchs. The planet was destroyed due to its sun consuming the planet.",
+  "sources": [
+    {
+      "id": "locations-112-wiki",
+      "title": "Morglutz",
+      "url": "https://rickandmorty.fandom.com/wiki/Morglutz",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-112-api",
+      "title": "Morglutz API record",
+      "url": "https://rickandmortyapi.com/api/location/112",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

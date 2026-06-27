@@ -1,0 +1,27 @@
+{
+  "id": 654,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Vat of Acid Episode",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Vat_of_Acid_Episode",
+  "text": "\"The Vat of Acid Episode\" is the eighth episode of the fourth season of Rick and Morty, and the 39th episode of the series overall. It premiered on May 17, 2020. It was written by Albro Lundy & Jeff Loveness and directed by Jacob Hair. The episode is rated TV-14-DLV.",
+  "sources": [
+    {
+      "id": "characters-654-wiki",
+      "title": "The Vat of Acid Episode",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Vat_of_Acid_Episode",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-654-api",
+      "title": "Plane Crash Survivor API record",
+      "url": "https://rickandmortyapi.com/api/character/654",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

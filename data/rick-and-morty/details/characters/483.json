@@ -1,0 +1,27 @@
+{
+  "id": 483,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Steve Jobs Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Steve_Jobs_Rick",
+  "text": "Steve Jobs Rick was one of the Ricks from the Shadow Council of Ricks, who was based on Steve Jobs.\n\nSteve Jobs Rick is a Rick who is a member of the Shadow Council of Ricks. Whilst it is unknown what his exact role was, Steve Jobs Rick was running the Citadel alongside his fellow council members in secret.\n\nAfter Evil Morty seized power, he asked the Shadow Council of Ricks to raise their hand if they agreed with Garment District Rick on his intent to keep the council in power over the actual president of The Citadel. Evil Morty then executed all of the Ricks who raised their hands. Steve Jobs Rick, however, was one of two Ricks who did not raise his hand, sparing him from the same fate. He then quickly sucked up to Evil Morty by complimenting his haircut to ensure his own survival.\n\nWhat happened to Steve Jobs Rick after this is unknown. He could've been killed during Evil Morty's purge of any opposition following his rise to power or later on when The Citadel was destroyed.",
+  "sources": [
+    {
+      "id": "characters-483-wiki",
+      "title": "Steve Jobs Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Steve_Jobs_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-483-api",
+      "title": "Steve Jobs Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/483",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

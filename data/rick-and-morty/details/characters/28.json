@@ -1,0 +1,27 @@
+{
+  "id": 28,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Attila Starwar",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Attila_Starwar",
+  "text": "Attila Starwar is the main protagonist of Ball Fondlers, and a recurring character in Rick and Morty. He is the leader of the team.",
+  "sources": [
+    {
+      "id": "characters-28-wiki",
+      "title": "Attila Starwar",
+      "url": "https://rickandmorty.fandom.com/wiki/Attila_Starwar",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-28-api",
+      "title": "Attila Starwar API record",
+      "url": "https://rickandmortyapi.com/api/character/28",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

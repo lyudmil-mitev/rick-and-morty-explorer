@@ -1,0 +1,27 @@
+{
+  "id": 464,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "SEAL Team Ricks",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/SEAL_Team_Ricks",
+  "text": "in D-99's body about to kill the last living member of the SEAL Team Ricks group that came after him.]]\n\nSEAL Team Ricks was an elite special operations unit fielded by the Council of Ricks to eliminate extreme threats to the security of the Citadel. They were most notably dispatched by the Council to retrieve and kill Rick C-137, resulting in the team being killed to a man.",
+  "sources": [
+    {
+      "id": "characters-464-wiki",
+      "title": "SEAL Team Ricks",
+      "url": "https://rickandmorty.fandom.com/wiki/SEAL_Team_Ricks",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-464-api",
+      "title": "SEAL Team Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/464",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

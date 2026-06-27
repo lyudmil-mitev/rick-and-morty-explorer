@@ -1,0 +1,27 @@
+{
+  "id": 714,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mortyplicity/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mortyplicity%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-714-wiki",
+      "title": "Mortyplicity/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Mortyplicity%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-714-api",
+      "title": "Too Cute to Murder Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/714",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 49,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Zeep Xanflorp",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Zeep_Xanflorp",
+  "text": "Zeep Xanflorp is a scientist within Rick's Microverse Battery who creates his own micro-planet power supply called the Miniverse. His development of a new power supply prevents Rick from using his flying car. Zeep is depicted as arrogant and very intelligent, and in many ways a parallel of Rick Sanchez.",
+  "sources": [
+    {
+      "id": "locations-49-wiki",
+      "title": "Zeep Xanflorp",
+      "url": "https://rickandmorty.fandom.com/wiki/Zeep_Xanflorp",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-49-api",
+      "title": "Zeep Xanflorp's Miniverse API record",
+      "url": "https://rickandmortyapi.com/api/location/49",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

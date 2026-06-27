@@ -1,0 +1,27 @@
+{
+  "id": 726,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Sticky",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Sticky",
+  "text": "Sticky is a mutated sperm cell who became enlarged when Rick, in the episode Rickdependence Spray, performed an experiment on a barrel of horse semen that, unbeknownst to him, had some of Morty's semen mixed in. Of the gigantic sperm created in this experiment, Sticky is the only one shown that has two flagella. He becomes loyal to Morty upon recognizing that he is Sticky's donor. Sticky later rescues Rick and Morty from the other Giant Sperm, and remains with them when they are captured by the Chud. Sticky fights alongside Rick and Morty to protect Summer's enlarged egg, but upon killing the Sperm Queen, Sticky pursues his nature and fertilizes the egg. The egg with Sticky inside is then launched into space where it develops into a gigantic incest baby.",
+  "sources": [
+    {
+      "id": "characters-726-wiki",
+      "title": "Sticky",
+      "url": "https://rickandmorty.fandom.com/wiki/Sticky",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-726-api",
+      "title": "Sticky API record",
+      "url": "https://rickandmortyapi.com/api/character/726",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

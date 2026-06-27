@@ -1,0 +1,27 @@
+{
+  "id": 627,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Concept of Time",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Concept_of_Time",
+  "text": "The Concept of Time is a Story Train character and an unspecified relative of Leah. It appears in the episode \"Never Ricking Morty\".\n\nIn the episode \"Never Ricking Morty\", the Concept of Time appears in Leah's story to a disguised Morty on her relationship with Rick and when her family meet him. It is seen siting with the rest of the family as Leah explains to her that Rick is a human and created portal travel. The Concept of Time introduces itself before a disguised Rick shoots at Morty for telling her story to him.",
+  "sources": [
+    {
+      "id": "characters-627-wiki",
+      "title": "Concept of Time",
+      "url": "https://rickandmorty.fandom.com/wiki/Concept_of_Time",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-627-api",
+      "title": "The Concept of Time API record",
+      "url": "https://rickandmortyapi.com/api/character/627",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 725,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tony Galopagus",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tony_Galopagus",
+  "text": "Tony Galopagus is a journalist who reported the Meza Leon National Forest fire.\n\nThe original Tony presumably became a Cronenberg in the Cronenberged Dimension.",
+  "sources": [
+    {
+      "id": "characters-725-wiki",
+      "title": "Tony Galopagus",
+      "url": "https://rickandmorty.fandom.com/wiki/Tony_Galopagus",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-725-api",
+      "title": "Tony Galopagus API record",
+      "url": "https://rickandmortyapi.com/api/character/725",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

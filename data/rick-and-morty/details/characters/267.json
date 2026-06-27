@@ -1,0 +1,27 @@
+{
+  "id": 267,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Plumber Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Plumber_Rick",
+  "text": "Plumber Rick is an alternate version of Rick Sanchez who first appeared in the episode, \"The Ricklantis Mixup\". He is a plumber on who lives on The Citadel.",
+  "sources": [
+    {
+      "id": "characters-267-wiki",
+      "title": "Plumber Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Plumber_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-267-api",
+      "title": "Plumber Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/267",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

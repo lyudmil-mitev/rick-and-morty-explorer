@@ -1,0 +1,27 @@
+{
+  "id": 13,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Nuptia 4",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Nuptia_4",
+  "text": "Nuptia 4 is the galaxy's most successful couples counseling institute. The institute's head counselor is Glexo Slim Slom.\n\nRick sends Beth and Jerry there for a two-day intensive in the episode \"Big Trouble In Little Sanchez\". Upon arrival, they were connected to a machine which created physical manifestations of their perceptions of each other: Jerry's and Beth's Mythologs. The mythos were placed in a cell to be a stop on the visitors' mythos-tour taking place shortly after; but while watching the mythos of Gar and Zarbadar Gloonch, Beth and Jerry's mythos initiated a plan to escape their cell and wreck havoc on the institute. After the visitors were killed and the surviving staff escaped, Beth and Jerry were left behind and managed to defeat Beth's Mytholog by creating Goddess Beth. Rick later picked up Beth and Jerry with the institute in ruins.",
+  "sources": [
+    {
+      "id": "locations-13-wiki",
+      "title": "Nuptia 4",
+      "url": "https://rickandmorty.fandom.com/wiki/Nuptia_4",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-13-api",
+      "title": "Nuptia 4 API record",
+      "url": "https://rickandmortyapi.com/api/location/13",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

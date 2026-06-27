@@ -1,0 +1,27 @@
+{
+  "id": 669,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Defiance Doctor",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Defiance_Doctor",
+  "text": "The Defiance Doctor is an alien character who appeared in Star Mort Rickturn of the Jerri. He is a doctor and a rebel member of The Defiance.",
+  "sources": [
+    {
+      "id": "characters-669-wiki",
+      "title": "Defiance Doctor",
+      "url": "https://rickandmorty.fandom.com/wiki/Defiance_Doctor",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-669-api",
+      "title": "Defiance Doctor API record",
+      "url": "https://rickandmortyapi.com/api/character/669",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

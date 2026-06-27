@@ -1,0 +1,27 @@
+{
+  "id": 105,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "NX-5 Planet Remover",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/NX-5_Planet_Remover",
+  "text": "The NX-5 Planet Remover is a type of ship created by the Galactic Federation that has giant laser cannons that can destroy planets. It first appears in \"Star Mort Rickturn of the Jerri\"",
+  "sources": [
+    {
+      "id": "locations-105-wiki",
+      "title": "NX-5 Planet Remover",
+      "url": "https://rickandmorty.fandom.com/wiki/NX-5_Planet_Remover",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-105-api",
+      "title": "NX-5 Planet Remover API record",
+      "url": "https://rickandmortyapi.com/api/location/105",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

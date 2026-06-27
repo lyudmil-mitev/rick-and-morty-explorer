@@ -1,0 +1,27 @@
+{
+  "id": 703,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mr. Always Wants To Be Hunted",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mr._Always_Wants_To_Be_Hunted",
+  "text": ", also known as Mr. Always Wanted to be Hunted , is a character who appears in \"Mortyplicity\".\n\nHe is a short humanoid with yellow skin, a large, sweaty head and a plump body. He wears a target outfit with black lines on the arms and legs, and a red bullseye on the chest.\n\nAs his name suggests, Mr. Always Wants To Be Hunted simply wants to be hunted, presumably by anyone in the vicinity. If he is not hunted or ignored, he'll either get upset or become homicidal and kill whoever failed to hunt them, remarking they should've done so. According to Jerry he was contained within a cryopod before released in the Smith residence. Prior to being notified by his watch of his decoys' destruction, Rick asked the others not to \"hunt him to completion\"; completing the hunt or ignoring it will presumably both have ill results.\n\nHe is hated by rich people who hunt people for sport because the fact that he wants to be hunted ruins the fun.",
+  "sources": [
+    {
+      "id": "characters-703-wiki",
+      "title": "Mr. Always Wants To Be Hunted",
+      "url": "https://rickandmorty.fandom.com/wiki/Mr._Always_Wants_To_Be_Hunted",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-703-api",
+      "title": "Mr. Always Wants to be Hunted API record",
+      "url": "https://rickandmortyapi.com/api/character/703",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

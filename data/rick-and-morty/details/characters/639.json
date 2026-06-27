@@ -1,0 +1,27 @@
+{
+  "id": 639,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Uncle Nibbles",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Uncle_Nibbles",
+  "text": "Uncle Nibbles is an alien and Story Train character who works as a news reporter for Cutesy Name News. He appears in the episode \"Never Ricking Morty\".\n\nIn the episode \"Never Ricking Morty\", Uncle Nibbles is seen reporting in the Tickets Please Guy's story reporting on the \"Floaty Bloody Man\" as a result of Rick and Morty killing him out of the Story Train. Uncle Nibbles mentions how the world's greatest scientists are pondering it but have no answer since the last three months of his appearance at a Blips and Chitz.",
+  "sources": [
+    {
+      "id": "characters-639-wiki",
+      "title": "Uncle Nibbles",
+      "url": "https://rickandmorty.fandom.com/wiki/Uncle_Nibbles",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-639-api",
+      "title": "Uncle Nibbles API record",
+      "url": "https://rickandmortyapi.com/api/character/639",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

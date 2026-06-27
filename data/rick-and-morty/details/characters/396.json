@@ -1,0 +1,27 @@
+{
+  "id": 396,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scary Olderson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scary_Olderson",
+  "text": "was the teacher in Scary Terry's scary class in high school. He was known to mock students who couldn't answer his questions.\n\nHe appeared in some of adult Terry's nightmares, which caused him much agitation. In one dream, he was berating Terry for not coming up with a pun involving pumpkins, in a scenario where a victim is chased through a pumpkin patch. Rick and Morty, who had invaded Terry's dream, stood up against the teacher and told him off. felt insulted and walked out of the classroom, giving victory to the two humans. He was later replaced by Scary Glenn as teacher of scary class.",
+  "sources": [
+    {
+      "id": "characters-396-wiki",
+      "title": "Scary Olderson",
+      "url": "https://rickandmorty.fandom.com/wiki/Scary_Olderson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-396-api",
+      "title": "Scary Teacher API record",
+      "url": "https://rickandmortyapi.com/api/character/396",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

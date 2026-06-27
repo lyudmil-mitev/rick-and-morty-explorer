@@ -1,0 +1,27 @@
+{
+  "id": 811,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Re-Build-A-Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Re-Build-A-Morty",
+  "text": "Re-Build-A-Morty is a building in The Citadel where Mortys can be rebuilt.",
+  "sources": [
+    {
+      "id": "characters-811-wiki",
+      "title": "Re-Build-A-Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Re-Build-A-Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-811-api",
+      "title": "Re-Build-a-Morty Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/811",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

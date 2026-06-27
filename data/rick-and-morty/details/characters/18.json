@@ -1,0 +1,27 @@
+{
+  "id": 18,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Antenna Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Antenna_Morty",
+  "text": "Antenna Morty is an alternate version of Morty with two green antennaes on his head.",
+  "sources": [
+    {
+      "id": "characters-18-wiki",
+      "title": "Antenna Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Antenna_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-18-api",
+      "title": "Antenna Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/18",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

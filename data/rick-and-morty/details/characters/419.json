@@ -1,0 +1,27 @@
+{
+  "id": 419,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Something Ricked This Way Comes/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Something_Ricked_This_Way_Comes%2FTranscript",
+  "text": "This article is a transcript of the Rick and Morty episode Something Ricked This Way Comes from Season 1. It aired on March 24, 2014.",
+  "sources": [
+    {
+      "id": "characters-419-wiki",
+      "title": "Something Ricked This Way Comes/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Something_Ricked_This_Way_Comes%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-419-api",
+      "title": "Plutonian Hostess API record",
+      "url": "https://rickandmortyapi.com/api/character/419",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

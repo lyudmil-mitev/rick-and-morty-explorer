@@ -1,0 +1,27 @@
+{
+  "id": 549,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Snake Arms",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Snake_Arms",
+  "text": "Snake Arms is a member of Miles Knightly's heist crew who appears in the episode \"One Crew Over the Crewcoo's Morty\".\n\nSnake Arms is first seen as apart of Miles Knightly’s crew in stealing the Crystal Skull of Horwitz. However, Rick reveals that he built a robot named Heistotron and hypnotizes him with the other crew members to give him and Morty the crystal instead.",
+  "sources": [
+    {
+      "id": "characters-549-wiki",
+      "title": "Snake Arms",
+      "url": "https://rickandmorty.fandom.com/wiki/Snake_Arms",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-549-api",
+      "title": "Snake Arms API record",
+      "url": "https://rickandmortyapi.com/api/character/549",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

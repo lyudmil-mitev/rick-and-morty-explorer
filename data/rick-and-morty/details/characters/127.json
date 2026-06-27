@@ -1,0 +1,27 @@
+{
+  "id": 127,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Frank Palicky",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Frank_Palicky",
+  "text": "Frank Palicky was a student at Harry Herpson High School. He was a frequent bully to Morty, and his dialogue with Morty suggests that Frank is insecure about his family's socioeconomic status.\n\nIn the Pilot, Frank pulls a switchblade on Morty and threatens to cut him, incorrectly accusing Morty of saying he was poor. Rick freezes Frank and drags Morty off. Summer steps onto the scene and tries to flirt with Frank, not noticing that he's currently frozen. His left foot shatters causing him to fall over and shatter into pieces, causing her to scream in horror. Later on when Jerry and Beth visited the school, they saw their daughter Summer and some other boys and girls having a funeral for Frank.",
+  "sources": [
+    {
+      "id": "characters-127-wiki",
+      "title": "Frank Palicky",
+      "url": "https://rickandmorty.fandom.com/wiki/Frank_Palicky",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-127-api",
+      "title": "Frank Palicky API record",
+      "url": "https://rickandmortyapi.com/api/character/127",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

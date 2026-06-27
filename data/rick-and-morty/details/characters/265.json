@@ -1,0 +1,27 @@
+{
+  "id": 265,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pickle Rick (episode)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pickle_Rick_(episode)",
+  "text": "\"Pickle Rick\" is the third episode of the third season of Rick and Morty. It is the 24th episode of the series overall. It premiered on August 6, 2017. It was written by Jessica Gao and directed by Anthony Chun. The episode is rated TV-14-LV.",
+  "sources": [
+    {
+      "id": "characters-265-wiki",
+      "title": "Pickle Rick (episode)",
+      "url": "https://rickandmorty.fandom.com/wiki/Pickle_Rick_(episode)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-265-api",
+      "title": "Pickle Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/265",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

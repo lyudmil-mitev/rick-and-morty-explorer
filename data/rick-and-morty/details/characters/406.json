@@ -1,0 +1,27 @@
+{
+  "id": 406,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rixty Minutes/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rixty_Minutes%2FTranscript",
+  "text": "This article is a transcript of the Rick and Morty episode Rixty Minutes from Season 1, which aired on March 17, 2014.",
+  "sources": [
+    {
+      "id": "characters-406-wiki",
+      "title": "Rixty Minutes/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Rixty_Minutes%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-406-api",
+      "title": "Spiderweb teddy bear API record",
+      "url": "https://rickandmortyapi.com/api/character/406",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

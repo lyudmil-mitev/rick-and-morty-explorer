@@ -1,0 +1,27 @@
+{
+  "id": 40,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "XenoBeth",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/XenoBeth",
+  "text": "XenoBeth, also known as Beth's Mytholog or Xenomorph Variant, is a physical representation of the way Jerry perceives Beth that went rogue and tried to take over the universe. It appeared in the episode \"Big Trouble In Little Sanchez\".\n\nIn the episode Big Trouble In Little Sanchez, when Jerry wears the Mytholog helmet, Beth's Mytholog is created, much to Beth's offense. She later creates Jerry's Mytholog in retaliation.\n\nBeth's Mytholog proves to be both cunning and strong, using Mytholog Jerry's unique abilities and her own brute strength to break free of their holding chamber and kill most of the staff. She later captures Beth and forces her to make more Mytholog Jerrys via the Mytholog helmet, in order to create a subservient army to aid her in universal conquest. She is then stopped after Beth creates several Ideal Jerrys, one of which creates Goddess Beth, who vaporizes the Beth Mytholog.\n\nBeing based on how Jerry views Beth, Beth's Mytholog is a highly exaggerated parody of Beth: a strong and cunning, yet caustic and cold-hearted beast with a massive ego and lust for power and control. She describes herself as the strongest, smartest being alive, simply because Jerry thinks Beth as being that much stronger and smarter than she really is. Mytholog Beth is also highly intelligent, immediately seeing the usefulness in Mytholog Jerry's unwavering subservience and shapeshifting abilities, which she uses to quickly evade detection and escape from her cell before destroying and taking over the facility on Nuptia 4.",
+  "sources": [
+    {
+      "id": "characters-40-wiki",
+      "title": "XenoBeth",
+      "url": "https://rickandmorty.fandom.com/wiki/XenoBeth",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-40-api",
+      "title": "Beth's Mytholog API record",
+      "url": "https://rickandmortyapi.com/api/character/40",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

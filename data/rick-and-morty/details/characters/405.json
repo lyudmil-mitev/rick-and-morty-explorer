@@ -1,0 +1,27 @@
+{
+  "id": 405,
+  "status": "alias_match",
+  "textType": "description",
+  "wikiTitle": "Rainbow Suspenders Guy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rainbow_Suspenders_Guy",
+  "text": "Rainbow Suspenders Guy is a recurring human background character recognized by his colorful suspenders. The wiki describes him appearing in different background roles, including as an anti-Trunk Person activist, which matches the API row name as a role/appearance alias.",
+  "sources": [
+    {
+      "id": "characters-405-api",
+      "title": "Trunkphobic suspenders guy API record",
+      "url": "https://rickandmortyapi.com/api/character/405",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "characters-405-wiki-alias",
+      "title": "Rainbow Suspenders Guy",
+      "url": "https://rickandmorty.fandom.com/wiki/Rainbow_Suspenders_Guy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "Mapped API descriptive name to Rainbow Suspenders Guy; API name appears to describe one role or appearance."
+}

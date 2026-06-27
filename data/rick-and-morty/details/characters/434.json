@@ -1,0 +1,27 @@
+{
+  "id": 434,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Super Weird Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Super_Weird_Rick",
+  "text": "Few things can be said about this version of Rick Sanchez. He is slightly more evil than Rick (C-137) and slightly less evil than Evil Rick. One thing is for certain, this Rick is incredibly strange. However, this statement could've been hinting at Rick Prime since he is also known as Weird Rick .",
+  "sources": [
+    {
+      "id": "characters-434-wiki",
+      "title": "Super Weird Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Super_Weird_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-434-api",
+      "title": "Super Weird Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/434",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

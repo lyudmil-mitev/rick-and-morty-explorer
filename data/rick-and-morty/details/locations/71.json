@@ -1,0 +1,27 @@
+{
+  "id": 71,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pizza Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pizza_Universe",
+  "text": "The Pizza Universe is a dimension where Pizza and Humans are in the opposite roles than they are in the real world.\n\nIn Close Rick-Counters of the Rick Kind Rick and Morty briefly passed through this dimension when they were being pursued by the Council of Ricks.\n\n*Close Rick-Counters of the Rick Kind",
+  "sources": [
+    {
+      "id": "locations-71-wiki",
+      "title": "Pizza Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Pizza_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-71-api",
+      "title": "Earth (Pizza Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/71",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

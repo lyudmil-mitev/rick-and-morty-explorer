@@ -1,0 +1,27 @@
+{
+  "id": 110,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Eli",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Eli",
+  "text": "Eli is a neighbor of Hemorrhage and Summer Smith, as well as Rick Sanchez and Morty Smith in the Post-Apocalyptic Dimension. He is shown to also have a relationship with an unnamed woman.\n\nAfter Rick, Morty and Summer joines the Death Stalkers; Eli announces the beginning of Morty's first battle when Morty arrives in the Blooddome with Armothy and later happily declares Morty the new ring champion after killing every other contender.\n\nAfter Rick sets up the electricity through the Isotope-322, Eli moves into a house next to Summer and Hemorrhage, with his girlfriend. As he is mowing his lawn, Summer comes home from work with groceries and he has a short chat with her. Eli's girlfriend tells Summer that she's pregnant before Eli makes a remark to Summer about her poor recycling. After Summer leaves, Eli and his girlfriend shortly complain about Summer and Hemorrhage.\n\nEli is presumably a cannibal alongside the rest of the Death Stalkers. He appears to be very enthusiastic about blood and violence as he works in the Blooddome, and quite dissatisfied while mowing his lawn. Eli is a fan of recycling and dislikes Summer for not paying enough attention to it.",
+  "sources": [
+    {
+      "id": "characters-110-wiki",
+      "title": "Eli",
+      "url": "https://rickandmorty.fandom.com/wiki/Eli",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-110-api",
+      "title": "Eli API record",
+      "url": "https://rickandmortyapi.com/api/character/110",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

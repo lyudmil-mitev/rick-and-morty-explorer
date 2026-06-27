@@ -1,0 +1,27 @@
+{
+  "id": 816,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Supernova Party Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Supernova_Party_Morty",
+  "text": "Supernova Party Morty is a Rock-type Morty in Pocket Mortys. He can be obtained as a Raid Reward, after defeating Diesel Weasel in Multiplayer Mode. He can't be obtained in Campaign Mode, neither does he spawn in wild. He can't evolve.",
+  "sources": [
+    {
+      "id": "characters-816-wiki",
+      "title": "Supernova Party Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Supernova_Party_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-816-api",
+      "title": "Party Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/816",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

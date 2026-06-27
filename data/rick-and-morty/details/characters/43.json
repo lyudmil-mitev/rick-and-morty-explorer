@@ -1,0 +1,27 @@
+{
+  "id": 43,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Big Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Big_Morty",
+  "text": "Big Morty is an alternate version of Morty Smith who appeared in the episode, \"The Ricklantis Mixup\". He is killed by Cop Morty shortly after he is introduced.\n\nHe is one of the residents in Morty Town and is presumably there because he has no Rick and no other family to return to.\n\nAfter Cop Morty kills the Mortytown Locos, they head to a bar where they meet Big Morty, a local \"drug lord\" of sorts. Cop Morty tells Big Morty that the Mortytown Locos had an 'accident' and that they won't be bothering him any more. Big Morty offers to pay Cop Morty and Cop Rick, however Cop Rick refuses to take the money, and eventually attempts to arrest Big Morty, only to end up causing a gun fight between the cops and Big Morty's henchmen. Cop Morty and Cop Rick end up killing both of the henchmen, and Cop Morty holds Big Morty at gunpoint, knowing he would reveal that he was abusing his power as a police officer. Cop Rick tells Cop Morty not to kill Big Morty, and Cop Morty fakes Cop Rick out by pretending to not want to be a cop anymore, only to shoot Big Morty, killing him, when Cop Rick's guard is down. Cop Rick quickly realizes his mistake and kills Cop Morty, turning himself in to the police.",
+  "sources": [
+    {
+      "id": "characters-43-wiki",
+      "title": "Big Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Big_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-43-api",
+      "title": "Big Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/43",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

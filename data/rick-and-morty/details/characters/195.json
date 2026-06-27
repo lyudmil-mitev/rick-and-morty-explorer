@@ -1,0 +1,27 @@
+{
+  "id": 195,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Kristen Stewart",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Kristen_Stewart",
+  "text": "Kristen Stewart (C-500A) is an American actress, and acquaintance of Jerry Smith (C-500A) and Leonardo DiCaprio.\n\nKristen Stewart went on Leonardo DiCaprio's yacht with the Jerry Smith in her dimension, who was a famous movie star. Kristen proceeded to have sex with Jerry while on the boat, which Jerry Smith witnessed through the Interdimensional Goggles. Their time together on the boat happened shortly before Jerry's big release party for his new movie, \"Last Will and Testimeow: Weekend at Dead Cat Lady's House II\", at which he later suffered a nervous breakdown.",
+  "sources": [
+    {
+      "id": "characters-195-wiki",
+      "title": "Kristen Stewart",
+      "url": "https://rickandmorty.fandom.com/wiki/Kristen_Stewart",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-195-api",
+      "title": "Kristen Stewart API record",
+      "url": "https://rickandmortyapi.com/api/character/195",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

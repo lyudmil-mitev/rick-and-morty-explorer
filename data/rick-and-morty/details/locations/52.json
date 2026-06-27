@@ -1,0 +1,27 @@
+{
+  "id": 52,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Morty Smith (K-22)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Morty_Smith_(K-22)",
+  "text": "Morty Smith (K-22) is a Morty who travels with Rick Sanchez (K-22) to collect donations to the Citadel of Ricks redevelopment fund in the episode The Ricklantis Mixup.",
+  "sources": [
+    {
+      "id": "locations-52-wiki",
+      "title": "Morty Smith (K-22)",
+      "url": "https://rickandmorty.fandom.com/wiki/Morty_Smith_(K-22)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-52-api",
+      "title": "Earth (K-22) API record",
+      "url": "https://rickandmortyapi.com/api/location/52",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

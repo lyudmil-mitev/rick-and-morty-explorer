@@ -1,0 +1,27 @@
+{
+  "id": 39,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Galactic Federation Prison",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Galactic_Federation_Prison",
+  "text": "The Galactic Federation Prison was a location that appears in \"The Wedding Squanchers\" and \"The Rickshank Rickdemption\". The prison was notorious for not only housing its most dangerous inmates but also for keeping its most sensitive and classified data, which had the power to completely dismantle the Federation itself. Rick Sanchez was an inmate in that prison until he escaped.\n\nThe prison was destroyed when Rick Sanchez teleported the Citadel of Ricks on top of it, devastating both structures. A fierce battle ensued, consisting of the Federation, its prisoners and The Citadel of Ricks, leaving many from all sides dead, including several Ricks and Mortys.\n\nAfter almost being caught by the Galactic Federation at Birdperson and Tammy's wedding, Rick Sanchez and the rest of the Smith Family become wanted fugitives. Realizing its the best choice for his family's safety, Rick turns himself in and his promptly taken to the Galactic Federation's prison. His DNA is analysed at the prison, revealing a long list of crimes Rick is wanted for, until he is strapped to one of the prison's cube-shaped cells and left to serve his sentence. When asked what he's in prison for by a fellow inmate, Rick simply responds with \"Everything\".\n\nSome time later, Rick is interrogated by Cornvelious Daniel inside a series 9000 Brainalyzer with the goal of unlocking Rick's secret of interdimensional portal travel. This does not go to plan, as Rick tricks the Gromflomites into downloading a code that gives him access of the Brainalyzer under the guise it was the equation for portal travel. He escapes into Cornvelious Daniel's body just as SEAL Team Ricks attacks the prison. Rick then uses the Brainalyzer to take over the body of one of the Ricks and escapes the facility entirely.\n\nRick then hopped into yet another Rick's body, this time being the Commander-in-Chief of the Citadel of Rick's militia and uses his higher clearance to teleport the entire Citadel on top of the Galactic Prison, causing catastrophic damage. After Rick dismantled the Federation by destroying their economy, it is unknown what happened to the prison after the Federation was able to re-build itself.",
+  "sources": [
+    {
+      "id": "locations-39-wiki",
+      "title": "Galactic Federation Prison",
+      "url": "https://rickandmorty.fandom.com/wiki/Galactic_Federation_Prison",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-39-api",
+      "title": "Galactic Federation Prison API record",
+      "url": "https://rickandmortyapi.com/api/location/39",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

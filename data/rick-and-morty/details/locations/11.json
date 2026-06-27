@@ -1,0 +1,27 @@
+{
+  "id": 11,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bepisians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bepisians",
+  "text": "Bepisians are an alien species often seen throughout the Universe.\n\nThey had at some point been visited by Shrimply Pibbles, the galaxy's most influential civil rights leader, suggesting they have experienced oppression or great misfortune in the past.\n\nSeveral Bepisians worked as security guards at St. Gloopy Noops Hospital during the time of Shrimply Pibbles' stay and kept the crowd at bay when Jerry Smith attempted to go back on his promise of donating his penis to replace Pibbles' heart.\n\n*\"Pilot\"\n*\"Mortynight Run\"\n*\"Interdimensional Cable 2: Tempting Fate\"\n*\"The Wedding Squanchers\"\n*\"Vindicators 3: The Return of Worldender\"",
+  "sources": [
+    {
+      "id": "locations-11-wiki",
+      "title": "Bepisians",
+      "url": "https://rickandmorty.fandom.com/wiki/Bepisians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-11-api",
+      "title": "Bepis 9 API record",
+      "url": "https://rickandmortyapi.com/api/location/11",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

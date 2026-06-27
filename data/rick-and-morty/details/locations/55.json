@@ -1,0 +1,27 @@
+{
+  "id": 55,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pawn Shop Planet",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pawn_Shop_Planet",
+  "text": "The Pawn Shop Planet is a very tiny planet, most likely a dwarf, that appeared in the episode \"Raising Gazorpazorp\". Its only known inhabitant is an alien who most likely does not live there but only goes there to work, who is known to eat sulfur.",
+  "sources": [
+    {
+      "id": "locations-55-wiki",
+      "title": "Pawn Shop Planet",
+      "url": "https://rickandmorty.fandom.com/wiki/Pawn_Shop_Planet",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-55-api",
+      "title": "Pawn Shop Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/55",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

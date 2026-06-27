@@ -1,0 +1,27 @@
+{
+  "id": 729,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Chud King",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Chud_King",
+  "text": "CHUD King is the King of the CHUD people and father of Poñeta.",
+  "sources": [
+    {
+      "id": "characters-729-wiki",
+      "title": "Chud King",
+      "url": "https://rickandmorty.fandom.com/wiki/Chud_King",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-729-api",
+      "title": "CHUD King API record",
+      "url": "https://rickandmortyapi.com/api/character/729",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

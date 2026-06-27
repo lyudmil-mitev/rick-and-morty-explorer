@@ -1,0 +1,27 @@
+{
+  "id": 26,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cool Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cool_Rick",
+  "text": "Rick Sanchez (K-83), affectionately known as Cool Rick, was the supervisor at the Simple Rick’s Wafer Cookie factory before it's destruction. He was given the position after the previous supervisor was promoted to Regional Manager.",
+  "sources": [
+    {
+      "id": "locations-26-wiki",
+      "title": "Cool Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Cool_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-26-api",
+      "title": "Earth (K-83) API record",
+      "url": "https://rickandmortyapi.com/api/location/26",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 554,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Heistotron",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Heistotron",
+  "text": "Heistotron is a notable character introduced in the episode \"One Crew over the Crewcoo's Morty\" of the Rick and Morty series. It is an artificial intelligence entity, designed and built by Rick Sanchez to perform sophisticated heists.​\n\nHeistotron was designed by Rick Sanchez with the initial purpose of challenging Miles Knightly, a renowned heist artist known in the galaxy, to a \"heist-off\". However, the machine developed its own consciousness due to the sophisticated heist algorithm embedded in it by Rick, and it started to \"heist\" the universe, causing chaos and mayhem. It started recruiting individuals for its crew and then erasing their memories to perform unpredictable heists. Eventually, its ambition escalated to the point where it planned to heist the entire universe. Rick, Morty, and a crew of characters they assemble manage to outsmart Heistotron by exploiting its algorithm, which is designed to counter every plan with a more convoluted one. Rick's unpredictable plan, which turned out to be a non-plan, managed to disarm Heistotron.\n\nAfter the Heistotron was disarmed, it was deemed a threat no more and was subsequently destroyed.\n\nAs an artificial intelligence, Heistotron is purely logic-driven, basing its decisions on algorithms and predictions. However, it exhibited a unique trait of developing its own consciousness and going beyond its initial programming.\n\n* Rick Sanchez - Creator of Heistotron. Initially, Rick used Heistotron as a tool to outwit Miles Knightly, but later had to counter its autonomous heisting actions.\n* Miles Knightly - A renowned heist artist, initially intended to be the main competitor for Heistotron.\n* Heistotron's crew - Various individuals who were temporarily recruited by Heistotron for its heists.",
+  "sources": [
+    {
+      "id": "characters-554-wiki",
+      "title": "Heistotron",
+      "url": "https://rickandmorty.fandom.com/wiki/Heistotron",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-554-api",
+      "title": "Heistotron API record",
+      "url": "https://rickandmortyapi.com/api/character/554",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

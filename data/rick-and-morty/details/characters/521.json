@@ -1,0 +1,27 @@
+{
+  "id": 521,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Wasp Beth",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Wasp_Beth",
+  "text": "Wasp Beth is a version of Beth Smith that exists in the Wasp Universe. She has a notably better relationship with her father than Rick C-137 has with his daughter.\n\nBeth first met Rick C-137 after he accidentally arrived in their universe in one of her father's clones, and was invited to dine with them. The Smiths ate Larva Mr. Goldenfold at the dinner table, as well as his newly made babies. She was asked by her father if he could take Morty out after dinner and help Rick C-137 get back to his reality. Beth asked Morty if he had finished his homework, which Morty answered that he had not and could therefor not join Rick, which Wasp Rick accepted. They finished dinner before the two Ricks travelled to Rick's dimension.",
+  "sources": [
+    {
+      "id": "characters-521-wiki",
+      "title": "Wasp Beth",
+      "url": "https://rickandmorty.fandom.com/wiki/Wasp_Beth",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-521-api",
+      "title": "Wasp Beth API record",
+      "url": "https://rickandmortyapi.com/api/character/521",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

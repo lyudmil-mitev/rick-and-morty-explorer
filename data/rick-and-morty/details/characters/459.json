@@ -1,0 +1,27 @@
+{
+  "id": 459,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Butthole Ice Cream",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Butthole_Ice_Cream",
+  "text": "{{Location\n|name =\n|image = Butthole_Ice_Cream.png\n|type = Ice Cream Parlor\n|first = Interdimensional Cable 2: Tempting Fate}}\nButthole Ice Cream is an interdimensional, soft serve ice cream parlor, that serves ice cream that comes out of giant buttholes.",
+  "sources": [
+    {
+      "id": "characters-459-wiki",
+      "title": "Butthole Ice Cream",
+      "url": "https://rickandmorty.fandom.com/wiki/Butthole_Ice_Cream",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-459-api",
+      "title": "Butthole Ice Cream Guy API record",
+      "url": "https://rickandmortyapi.com/api/character/459",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

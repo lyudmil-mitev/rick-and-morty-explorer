@@ -1,0 +1,27 @@
+{
+  "id": 209,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Long Sleeved Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Long_Sleeved_Morty",
+  "text": "Long Sleeved Morty is an alternate version of Morty Smith who appeared in the episode Close Rick-Counters of the Rick Kind.\n\nIn The Rickshank Rickdemption, many Mortys are killed when the Citadel of Ricks is transported into a prison of the Galactic Federation, it is unknown if Long Sleeved Morty is one of the Mortys who died.",
+  "sources": [
+    {
+      "id": "characters-209-wiki",
+      "title": "Long Sleeved Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Long_Sleeved_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-209-api",
+      "title": "Long Sleeved Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/209",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

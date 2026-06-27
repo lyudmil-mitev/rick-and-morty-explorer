@@ -1,0 +1,27 @@
+{
+  "id": 720,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Eddie",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Eddie",
+  "text": "The original Eddie presumably became a Cronenberg in the Cronenberged Dimension.\n\nEddie is the Tina-Teer for fire and has a ring that has the power to shoot flames when the word \"fire\" is said. When Planetina was summoned to Eco-Con while she was with Morty, the security guards promptly took Morty into a closet. Eddie came in and tried to burn Morty's face but Morty kicked Eddie and a fight ensued. Morty then bit off Eddie's finger and used his fire ring against him, resulting in his and several security guards' deaths. Morty then took Eddie's burnt skull and threw it to the other Tina-Teers while they were negotiating with the Arab ambassador before killing everyone in the room.",
+  "sources": [
+    {
+      "id": "characters-720-wiki",
+      "title": "Eddie",
+      "url": "https://rickandmorty.fandom.com/wiki/Eddie",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-720-api",
+      "title": "Eddie API record",
+      "url": "https://rickandmortyapi.com/api/character/720",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

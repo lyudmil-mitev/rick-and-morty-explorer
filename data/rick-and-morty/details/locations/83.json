@@ -1,0 +1,27 @@
+{
+  "id": 83,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glootie",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glootie",
+  "text": "Glootie is a character who first appeared in the comic Introducing: Glootie! and later re-appeared in \"The Old Man and the Seat\". He works as an intern for Rick Sanchez, and is appropriated by Jerry Smith, with the job of making a dating app titled Lovefinderrz.",
+  "sources": [
+    {
+      "id": "locations-83-wiki",
+      "title": "Glootie",
+      "url": "https://rickandmorty.fandom.com/wiki/Glootie",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-83-api",
+      "title": "Monogatron Mothership API record",
+      "url": "https://rickandmortyapi.com/api/location/83",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

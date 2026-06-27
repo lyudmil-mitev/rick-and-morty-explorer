@@ -1,0 +1,27 @@
+{
+  "id": 19,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gromflom Prime",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gromflom_Prime",
+  "text": "Gromflom Prime is the home planet of the Gromflomites.\n\nIt used to be a good planet to live on with green nature and buildings intact. However, everything changed with the chaos that ensued in the Blemflarck Crisis, created by the human Rick Sanchez. What followed was the complete destruction of the Gromflomite society, resulting in anarchy and no standard currency. With most residences destroyed, what's left is highly valued by owners and real estate agents. It seems most housing communites now are fenced communites, with only way of getting in is to bring them a \"severed head of one of the co-op board's many dangerous enemies\", according to a recently published article \"You WISH You Lived in These AMAZING Luxury Homes\" from Blurtfeed.",
+  "sources": [
+    {
+      "id": "locations-19-wiki",
+      "title": "Gromflom Prime",
+      "url": "https://rickandmorty.fandom.com/wiki/Gromflom_Prime",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-19-api",
+      "title": "Gromflom Prime API record",
+      "url": "https://rickandmortyapi.com/api/location/19",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

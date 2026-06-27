@@ -1,0 +1,27 @@
+{
+  "id": 359,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tortured Mortys",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tortured_Mortys",
+  "text": "The Tortured Mortys are a large number of Mortys that were being held in Evil Rick's torture chamber. They appeared in Close Rick-Counters of the Rick Kind. When Morty Smith rescued Rick, he pressed a button releasing the Tortured Mortys from their confines. At the end of the episode, they were shown alongside the other Mortys being sent back to their original homes.",
+  "sources": [
+    {
+      "id": "characters-359-wiki",
+      "title": "Tortured Mortys",
+      "url": "https://rickandmorty.fandom.com/wiki/Tortured_Mortys",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-359-api",
+      "title": "Tortured Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/359",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

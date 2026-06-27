@@ -1,0 +1,27 @@
+{
+  "id": 395,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Greebybobes",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Greebybobes",
+  "text": "Greebybobes are an alien species that lived on the Planet Parblesnops. They appeared frequently as background characters throughout the series before their gruesome planet getting destroyed by Cromulons in the episode \"Get Schwifty\". However a couple of them are seen in later episodes implying the species isn't extinct.",
+  "sources": [
+    {
+      "id": "characters-395-wiki",
+      "title": "Greebybobes",
+      "url": "https://rickandmorty.fandom.com/wiki/Greebybobes",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-395-api",
+      "title": "Greebybobe API record",
+      "url": "https://rickandmortyapi.com/api/character/395",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

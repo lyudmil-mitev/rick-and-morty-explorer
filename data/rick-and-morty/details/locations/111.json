@@ -1,0 +1,27 @@
+{
+  "id": 111,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Elemental Rings",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Elemental_Rings",
+  "text": "The Elemental Rings are four magical rings that can grant the wearer(s) to manipulate the four elements: fire, water, air, and dirt.\n\nThey were owned by the Tina-Teers, but were eventually claimed by Morty, who then used the rings to kill each one of the members so that he and Planetina can be together forever.",
+  "sources": [
+    {
+      "id": "locations-111-wiki",
+      "title": "Elemental Rings",
+      "url": "https://rickandmorty.fandom.com/wiki/Elemental_Rings",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-111-api",
+      "title": "Elemental Rings API record",
+      "url": "https://rickandmortyapi.com/api/location/111",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

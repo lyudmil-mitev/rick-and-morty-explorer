@@ -1,0 +1,27 @@
+{
+  "id": 658,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Sonia Sotomayor",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Sonia_Sotomayor",
+  "text": "is a Justice of the Supreme Court of the United States, based on her real-life counterpart.\n\nSonia Sotomayor appears in The Vat of Acid Episode, where she appears at Morty's home to demand his surrender and gives a eulogy when he fakes his death.",
+  "sources": [
+    {
+      "id": "characters-658-wiki",
+      "title": "Sonia Sotomayor",
+      "url": "https://rickandmorty.fandom.com/wiki/Sonia_Sotomayor",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-658-api",
+      "title": "Sonia Sotomayor API record",
+      "url": "https://rickandmortyapi.com/api/character/658",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 198,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lady Katana",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lady_Katana",
+  "text": "Lady Katana was a former member of The Vindicators, who was said to have died in their second adventure, a fight against Doom-Nomitron, along with Calypso and Diablo Verde.\n\nIn Vindicators 2: Girls Night, it is revealed that she never fought Doom-Nomitron, and was actually killed by Supernova when she blacked out drunk.\n\nShe, Calypso, and Diablo Verde were all vocally aware that they're only on the team for good optics, and refuse to be used as cannon fodder by the others.",
+  "sources": [
+    {
+      "id": "characters-198-wiki",
+      "title": "Lady Katana",
+      "url": "https://rickandmorty.fandom.com/wiki/Lady_Katana",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-198-api",
+      "title": "Lady Katana API record",
+      "url": "https://rickandmortyapi.com/api/character/198",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

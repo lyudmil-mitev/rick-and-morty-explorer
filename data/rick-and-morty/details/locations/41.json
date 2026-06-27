@@ -1,0 +1,27 @@
+{
+  "id": 41,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hamster in Butt World",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hamster_in_Butt_World",
+  "text": "The Hamster in Butt World is an alternate dimension inhabited by Hamsters In Butts that appeared in the episode \"Rixty Minutes\".\n\nThe Smith Family was watching this on the inter-dimensional TV, and asking Rick Sanchez a bunch of questions about it as he had no answer about the world. Eventually, Rick got fed up with all of them, because he has not ever been there either and took them all to visit the dimension. Jerry excitedly called it a family vacation, as the family all had a fun vacation there and all of their questions were answered.",
+  "sources": [
+    {
+      "id": "locations-41-wiki",
+      "title": "Hamster in Butt World",
+      "url": "https://rickandmorty.fandom.com/wiki/Hamster_in_Butt_World",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-41-api",
+      "title": "Hamster in Butt World API record",
+      "url": "https://rickandmortyapi.com/api/location/41",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 139,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "General Store Owner",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/General_Store_Owner",
+  "text": "The General Store Owner was a resident of a small town on the purge planet from Look Who's Purging Now.",
+  "sources": [
+    {
+      "id": "characters-139-wiki",
+      "title": "General Store Owner",
+      "url": "https://rickandmorty.fandom.com/wiki/General_Store_Owner",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-139-api",
+      "title": "General Store Owner API record",
+      "url": "https://rickandmortyapi.com/api/character/139",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

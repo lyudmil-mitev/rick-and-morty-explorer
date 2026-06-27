@@ -1,0 +1,27 @@
+{
+  "id": 687,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scarecrow Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scarecrow_Rick",
+  "text": "Scarecrow Rick is a scarecrow version of Rick who appears in the episode \"Mortyplicity\".\n\nScarecrow Rick is a decoy version of Rick who knew he was a decoy due to how he is made of lesser materials. His plan is to capture and skin decoys and use their skin to create pelts for himself and his family to make them \"beautiful again\". Scarecrow Rick is then killed by Glockenspiel Rick after going into his base of operations.",
+  "sources": [
+    {
+      "id": "characters-687-wiki",
+      "title": "Scarecrow Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Scarecrow_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-687-api",
+      "title": "Scarecrow Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/687",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

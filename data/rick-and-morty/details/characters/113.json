@@ -1,0 +1,27 @@
+{
+  "id": 113,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Eric Stoltz Mask Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Eric_Stoltz_Mask_Morty",
+  "text": "Eric Stoltz Mask Morty is an alternate version of Morty Smith who originates from a reality where everyone is Eric Stoltz Mask people. He was assigned to be Doofus Rick's Morty since Doofus Rick never had any son or daughter. He appeared in \"Close Rick-Counters of the Rick Kind\" playing cards with other Mortys. Eric Stoltz Mask Morty is a member of the Citadel's militia.\n\nIn The Rickshank Rickdemption, many Mortys are killed when the Citadel of Ricks is transported into a prison of the Galactic Federation, it is unknown if Eric Stoltz Mask Morty is one of the Mortys who died.",
+  "sources": [
+    {
+      "id": "characters-113-wiki",
+      "title": "Eric Stoltz Mask Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Eric_Stoltz_Mask_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-113-api",
+      "title": "Eric Stoltz Mask Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/113",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

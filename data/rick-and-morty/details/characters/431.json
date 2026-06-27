@@ -1,0 +1,27 @@
+{
+  "id": 431,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Close Rick-Counters of the Rick Kind/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Close_Rick-Counters_of_the_Rick_Kind%2FTranscript",
+  "text": "This article is a transcript of the Rick and Morty episode \"Close Rick-counters of the Rick Kind\" from season 1, which aired on April 7, 2014.",
+  "sources": [
+    {
+      "id": "characters-431-wiki",
+      "title": "Close Rick-Counters of the Rick Kind/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Close_Rick-Counters_of_the_Rick_Kind%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-431-api",
+      "title": "Chair-homeless API record",
+      "url": "https://rickandmortyapi.com/api/character/431",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 791,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Harold the Garbage Goober",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Harold_the_Garbage_Goober",
+  "text": "\"Mmm Trash! I love trash! Yum yum trash! I wanna eat trash!\"\n\nDr. Harold , also called Harold the Garbage Goober, is an unknown alien who lives inside a hole in Rick's garage and he only comes out to eat trash that is left on the ground.\n\nHailing from an unknown planet, Harold and his unnamed wife arrived to Earth and make a home inside the house of the Smith family. Given the fact that Harold is a doctor he probably wanted to work with Rick as his partner. However, at some point, Harold started to function as \"Garbage Goober\" who ate up the garbage Rick Sanchez or his family drop. When his wife confronted him and tried to remind him that his work is not what he signed up for and that he is a doctor and deserves respect, Harold claimed he \"kinda hinted at it\" but his career as Garbage Goober played out so long, he is reluctant to change things since he finds it a \"honest living\" and visibly enjoys eating trash. When his wife calls him a coward, Harold seemingly agrees to ask the family for dignity but when Summer calls out and offers him trash to eat, he eagerly leaves to go consume it, much of his wife dissatisfaction.",
+  "sources": [
+    {
+      "id": "characters-791-wiki",
+      "title": "Harold the Garbage Goober",
+      "url": "https://rickandmorty.fandom.com/wiki/Harold_the_Garbage_Goober",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-791-api",
+      "title": "Harold's Wife API record",
+      "url": "https://rickandmortyapi.com/api/character/791",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

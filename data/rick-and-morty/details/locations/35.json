@@ -1,0 +1,27 @@
+{
+  "id": 35,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Planet Squanch",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Planet_Squanch",
+  "text": "Planet Squanch is a planet that appeared in the episode \"The Wedding Squanchers\". It is the planet where Squanchy comes from and it is 6,000 light years away from Earth.\n\nBirdperson and Tammy, for unknown reasons, decided to hold their wedding on this planet. They invited a large group of friends and acquaintances to this special occasion, all of which were criminals in the eyes of the Galactic Federation. The Smith Family attended the wedding against Rick's wishes. Squanchy wed Birdperson and Tammy on a beach before a setting star.\n\nLater at the wedding reception, Tammy exposed herself as an undercover agent for the Galactic Federation and shot Birdperson before Gromflomites crashed in through the roof and raided the event. The ensuing shootout killed most of the guests, with Squanchy surviving. The Smith family managed to escape in a flying catering van.",
+  "sources": [
+    {
+      "id": "locations-35-wiki",
+      "title": "Planet Squanch",
+      "url": "https://rickandmorty.fandom.com/wiki/Planet_Squanch",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-35-api",
+      "title": "Planet Squanch API record",
+      "url": "https://rickandmortyapi.com/api/location/35",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

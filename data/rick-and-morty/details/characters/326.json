@@ -1,0 +1,27 @@
+{
+  "id": 326,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Slippery Stair",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Slippery_Stair",
+  "text": "Slippery Stair is a supporting character that appears in the episode Meeseeks and Destroy.\n\nRick and Morty first see Slippery Stair in the Thirsty Step. He offers to take Morty and Rick down the Giant's stairs for 25 Shmeckles. Rick pays him to take Morty and himself down the Giant Courthouse steps and to the village.",
+  "sources": [
+    {
+      "id": "characters-326-wiki",
+      "title": "Slippery Stair",
+      "url": "https://rickandmorty.fandom.com/wiki/Slippery_Stair",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-326-api",
+      "title": "Slippery Stair API record",
+      "url": "https://rickandmortyapi.com/api/character/326",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

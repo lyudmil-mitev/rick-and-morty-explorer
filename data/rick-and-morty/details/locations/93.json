@@ -1,0 +1,27 @@
+{
+  "id": 93,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gramuflack",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gramuflack",
+  "text": "{{Location\n|image=\n|name =\n|dimension = Dimension C-131\n|type = Planet\n|first = One Crew over the Crewcoo's Morty\n|last = One Crew over the Crewcoo's Morty\n}} was an inhabited planet located somewhere in galaxy. It was destroyed when Heistotron stole the planet's core.\n\nShortly after going rogue, Heistotron constructed a gigantic robot to steal 's core. The robot approached the planet dressed as a plumber named \"Hank\", claiming to come to check the planet's water pressure. Heistotron placed a giant secret camera on a city, killing 57,000 people. Heistotron then changed the costume to a pizza delivery named \"Tony\" and dropped a giant pizza box on top of another city, flattening it and killing all citizens. The box started drilling into the planet, destroying all half of it, ending the planet's gravity and killing all creatures before extracting the planet core.",
+  "sources": [
+    {
+      "id": "locations-93-wiki",
+      "title": "Gramuflack",
+      "url": "https://rickandmorty.fandom.com/wiki/Gramuflack",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-93-api",
+      "title": "Gramuflack API record",
+      "url": "https://rickandmortyapi.com/api/location/93",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

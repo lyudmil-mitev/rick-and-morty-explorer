@@ -1,0 +1,27 @@
+{
+  "id": 257,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Paul Fleishman",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Paul_Fleishman",
+  "text": "is a man that appeared in the episode Mortynight Run at Jerryboree. He comes from an alternate timeline where Jerry and Beth divorced and, soon after, Beth got remarried to him.\n\nPaul is a man very much like Jerry, which led him to marry the Beth in his universe after she divorced the Jerry of that universe. According to himself, he treats Beth very well and does not overstep his bounds with Morty by trying to replace Jerry. He is well versed in the dynamics of his new family, as he was fully aware of inter-dimensional travel and his role in the other dimensions.\n\nOn one of his father-in-law's adventures, Paul is checked in to Jerryboree and appears to be the only non-Jerry there. When Jerry Smith returns from his short adventure outside of Jerryboree, he briefly talks to him and asks Jerry to assist him and the rest of the Jerrys with connecting the TV audio to the stereo.",
+  "sources": [
+    {
+      "id": "characters-257-wiki",
+      "title": "Paul Fleishman",
+      "url": "https://rickandmorty.fandom.com/wiki/Paul_Fleishman",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-257-api",
+      "title": "Paul Fleishman API record",
+      "url": "https://rickandmortyapi.com/api/character/257",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 320,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shnoopy Bloopers",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shnoopy_Bloopers",
+  "text": "Shnoopy Bloopers is an alien friend of Rick's who made his first appearance in The Whirly Dirly Conspiracy. He is the owner of an unnamed restaurant in the Immortality Field Resort.\n\nShnoopy Bloopers initially attacked Rick with a spear and killed him, before being killed in turn with a beer bottle in the neck. However, both were resurrected due to the immortality field and he revealed himself to be quite friendly and acquainted to Rick, welcoming him with free food and drink.",
+  "sources": [
+    {
+      "id": "characters-320-wiki",
+      "title": "Shnoopy Bloopers",
+      "url": "https://rickandmorty.fandom.com/wiki/Shnoopy_Bloopers",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-320-api",
+      "title": "Shnoopy Bloopers API record",
+      "url": "https://rickandmortyapi.com/api/character/320",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 18,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Summer Smith (Goldenfold's Dream)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Summer_Smith_(Goldenfold's_Dream)",
+  "text": "Summer Smith (Goldenfold's Dream) is an imaginary version of Summer that exists within Mrs. Pancakes' dream within Mr. Goldenfold's dream.",
+  "sources": [
+    {
+      "id": "locations-18-wiki",
+      "title": "Summer Smith (Goldenfold's Dream)",
+      "url": "https://rickandmorty.fandom.com/wiki/Summer_Smith_(Goldenfold's_Dream)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-18-api",
+      "title": "Mr. Goldenfold's dream API record",
+      "url": "https://rickandmortyapi.com/api/location/18",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

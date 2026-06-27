@@ -1,0 +1,27 @@
+{
+  "id": 189,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Katarina",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Katarina",
+  "text": "Katarina was the daughter of Jaguar and a unnamed woman. She never made an appearance, but was mentioned in \"Pickle Rick\" and was Jaguar's only motivation to try and kill Rick Sanchez.\n\nAt some point, Katarina was captured by command from the Agency Director, presumably because of her revolutionist father. She was killed, however, unbeknownst to him while he was imprisoned by the agency in America. The Agency Director lied about her being alive to force Jaguar into combat against Rick before they joined team against the agency.",
+  "sources": [
+    {
+      "id": "characters-189-wiki",
+      "title": "Katarina",
+      "url": "https://rickandmorty.fandom.com/wiki/Katarina",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-189-api",
+      "title": "Katarina API record",
+      "url": "https://rickandmortyapi.com/api/character/189",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

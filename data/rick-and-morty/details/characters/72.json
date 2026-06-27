@@ -1,0 +1,27 @@
+{
+  "id": 72,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cool Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cool_Rick",
+  "text": "Rick Sanchez (K-83), affectionately known as Cool Rick, was the supervisor at the Simple Rick’s Wafer Cookie factory before it's destruction. He was given the position after the previous supervisor was promoted to Regional Manager.\n\nRick (K-83), or Cool Rick, had only recently arrived at the Citadel of Ricks when he was given the position of supervisor at the Simple Rick's Wafer Cookie factory, as Regional Manager Rick had been promoted to regional manager. This move greatly irritated Rick Sanchez (J-22), who would go on to kill Regional Manager Rick soon after.\n\nIt's unknown if he was present and died during the destruction of the Citadel or left it and survived his likely demise.",
+  "sources": [
+    {
+      "id": "characters-72-wiki",
+      "title": "Cool Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Cool_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-72-api",
+      "title": "Cool Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/72",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 84,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Frog Restaurant",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Frog_Restaurant",
+  "text": "The Frog Restaurant is a restaurant found in a frog city within the Gorgon Quadrant. It is also the front for Vermigurber's drug operations.\n\nThe restaurant is staffed by humanoid frogs, but owned by the fly Vermigurber. The back room behind the kitchen is used as his base of operations.\n\nTony ordered a club sandwich from this restaurant, delivered to him by the restaurant's Delivery Drone. When he left parts of it after using Rick Sanchez's private toilet, Rick tracked down the restaurant to be source of the sandwich. He confronted the owner, Vermigurber, about the sandwich and who it was delivered to. Vermigurber refused to cooperate, which Rick had anticipated and already threatened over half of his eight-hundred-thousand kids. Vermigurber directed Rick to find their delivery drone, which was off to fight in the robot wars at the Midland Quasar.",
+  "sources": [
+    {
+      "id": "locations-84-wiki",
+      "title": "Frog Restaurant",
+      "url": "https://rickandmorty.fandom.com/wiki/Frog_Restaurant",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-84-api",
+      "title": "Gorgon Quadrant API record",
+      "url": "https://rickandmortyapi.com/api/location/84",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

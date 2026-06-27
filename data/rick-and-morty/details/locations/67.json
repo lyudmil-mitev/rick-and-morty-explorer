@@ -1,0 +1,27 @@
+{
+  "id": 67,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Blips and Chitz",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Blips_and_Chitz",
+  "text": "Blips and Chitz is an intergalactic arcade.\n\nBlips and Chitz is introduced in the episode Mortynight Run. Blips and Chitz is an arcade themed building where Morty plays a virtual reality game called Roy: A Life Well Lived, where he lives through the entire life of a man named Roy up to the age of 55.\n\nWhen Morty returned, he was furious at Rick for selling a gun to the assassin Krombopulos Michael for a single afternoon at Blips and Chitz. Rick didn't care for what Morty had to say and proceeded to take his turn in Roy: A Life Well Lived.\n\nIn the post-ending credits epilogue for the episode, they featured a commercial for the episode where Rick starred in. In the commercial an alien can be seen getting teleported into a game and getting shot and another alien can be seen getting decapitated.\n\nIn the Comics, Rick and Morty are consistently visiting Blips and Chitz.\n\nIn Pocket Mortys, there are Blips and Chitz Express machines located all over the various dimensions. Here you can buy Mortys using Blips and Chitz Coupons.",
+  "sources": [
+    {
+      "id": "locations-67-wiki",
+      "title": "Blips and Chitz",
+      "url": "https://rickandmorty.fandom.com/wiki/Blips_and_Chitz",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-67-api",
+      "title": "Blips and Chitz API record",
+      "url": "https://rickandmortyapi.com/api/location/67",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

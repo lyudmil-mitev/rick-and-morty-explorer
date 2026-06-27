@@ -1,0 +1,27 @@
+{
+  "id": 48,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Afro Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Afro_Rick",
+  "text": "is an alternate version of Rick Sanchez with an afro, and of African-American descent.\n\nHe first appeared in \"The Rickshank Rickdemption\", in The Citadel talking to other Ricks while Morty and Summer were escorted past them to the Council of Ricks. He was talking to Alien Rick and an unnamed Rick.\n\nHe is later seen in \"The Ricklantis Mixup\", firstly appearing backstage during the presidential debate, after Juggling Rick is seen on TV. He is in a heated discussion with Cowboy Rick. He is later seen in the crowd of Ricks at the time of President Morty's attempted assassination and is greatly upset following the shooting.",
+  "sources": [
+    {
+      "id": "characters-48-wiki",
+      "title": "Afro Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Afro_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-48-api",
+      "title": "Black Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/48",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 472,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick and Morty Babies",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_and_Morty_Babies",
+  "text": "is a music video of the Rick and Morty Theme Song that was released on April 1, 2021 on Adult Swim's YouTube channel as apart of their Adult Swim Jr. April Fool's Day prank.",
+  "sources": [
+    {
+      "id": "characters-472-wiki",
+      "title": "Rick and Morty Babies",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_and_Morty_Babies",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-472-api",
+      "title": "Baby Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/472",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

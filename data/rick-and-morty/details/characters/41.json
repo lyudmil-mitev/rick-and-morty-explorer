@@ -1,0 +1,27 @@
+{
+  "id": 41,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Big Boobed Waitress",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Big_Boobed_Waitress",
+  "text": "{{Character\n|image = Waitress_Lady.png\n|name =\n|origin = Fantasy World\n|status = Alive\n|job = Waitress at Thirsty Step\n|voice = Cree Summer\n|only = Meeseeks and Destroy\n}}\n\nThe Big Boobed Waitress is an unnamed waitress from another dimension, who appeared in the episode Meeseeks and Destroy. She served Rick and Morty their food and was confronted by Mr. Booby Buyer, attempting to buy her boobs from her, which she nicely declined to. She mentioned that she spent 25 Schmeckles on her big fake boobies. According to a Meeseeks And Destroy screenplay, her name is Rosie. It is unknown if this is still true in the finished episode.",
+  "sources": [
+    {
+      "id": "characters-41-wiki",
+      "title": "Big Boobed Waitress",
+      "url": "https://rickandmorty.fandom.com/wiki/Big_Boobed_Waitress",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-41-api",
+      "title": "Big Boobed Waitress API record",
+      "url": "https://rickandmortyapi.com/api/character/41",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

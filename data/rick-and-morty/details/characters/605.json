@@ -1,0 +1,27 @@
+{
+  "id": 605,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Never Ricking Morty/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Never_Ricking_Morty%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-605-wiki",
+      "title": "Never Ricking Morty/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Never_Ricking_Morty%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-605-api",
+      "title": "Floaty Bloody Man’s Daughter API record",
+      "url": "https://rickandmortyapi.com/api/character/605",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 275,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Randy Dicknose",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Randy_Dicknose",
+  "text": "Randy Dicknose is a host on the new hit show MAN vs. CAR. He is seen on a television programme from one of infinite dimensions.\n\nHe hosts the MAN vs. CAR show. His co-host Michael McLick remains quiet through the segment, leaving him to carry on with the segment by himself. As the car defeats the man, he starts laughing, stating how the cars always win.",
+  "sources": [
+    {
+      "id": "characters-275-wiki",
+      "title": "Randy Dicknose",
+      "url": "https://rickandmorty.fandom.com/wiki/Randy_Dicknose",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-275-api",
+      "title": "Randy Dicknose API record",
+      "url": "https://rickandmortyapi.com/api/character/275",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

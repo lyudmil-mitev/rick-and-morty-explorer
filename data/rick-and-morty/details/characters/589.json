@@ -1,0 +1,27 @@
+{
+  "id": 589,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez (D716-C)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D716-C)",
+  "text": "Rick Sanchez (D716-C) was a field reporter for the Citadel Morning News on channel CN at the Citadel. He worked with Rick (D716) and Rick (D716-B) in the studio. He is from Dimension (D716-C).\n\nRick (D716-C) was sent out to report on the hostage situation happening at the Simple Rick’s Wafer Cookie factory, where Rick Sanchez (J-22) had taken Simple Rick hostage in the Flavor Core. He reports on Rick (J-22)'s statement about how the Citadel is a lie with a very nonchalant, while a little bitter, demeanor. He cuts back to his coworkers in the studio who badmouth him shortly after. It is unknown wether he survived or not after the events of Rickmurai Jack.\n\nRick (D716-C) appears a little bitter about his life with his face horribly disfigured compared to his coworkers. This affects his work with his behavior appearing lazy and uninterested.",
+  "sources": [
+    {
+      "id": "characters-589-wiki",
+      "title": "Rick Sanchez (D716-C)",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D716-C)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-589-api",
+      "title": "Snake Reporter API record",
+      "url": "https://rickandmortyapi.com/api/character/589",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

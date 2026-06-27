@@ -1,0 +1,27 @@
+{
+  "id": 469,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tiny Customer Service Reps",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tiny_Customer_Service_Reps",
+  "text": "The Tiny Customer Serive Reps were three tiny yellow men who worked as customer support inside of a Morphizer-Xe unit owned by Rick Sanchez.\n\nThe three customer service reps were included inside the Morphizer-XE unit ordered by Rick Sanchez at some point. They lived their lives inside the machine and most likely kept in contact with the producers of the Morphizer-products to report bugs and incidents.\n\nSummer Smith found the Morphizer and decided to use it in order to enlarge her chest; the size of which she believed to be the reason why Ethan broke up with her to date Tricia Lange. After this failed, and Beth Smith was unable to properly work the machine, the tiny customer reps were called for help. They directed Beth to open a compartment on the side of the machine, which she did and thereby released the tiny creatures.\n\nThe three guys decided to retire and enjoy life on Earth, and no longer discuss anything work related. This did not last long before one of them was grabbed by a bird and carried off to be eaten.",
+  "sources": [
+    {
+      "id": "characters-469-wiki",
+      "title": "Tiny Customer Service Reps",
+      "url": "https://rickandmorty.fandom.com/wiki/Tiny_Customer_Service_Reps",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-469-api",
+      "title": "Morphizer-XE Customer Support API record",
+      "url": "https://rickandmortyapi.com/api/character/469",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

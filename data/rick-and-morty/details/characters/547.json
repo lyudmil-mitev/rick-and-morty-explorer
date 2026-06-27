@@ -1,0 +1,27 @@
+{
+  "id": 547,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glar",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glar",
+  "text": "Glar, also known as Gleer, is an old friend of Rick’s. He used to play piano in an alien club before briefly joining his heist crew.\n\nGlar was recruited into \"Sanchez's Five\", Rick and Morty's heist crew formed with the sole purpose of obtaining professional passes for Heist-Con. After Rick and Morty's successful entrance into the conference, Glar was ditched by Rick along with Angie Flint and Truckula, who made up the rest of Sanchez's Five. The three of them were seconds later recruited into Knight lllghtly's Eight, effectively double-crossing Rick to steal the Crystal Skull of Horowitz. After Miles Knightly sent them to pull off the crystal skull heist, Heistotron hit them with mind control darts and sent them to do the heist for Rick. They returned to Heistcon and handed Rick the skull before the main event, and instead handed Miles a bag of shit.",
+  "sources": [
+    {
+      "id": "characters-547-wiki",
+      "title": "Glar",
+      "url": "https://rickandmorty.fandom.com/wiki/Glar",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-547-api",
+      "title": "Glar API record",
+      "url": "https://rickandmortyapi.com/api/character/547",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 690,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scarecrow Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scarecrow_Morty",
+  "text": "Scarecrow Morty is a scarecrow version of Morty. He appears in the episode \"Mortyplicity\".\n\nScarecrow Morty is a decoy version of Morty who is seen locked in a cage with the rest of the scarecrow Smith Family. Scarecrow Rick promises to find skin and create pelts for himself and his family to make them \"beautiful again\". Scarecrow Morty is then killed by the Glockenspiel family as they burn their cage.",
+  "sources": [
+    {
+      "id": "characters-690-wiki",
+      "title": "Scarecrow Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Scarecrow_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-690-api",
+      "title": "Scarecrow Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/690",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

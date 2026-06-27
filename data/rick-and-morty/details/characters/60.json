@@ -1,0 +1,27 @@
+{
+  "id": 60,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Calypso",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Calypso",
+  "text": "Calypso was a gorgon-like sorceress and former member of The Vindicators, who was said to have died on their second adventure, a fight against Doom-Nomitron, along with Lady Katana and Diablo Verde.\n\nIn Vindicators 2: Girls Night, it is revealed that she never fought Doom-Nomitron, and was actually killed by Supernova when she blacked out drunk.",
+  "sources": [
+    {
+      "id": "characters-60-wiki",
+      "title": "Calypso",
+      "url": "https://rickandmorty.fandom.com/wiki/Calypso",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-60-api",
+      "title": "Calypso API record",
+      "url": "https://rickandmortyapi.com/api/character/60",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

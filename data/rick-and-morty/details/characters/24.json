@@ -1,0 +1,27 @@
+{
+  "id": 24,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Armagheadon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Armagheadon",
+  "text": "Armagheadon is a Cromulon that appeared in the episode Get Schwifty.\n\nHe is a giant apocalyptic head that confronted the people of Earth, trying to get them to make a hit song for them and then put them on his show, Planet Music. The majority of people in the town (led by Principal Vagina) misinterpreted him as a god and started the religion of Headism to worship him. Over the course of Planet Music, he told contestants to play and announced when they were disqualified. He decided to end the show after 988 seasons and declared Earth the final winner before teleporting the planet back into its place in the Solar System.",
+  "sources": [
+    {
+      "id": "characters-24-wiki",
+      "title": "Armagheadon",
+      "url": "https://rickandmorty.fandom.com/wiki/Armagheadon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-24-api",
+      "title": "Armagheadon API record",
+      "url": "https://rickandmortyapi.com/api/character/24",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

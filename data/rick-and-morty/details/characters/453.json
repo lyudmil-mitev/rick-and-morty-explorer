@@ -1,0 +1,27 @@
+{
+  "id": 453,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Old One Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Old_One_Morty",
+  "text": "Old One Morty is a Scissors-type Morty in Pocket Mortys. He is the final evolution of New Blood Morty.",
+  "sources": [
+    {
+      "id": "characters-453-wiki",
+      "title": "Old One Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Old_One_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-453-api",
+      "title": "Vampire Master's Assistant API record",
+      "url": "https://rickandmortyapi.com/api/character/453",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 327,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Slow Mobius",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Slow_Mobius",
+  "text": "Slow Mobius was a paternal uncle of Rick Sanchez, who first appeared in the episode \"Ricksy Business\". He had the ability to slow down time with a pair of giant clock-headed time wands.\n\nIn \"Unmortricken\", Rick Prime uses the Omega Device to kill him in all realities, erasing him from the infinite multiverse. However Rick C-137 soon avenged him after killing Rick Prime.\n\nHe is voiced by Chris Romano.\n\nSlow Mobius had a fun-loving and comedic personality, shown when he slowed down time around Morty when the latter saw Jessica at the party, continuing to do so until Rick noticed and berated him for the cliché. He seemingly was a good husband to his wife, judging by her deep grief towards him after his passing.",
+  "sources": [
+    {
+      "id": "characters-327-wiki",
+      "title": "Slow Mobius",
+      "url": "https://rickandmorty.fandom.com/wiki/Slow_Mobius",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-327-api",
+      "title": "Slow Mobius API record",
+      "url": "https://rickandmortyapi.com/api/character/327",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

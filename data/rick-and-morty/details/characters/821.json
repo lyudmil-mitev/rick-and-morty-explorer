@@ -1,0 +1,27 @@
+{
+  "id": 821,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gotron",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gotron",
+  "text": "The Gotron is a giant super mecha robot that is used by the Gotron pilots to defend planets and stop giant monsters which can be formed using giant five colored Gorton robots that resemble ferrets.\n\nThe robots can be fused with other Gotron robots to form giant versions of itself such as the Gogotron and Gogogotron. It first appears in \"Gotron Jerrysis Rickvangelion\".",
+  "sources": [
+    {
+      "id": "characters-821-wiki",
+      "title": "Gotron",
+      "url": "https://rickandmorty.fandom.com/wiki/Gotron",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-821-api",
+      "title": "Gotron API record",
+      "url": "https://rickandmortyapi.com/api/character/821",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

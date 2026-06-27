@@ -1,0 +1,27 @@
+{
+  "id": 667,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Defiance",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Defiance",
+  "text": "The Defiance is a rebellious group opposing The New Galactic Federation, and was apparently founded and led by Beth Smith. They have launched several attacks on the New Federation in their attempts to stop its growth and eventual takeover of the galaxy.",
+  "sources": [
+    {
+      "id": "characters-667-wiki",
+      "title": "The Defiance",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Defiance",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-667-api",
+      "title": "Defiance Beth API record",
+      "url": "https://rickandmortyapi.com/api/character/667",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

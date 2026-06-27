@@ -1,0 +1,27 @@
+{
+  "id": 450,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rosy Parsons",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rosy_Parsons",
+  "text": "Rosy Parsons, also known as Roy's wife, is the second eponymous character of the virtual reality arcade game \"Roy: A Life Well Lived\" which appears at the intergalactic arcade Blips and Chitz in the episode \"Mortynight Run\".\n\nRosy's personality depends on whoever is playing the game. Regardless, most people forget about their real life and believe themselves to be Rosy as long as Rosy remains alive. Some people, such as Rick Sanchez, are able to remain conscious both inside and outside the game at the same time, effectively giving Roy and Rosy their own personalities. This is most likely due to Rick's status as a megagenius, implying highly intelligent individuals are able to remember their real life as they play.\n\nRosy's biography is not predetermined, as she is a video game character and her story is entirely dependent on the player's decisions.\n\nHowever, when Morty played as Roy Parsons in the episode \"Mortynight Run,\" Rosy first appeared as a fan in the stands who immediately took a liking to Roy. They eventually married and had a son. A few years later, they ran into financial trouble. Rosy told Roy he needed to be more realistic and talk to her father about the carpet store. He later developed cancer, and Rosy supported him throughout his treatment. After his recovery, she brought her wheelchair-bound husband home, where she and other family members celebrated his recovery.\n\nIn the \"Rick and Morty Presents: Mr. Meeseeks\" comic, one of the Mr. Meeseekses decides to play as her. She wakes up and says she needs to find a boy and have a relationship with him before they die. Her mother supported her in this. However, nothing worked out for her. Her mother told her that love was dead and cited Rosy's father as an example, who cheated on her by starting a relationship with his intern. A few years later, her friends told her about Roy and that she should meet him. They later did so and began a relationship. However, after some time, she suspected him of cheating and left him. Some time later, her father died. Rosy graduated from university and got a job in a carpet store. She believed it was what she was meant to do with her life. After a while, she got an office job. A colleague approached her and bombarded her with tedious paperwork, explaining that Rosy was the only one home with no one waiting. Unexpectedly, she and Roy ran into each other again and decided to eat and discuss their lives at a restaurant. She was surprised he didn't order chili; he said people change. Rosy told him she thought love was her destiny. However, she later realized that love grows when two caring people share connection and understanding. Suddenly, a ventilation shaft fell from the ceiling onto her, and she died.",
+  "sources": [
+    {
+      "id": "characters-450-wiki",
+      "title": "Rosy Parsons",
+      "url": "https://rickandmorty.fandom.com/wiki/Rosy_Parsons",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-450-api",
+      "title": "Roy's Wife API record",
+      "url": "https://rickandmortyapi.com/api/character/450",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

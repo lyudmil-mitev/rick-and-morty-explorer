@@ -1,0 +1,27 @@
+{
+  "id": 126,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fleeb",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fleeb",
+  "text": "Fleeb is a character/object that appeared in the episode \"Interdimensional Cable 2: Tempting Fate\". It appears to be a living being that is used as a tool for making Plumbuses. It excretes a juice called Fleeb Juice , which is said to be essential for Plumbus making.",
+  "sources": [
+    {
+      "id": "characters-126-wiki",
+      "title": "Fleeb",
+      "url": "https://rickandmorty.fandom.com/wiki/Fleeb",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-126-api",
+      "title": "Fleeb API record",
+      "url": "https://rickandmortyapi.com/api/character/126",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

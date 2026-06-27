@@ -1,0 +1,27 @@
+{
+  "id": 151,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gwendolyn",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gwendolyn",
+  "text": "Gwendolyn is a reproduction robot that Rick buys for Morty at a pawn shop in outer space.",
+  "sources": [
+    {
+      "id": "characters-151-wiki",
+      "title": "Gwendolyn",
+      "url": "https://rickandmorty.fandom.com/wiki/Gwendolyn",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-151-api",
+      "title": "Gwendolyn API record",
+      "url": "https://rickandmortyapi.com/api/character/151",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

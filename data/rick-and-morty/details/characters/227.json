@@ -1,0 +1,27 @@
+{
+  "id": 227,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mitch",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mitch",
+  "text": "Mitch X. is a student at Harry Herpson High School, who Morty taught how to play the trombone. He appeared in \"Pilot\".\n\nMitch appears for the first time in the Pilot, where he is seen at Frank Palicky's funeral organized by Summer Smith, suggesting that he and Frank were friends or that Mitch valued him, the boy was crying over Frank's death, while Jerry and Beth (Summer and Morty's parents) together with the Principal Vagina, they looked confused.\n\nThe original Mitch presumably became a Cronenberg in the Cronenberged Dimension.\n\nAn alternative version of Mitch appears in \"Rest and Ricklaxation\", the boy reminded Morty (who was currently deprived of all negativity because of an alien spa) of how he couldn't play the trombone yesterday and then proves he learned now, by playing a tune. He then thanked Morty and the boy gave him the same advice he did yesterday, saying \"the music was inside him the whole time\".",
+  "sources": [
+    {
+      "id": "characters-227-wiki",
+      "title": "Mitch",
+      "url": "https://rickandmorty.fandom.com/wiki/Mitch",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-227-api",
+      "title": "Mitch API record",
+      "url": "https://rickandmortyapi.com/api/character/227",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 559,
+  "status": "contextual_source",
+  "textType": "description",
+  "wikiTitle": "Gramuflack",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gramuflack",
+  "text": "Gramuflack was an inhabited planet whose Gramuflackian population appears in One Crew over the Crewcoo’s Morty. This contextual location and inhabitants page supports the API record origin, species context, and episode context, but does not identify this anchorman as a distinct named individual.",
+  "sources": [
+    {
+      "id": "characters-559-api",
+      "title": "Gramuflackian Anchorman API record",
+      "url": "https://rickandmortyapi.com/api/character/559",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "characters-559-wiki-context",
+      "title": "Gramuflack",
+      "url": "https://rickandmorty.fandom.com/wiki/Gramuflack",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "No individual character page found; use Gramuflack location and inhabitants page as contextual source."
+}

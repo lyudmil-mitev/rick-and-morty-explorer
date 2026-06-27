@@ -1,0 +1,27 @@
+{
+  "id": 212,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Magma-Q",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Magma-Q",
+  "text": "Magma-Q is an elder of Alphabetrium and the father of Ice-T.\n\nMagma-Q initially disapproved of his son because he didn't care enough about anything. This would eventually lead him to turn his son into ice and exile him into the cosmos. In 1991, he listened to Ice-T's album that was nominated for a Grammy, but when Ice-T called him at the Grammys, Magma-Q told him that the 4/4 rhythm was disgusting and made Ice-T a \"number-loving traitor who doesn't care about anything but himself\". After receiving word that his son saved Earth from the Cromulons, he forgave him and granted him his original form as Water-T. Moments later, Alphabetrium was under attack by the Numbericons, and a ceiling that had secretly been \"poisoned\" by Oxygen-S fell on Magma-Q, killing him. In \"Get Schwifty\", his last words were regretting turning Water-T to ice, but in \"Rise of the Numbericons: The Movie\" he instead gave him the I of Harmony. Water-T went on a killing rampage against the Numbericons to avenge his father's death, but used the I/1 of Harmony to learn the true origins of the Alphabetrians and Numbericons.\n\nMagma-Q is shown when Water-T explains why he did not thank math and Mr. Goldenfold at the 1991 Grammys as he called out Water-T for using math for his album and accused him of caring about himself. While Water-T and Sinistar-7 performed a rap to unite letters and numbers against Infinity, Magma-Q joined in as a Force ghost, and then crowned Water-T as King, turning him into Magma-T.",
+  "sources": [
+    {
+      "id": "characters-212-wiki",
+      "title": "Magma-Q",
+      "url": "https://rickandmorty.fandom.com/wiki/Magma-Q",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-212-api",
+      "title": "Magma-Q API record",
+      "url": "https://rickandmortyapi.com/api/character/212",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

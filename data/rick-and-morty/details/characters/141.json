@@ -1,0 +1,27 @@
+{
+  "id": 141,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Ghost in a Jar",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Ghost_in_a_Jar",
+  "text": "Ghost in a Jar was a false character, portrayed by the Alien Parasites. He is a tiny green ghost, inside of a jar. He appeared in the episode Total Rickall.\n\nGhost in the Jar's character entered the household after Rick had a flashback to the barbecue, along with the dozens of other parasite characters. Reverse Giraffe claims to have saved Ghost in a Jar's life in Vietnam. Ghost in a Jar was one of the last parasites to be killed, When Rick makes a joke after killing the butler Mr. Beauregard, the camera cuts to Ghost in a Jar; Rick opens the jar, dumps out the Ghost, and shoots him.\n\nGhost in a Jar is very cool and fun-loving. He is best known for how he can appreciate the jokes and puns people tell no matter how cheesy, complex, forced, or unfunny they are.",
+  "sources": [
+    {
+      "id": "characters-141-wiki",
+      "title": "Ghost in a Jar",
+      "url": "https://rickandmorty.fandom.com/wiki/Ghost_in_a_Jar",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-141-api",
+      "title": "Ghost in a Jar API record",
+      "url": "https://rickandmortyapi.com/api/character/141",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

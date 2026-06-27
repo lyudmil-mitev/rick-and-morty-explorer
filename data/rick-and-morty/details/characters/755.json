@@ -1,0 +1,27 @@
+{
+  "id": 755,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dwayne",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dwayne",
+  "text": "The original Dwayne presumably became a Cronenberg in the Cronenberged dimension.\n\nDwayne is the vice president of the United States and makes his first appearance in Rick & Morty's Thanksploitation Spectactular. The President mentions that Dwayne is only vice president because the President needs 10% of the white vote.\n\nIn the episode \"Air Force Wong\", Dwayne is later seen apart of President Curtis' mission of investigating Virginia after hearing reports of a cult forming in the state.",
+  "sources": [
+    {
+      "id": "characters-755-wiki",
+      "title": "Dwayne",
+      "url": "https://rickandmorty.fandom.com/wiki/Dwayne",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-755-api",
+      "title": "Dwayne API record",
+      "url": "https://rickandmortyapi.com/api/character/755",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

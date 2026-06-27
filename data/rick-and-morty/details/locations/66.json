@@ -1,0 +1,27 @@
+{
+  "id": 66,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tumblorkians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tumblorkians",
+  "text": "The Tumblorkians are a blobby, four-eyed slime alien race that exist in the world of Rick and Morty. The species originates from the planet Plopstar\n\nAt one point a huge group of Tumblorkians held a protest with Shrimply Pibbles.\n\n*\"Mortynight Run\"\n*\"The Wedding Squanchers\"\n*\"Vindicators 3: The Return of Worldender\"",
+  "sources": [
+    {
+      "id": "locations-66-wiki",
+      "title": "Tumblorkians",
+      "url": "https://rickandmorty.fandom.com/wiki/Tumblorkians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-66-api",
+      "title": "Plopstar API record",
+      "url": "https://rickandmortyapi.com/api/location/66",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

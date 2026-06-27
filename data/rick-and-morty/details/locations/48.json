@@ -1,0 +1,27 @@
+{
+  "id": 48,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fantasy Planet",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fantasy_Planet",
+  "text": "The Fantasy Planet is a location inhabited by humans, as well as other beings, in a medieval-themed setting. A beanstalk connects the planet's surface with the Giant World; a highly more advanced land in the sky populated by Giants.\n\nThis planet is the planet which Morty took Rick to when he could choose their next adventure. They found a village in which Morty took upon a quest to seek out gold in Giant World, which is located in the sky above the planets surface.\n\nWhen having reached the Giant World, they were accused of \"giant murder\" after a fatal accident, but released because they were never read their rights.\n\nThey next reached a bar where Morty was attempted raped by King Jellybean and Rick won a large sum of Schmeckles, which they gave to the village. As they left, Rick shot their king with his Laser gun for attacking Morty.",
+  "sources": [
+    {
+      "id": "locations-48-wiki",
+      "title": "Fantasy Planet",
+      "url": "https://rickandmorty.fandom.com/wiki/Fantasy_Planet",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-48-api",
+      "title": "Fantasy World API record",
+      "url": "https://rickandmortyapi.com/api/location/48",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

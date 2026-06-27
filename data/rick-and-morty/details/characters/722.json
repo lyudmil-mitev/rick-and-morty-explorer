@@ -1,0 +1,27 @@
+{
+  "id": 722,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tina-Teers",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tina-Teers",
+  "text": "The Tina-Teers were a group of four people from each major ethnicity: European (Russian), Black/African (Jamaican), Italian-American, and Asian (Chinese). In the mid 1990's, when they were young adults, Mother Nature recruited them to combat pollution and entrusted them with four magic rings which grant the powers of fire, water, air, and dirt.\n\nWhen the Tina-Teers combine their powers, they summon the environmental superheroine Planetina.\n\nBy the time they were middle aged, they became more concerned with making money than saving the planet and began to see Planetina as a product, eventually planing to sell her to an Arab who likes to eat the meat of baby endangered animals.\n\nMorty Smith, who had fallen in love with Planetina, killed the Tina-Teers and stole their rings so that he and Planetina could be together.",
+  "sources": [
+    {
+      "id": "characters-722-wiki",
+      "title": "Tina-Teers",
+      "url": "https://rickandmorty.fandom.com/wiki/Tina-Teers",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-722-api",
+      "title": "Air Tina-Teer API record",
+      "url": "https://rickandmortyapi.com/api/character/722",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 91,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "David Letterman",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/David_Letterman",
+  "text": "David Letterman is the talk-show host of Late Night with David Letterman.\n\nIn the episode \"Rixty Minutes,\" the Smith family watched an episode of Late Night with David Letterman from the alternate dimension of C-500A where Jerry Smith was famous. Jerry was on the talk show talking with C-500A's David Letterman about one of his movies.",
+  "sources": [
+    {
+      "id": "characters-91-wiki",
+      "title": "David Letterman",
+      "url": "https://rickandmorty.fandom.com/wiki/David_Letterman",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-91-api",
+      "title": "David Letterman API record",
+      "url": "https://rickandmortyapi.com/api/character/91",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

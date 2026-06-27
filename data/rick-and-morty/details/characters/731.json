@@ -1,0 +1,27 @@
+{
+  "id": 731,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Naruto Smith",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Naruto_Smith",
+  "text": "Naruto Smith is the gigantic biological offspring of Summer Smith C-131 and Morty Smith Prime. He was created when one of Morty's sperm, Sticky, became augmented by one of Rick Sanchez's experiments that went wrong and combined with a giant Summer's egg. He is nicknamed the \"Giant Incest Baby\", and later the \"Giant Incest Monster\".",
+  "sources": [
+    {
+      "id": "characters-731-wiki",
+      "title": "Naruto Smith",
+      "url": "https://rickandmorty.fandom.com/wiki/Naruto_Smith",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-731-api",
+      "title": "Naruto Smith API record",
+      "url": "https://rickandmortyapi.com/api/character/731",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

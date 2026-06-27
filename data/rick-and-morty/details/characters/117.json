@@ -1,0 +1,27 @@
+{
+  "id": 117,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Evil Jerry Clone",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Evil_Jerry_Clone",
+  "text": "was an alternate version of the original Jerry, who appeared in the episode Meeseeks and Destroy. He was a clone from an alternate reality, possessed by a demonic alien spirit, from another dimension's future, he was also the husband of Evil Beth Clone, and the father of Evil Summer Clone.",
+  "sources": [
+    {
+      "id": "characters-117-wiki",
+      "title": "Evil Jerry Clone",
+      "url": "https://rickandmorty.fandom.com/wiki/Evil_Jerry_Clone",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-117-api",
+      "title": "Evil Jerry Clone API record",
+      "url": "https://rickandmortyapi.com/api/character/117",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

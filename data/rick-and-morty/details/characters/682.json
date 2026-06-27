@@ -1,0 +1,27 @@
+{
+  "id": 682,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Vat of Acid Episode/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Vat_of_Acid_Episode%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-682-wiki",
+      "title": "The Vat of Acid Episode/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Vat_of_Acid_Episode%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-682-api",
+      "title": "Warlock API record",
+      "url": "https://rickandmortyapi.com/api/character/682",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 530,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Delivery Drone",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Delivery_Drone",
+  "text": "{{Character\n|image = S4e2 2019-11-21-22h15m31s235.png\n|name =\n|origin = Frog Restaurant\n|species = Robot\n|status = Deceased\n|voice actor =\n|job = Delivery robot; Robot soldier\n|first = The Old Man and the Seat\n}}The was a delivery robot used by the Frog Restaurant to deliver food orders to customers. It was later killed in the robot wars.\n\nThe Delivery Drone was tasked with delivering an avian protein club sandwich from the Frog Restaurant to Tony. Soon after, it went off to fight in the robot wars at the Midland Quasar. In the middle of the battlefield, Rick Sanchez appeared through a portal while wearing a funnel hat equipped with a QR code to trick all the robots to follow his commands. The Delivery Drone was soon approached by Rick and made to initate employee evaluation mode, but got shot to bits before it could tell Rick who it delivered the sandwich to.",
+  "sources": [
+    {
+      "id": "characters-530-wiki",
+      "title": "Delivery Drone",
+      "url": "https://rickandmorty.fandom.com/wiki/Delivery_Drone",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-530-api",
+      "title": "Deliverance API record",
+      "url": "https://rickandmortyapi.com/api/character/530",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 125,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Flansians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Flansians",
+  "text": "The Flansians are an alien species who appear in the background in the Rick and Morty universe.",
+  "sources": [
+    {
+      "id": "characters-125-wiki",
+      "title": "Flansians",
+      "url": "https://rickandmorty.fandom.com/wiki/Flansians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-125-api",
+      "title": "Flansian API record",
+      "url": "https://rickandmortyapi.com/api/character/125",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

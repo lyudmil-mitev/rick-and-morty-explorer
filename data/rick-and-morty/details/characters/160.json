@@ -1,0 +1,27 @@
+{
+  "id": 160,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hunter's Father",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hunter's_Father",
+  "text": "Hunter's Father is a minor character that appears in the episode The Ricks Must Be Crazy. He works as a police officer who responds to a call of Rick's ship causing violence when it's set in \"Keep Summer Safe\" mode.",
+  "sources": [
+    {
+      "id": "characters-160-wiki",
+      "title": "Hunter's Father",
+      "url": "https://rickandmorty.fandom.com/wiki/Hunter's_Father",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-160-api",
+      "title": "Hunter's Father API record",
+      "url": "https://rickandmortyapi.com/api/character/160",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

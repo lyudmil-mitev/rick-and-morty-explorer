@@ -1,0 +1,27 @@
+{
+  "id": 37,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Resort World",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Resort_World",
+  "text": "Resort World is a planet covered with forests and wild nature. It is the home of the Brosephamons and where the Immortality Field Resort is located. An artificial black hole is located close to the planet and is used by a cruiseliner to reach the resort.\n\nResort World was the home of two warring alien species before Rick intervened and provided one side with highly advanced weaponry, easily defeating the Brosephamons. They would go on to build the Immortality Field Resort and enslave the Brosephamons into manual labor.\n\nRick would later return to the planet to visit the new resort with Jerry Smith. Risotto Groupon, leader of the Brosephamons, used this opportunity to attempt revenge on Rick, but failed and was in turn killed.",
+  "sources": [
+    {
+      "id": "locations-37-wiki",
+      "title": "Resort World",
+      "url": "https://rickandmorty.fandom.com/wiki/Resort_World",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-37-api",
+      "title": "Resort Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/37",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

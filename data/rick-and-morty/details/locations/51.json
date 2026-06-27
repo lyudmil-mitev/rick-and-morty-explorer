@@ -1,0 +1,27 @@
+{
+  "id": 51,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Larvaalians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Larvaalians",
+  "text": "The Larvaalians are an alien species that was part of the Galactic Federation before its fall. Their home planet was destroyed by Cromulons.\n\nTheir planet was involuntarily transported to Signus 5 Expanse to be a part of the interdimensional cromulon TV show Planet Music. Their representatives performed after Arboles Mentirosos and before Earth. They were not declared the winners and their planet was destroyed by a plasma ray.\n\nOne larvaalian attended the wedding of Birdperson and Tammy on Planet Squanch.\n\n*\"Get Schwifty\"\n*\"Interdimensional Cable 2: Tempting Fate\"\n*\"The Wedding Squanchers\"",
+  "sources": [
+    {
+      "id": "locations-51-wiki",
+      "title": "Larvaalians",
+      "url": "https://rickandmorty.fandom.com/wiki/Larvaalians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-51-api",
+      "title": "Larva Alien's Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/51",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

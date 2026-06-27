@@ -1,0 +1,27 @@
+{
+  "id": 16,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "St. Gloopy Noops Hospital",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/St._Gloopy_Noops_Hospital",
+  "text": "St. Gloopy Noops Hospital is, according to Rick, the best hospital in the galaxy, that was featured in the episode, Interdimensional Cable 2: Tempting Fate. It is a hospital that is designed to help out numerous aliens who were hospitalized through injury or illness and is also capable of treating humans.\n\nThis hospital was where Jerry Smith was admitted into when he ate a pint of Ice cream that Rick owned that was laced with mutant bacteria and it was also where the alien civil rights activist, Shrimply Pibbles had his heart transplant. After Jerry wimped out of donating his penis to become Pibbles' new heart and receiving a lot of backlash, he held the surgical operation room hostage and tried to force them to use his penis after all. At this point, a heart had already been donated and was scheduled to be used instead.\n\nRick turned their regular TV box into a Interdimensional Cable in order to watch more interesting TV-shows while waiting for Jerry to recover.",
+  "sources": [
+    {
+      "id": "locations-16-wiki",
+      "title": "St. Gloopy Noops Hospital",
+      "url": "https://rickandmorty.fandom.com/wiki/St._Gloopy_Noops_Hospital",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-16-api",
+      "title": "St. Gloopy Noops Hospital API record",
+      "url": "https://rickandmortyapi.com/api/location/16",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

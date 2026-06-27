@@ -1,0 +1,27 @@
+{
+  "id": 306,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scary Terry",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scary_Terry",
+  "text": "Scary Terry is a character that appeared as the secondary antagonist in the episode \"Lawnmower Dog\" and the comic story Morty and Rick in: Mortballs. After a failed attempt at killing them, Scary Terry retreats and heads home. While he is asleep, Rick and Morty incept his dreams and befriend him, he is also the husband of Melissa, and the father of Scary Brandon.\n\nAt first he first appears to be a bloodthirsty nightmare, but he is really just misunderstood. Scary Terry was very self-conscious about how scary he was and feared that he may not be terrifying enough to scare people, so he put a lot of pressure on himself because of that. This made him very tense and touchy, until Rick and Morty entered his dreams and made him feel better.",
+  "sources": [
+    {
+      "id": "characters-306-wiki",
+      "title": "Scary Terry",
+      "url": "https://rickandmorty.fandom.com/wiki/Scary_Terry",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-306-api",
+      "title": "Scary Terry API record",
+      "url": "https://rickandmortyapi.com/api/character/306",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

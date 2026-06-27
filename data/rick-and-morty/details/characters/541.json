@@ -1,0 +1,27 @@
+{
+  "id": 541,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Sandy (comics character)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Sandy_(comics_character)",
+  "text": "Sandy is the secretary at St. Equis Hospital in the Dimension C-131. She was temporarily made horse doula in Davin's absence.\n\nSandy greets Beth each morning at work and can tell when Beth is annoyed at not being called doctor by the barista at a local coffee shop. They joke around a little before Beth continues into the hospital. Sandy greets Mr. Kwinanes, the owner of a Buttercup; a horse which just arrived at their emergency room. She keeps him company through the surgery, but returns to her desk before it's done.\n\nShe is later present along with the rest of the hospital staff when their owner, Mr. Hapsburg, announces that his retirement and gives management over to his only son Julian. She is horrified when Julian announces the closing of St. Equis, but returns to her work in time to alert Beth of a horse going into labor. With Davin having just left for Kentucky, Sandy is called to replace him as horse doula. Before the horse can give birth, Mr. Kwinanes returns with a gun and holds Julian at gunpoint. Sandy calls the police, and when the horse does give birth, she greets the baby foal. Mr. Kwinanes is brought to tears by the sight of the baby foal; however the police arrive and shoot Mr. Kwinanes, who in turn shoots Julian head open and covers Sandy, Beth and Tom with his brains and blood.\n\nSandy is a friendly and caring woman, who can read her coworkers actions and make jokes. She comforts the owners whose horses are in surgery. She is responsible and takes on the roles needed from her. She is not very comfortable with witnessing horse birth, which can extend to any open-body surgery.",
+  "sources": [
+    {
+      "id": "characters-541-wiki",
+      "title": "Sandy (comics character)",
+      "url": "https://rickandmorty.fandom.com/wiki/Sandy_(comics_character)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-541-api",
+      "title": "Secretary at Tony's API record",
+      "url": "https://rickandmortyapi.com/api/character/541",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

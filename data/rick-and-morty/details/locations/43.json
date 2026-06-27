@@ -1,0 +1,27 @@
+{
+  "id": 43,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Alphabetrium",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Alphabetrium",
+  "text": "Alphabetrium is a faraway realm inhabited by an ancient race who resemble giant letters of various alphabets. It was ruled by a council, which consists of Magma-Q, Magnesium-J, and Hydrogen-F. After the end of the war between Alphabetrium and the Numbericonia, they started to live on Alphabetrium together, united under the new nation of Alphanumbericon.\n\nIt's the homeworld of Ice-T, an exiled native of Alphabetrium who became a well-known rapper on Earth. After Ice-T saved Earth from being destroyed by the Cromulons, the elders of Alphabetrium received word from across the galaxy of Ice-T's heroism and relieved him of his exile, granting him of his true form Water-T. Moments later, Alphabetrium was under attack by the Numbericons and Helium-Q dies when a ceiling collapses in him. Despite overwhelming enemy numbers, Water-T pulls out his guns and bursts through the doors, ready to crunch the numbers.",
+  "sources": [
+    {
+      "id": "locations-43-wiki",
+      "title": "Alphabetrium",
+      "url": "https://rickandmorty.fandom.com/wiki/Alphabetrium",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-43-api",
+      "title": "Alphabetrium API record",
+      "url": "https://rickandmortyapi.com/api/location/43",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

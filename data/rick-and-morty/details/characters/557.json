@@ -1,0 +1,27 @@
+{
+  "id": 557,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Ventriloquiver",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Ventriloquiver",
+  "text": "Ventriloquiver was a member of Rick's Heist crew in One Crew over the Crewcoo's Morty. Using her arrows, she can possess one's voice",
+  "sources": [
+    {
+      "id": "characters-557-wiki",
+      "title": "Ventriloquiver",
+      "url": "https://rickandmorty.fandom.com/wiki/Ventriloquiver",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-557-api",
+      "title": "Ventriloquiver API record",
+      "url": "https://rickandmortyapi.com/api/character/557",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 69,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dimension 35-C",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dimension_35-C",
+  "text": "Dimension 35-C is an alternate dimension that Rick and Morty visited in the Pilot episode.\n\nRick and Morty went there in search of Mega Trees, which had fruit containing seeds that Rick considered extremely important to his research. Morty walked straight off a cliff and broke both of his legs, but Rick managed to heal them by visiting another dimension with more advanced medicine. Due to this trip, the portal gun was empty and they traveled back to Earth by interdimensional customs and Morty had to conceal the mega seeds up his butt. Before this, Rick and The Flesh Curtains had gone there as part of their world tour.\n\n*\"Pilot\"\n*\"Close Rick-Counters of the Rick Kind\" (flashback)\n*\"Never Ricking Morty\" (cameo)",
+  "sources": [
+    {
+      "id": "locations-69-wiki",
+      "title": "Dimension 35-C",
+      "url": "https://rickandmorty.fandom.com/wiki/Dimension_35-C",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-69-api",
+      "title": "Earth (C-35) API record",
+      "url": "https://rickandmortyapi.com/api/location/69",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

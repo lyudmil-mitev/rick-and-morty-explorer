@@ -1,0 +1,27 @@
+{
+  "id": 61,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Campaign Manager Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Campaign_Manager_Morty",
+  "text": "Campaign Manager Morty was one of the infinite versions of Morty. He appeared in \"The Ricklantis Mixup\", as the Campaign Manager for another Morty who was running for president of the newly democratic Citadel.\n\nAfter discovering that the Morty running for president was in fact Evil Morty, Campaign Manager Morty attempts to assassinate him. Unfortunately, Evil Morty survived and won the election, and Campaign Manager Morty was executed by Rick Secret Service agents, and the evidence regarding Evil Morty was lost with him.\n\nIn \"The Ricklantis Mixup\", Evil Morty secretly develops an alter-ego to become the presidential candidate for an election for the newly democratic Citadel. The Campaign Manager Morty is in charge of a candidate from the Morty Party, though he does not take his own candidate seriously at first. But despite mockery from Ricks and even other Mortys, his candidate (who is actually Evil Morty in disguise) makes a rousing speech about the class divide between the various Ricks and Mortys on the Citadel during a debate, which earns him lots of praise and support. After the speech, Evil Morty promptly fires his Campaign Manager, and he is rendered jobless.\n\nCampaign Manager Morty is depressed, drinking in a bar when an Investigator Rick gives him a file revealing the candidate's true nature. Horrified at the truth, Campaign Manager Morty tries to assassinate Evil Morty to stop him from getting into office and is promptly arrested. Unfortunately for him, Evil Morty survived the assassination attempt and won the election. As he is dropped into the airlock to be put to death for his crime by Rick Secret Service agents, they reveal his attempt failed and Evil Morty has won the election. Campaign Manager Morty then desperately tries to expose Evil Morty's files to them, only to be ignored and executed via ejection to space. His body is one of the many bodies floating out of the Citadel's airlocks in the aftermath of the new dictatorship's purge. Also among the dead was Investigator Rick who was possibly killed for his involvement of uncovering Evil Morty's secret.",
+  "sources": [
+    {
+      "id": "characters-61-wiki",
+      "title": "Campaign Manager Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Campaign_Manager_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-61-api",
+      "title": "Campaign Manager Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/61",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

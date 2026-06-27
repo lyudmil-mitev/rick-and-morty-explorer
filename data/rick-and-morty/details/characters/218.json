@@ -1,0 +1,27 @@
+{
+  "id": 218,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mechanical Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mechanical_Rick",
+  "text": "Mechanical Rick is a robotic clone of Rick Sanchez, invented by Rick, himself, in order to trick Beth into believing her family was still around, when they were really in the Post-Apocalyptic Dimension. H e appeared in \" Rickmancing the Stone \".\n\nru:Механический Рик",
+  "sources": [
+    {
+      "id": "characters-218-wiki",
+      "title": "Mechanical Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Mechanical_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-218-api",
+      "title": "Mechanical Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/218",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

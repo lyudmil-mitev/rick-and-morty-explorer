@@ -1,0 +1,27 @@
+{
+  "id": 391,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Uncle Steve",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Uncle_Steve",
+  "text": "Uncle Steve was a minor character that appeared in \"Total Rickall\". He was a Memory Parasite who had taken on the form of Steve, Jerry Smith's older brother.\n\nHe claimed to be the eldest son of Leonard Smith and Joyce Smith, the nephew of the Unnamed Uncle, the older brother of Jerry Smith, the brother-in-law of Beth Smith, and the paternal uncle of Summer Smith and Morty Smith. He had only been in the house a short while, but implanted memories in the Smith Family's minds to convince them they had known Steve their entire lives and he had been living with them for nearly a year. Morty also thought Steve taught him how to ride a bike in his youth.\n\nDuring breakfast, Jerry discovered Steve had booked the Smith Family tickets to Paris. This was apparently to thank the Smiths for letting him stay with them, but was more likely an attempt for the Memory Parasites to spread across the globe. Rick entered the room and promptly asked who Steve was. Jerry \"reminded\" Rick of Steve's presence, allowing Rick to deduce he was a Memory Parasite. Rick then executed Steve and debunked all of Steve's claims made to the family.\n\nUncle Steve was shown to be incredibly kind, supportive and encouraging in his brief appearance. This is likely a biproduct of the Memory Parasites only being able to implant good memories in their victims' minds. He reassured his \"brother\", Jerry, that he would find a job soon and any employer would be lucky to have him. Steve also attempted to make fun of Rick not knowing who he was by teasing him, although this did little to prevent Rick from killing him. Despite this front, his true nature of a Memory Parasite was hinted at by booking tickets for the Smith Family to fly to Paris, which was seemingly a ploy to help spread his species across the world.",
+  "sources": [
+    {
+      "id": "characters-391-wiki",
+      "title": "Uncle Steve",
+      "url": "https://rickandmorty.fandom.com/wiki/Uncle_Steve",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-391-api",
+      "title": "Uncle Steve API record",
+      "url": "https://rickandmortyapi.com/api/character/391",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

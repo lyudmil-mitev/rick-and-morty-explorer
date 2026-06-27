@@ -1,0 +1,27 @@
+{
+  "id": 353,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tiny Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tiny_Rick",
+  "text": "Tiny Rick is a younger version of Rick created through Operation Phoenix in the episode \"Big Trouble In Little Sanchez\". By transferring his consciousness into the brain of a younger clone, Rick is able to attend Harry Herpson High School, along with Morty and Summer, in an effort to help catch a vampire within their school.\n\nTiny Rick first appears when Rick transfers his consciousness into a younger clone of himself, allowing him to attend Morty and Summer's high school in order to catch a vampire. The trio quickly find and kill the vampire (posing as the school's gym coach, Coach Feratu). Initially, Rick was going to get back into his old body, until popular students started inviting him to parties after he gained their admiration. Tiny Rick decides to hang out for a while, but quickly starts dropping hints that he needs help. Summer theorizes that Rick wants to get out of his younger body, but Tiny Rick is pushing the bad thoughts to the back of his mind in order to stay young and popular in high school.\n\nUltimately, Tiny Rick is expelled after Summer sets him up in an attempt to get him to go back to his older body. Later on, Tiny Rick attempts to destroy his older body but is stopped by Morty and Summer. Using an Elliott Smith song, Summer is able to get through to the older Rick, and he walks them through on how to transfer his mind back to his original body.\n\nAfter Rick is put back into his original body, he decides Project Phoenix (a project where Rick could seemingly live forever by continuously transferring his consciousness into younger bodies) was a failure after Tiny Rick almost killed him. After dubbing it a failure, Rick brutally murders Tiny Rick and the rest of the clones with an axe. He seemingly takes special care to mutilate Tiny Rick for the trouble he put Rick through.\n\nTiny Rick is initially similar to older Rick, albeit more optimistic and cheerful. His down-to-earth style impresses the other students of the high school and he becomes very popular. Over time, however, the teenaged brain, who does not want the older consciousness to transfer back into his original body, starts to dominate Tiny Rick’s personality. Rick’s older consciousness fights against the younger brain by turning his cries for help into expressions of creativity, such as a drawing called “Help Me, Morty And Summer!” and two versions of an original song.",
+  "sources": [
+    {
+      "id": "characters-353-wiki",
+      "title": "Tiny Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Tiny_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-353-api",
+      "title": "Tiny Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/353",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

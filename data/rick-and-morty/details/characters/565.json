@@ -1,0 +1,27 @@
+{
+  "id": 565,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Worlds Apart 2",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Worlds_Apart_2",
+  "text": "\"Rick and Morty: Worlds Apart 2\" is the second issue of the Rick and Morty: Worlds Apart mini-series. It was released by Oni Press on March 3, 2021.",
+  "sources": [
+    {
+      "id": "characters-565-wiki",
+      "title": "Worlds Apart 2",
+      "url": "https://rickandmorty.fandom.com/wiki/Worlds_Apart_2",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-565-api",
+      "title": "Debrah API record",
+      "url": "https://rickandmortyapi.com/api/character/565",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

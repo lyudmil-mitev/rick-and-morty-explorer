@@ -1,0 +1,27 @@
+{
+  "id": 159,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hunter",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hunter",
+  "text": "Hunter was the son of a police officer who died after he drowned in a pool at the age of only 7 years old on January 28th, 1996 according to the news article covering his death. He was briefly recreated by Rick's ship after Summer Smith insisted that she not be protected by violent means. Hunter's recreation asked the child's father to leave the car alone before disintegrating into purple slime (causing lasting psychological trauma at the man).",
+  "sources": [
+    {
+      "id": "characters-159-wiki",
+      "title": "Hunter",
+      "url": "https://rickandmorty.fandom.com/wiki/Hunter",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-159-api",
+      "title": "Hunter API record",
+      "url": "https://rickandmortyapi.com/api/character/159",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 403,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Meeseeks P.I. 3",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Meeseeks_P.I._3",
+  "text": "Meeseeks P.I. #3 is the third issue of the Rick and Morty comics series' spin-off Rick and Morty: Meeseeks P.I.. It was released on January 24, 2024.\n\nIt features the story \"Meeseeks P.I. - Chapter Three: That Blue Bastard\".",
+  "sources": [
+    {
+      "id": "characters-403-wiki",
+      "title": "Meeseeks P.I. 3",
+      "url": "https://rickandmorty.fandom.com/wiki/Meeseeks_P.I._3",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-403-api",
+      "title": "Corn detective API record",
+      "url": "https://rickandmortyapi.com/api/character/403",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

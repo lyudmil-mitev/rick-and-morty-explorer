@@ -1,0 +1,27 @@
+{
+  "id": 259,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pencilvester",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pencilvester",
+  "text": "Pencilvester is a false character, portrayed by the Memory Parasites, who masqueraded as a beloved family friend to the Smith Family.\n\nPencilvester was an anthropomorphic pencil who was apparently great lifelong friends with Rick Sanchez and Morty Smith. He was supportive of Rick, reminding him it's okay to make mistakes.\n\nDuring a stand-off, where Morty was planning to execute Rick, he refused to do so in front of Pencilvester and had Rick taken to the garage.\n\nWhen the Smith Family figured out how to decipher which of their friends and family were Memory Parasites, Rick cornered Pencilvester, pleading with him to give an example of a bad memory the two shared, yet he was unable to. Rick loved Pencilvester too much to kill him and allowed Morty to do so instead.",
+  "sources": [
+    {
+      "id": "characters-259-wiki",
+      "title": "Pencilvester",
+      "url": "https://rickandmorty.fandom.com/wiki/Pencilvester",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-259-api",
+      "title": "Pencilvester API record",
+      "url": "https://rickandmortyapi.com/api/character/259",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

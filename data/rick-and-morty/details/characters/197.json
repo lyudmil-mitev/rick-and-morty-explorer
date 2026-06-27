@@ -1,0 +1,27 @@
+{
+  "id": 197,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Kyle",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Kyle",
+  "text": "Kyle is a minor character introduced in the episode \"The Ricks Must Be Crazy\" who existed within Zeep Xanflorp's Miniverse.\n\nKyle was a scientist who developed a \"Teenyverse\" similar to Rick's Microverse and Zeep's Miniverse. While the planet he showed to Rick, Morty, and Zeep was not yet advanced enough to be introduced to electricity, it would soon enough render Zeep's Miniverse obsolete.\n\nWhen he figured out that his own universe was merely miniverse within a microverse, and that he existed only to be exploited, he became distraught, recalling that he missed his father's funeral to work on his own microverse. He committed suicide by flying his ship into a cliff, leaving Rick, Morty and Zeep stranded within his Teenyverse.",
+  "sources": [
+    {
+      "id": "characters-197-wiki",
+      "title": "Kyle",
+      "url": "https://rickandmorty.fandom.com/wiki/Kyle",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-197-api",
+      "title": "Kyle API record",
+      "url": "https://rickandmortyapi.com/api/character/197",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

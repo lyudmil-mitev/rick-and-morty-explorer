@@ -1,0 +1,27 @@
+{
+  "id": 9,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Purge Planet",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Purge_Planet",
+  "text": "The Purge Planet is an unnamed planet that appeared in the episode \"Look Who's Purging Now\". It is a planet that exists in the Dimension C-131, and is the home of the Magdalians. On this planet, everyone is very blissful and happy toward everyone because every year there is a purge, where all laws are suspended for the night and everyone is free to kill whoever they want, releasing their anger without consequences.",
+  "sources": [
+    {
+      "id": "locations-9-wiki",
+      "title": "Purge Planet",
+      "url": "https://rickandmorty.fandom.com/wiki/Purge_Planet",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-9-api",
+      "title": "Purge Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/9",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 6,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Abadongian Princess",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Abadongian_Princess",
+  "text": "The Abadongian Princess is the ruling monarch over the Abadongians in the Abadongo Cluster. She appears briefly in the episode Rest and Ricklaxation.\n\nThe Princess came into possession of a plasma shard which Rick wanted to have. In order to get the shard, Rick would need to prove himself to the Princess by helping them destroying a gigantic space creature along with her own army. After six days, Rick and Morty fly into the space creature and blow it up from the inside. Upon returning to the princess, she arranged a large medal ceremony at which she rewarded them with the plasma shard.",
+  "sources": [
+    {
+      "id": "characters-6-wiki",
+      "title": "Abadongian Princess",
+      "url": "https://rickandmorty.fandom.com/wiki/Abadongian_Princess",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-6-api",
+      "title": "Abadango Cluster Princess API record",
+      "url": "https://rickandmortyapi.com/api/character/6",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

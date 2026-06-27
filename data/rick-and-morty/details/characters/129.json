@@ -1,0 +1,27 @@
+{
+  "id": 129,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fulgora",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fulgora",
+  "text": "Fulgora is one of the main protagonists of Ball Fondlers, and a recurring character in Rick and Morty. She is second-in-command of the Ball Fondlers, behind Attila Starwar.",
+  "sources": [
+    {
+      "id": "characters-129-wiki",
+      "title": "Fulgora",
+      "url": "https://rickandmorty.fandom.com/wiki/Fulgora",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-129-api",
+      "title": "Fulgora API record",
+      "url": "https://rickandmortyapi.com/api/character/129",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

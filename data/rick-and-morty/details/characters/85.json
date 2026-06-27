@@ -1,0 +1,27 @@
+{
+  "id": 85,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cyclops Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cyclops_Morty",
+  "text": "Cyclops Morty is an alternate version of Morty Smith that was seen in the episode \"Close Rick-Counters of the Rick Kind\". He is a cyclops version of Morty.",
+  "sources": [
+    {
+      "id": "characters-85-wiki",
+      "title": "Cyclops Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Cyclops_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-85-api",
+      "title": "Cyclops Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/85",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

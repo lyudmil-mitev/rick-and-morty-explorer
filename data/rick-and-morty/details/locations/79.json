@@ -1,0 +1,27 @@
+{
+  "id": 79,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Forbodulon Prime",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Forbodulon_Prime",
+  "text": "{{Location\n|image=\n|name =\n|dimension = Dimension C-131\n|type = Planet\n|first = \"Edge of Tomorty: Rick Die Rickpeat\"\n}}\n is a near barren planet known for its valuable Death Crystals. It's located near an asteroid belt with several other planets close by.\n\nThe planet appears desert-like with little vegetation found, except for cacti and small bushes.\n\nRick Sanchez dragged Morty Smith along to in order to extract Death Crystals. While mining out the crystals, they were attacked by Crystal Poachers, but Rick easily killed them with the help of the Death Crystals. The duo continued filling their box full of the crystals before returning to the Space Cruiser, but Morty stole one for himself and used it to guide himself towards a death with Jessica by his side. This led to him crashing the Space Cruiser and killing Rick. Though Hologram Rick tried to have Morty revive Rick, the Death Crystal compelled Morty to leave the body behind.\n\nRick was revived through a backup protocol of Operation Phoenix awakening in the Fascist Dystopian Universe. In the brief time that he pondered staying with Fascist Morty, he tried to go to his new reality's version of Forbodulon Prime only for his grandson to hold him at gunpoint.",
+  "sources": [
+    {
+      "id": "locations-79-wiki",
+      "title": "Forbodulon Prime",
+      "url": "https://rickandmorty.fandom.com/wiki/Forbodulon_Prime",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-79-api",
+      "title": "Forbodulon Prime API record",
+      "url": "https://rickandmortyapi.com/api/location/79",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

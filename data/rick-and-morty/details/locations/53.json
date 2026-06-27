@@ -1,0 +1,27 @@
+{
+  "id": 53,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mr. Meeseeks Box",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mr._Meeseeks_Box",
+  "text": "The Mr. Meeseeks Box is a gadget that creates a Mr. Meeseeks for the purpose of completing one given objective.\n\nIt was introduced in the episode \"Meeseeks and Destroy.\" It is a gadget which creates a Mr. Meeseeks for the purpose of completing one objective. Once it completes the objective, Mr. Meeseeks vanishes.",
+  "sources": [
+    {
+      "id": "locations-53-wiki",
+      "title": "Mr. Meeseeks Box",
+      "url": "https://rickandmorty.fandom.com/wiki/Mr._Meeseeks_Box",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-53-api",
+      "title": "Mr. Meeseeks Box API record",
+      "url": "https://rickandmortyapi.com/api/location/53",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

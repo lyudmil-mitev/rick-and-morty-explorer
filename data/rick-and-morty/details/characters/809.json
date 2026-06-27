@@ -1,0 +1,27 @@
+{
+  "id": 809,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pussifer",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pussifer",
+  "text": "Pussifer is one of Rick's enemies during his Rick and Two Crows phases in Rickmurai Jack. He appears in the anime opening as one of the villains.\n\nRick stabs him shortly after his introduction in the episode.",
+  "sources": [
+    {
+      "id": "characters-809-wiki",
+      "title": "Pussifer",
+      "url": "https://rickandmorty.fandom.com/wiki/Pussifer",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-809-api",
+      "title": "Pussifer API record",
+      "url": "https://rickandmortyapi.com/api/character/809",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

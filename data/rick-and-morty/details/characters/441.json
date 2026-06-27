@@ -1,0 +1,27 @@
+{
+  "id": 441,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Boss Jerry",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Boss_Jerry",
+  "text": "Jerry Smith, of the Grand Central Dimension, also known as Boss Jerry, is the owner of Grand Central, a stopping point within the multiverse where Nomad Jerrys could pass through for a price. He served as the main antagonist in \"Nomortland\".\n\nBoss Jerry lived in a version of the Smith Residence that notably lacked any of the other Smith Family members. It is implied Boss Jerry's family went on an adventure and never came back, leaving him alone. He formed a gang of Jerrys whose families hadn't returned from their adventures and subsequently turned the house into Grand Central, an interdimensional station where Jerrys travelling the multiverse could travel through certain routes by paying Boss Jerry. He also kept a druggie version of Rick as his slave and began wearing a leather jacket, which according to this Rick, turned Boss Jerry into a much meaner person.\n\nBoss Jerry is first introduced when Mooch Jerry takes Jerry Smith of Dimension 5126 to Grand Central so they can request to get on the \"Tundra Line\" in order to get Jerry 5126 home. After it is revealed Boss Jerry employs Jerrys to steal from their multiversal counterparts in order to pay him. The meeting quickly goes sour and Boss Jerry blacklists Mooch Jerry and Jerry 5126 from travelling through the cracks in the multiverse. However, the two are able to get back to Grand Central and a chase ensues. Boss Jerry pursues the duo with his Bandana Jerry guards through multiple dimensions. It eventually ends with Boss Jerry trying to kill Jerry 5126 as the two climb through a burlap sack portal, where Mooch Jerry cuts the line, causing the portal to collapse in on itself. Boss Jerry is last seen falling through a void, presumably the space between universes, which seems to kill him or sent to another dimension.\n\nBoss Jerry was a far more powerful and threatening Jerry compared to most of his multiversal counterparts. Before his singular appearance, Boss Jerry had decided he did not need to rely on Rick Sanchez the way other Jerrys do; Ricks need Jerrys to rely on. This is demonstrated by his enslavement and general treatment of Druggie Rick, who was frequently physically abused by Boss Jerry and made to follow his orders. Despite this, Boss Jerry is still shown treating his fellow Jerrys with respect if they pay him the demanded fare for using Grand Central, although relations can quickly sour if they step out of line. Boss Jerry is also not afraid of killing if need be, as he attempted to shoot Jerry 5126 and Mooch Jerry when they attempted to escape him.",
+  "sources": [
+    {
+      "id": "characters-441-wiki",
+      "title": "Boss Jerry",
+      "url": "https://rickandmorty.fandom.com/wiki/Boss_Jerry",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-441-api",
+      "title": "Bearded Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/441",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

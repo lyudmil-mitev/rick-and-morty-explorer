@@ -1,0 +1,27 @@
+{
+  "id": 352,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tinkles",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tinkles",
+  "text": "Tinkles is a fake character, portrayed by an Memory Parasite.\n\nTinkles is a happy and blissful creature who is always very happy about everything. She is wide-eyed and cheery, and she is always up for having tons of fun. Even in the most drastic situations, such as Summer trying to kill her, she stays as positive as she can be about it, and she always tries to be happy and wonderful about it.",
+  "sources": [
+    {
+      "id": "characters-352-wiki",
+      "title": "Tinkles",
+      "url": "https://rickandmorty.fandom.com/wiki/Tinkles",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-352-api",
+      "title": "Tinkles API record",
+      "url": "https://rickandmortyapi.com/api/character/352",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

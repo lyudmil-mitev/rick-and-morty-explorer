@@ -1,0 +1,27 @@
+{
+  "id": 28,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Unity's Planet",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Unity's_Planet",
+  "text": "The planet Unity had entirely assimilated, and planed to use to assimilate the Galactic Federation. However, Unity left the planet with its people following certain events with Rick Sanchez. Unity's current plans for the planet are unknown due to the Federation's destruction in \"The Rickshank Rickdemption\".",
+  "sources": [
+    {
+      "id": "locations-28-wiki",
+      "title": "Unity's Planet",
+      "url": "https://rickandmorty.fandom.com/wiki/Unity's_Planet",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-28-api",
+      "title": "Unity's Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/28",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

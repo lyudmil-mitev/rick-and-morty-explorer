@@ -1,0 +1,27 @@
+{
+  "id": 30,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez (dictator Morty's Rick)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(dictator_Morty's_Rick)",
+  "text": "The Rick Sanchez of Dictator Morty original world is an alternate version of Rick Sanchez who destroyed his home dimension and became extremely evil, which made even his daughter Beth leave him. His current whereabouts are unknown.",
+  "sources": [
+    {
+      "id": "locations-30-wiki",
+      "title": "Rick Sanchez (dictator Morty's Rick)",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(dictator_Morty's_Rick)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-30-api",
+      "title": "Earth (Unknown dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/30",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

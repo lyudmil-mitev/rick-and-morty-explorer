@@ -1,0 +1,27 @@
+{
+  "id": 130,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Galactic Federation President",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Galactic_Federation_President",
+  "text": "The Galactic Federation President was the president of the Galactic Federation. He committed suicide after Rick Sanchez changed the value of the Blemflarck, the federation's single, centralized unit of currency, from $1 to $0.\n\nPractically nothing is known about the President or his past, other than the fact that he's the leader and highest-ranking member of the Galactic Federation and its Gromflomite soldiers. He is intent on discovering the secrets of portal technology so he can extend the influence of the Federation to multiversal degrees, hence why the Federation's biggest target is Rick Sanchez.\n\nEventually, Rick hands himself in to the Federation, only for him to enact his master plan to destroy it by teleporting the Citadel of Ricks into his prison and hacking into the Federation's database, enacting the Federation's downfall by reducing its currency, the blemflark, to a worth of zero.\n\nUpon being informed of the economy's collapse, the President tries to instigate martial law upon its territories, only for this to cause an argument within his Cabinet over who's paying them now. Not wanting to rule a sinking ship of a government, the President decides to commit suicide by shooting himself, leaving the Federation to collapse into chaos.",
+  "sources": [
+    {
+      "id": "characters-130-wiki",
+      "title": "Galactic Federation President",
+      "url": "https://rickandmorty.fandom.com/wiki/Galactic_Federation_President",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-130-api",
+      "title": "Galactic Federation President API record",
+      "url": "https://rickandmortyapi.com/api/character/130",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

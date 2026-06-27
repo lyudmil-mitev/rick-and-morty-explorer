@@ -1,0 +1,27 @@
+{
+  "id": 80,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shrimp Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shrimp_Universe",
+  "text": "The Shrimp Universe is a fascist reality where Earth's dominant inhabitants are descended from shrimps instead of apes.\n\nRick C-137 stumbled into this universe when his brain got uploaded to Shrimp Rick's clone body. Shrimp Rick seemed like a nice guy, but when Rick C-137 said \"Honestly, you’re doing me a huge favor by being shrimp instead of fascists”, shrimp Rick turned out to actually be fascist and turned on Rick once he realized Rick C-137 was not a supporter. Rick C-137 was chased into town by officers and shrimp dogs, the latter of which soon caught him and caused his death.\n\nThe Shrimp Universe makes a brief cameo in \"Rickmurai Jack\".",
+  "sources": [
+    {
+      "id": "locations-80-wiki",
+      "title": "Shrimp Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Shrimp_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-80-api",
+      "title": "Earth (Fascist Shrimp Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/80",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

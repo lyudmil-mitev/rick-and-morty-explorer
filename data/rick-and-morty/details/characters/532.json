@@ -1,0 +1,27 @@
+{
+  "id": 532,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tony's Wife",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tony's_Wife",
+  "text": "Tony's Wife is the unnamed deceased wife of Tony. Tony uses her death as an excuse for using Rick's toilet, despite the fact that an alternate timeline's version of him (from a universe where his wife is still alive) also uses his toilet. She appeared in a holographic simulation, pooping in a toilet in Toilet Heaven.",
+  "sources": [
+    {
+      "id": "characters-532-wiki",
+      "title": "Tony's Wife",
+      "url": "https://rickandmorty.fandom.com/wiki/Tony's_Wife",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-532-api",
+      "title": "Tony’s Wife API record",
+      "url": "https://rickandmortyapi.com/api/character/532",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

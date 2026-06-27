@@ -1,0 +1,27 @@
+{
+  "id": 8,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Post-Apocalyptic Dimension",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Post-Apocalyptic_Dimension",
+  "text": "The Post-Apocalyptic Dimension is a post-apocalyptic version of Earth that was visited by Rick, Morty and Summer. It was first seen in the episode, \"Rickmancing the Stone\". It is known to be inhabited by Hemorrhage and Eli.\n\nAn explosion called the \"boom boom\", had occurred, separating those who had survived into two groups; those who accepted the 'new truth', and those who kept the old beliefs from before the change. Radiation rotted away those who believed in the old, causing them to appear mutated and become attracted to advertisements on billboards. Those who accepted the 'new truth' inhabited the desert, hunting down those who believed in the old.\n\nSummer, Rick and Morty teleported to this dimension to go on a dangerous adventure, in attempt to escape talking to Jerry Smith.",
+  "sources": [
+    {
+      "id": "locations-8-wiki",
+      "title": "Post-Apocalyptic Dimension",
+      "url": "https://rickandmorty.fandom.com/wiki/Post-Apocalyptic_Dimension",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-8-api",
+      "title": "Post-Apocalyptic Earth API record",
+      "url": "https://rickandmortyapi.com/api/location/8",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

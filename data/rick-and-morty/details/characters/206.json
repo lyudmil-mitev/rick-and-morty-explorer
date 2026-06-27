@@ -1,0 +1,27 @@
+{
+  "id": 206,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lizard Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lizard_Morty",
+  "text": ":For the version in Pocket Mortys, see Scaly Morty.\n{{Character\n|name =\n|image = Lizard Morty.jpg\n|species = Human and Lizard mix\n|age = 14\n|status = Unknown (Presumed dead when the citadel was destroyed)\n|job = N/A\n|affiliation = The Citadel\n|first = The Ricklantis Mixup\n|voice actor = Justin Roiland\n|family = Rick Sanchez (maternal grandfather; deceased)}}\n\n is a version of Morty fused with a lizard. He went to Morty Academy and befriended Slick, Left-Handed and Glasses Morty before they went out to find The Wishing Portal.\n\n goes to Morty Academy, where he befriends classmates Slick, Fat and Glasses Morty. On their last day at the academy, they agree to sneak away to go look for the mythical Wishing Portal as a last adventure together before they get assigned to new Ricks. They pass through a Mega Trees farm on their way and attempt to pluck a Mega Fruit, but are chased off by Farmer Rick. Later that night, they sit around a campfire and share where they believe the Wishing Portal might lead to. suggests the portal leads to a place with a great number of flies flying around.\n\nThey make it to the Wishing Portal the next day, where they decide to sacrifice something import in order to make their wishes come true. drops his coolest possession, a surfer necklace, into the portal and wishes he had something cooler than that necklace. He is horrified when he sees Slick Morty jump into the portal. The three remaining Mortys make it back to the academy, only to learn it has been closed down, and believes it to be Slick Morty's wish coming true. The three friends are soon hired to be guards at the citadel and go to pick Mega Fruit at the Mega Tree farm they passed the day before.",
+  "sources": [
+    {
+      "id": "characters-206-wiki",
+      "title": "Lizard Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Lizard_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-206-api",
+      "title": "Lizard Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/206",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 108,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dr. Xenon Bloom",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dr._Xenon_Bloom",
+  "text": "Dr. Xenon Bloom is a character of the day and served as one of the protagonists, appearing in the 3rd episode, Anatomy Park. Bloom is an amoeba who is the co-founder of Anatomy Park.\n\nDr. Bloom, along with the help of Rick, builds Anatomy Park inside a disease-infested Ruben. Dr. Bloom's team consists of Poncho, Roger, and Annie. While traveling through Anatomy Park to figure out why the park's security system is failing, Dr. Bloom and his team must then traverse the dangers of Anatomy Park and escape Ruben. However, he does not escape and is killed by E. coli while manually operating the Bone Train to save Morty and Annie.\n\nDr. Bloom taught Annie to the degree she believed she could build an entirely new Anatomy Park. Rick eagerly took this as an opportunity to build a second park choosing Summer's boyfriend Ethan as the host.\n\nDr. Bloom appears in a picture on Rick's bedroom wall in the episode, \"Close Rick-Counters of the Rick Kind\".",
+  "sources": [
+    {
+      "id": "characters-108-wiki",
+      "title": "Dr. Xenon Bloom",
+      "url": "https://rickandmorty.fandom.com/wiki/Dr._Xenon_Bloom",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-108-api",
+      "title": "Dr. Xenon Bloom API record",
+      "url": "https://rickandmortyapi.com/api/character/108",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

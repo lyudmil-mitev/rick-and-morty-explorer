@@ -1,0 +1,27 @@
+{
+  "id": 225,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Michael Thompson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Michael_Thompson",
+  "text": "Michael Thompson is a character who appeared in the episode \"Interdimensional Cable 2: Tempting Fate\". He is a news reporter who works on a news channel called \"Opposite News\". He is also the conjoined twin of Pichael Thompson.",
+  "sources": [
+    {
+      "id": "characters-225-wiki",
+      "title": "Michael Thompson",
+      "url": "https://rickandmorty.fandom.com/wiki/Michael_Thompson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-225-api",
+      "title": "Michael Thompson API record",
+      "url": "https://rickandmortyapi.com/api/character/225",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

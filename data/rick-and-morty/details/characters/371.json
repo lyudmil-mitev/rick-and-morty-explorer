@@ -1,0 +1,27 @@
+{
+  "id": 371,
+  "status": "contextual_source",
+  "textType": "description",
+  "wikiTitle": "Tumblorkians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tumblorkians",
+  "text": "Tumblorkians are a blobby, four-eyed slime alien species from Plopstar. This contextual species page supports the API record type, origin, and appearance context, but does not identify this record as a distinct named individual.",
+  "sources": [
+    {
+      "id": "characters-371-api",
+      "title": "Tumblorkian API record",
+      "url": "https://rickandmortyapi.com/api/character/371",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "characters-371-wiki-context",
+      "title": "Tumblorkians",
+      "url": "https://rickandmorty.fandom.com/wiki/Tumblorkians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "No individual character page found; use Tumblorkians species page as contextual source."
+}

@@ -1,0 +1,27 @@
+{
+  "id": 116,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hell",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hell",
+  "text": "is a dimension home to The Devil and masochistic Hellraisers.\n\nRick, Jerry and Beth kidnap a demon and restrain it to a wheelchair with a turret on top. Rick explains the turret shoots shrapnel that will convert the pleasure from pain back into pain, but needs Jerry's misery to power it. When Jerry refuses, Rick sincerely apologizes for misleading Jerry and admits that he does care about him, which ends up powering the turret. They use the turret to defeat the demons and portal out of Hell. Rick aggressively tells Jerry that guy's nights are over, which he takes in stride, to Rick's annoyance.",
+  "sources": [
+    {
+      "id": "locations-116-wiki",
+      "title": "Hell",
+      "url": "https://rickandmorty.fandom.com/wiki/Hell",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-116-api",
+      "title": "Hell API record",
+      "url": "https://rickandmortyapi.com/api/location/116",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

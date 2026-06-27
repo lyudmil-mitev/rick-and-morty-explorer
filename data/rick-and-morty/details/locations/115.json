@@ -1,0 +1,27 @@
+{
+  "id": 115,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Space Jerry",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Space_Jerry",
+  "text": "Jerry Smith, commonly dubbed \"Space Jerry\", is the main antagonist of comic \"Rick and Morty vs. the Universe: Beth 'Til Death 1\". He is a clone of titular Jerry Smith and the owner of the Planet Pluto Casino.",
+  "sources": [
+    {
+      "id": "locations-115-wiki",
+      "title": "Space Jerry",
+      "url": "https://rickandmorty.fandom.com/wiki/Space_Jerry",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-115-api",
+      "title": "Space API record",
+      "url": "https://rickandmortyapi.com/api/location/115",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

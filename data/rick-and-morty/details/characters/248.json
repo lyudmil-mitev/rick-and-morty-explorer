@@ -1,0 +1,27 @@
+{
+  "id": 248,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mrs. Refrigerator",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mrs._Refrigerator",
+  "text": "Mrs. Refrigerator was a false character, portrayed by the Memory Parasites. She appeared in the episode Total Rickall.",
+  "sources": [
+    {
+      "id": "characters-248-wiki",
+      "title": "Mrs. Refrigerator",
+      "url": "https://rickandmorty.fandom.com/wiki/Mrs._Refrigerator",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-248-api",
+      "title": "Mrs. Refrigerator API record",
+      "url": "https://rickandmortyapi.com/api/character/248",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

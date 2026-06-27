@@ -1,0 +1,27 @@
+{
+  "id": 61,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez (D716)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D716)",
+  "text": "Rick Sanchez (D716) was a co-anchor for Citadel Morning News on the channel CN at the Citadel. He works alongside Rick Sanchez (D716-B) in the studio, with Rick Sanchez (D716-C) in the field. He is from Dimension (D716).",
+  "sources": [
+    {
+      "id": "locations-61-wiki",
+      "title": "Rick Sanchez (D716)",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D716)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-61-api",
+      "title": "Earth (D716-C) API record",
+      "url": "https://rickandmortyapi.com/api/location/61",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

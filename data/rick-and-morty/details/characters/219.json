@@ -1,0 +1,27 @@
+{
+  "id": 219,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mechanical Summer",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mechanical_Summer",
+  "text": "Mechanical Summer is a robotic clone of Summer Smith, built by Rick to trick Beth into thinking her family was still around, while they were in the Post-Apocalyptic Dimension. She appeared in \"Rickmancing the Stone\".\n\nru:Механическая Саммер",
+  "sources": [
+    {
+      "id": "characters-219-wiki",
+      "title": "Mechanical Summer",
+      "url": "https://rickandmorty.fandom.com/wiki/Mechanical_Summer",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-219-api",
+      "title": "Mechanical Summer API record",
+      "url": "https://rickandmortyapi.com/api/character/219",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

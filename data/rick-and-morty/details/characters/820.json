@@ -1,0 +1,27 @@
+{
+  "id": 820,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Blonde Redhead",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Blonde_Redhead",
+  "text": "Blonde Redhead is an American alternative rock band consisting of Kazu Makino, Simone N. Pace, and Amedeo F. Pace. They are best known for their albums Misery is a Butterfly, and 23. They have composed the songs For the Damaged Coda and More Coda on Rick and Morty.",
+  "sources": [
+    {
+      "id": "characters-820-wiki",
+      "title": "Blonde Redhead",
+      "url": "https://rickandmorty.fandom.com/wiki/Blonde_Redhead",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-820-api",
+      "title": "Redhead Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/820",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

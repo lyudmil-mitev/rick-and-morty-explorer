@@ -1,0 +1,27 @@
+{
+  "id": 258,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pawnshop Clerk",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pawnshop_Clerk",
+  "text": "The Pawnshop Clerk is the only known employee at Pawn Shop Planet. His species eats sulfur.\n\nRick and Morty visited his pawn shop and the Clerk tried to sell Rick a Multi-Phase Quantum Resonator for 70 smidgens, but because it couldn't defraculate, Rick only called it a broken defraculator. The Clerk then proceeded to badtalk Earth and doubt Rick's knowledge of fraculation. Rick decides to just go to another pawn shop, but Morty wanted a sex-robot he found in the shop. Rick ends up with buying the resonator and the sex-robot for 60 smidgens.",
+  "sources": [
+    {
+      "id": "characters-258-wiki",
+      "title": "Pawnshop Clerk",
+      "url": "https://rickandmorty.fandom.com/wiki/Pawnshop_Clerk",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-258-api",
+      "title": "Pawnshop Clerk API record",
+      "url": "https://rickandmortyapi.com/api/character/258",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

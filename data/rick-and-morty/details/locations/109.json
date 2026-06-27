@@ -1,0 +1,27 @@
+{
+  "id": 109,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mr. Nimbus",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mr._Nimbus",
+  "text": "Mr. Nimbus is a character who first appeared in \"Mort Dinner Rick Andre\", where he served as the episode's main antagonist.\n\nHe is the king of the ocean and Atlantis and is Rick Sanchez's nemesis, stated as such by himself as well as the latter. Mr. Nimbus lives up to this title, as he appears to be one of few beings capable of standing toe-to-toe with Rick.\n\nMr. Nimbus (C-131)",
+  "sources": [
+    {
+      "id": "locations-109-wiki",
+      "title": "Mr. Nimbus",
+      "url": "https://rickandmorty.fandom.com/wiki/Mr._Nimbus",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-109-api",
+      "title": "The Ocean API record",
+      "url": "https://rickandmortyapi.com/api/location/109",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

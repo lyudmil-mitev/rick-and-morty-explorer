@@ -1,0 +1,27 @@
+{
+  "id": 458,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "I'm a Tax Attorney",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/I'm_a_Tax_Attorney",
+  "text": "\"I'm a Tax Attorney\" is a song sung by a comedian in the episode \"Interdimensional Cable 2: Tempting Fate.\"",
+  "sources": [
+    {
+      "id": "characters-458-wiki",
+      "title": "I'm a Tax Attorney",
+      "url": "https://rickandmorty.fandom.com/wiki/I'm_a_Tax_Attorney",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-458-api",
+      "title": "Tax Attorney API record",
+      "url": "https://rickandmortyapi.com/api/character/458",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

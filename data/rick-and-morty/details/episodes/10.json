@@ -1,0 +1,27 @@
+{
+  "id": 10,
+  "status": "ok",
+  "textType": "synopsis",
+  "wikiTitle": "Close Rick-Counters of the Rick Kind",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Close_Rick-Counters_of_the_Rick_Kind",
+  "text": "\"Close Rick-Counters of the Rick Kind\" is the tenth episode of the first season of Rick and Morty. It is the tenth episode of the series overall. It premiered on April 7, 2014. It was written by Ryan Ridley and directed by Stephen Sandoval. The episode is rated TV-14-DLSV.\n\nRick's just trying to enjoy a nice breakfast, but he's kidnapped by a group of alternate Ricks and taken to stand trial for crimes against Ricks.\n\nWhen 27 Ricks from alternate dimensions end up murdered and their respective Mortys are kidnapped, the Trans-Dimensional Council of Ricks orders the arrest of Rick C-137 (the show's original Rick) and accuses him of the crimes due to his refusal to participate in their affairs. Angry that he was framed, Rick escapes the Council with Morty to go after the real culprit who set him up and finds that another Rick is supposedly responsible for murdering their counterparts while stealing their Mortys to conceal his presence.\n\nMeanwhile, as Morty begins to believe that he's nothing but a tool to protect Rick, Jerry begins to bond with Rick J19ζ7, the kindest Rick in all of the realities. After Morty leads a rebellion of alternate Mortys against the \"evil\" Rick, three Ricks from the Council of Ricks discover that the \"evil\" Rick was being mind-controlled. It is revealed to the audience that he was being controlled by \"his\" Morty, who destroyed his eyepatch to avoid being recognized.\n\nIn the Post Credit Scene, Jerry is in Rick's room missing Doofus Rick, a version of Rick that he made friends with before assuring Rick, who just came in, that nothing's wrong. Upon going to the dining room, he sees Doofus Rick and waves at him before Rick laughs at him for being friends with him and decides to call his other variants about it.",
+  "sources": [
+    {
+      "id": "episodes-10-wiki",
+      "title": "Close Rick-Counters of the Rick Kind",
+      "url": "https://rickandmorty.fandom.com/wiki/Close_Rick-Counters_of_the_Rick_Kind",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "episodes-10-api",
+      "title": "Close Rick-counters of the Rick Kind API record",
+      "url": "https://rickandmortyapi.com/api/episode/10",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

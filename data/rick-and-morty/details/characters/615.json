@@ -1,0 +1,27 @@
+{
+  "id": 615,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "List of Pocket Mortys music",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/List_of_Pocket_Mortys_music",
+  "text": "This is a list of music from Pocket Mortys. The game's soundtrack is made up of chiptune music from the show.",
+  "sources": [
+    {
+      "id": "characters-615-wiki",
+      "title": "List of Pocket Mortys music",
+      "url": "https://rickandmorty.fandom.com/wiki/List_of_Pocket_Mortys_music",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-615-api",
+      "title": "Musical Fan API record",
+      "url": "https://rickandmortyapi.com/api/character/615",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

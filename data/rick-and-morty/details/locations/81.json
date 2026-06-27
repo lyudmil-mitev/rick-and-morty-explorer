@@ -1,0 +1,27 @@
+{
+  "id": 81,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Teddy Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Teddy_Universe",
+  "text": "{{Location\n|image = S4e1 2019-11-13-12h40m04s888.png\n|name =\n|type = Dimension\n|employees = Teddy Rick\n|first = Edge of Tomorty: Rick Die Rickpeat\n|last = Edge of Tomorty: Rick Die Rickpeat\n}}The is a German-speaking dystopian fascist universe inhabited by sentient teddy bear-versions of their human counterparts in the Dimension C-131 and home to Teddy Rick.\n\nRick Sanchez woke up in the body of this universe's Rick's clone, after dying in two prior fascist universes. He was immediately greeted by his teddy counterpart, who in German asked him if he was a fascist. Rick then noticed how the underground lair was decorated with fascist imagery and outfits. This realization prompted Rick to kill himself by smashing his head into the glass chamber and impaling himself on the large shards of glass.",
+  "sources": [
+    {
+      "id": "locations-81-wiki",
+      "title": "Teddy Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Teddy_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-81-api",
+      "title": "Earth (Fascist Teddy Bear Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/81",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

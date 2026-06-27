@@ -1,0 +1,27 @@
+{
+  "id": 588,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cogspot",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cogspot",
+  "text": "Cogspot is an auto repair shop owned by Gearhead. It first appeared in the episode \"Mortynight Run\".",
+  "sources": [
+    {
+      "id": "characters-588-wiki",
+      "title": "Cogspot",
+      "url": "https://rickandmorty.fandom.com/wiki/Cogspot",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-588-api",
+      "title": "Pet Shop Employee API record",
+      "url": "https://rickandmortyapi.com/api/character/588",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

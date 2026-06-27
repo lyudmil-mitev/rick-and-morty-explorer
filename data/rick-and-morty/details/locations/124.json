@@ -1,0 +1,27 @@
+{
+  "id": 124,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Slartivart",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Slartivart",
+  "text": "Slartivart is a planet that appears in the episode \"A Rickconvenient Mort.\" The residents of the world are called Broghs. The planet was destroyed when it was sucked into a black hole.",
+  "sources": [
+    {
+      "id": "locations-124-wiki",
+      "title": "Slartivart",
+      "url": "https://rickandmorty.fandom.com/wiki/Slartivart",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-124-api",
+      "title": "Slartivart API record",
+      "url": "https://rickandmortyapi.com/api/location/124",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

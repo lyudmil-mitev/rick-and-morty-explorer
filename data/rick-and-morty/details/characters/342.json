@@ -1,0 +1,27 @@
+{
+  "id": 342,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Taint Washer",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Taint_Washer",
+  "text": "Taint Washer is one of the slaves of Lord Henderfinger from the Post-Apocalyptic Dimension. His purpose is specifically to wash his master's taint, which has become his official name.\n\nTaint Washer is a slave in the Post-Apocalyptic Dimension employed by Lord Henderfinger to specifically wash off his taint alongside Genital Washer. One evening he is washing Henderfinger, who threatens to ship him to the wastelands if he touches Henderfinger's genitals again. Then Morty Smith, along with Armothy, jump in through a window. Taint Washer and Genital Washer run out of the room.",
+  "sources": [
+    {
+      "id": "characters-342-wiki",
+      "title": "Taint Washer",
+      "url": "https://rickandmorty.fandom.com/wiki/Taint_Washer",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-342-api",
+      "title": "Taint Washer API record",
+      "url": "https://rickandmortyapi.com/api/character/342",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

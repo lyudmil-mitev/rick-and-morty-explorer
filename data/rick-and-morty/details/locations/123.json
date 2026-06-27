@@ -1,0 +1,27 @@
+{
+  "id": 123,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "List of Pocket Mortys dimensions",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/List_of_Pocket_Mortys_dimensions",
+  "text": "The following is a list of Pocket Mortys dimensions available in the game's multiplayer mode.",
+  "sources": [
+    {
+      "id": "locations-123-wiki",
+      "title": "List of Pocket Mortys dimensions",
+      "url": "https://rickandmorty.fandom.com/wiki/List_of_Pocket_Mortys_dimensions",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-123-api",
+      "title": "Normal Size Bug Dimension API record",
+      "url": "https://rickandmortyapi.com/api/location/123",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

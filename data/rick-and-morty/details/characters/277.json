@@ -1,0 +1,27 @@
+{
+  "id": 277,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Real Fake Doors Salesman",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Real_Fake_Doors_Salesman",
+  "text": "The Real Fake Doors Salesman is a character who appeared in \"Rixty Minutes\".",
+  "sources": [
+    {
+      "id": "characters-277-wiki",
+      "title": "Real Fake Doors Salesman",
+      "url": "https://rickandmorty.fandom.com/wiki/Real_Fake_Doors_Salesman",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-277-api",
+      "title": "Real Fake Doors Salesman API record",
+      "url": "https://rickandmortyapi.com/api/character/277",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

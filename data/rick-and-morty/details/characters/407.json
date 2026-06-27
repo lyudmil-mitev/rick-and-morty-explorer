@@ -1,0 +1,27 @@
+{
+  "id": 407,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Reverse Height Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Reverse_Height_Universe",
+  "text": "The Reverse Height Universe appears in Rixty Minutes and features a universe that has the swapped heights of tall and short people where it is normal to be \"short\" and abnormal to be \"tall\".\n\nThis is demonstrated by an alternate version of Game of Thrones where everyone is short, but Tyrion Lannister is actually normal-sized.",
+  "sources": [
+    {
+      "id": "characters-407-wiki",
+      "title": "Reverse Height Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Reverse_Height_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-407-api",
+      "title": "Regular Tyrion Lannister API record",
+      "url": "https://rickandmortyapi.com/api/character/407",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

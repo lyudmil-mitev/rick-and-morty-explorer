@@ -1,0 +1,27 @@
+{
+  "id": 19,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Antenna Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Antenna_Rick",
+  "text": "Antenna Rick is an alternate version of Rick Sanchez who has two green antennas on his head.\n\nAntenna Rick was one of the few thousand Ricks who banded together to make The Citadel of Ricks. He was a frequent visitor at the Citadel and on one visit he was witness to the trial of Rick C-137 before the Council of Ricks. He was shocked when the Council revealed that The Scientist Formerly Known as Rick was one of the murder victims, like all other Ricks present.\n\nIn \"The Rickshank Rickdemption\", many Ricks are killed when the Citadel of Ricks was transported into a prison of the Galactic Federation, it is unknown if Antenna Rick is one of the Ricks who died.",
+  "sources": [
+    {
+      "id": "characters-19-wiki",
+      "title": "Antenna Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Antenna_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-19-api",
+      "title": "Antenna Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/19",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

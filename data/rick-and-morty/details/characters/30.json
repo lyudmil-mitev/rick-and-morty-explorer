@@ -1,0 +1,27 @@
+{
+  "id": 30,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Poopy Jr.",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Poopy_Jr.",
+  "text": "Poopy Jr. , also known as Baby Poopybutthole , is the only child of Mr. and Mrs. Poopybutthole. Following the divorce of his parents, he currently lives with his mother.\n\nPoopy Jr. was born some time after \"The Wedding Squanchers\", most likely during the course of Season 3. During the end-credit scene of \"The Rickchurian Mortydate\", he is being fed baby food by his mother at the dinner table by Mr. Poopybutthole's wife Amy.\n\nIn the episode, \"How Poopy Got His Poop Back\", it is revealed that Amy gained custody of Mr. Poopybutthole and is living with her and her new boyfriend Gul'Karna. Later in the episode, Mr. Poopybutthole kidnaps Poopy Jr. and attempts to take him to his house. However, after realizing that he is setting a terrible example for him, Mr. Poopybutthole stops and apologizes.\n\nIn the episode, \"Fear No Mort\", he is seen at the dinner table in a another dimension as Mr. Poopybutthole uses one of Rick's portal guns to travel there and switch places with the Mr. Poopybutthole from that dimension.\n\nPoopy Jr. first appeared well behaved from the limited amount of screen time. He ate quiet with no objections and did not make any random outbursts. He did not accept the last spoon of food at first, pointing to a typical stubborn behavior among babies.",
+  "sources": [
+    {
+      "id": "characters-30-wiki",
+      "title": "Poopy Jr.",
+      "url": "https://rickandmorty.fandom.com/wiki/Poopy_Jr.",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-30-api",
+      "title": "Baby Poopybutthole API record",
+      "url": "https://rickandmortyapi.com/api/character/30",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

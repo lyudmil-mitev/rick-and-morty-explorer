@@ -1,0 +1,27 @@
+{
+  "id": 23,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dimension C-500A",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dimension_C-500A",
+  "text": "Dimension C-500A is an alternate dimension introduced in \"Rixty Minutes\", in this dimension, the Smith siblings, Summer and Morty, were never born.\n\nIn this dimension, Jerry Smith and Beth Sanchez went to the high school prom, and Beth got pregnant at the age of 17 years old, however, the couple had a peaceful journey as they headed to the abortion clinic, and Beth managed to have an abortion. As a result, Jerry became a famous actor (appearing in Cloud Atlas instead of Tom Hanks, as well as winning an Academy Award for another film) and Beth became a famous surgeon.\n\nBeth never married at all and became a lonely single woman who drank large quantities of wine and housed an abnormal number of exotic birds. Jerry, while popular, was miserable and took solace in drugs (namely cocaine with Johnny Depp).\n\nAfter a failed film, he had a nervous breakdown and broke out on a rampage which led to a slow-speed chase where he promptly went to Beth's home with the police in hot pursuit and confessed his love to her. This was witnessed by the Beth Smith through the Inter-Dimensional Goggles.\n\nJerry and Beth later publicly announced their fourth breakup over the spans of four months at the Golden Globes. Jerry rebounded from the failure of \"Last Will and Testimeow: Weekend at Dead Cat Lady's House II\" by starring in the surprise hit \"Cloud Atlas 2: Too Atlas, Too Furious.\"\n\n*\"Rixty Minutes\"",
+  "sources": [
+    {
+      "id": "locations-23-wiki",
+      "title": "Dimension C-500A",
+      "url": "https://rickandmorty.fandom.com/wiki/Dimension_C-500A",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-23-api",
+      "title": "Earth (C-500A) API record",
+      "url": "https://rickandmortyapi.com/api/location/23",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

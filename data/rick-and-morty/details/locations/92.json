@@ -1,0 +1,27 @@
+{
+  "id": 92,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tusk Dimension",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tusk_Dimension",
+  "text": "Tusk Dimension is a dimension where humans developed tusks, but everything else is similar to most other dimensions.\n\nRick and Morty traveled to this dimension to meet with Elon Tusk, to recruit him for their heist to stop Heistotron. They met him at his car manufacturing company, Tuskla, where he agreed to come with them.",
+  "sources": [
+    {
+      "id": "locations-92-wiki",
+      "title": "Tusk Dimension",
+      "url": "https://rickandmorty.fandom.com/wiki/Tusk_Dimension",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-92-api",
+      "title": "Earth (Tusk Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/92",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

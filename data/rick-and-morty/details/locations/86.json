@@ -1,0 +1,27 @@
+{
+  "id": 86,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Old Man and the Seat/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Old_Man_and_the_Seat%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "locations-86-wiki",
+      "title": "The Old Man and the Seat/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Old_Man_and_the_Seat%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-86-api",
+      "title": "Mount Space Everest API record",
+      "url": "https://rickandmortyapi.com/api/location/86",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

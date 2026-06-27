@@ -1,0 +1,27 @@
+{
+  "id": 783,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Memory Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Memory_Rick",
+  "text": "Memory Rick is a memory representation of a younger version of Rick C-137 from Birdperson C-131's mind.\n\nHis personality is based on Birdperson C-131's memories of him, meaning Memory Rick's memories prior meeting Birdperson are \"generic and bird themed\". His personality varies significantly to his older counterpart, being more positive and helpful. He is excited by Star Wars battles, loves the idea of his own Vietnam, and disgusted at the state of his future self. He is described by real Rick as an \"idealistic hipster douche\". In return, Memory Rick detests the depression of his counterpart by refusing to become real and possibly turning into him.\n\nHe is similar to his older self in that he is incredibly intelligent. He was able to find a way to continue his existence by transferring to his older self. He also shares real Rick's indulgences, enjoying getting high and having fun. The biggest similarity the two share is the love for their wife. When Memory Rick discovered that a memory of her was extracted from the real Rick's head, he went through great lengths to reunite with her and was happy at the thought of spending eternity with her, but one of those lengths was brainwashing Beth by manipulating her desire for her family to make her go into the sub-basement where Memory Diane was imprisoned, which eventually drove her into suicide, and did not show that much care for it, only seeing her attempt as an opportunity to delay her memories from killing him. showing another big similarity is his extreme selfishness.",
+  "sources": [
+    {
+      "id": "characters-783-wiki",
+      "title": "Memory Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Memory_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-783-api",
+      "title": "Memory Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/783",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

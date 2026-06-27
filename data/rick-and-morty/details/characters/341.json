@@ -1,0 +1,27 @@
+{
+  "id": 341,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Taddi Mason",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Taddi_Mason",
+  "text": "Taddi Mason is a character who appeared in the episode Look Who's Purging Now. He is a guy who works a phone hotline where avoidant, full-grown adults can call him and just talk to him about anything. Ever since Jerry lost his job, he's been calling him day after day and even obsessing over him. He is voiced by Justin Roiland.\n\nThe original Taddi presumably became a Cronenberg in Rick Potion #9's world\n\nTaddi Mason appeared in the episode Look Who's Purging Now. While Jerry was home alone with Summer, Summer received a phone call from Rick and Morty on a space phone. Jerry kept on asking them if that was Taddi Mason calling, interrupting their important conversation. No one else knew who Taddi Mason was so they kept rudely shutting him up.\n\nIn the post-ending credits of the episode, Beth came into the living room, asking Jerry why their phone bill is so high and why there are so many calls to Taddi Mason, LLC. She asked who he was, but Jerry was nervous and hesitant to answer her. Just then, a commercial with Taddi Mason showed up on TV and Jerry tried to turn it off. Taddi Mason introduced himself as a guy who works a social hotline, where any full grown adults who are avoidant and lonely can call him and just talk about things together. Beth was extremely disappointed in him for this and told Jerry to get a job.\n\nTaddi Mason is a nice and happy guy who may also be very withdrawn and lonely, given that he made up this hotline, or he could just be doing this as his job for the common decency of others. He is very happy and joyous and will just kind of go along with anything that happens to him no matter what.",
+  "sources": [
+    {
+      "id": "characters-341-wiki",
+      "title": "Taddi Mason",
+      "url": "https://rickandmorty.fandom.com/wiki/Taddi_Mason",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-341-api",
+      "title": "Taddy Mason API record",
+      "url": "https://rickandmortyapi.com/api/character/341",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

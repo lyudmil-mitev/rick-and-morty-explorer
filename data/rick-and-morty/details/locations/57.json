@@ -1,0 +1,27 @@
+{
+  "id": 57,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gear World",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gear_World",
+  "text": "Gear World is a planet located in the Gear System. It is the home of Gearhead and other Gear People, and was a part of the Galactic Federation prior to its downfall. Gear World made its first appearance in the Rick and Morty episode, \"Mortynight Run.\"\n\nGeardude of Gear World joined Rick Sanchez, Birdperson, Squanchy and more to fight the Galactic Federation before they could conquer the whole universe. At some point after the Battle of Blood Ridge, Geardude's funeral was held on Gear World.\n\nRick Sanchez and Morty Smith brought Fart to Gearhead's workshop on Gear World after escaping the Galactic Federation. They were quickly betrayed by Gearhead who tipped off the police on their location. The ensuing spaceship chase went through a gear city where a large part of the city was destroyed when Fart showed a vision to one of the gear police officers, making him steer his ship into another creating a chain reaction. This allowed Rick, Morty, and Fart to escape.\n\nGear World did not see much change after the downfall of the Galactic Federation. Shortly after The Vindicators disbanded, Gear World experienced an alien terror attack, though its outcome is not known.",
+  "sources": [
+    {
+      "id": "locations-57-wiki",
+      "title": "Gear World",
+      "url": "https://rickandmorty.fandom.com/wiki/Gear_World",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-57-api",
+      "title": "Gear World API record",
+      "url": "https://rickandmortyapi.com/api/location/57",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 253,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Numbericons",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Numbericons",
+  "text": "The Numbericons are a race of aliens who resemble giant numbers. They have skin that looks like dinosaur skin and their faces have glowing yellow eyes and fangs. They appeared in the episode \"Get Schwifty\". The Numbericons are rivals with the Alphabetrians, and in this episode, they were in a war with them. They were invading their castle and trying to destroy them. Water-T went up against the Numbericons and jumped out into the army and started shooting all of them up. They originated from the planet Numbericonia.\n\nAfter Magma-T, Sinistar-7, Mr. Goldenfold, Sulfur-P and Morty Prime defeated Infinity, the Numbericons also began to live on Alphabetrium.",
+  "sources": [
+    {
+      "id": "characters-253-wiki",
+      "title": "Numbericons",
+      "url": "https://rickandmorty.fandom.com/wiki/Numbericons",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-253-api",
+      "title": "Numbericon API record",
+      "url": "https://rickandmortyapi.com/api/character/253",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

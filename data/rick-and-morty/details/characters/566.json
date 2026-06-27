@@ -1,0 +1,27 @@
+{
+  "id": 566,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Claw and Hoarder: Special Ricktim's Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Claw_and_Hoarder%3A_Special_Ricktim's_Morty",
+  "text": "\"Claw and Hoarder: Special Ricktim's Morty\" is the fourth episode of the fourth season of Rick and Morty. It is the 35th episode of the series overall. It premiered on December 8, 2019. It was written by Jeff Loveness and directed by Anthony Chun. The episode is rated TV-14-DLSV.",
+  "sources": [
+    {
+      "id": "characters-566-wiki",
+      "title": "Claw and Hoarder: Special Ricktim's Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Claw_and_Hoarder%3A_Special_Ricktim's_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-566-api",
+      "title": "Debrah’s Partner API record",
+      "url": "https://rickandmortyapi.com/api/character/566",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 539,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Richard",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Richard",
+  "text": "The original Richard presumably became a Cronenberg in the Cronenberged dimension.\n\nRichard is a guy who rides motorcycles. He fell victim to the Lovefinderrz app, which caused him to start going out with random people he hardly knew.",
+  "sources": [
+    {
+      "id": "characters-539-wiki",
+      "title": "Richard",
+      "url": "https://rickandmorty.fandom.com/wiki/Richard",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-539-api",
+      "title": "Richard API record",
+      "url": "https://rickandmortyapi.com/api/character/539",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

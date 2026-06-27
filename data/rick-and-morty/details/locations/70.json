@@ -1,0 +1,27 @@
+{
+  "id": 70,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Snuffles",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Snuffles",
+  "text": "Snuffles, (who changed his name to Snowball and back again) was Morty's pet dog featured in the episode Lawnmower Dog. Snuffles is a small, fluffy white-haired dog that experiences some trouble with being potty-trained until Rick develops an IQ-enhancing helmet for him at the request of Jerry.",
+  "sources": [
+    {
+      "id": "locations-70-wiki",
+      "title": "Snuffles",
+      "url": "https://rickandmorty.fandom.com/wiki/Snuffles",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-70-api",
+      "title": "Snuffles' Dream API record",
+      "url": "https://rickandmortyapi.com/api/location/70",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

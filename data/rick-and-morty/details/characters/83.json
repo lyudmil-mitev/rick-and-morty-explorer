@@ -1,0 +1,27 @@
+{
+  "id": 83,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cronenberg Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cronenberg_Morty",
+  "text": "Cronenberg Morty is a version of Morty Smith who originates from Cronenberg World. In the episode \"Rick Potion No. 9\", Cronenberg Rick and Cronenberg Morty take a portal to a \"Cronenberged\" version of Earth after they discovered that C-137 Rick turned the entire population of Earth, except Beth, Jerry and Summer, into Cronenbergs. Cronenberg Rick and Cronenberg Morty did this because they turned the entire population of Cronenberg World into normal Humans and wanted to live in a world where they would fit in.\n\n .]]\nIn \"Close Rick-Counters of the Rick Kind\" Cronenberg Rick and Cronenberg Morty make a cameo appearance in the background as Rick and Morty were being escorted through the Citadel of Ricks.\n\nIn \"Girl Who Manipulates Time\", it's revealed that he was killed by Prime Jerry to eat him.",
+  "sources": [
+    {
+      "id": "characters-83-wiki",
+      "title": "Cronenberg Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Cronenberg_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-83-api",
+      "title": "Cronenberg Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/83",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

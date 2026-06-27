@@ -1,0 +1,27 @@
+{
+  "id": 2,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Abadongian Princess",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Abadongian_Princess",
+  "text": "The Abadongian Princess is the ruling monarch over the Abadongians in the Abadongo Cluster. She appears briefly in the episode Rest and Ricklaxation.",
+  "sources": [
+    {
+      "id": "locations-2-wiki",
+      "title": "Abadongian Princess",
+      "url": "https://rickandmorty.fandom.com/wiki/Abadongian_Princess",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-2-api",
+      "title": "Abadango API record",
+      "url": "https://rickandmortyapi.com/api/location/2",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

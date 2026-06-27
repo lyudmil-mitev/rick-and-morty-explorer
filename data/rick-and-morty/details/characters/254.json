@@ -1,0 +1,27 @@
+{
+  "id": 254,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Octopus Man",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Octopus_Man",
+  "text": "Octopus Man is a character that appears on an interdimensional TV channel in \"Interdimensional Cable 2: Tempting Fate\". He's a marine biologist that was bitten by an octopus.\n\nOctopus Man is an ambiguous character in an unknown television show. He seems excitable and giggly (this may be due to Justin Roiland laughing while recording) yet takes joy out of the harm of others. While he claims he \"helps people\" and \"saves people\", he is last seen taking a knife and killing two innocent civilians. Since little is known about his universe, Octopus Man can neither be confirmed the protagonist or antagonist of his show.\n\nHe is seen accompanied by an unknown driver with a bald head and scar across his face. The two do not seem to know each other, but he drives Octopus Man along while he talks through his story and watches idly as Octopus Man kills the civilians",
+  "sources": [
+    {
+      "id": "characters-254-wiki",
+      "title": "Octopus Man",
+      "url": "https://rickandmorty.fandom.com/wiki/Octopus_Man",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-254-api",
+      "title": "Octopus Man API record",
+      "url": "https://rickandmortyapi.com/api/character/254",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 323,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lord Henderfinger",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lord_Henderfinger",
+  "text": "was a Lord from the Post-Apocalyptic Dimension who appeared in \"Rickmancing the Stone\". He ordered the death of Armothy's village and family, who returned to avenge them. He is ultimately strangled to death by Morty and Rick.\n\nHe comes from a wealthy family and doesn't have to deal with any of the true fighting and bloodshed that others need to do to survive. He owns slaves who do all his work for him. He sent his slaves to burn down Armothy's village along with his family.\n\nHe is later found, while bathing and scrubbed by Taint Washer and Genital Washer, by Morty with Armothy and starts making frightened excuses for his actions. He is strangled by Armothy while Morty and Rick watches, but Armothy disappears before Henderfinger fully dies. While lying in his bathtub, Rick takes Morty hand and places it around the Lord's throat. Together they strangle him to death.\n\nHe is a cowardly man who gives degrading names to his slaves and threatens them, should they make any mistakes. He is quick to come up with excuses for his behavior and blame his family for how he turned out. His sadistic actions resulted in the death of Armothy's family and destruction of their village.",
+  "sources": [
+    {
+      "id": "characters-323-wiki",
+      "title": "Lord Henderfinger",
+      "url": "https://rickandmorty.fandom.com/wiki/Lord_Henderfinger",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-323-api",
+      "title": "Slaveowner API record",
+      "url": "https://rickandmortyapi.com/api/character/323",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

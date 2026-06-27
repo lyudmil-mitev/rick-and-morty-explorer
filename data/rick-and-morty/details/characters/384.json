@@ -1,0 +1,27 @@
+{
+  "id": 384,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Yellow Headed Doctor",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Yellow_Headed_Doctor",
+  "text": "The Yellow Headed Doctor is an alien doctor who appeared in Interdimensional Cable 2: Tempting Fate as the surgeon in charge of the heart surgery for Shrimply Pibbles. He is the doctor who replaces Dr. Glip-Glop as the hospital's main surgeon after Glip Glop was killed by Rick Sanchez, as well as the one who oversaw Jerry's agreement to being an organ donor for Pebbles. The Yellow Headed Doctor is a major character in that episode and has a speaking role but his actual name is unknown.",
+  "sources": [
+    {
+      "id": "characters-384-wiki",
+      "title": "Yellow Headed Doctor",
+      "url": "https://rickandmorty.fandom.com/wiki/Yellow_Headed_Doctor",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-384-api",
+      "title": "Yellow Headed Doctor API record",
+      "url": "https://rickandmortyapi.com/api/character/384",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

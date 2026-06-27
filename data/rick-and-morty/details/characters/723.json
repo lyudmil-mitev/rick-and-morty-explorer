@@ -1,0 +1,27 @@
+{
+  "id": 723,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Unnamed water man",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Unnamed_water_man",
+  "text": "The unnamed water man is a member of the Tina-Teers and a antagonist who appears in \"A Rickconvenient Mort\".",
+  "sources": [
+    {
+      "id": "characters-723-wiki",
+      "title": "Unnamed water man",
+      "url": "https://rickandmorty.fandom.com/wiki/Unnamed_water_man",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-723-api",
+      "title": "Water Tina-Teer API record",
+      "url": "https://rickandmortyapi.com/api/character/723",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

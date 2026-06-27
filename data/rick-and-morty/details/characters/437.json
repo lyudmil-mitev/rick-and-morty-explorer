@@ -1,0 +1,27 @@
+{
+  "id": 437,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Michael Nathaniel",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Michael_Nathaniel",
+  "text": "Michael Nathaniel is the receptionist at a hospital in 41-Kepler B. At some point he met Rick, who tricked Michael into granting him access to the morgue in order to collect spaghetti from the corpses.\n\nRick later brought Morty with him and lied that he’s “a boy with space cancer who wants to see deader people in order to feel superior”. Michael believes it and grants them access to the morgue.",
+  "sources": [
+    {
+      "id": "characters-437-wiki",
+      "title": "Michael Nathaniel",
+      "url": "https://rickandmorty.fandom.com/wiki/Michael_Nathaniel",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-437-api",
+      "title": "Michael API record",
+      "url": "https://rickandmortyapi.com/api/character/437",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

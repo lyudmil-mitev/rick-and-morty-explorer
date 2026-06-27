@@ -1,0 +1,27 @@
+{
+  "id": 125,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Two Crows",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Two_Crows",
+  "text": "Two Crows are Rick's replacement sidekicks from the episode Forgetting Sarick Mortshall. In the beginning of the following episode, Rickmurai Jack, Rick has left Earth to adventure with them.",
+  "sources": [
+    {
+      "id": "locations-125-wiki",
+      "title": "Two Crows",
+      "url": "https://rickandmorty.fandom.com/wiki/Two_Crows",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-125-api",
+      "title": "Rick and Two Crows Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/125",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

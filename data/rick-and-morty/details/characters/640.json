@@ -1,0 +1,27 @@
+{
+  "id": 640,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glorzo",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glorzo",
+  "text": "The Glorzo are a race of alien parasites who appear in the episode \"Promortyus\".\n\nThe Glorzo is a species of parasites that have the ability to control organism’ bodies and gain their voices. The host can gain control of their body if one tentacle of the Glorzo is removed from the host. They can reproduce through creating an egg through their host that kills them and the host when created. During an adventure, Rick and Morty are taken over by the Glorzo and Summer is declared their queen after having a toothpick in her mouth which prevents the Glorzo from controlling her. The Glorzo wants to use Rick's technology and gadgets to expand their species and preach of peace. They can only survive for thirty minutes before they are forced to create an egg but want to extend their life period. Later on, Morty uses a harmonica which forces the Glorzo create eggs and killing their whole species.",
+  "sources": [
+    {
+      "id": "characters-640-wiki",
+      "title": "Glorzo",
+      "url": "https://rickandmorty.fandom.com/wiki/Glorzo",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-640-api",
+      "title": "Angry Glorzo API record",
+      "url": "https://rickandmortyapi.com/api/character/640",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 40,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gazorpazorp",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gazorpazorp",
+  "text": "Gazorpazorp is the homeworld of the male and female Gazorpians.\n\nGazorpazorp is a planet in the Andromeda System.\n\nAs a result of conflicts, the two genders divided. While the females flourished and advanced, the males became primitive. The females created incubation sex robots in order to continue the growth of their race without having to procreate with males, retrieving them once the males finish copulation. Summer and Rick were forced into visiting the homeworld after a sex doll, bought by Rick at an interplanetary Pawn Shop, gave birth to Morty Jr.. In the end, however, they leave the planet, avoiding death by trial.",
+  "sources": [
+    {
+      "id": "locations-40-wiki",
+      "title": "Gazorpazorp",
+      "url": "https://rickandmorty.fandom.com/wiki/Gazorpazorp",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-40-api",
+      "title": "Gazorpazorp API record",
+      "url": "https://rickandmortyapi.com/api/location/40",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 178,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Jerry's Mytholog",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Jerry's_Mytholog",
+  "text": "Jerry's Mytholog is a physical representation of the way that Beth perceives Jerry. It went rogue and teamed up with Beth's Mytholog in an attempt to take over the universe. It appeared in the episode Big Trouble In Little Sanchez.\n\nBeing based on Beth's personal perception of Jerry, Jerry's Mytholog is a comically exaggerated parody of the real Jerry: a spineless, mewling grub who cowers and submits before anyone and anything even vaguely threatening, but it follows Beth's Mytholog first and foremost. Even when chasing after the real Jerry, as soon as Jerry assumes a fighting stance, his Mytholog immediately backs off, showing its backside to him in a submissive stance.",
+  "sources": [
+    {
+      "id": "characters-178-wiki",
+      "title": "Jerry's Mytholog",
+      "url": "https://rickandmorty.fandom.com/wiki/Jerry's_Mytholog",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-178-api",
+      "title": "Jerry's Mytholog API record",
+      "url": "https://rickandmortyapi.com/api/character/178",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

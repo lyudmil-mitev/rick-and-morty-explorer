@@ -1,0 +1,27 @@
+{
+  "id": 574,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Snake Abraham Lincoln",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Snake_Abraham_Lincoln",
+  "text": "Snake Abraham Lincoln was a minor character in the episode \"Rattlestar Ricklactica\". In the episode he is shown to of been saved from death in Fords Snake Theatre, 1865, after a note was passed to him from a snake time traveller after Rick showed the snakes how to time travel.\n\nSnake Abraham Lincoln was most likely erased from history after the Time Cops curtailed the evolution of smart snakes, making him disappear with the rest of the Snake Planet's population.",
+  "sources": [
+    {
+      "id": "characters-574-wiki",
+      "title": "Snake Abraham Lincoln",
+      "url": "https://rickandmorty.fandom.com/wiki/Snake_Abraham_Lincoln",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-574-api",
+      "title": "Snake Lincoln API record",
+      "url": "https://rickandmortyapi.com/api/character/574",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

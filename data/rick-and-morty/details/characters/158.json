@@ -1,0 +1,27 @@
+{
+  "id": 158,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hookah Alien",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hookah_Alien",
+  "text": "The Hookah Alien is a character that made his only appearance in the Pilot episode. He does not speak in that episode but he is heard crying. He is a member of the Smumpians\n\nThe Hookah Alien is a Smumpian. The significance he has in the pilot episode is a minor one as he is seen relaxing in the waiting chairs with his friend while Rick Sanchez and Morty Smith are fleeing from security in Interdimensional Customs while attempting to smuggle mega seeds. He is seen smoking from a hookah like device and while doing so, Morty runs past him while accidentally inhaling some of the smoke and Rick comes from behind, destroys the alien's hookah, slaps him hard in the face for apparently no reason, and tramples over the alien's friend. The Hookah Alien is afterwards seen sobbing because of the fact that his property was destroyed and that Rick assaulted him. Morty is then seen coughing up a green life form that was a product of the smoke that lived only for a few seconds.",
+  "sources": [
+    {
+      "id": "characters-158-wiki",
+      "title": "Hookah Alien",
+      "url": "https://rickandmorty.fandom.com/wiki/Hookah_Alien",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-158-api",
+      "title": "Hookah Alien API record",
+      "url": "https://rickandmortyapi.com/api/character/158",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

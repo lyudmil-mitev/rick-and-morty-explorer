@@ -1,0 +1,27 @@
+{
+  "id": 214,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Man Painted Silver Who Makes Robot Noises",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Man_Painted_Silver_Who_Makes_Robot_Noises",
+  "text": "The Man Painted Silver Who Makes Robot Noises is a character who appeared in \"Rixty Minutes\".\n\nHe is an interdimensional being who appeared on an alternate dimension's version of Saturday Night Live.",
+  "sources": [
+    {
+      "id": "characters-214-wiki",
+      "title": "Man Painted Silver Who Makes Robot Noises",
+      "url": "https://rickandmorty.fandom.com/wiki/Man_Painted_Silver_Who_Makes_Robot_Noises",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-214-api",
+      "title": "Man Painted Silver Who Makes Robot Noises API record",
+      "url": "https://rickandmortyapi.com/api/character/214",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

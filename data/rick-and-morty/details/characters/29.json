@@ -1,0 +1,27 @@
+{
+  "id": 29,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Baby Legs",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Baby_Legs",
+  "text": "Baby Legs is a character who appeared in \"Rixty Minutes\".\n\nBaby Legs is a detective on a murder mystery TV series in an alternate dimension that features him and a partner named Regular Legs. Baby Legs is a full-grown adult with the legs of a baby. He has a high-pitched, nasally voice.\n\nIn the episode shown, Baby Legs is said to be a good detective, but not good enough because of his baby legs. He is partnered up with Regular Legs, which Baby Legs is not happy about. The two of them are sent out after a criminal which baby Legs tracks down to a warehouse. When the criminal runs, Baby Legs tries to chase him, but is slow and falls over due to his baby legs. He says he learned a valuable lesson and Regular Legs chases down the criminal. They both receive praise from their Police Captain before he tells them both to \"get the f**k out of here\".\n\nBaby Legs is shown to be a good police detective, tracking a murderer down to a warehouse when Regular Legs couldn't, and is quite aware of how good he is. He used to be stubborn on that he doesn't need a partner with regular legs to make up for his baby legs, but learns when chasing the murderer that his baby legs do, in fact, limit him. He accepts Regular Legs as his partner after learning that lesson.",
+  "sources": [
+    {
+      "id": "characters-29-wiki",
+      "title": "Baby Legs",
+      "url": "https://rickandmorty.fandom.com/wiki/Baby_Legs",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-29-api",
+      "title": "Baby Legs API record",
+      "url": "https://rickandmortyapi.com/api/character/29",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

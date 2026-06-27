@@ -1,0 +1,27 @@
+{
+  "id": 243,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lucius Needful",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lucius_Needful",
+  "text": "Mr. Lucius Needful, also known as the Devil, is the main antagonist of Something Ricked This Way Comes. Lucius is an eccentric gentleman who runs a vintage antique shop called Needful Things. He hires Summer to help work around the shop, which sells cursed merchandise.\n\nMr. Needful is shown to be dark and menacing, but treats Summer with respect. He receives joy in giving unsuspecting customers cursed items, and does his best to ensure he runs a successful business.\n\nExamples of his products include:\n* Aftershave that attracts women but makes the user impotent.\n* A microscope that will show the user knowledge beyond comprehension but will also lower their IQ to the point of making them r*******.\n* A typewriter that writes bestselling murder mysteries but also makes the stories occur in real life.\n* Skin cream that makes women prettier but also blinds them.\n* Running shoes that allow the wearer to run fast but also makes them run until they die.\n* Boxing gloves that will make the wearer the national boxing champion... in 1936 where they would be trapped in a time loop, winning the same fight over and over again for eternity.\n\nIt's later revealed that he is, in fact, the Devil. While his relationship with Summer starts off strong, he eventually would toss her aside when his next business n33dful.com would take off.\n\nMr. Needful and Rick quickly developed a dislike for each other, and Rick took great joy in ruining Mr. Needful's shop by creating the anti-cursing business Curse Purge Plus!.",
+  "sources": [
+    {
+      "id": "characters-243-wiki",
+      "title": "Lucius Needful",
+      "url": "https://rickandmorty.fandom.com/wiki/Lucius_Needful",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-243-api",
+      "title": "Mr. Needful API record",
+      "url": "https://rickandmortyapi.com/api/character/243",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

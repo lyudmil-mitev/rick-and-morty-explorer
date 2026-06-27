@@ -1,0 +1,27 @@
+{
+  "id": 814,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bald Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bald_Rick",
+  "text": "Bald Rick was a bald version of Rick that was executed by President Morty shortly after taking office. He who wore a white shirt and black tie instead of the common blue shirt.",
+  "sources": [
+    {
+      "id": "characters-814-wiki",
+      "title": "Bald Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Bald_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-814-api",
+      "title": "Bald Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/814",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

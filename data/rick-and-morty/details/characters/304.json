@@ -1,0 +1,27 @@
+{
+  "id": 304,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scary Brandon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scary_Brandon",
+  "text": "Scary Brandon is a character that appeared in the episode \"Lawnmower Dog\". He is the only son of Scary Terry and Melissa.",
+  "sources": [
+    {
+      "id": "characters-304-wiki",
+      "title": "Scary Brandon",
+      "url": "https://rickandmorty.fandom.com/wiki/Scary_Brandon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-304-api",
+      "title": "Scary Brandon API record",
+      "url": "https://rickandmortyapi.com/api/character/304",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 165,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Investigator Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Investigator_Rick",
+  "text": "Investigator Rick, also known as Deepthroat Rick , was a Rick in the Citadel of Ricks. His only appearance was in The Ricklantis Mixup.\n\nIn The Ricklantis Mixup, Investigator Rick gave Campaign Manager Morty information about Evil Morty in a bar. The information later led to a failed assassination attempt by Campaign Manager Morty on Evil Morty's life.\n\nSometime after sharing the secrets with Campaign Manager Morty, Investigator Rick was killed on Evil Morty's orders, his lifeless corpse later visible floating in space with other Ricks and Mortys ejected from the Citadel.",
+  "sources": [
+    {
+      "id": "characters-165-wiki",
+      "title": "Investigator Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Investigator_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-165-api",
+      "title": "Investigator Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/165",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

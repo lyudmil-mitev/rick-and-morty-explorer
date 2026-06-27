@@ -1,0 +1,27 @@
+{
+  "id": 787,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Two Crows",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Two_Crows",
+  "text": "Two Crows are Rick's replacement sidekicks from the episode Forgetting Sarick Mortshall. In the beginning of the following episode, Rickmurai Jack, Rick has left Earth to adventure with them.\n\nThe Two Crows were originally in a relationship with Crowscare before they had a falling out.\n\nDuring Forgetting Sarick Mortshall, the Two Crows were captured by Rick Sanchez to be his new sidekicks. After they displayed empathy however, Rick abandoned them on a planet of birds only for the natives, technologically advanced humanoid crows, to help the three mend their relationship. Upon being returned to Earth however, the advanced crows discovered that Rick had chosen the Two Crows from a list of shitty things. Offended they began conquering Earth, the Two Crows being taken aboard their mothership. When Rick revealed to Morty Smith, via a phone call, that the Two Crows had been recruited for a bit, the Crows allowed themselves to be mutated into a humanoid form. Feeling no connection to the toxic relationship between Rick and Morty, the Crows helped Rick save Earth. Subsequently Rick chose to leave Earth with the Two Crows, hoping that they could help learn empathy.\n\nIn Rickmurai Jack, Rick and Two Crows went on anime adventures, saving various planets before the Two Crows snuck off to meet with Crowscare. When Rick followed, he learned that the Crows had been using him to do Crowscare what he had tried to do to Morty. Insulted, Rick abandoned the Crows.",
+  "sources": [
+    {
+      "id": "characters-787-wiki",
+      "title": "Two Crows",
+      "url": "https://rickandmorty.fandom.com/wiki/Two_Crows",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-787-api",
+      "title": "Two Crows API record",
+      "url": "https://rickandmortyapi.com/api/character/787",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

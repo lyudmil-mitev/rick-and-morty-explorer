@@ -1,0 +1,27 @@
+{
+  "id": 513,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Judge",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Judge",
+  "text": "The Judge was the public officer appointed to decide the case against Morty Smith. She ultimately found him innocent and commited suicide shortly after.\n\nThe Judge from Prime Dimension presumably became a cronenberg.\n\nThe Judge was in charge of the court case against Morty Smith, who had killed teenagers, police officers and army soldiers in an appearantly unprovoked attack. With the amount of evidence against Morty, she was ready to sentence him, but allowed him some final words. He ended up saying \"I will always remember our time in Peru\", which turned out to also have been the final words of the judge's deceased husband. He continued on to call her \"little sparrow\", which prompted the judge to find Morty innocent. She then ran crying out of the court room, saying \"I'm coming for you, condor!\", and later taking her own life.\n\nThe Judge was very strict and professional in her line of work, but had a deep sorrow over her late husband. They gave each other pet names, like \"sparrow\" and \"condor\", and went on a trip together to Peru. Her husband mentioned this trip on his death bed, which the judge would not forget. She started believing in ghosts when it appeared that Morty was speaking on behalf of her late husband, and decided to join him in death.",
+  "sources": [
+    {
+      "id": "characters-513-wiki",
+      "title": "Judge",
+      "url": "https://rickandmorty.fandom.com/wiki/Judge",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-513-api",
+      "title": "Judge API record",
+      "url": "https://rickandmortyapi.com/api/character/513",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

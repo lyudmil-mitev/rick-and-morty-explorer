@@ -1,0 +1,27 @@
+{
+  "id": 705,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Squid Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Squid_Morty",
+  "text": "Squid Morty is a Rock-type Morty from the game Pocket Mortys. He got added alongside Glockenspiel Morty after the premiere of Mortyplicity. He can't evolve.",
+  "sources": [
+    {
+      "id": "characters-705-wiki",
+      "title": "Squid Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Squid_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-705-api",
+      "title": "Squid Costume Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/705",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

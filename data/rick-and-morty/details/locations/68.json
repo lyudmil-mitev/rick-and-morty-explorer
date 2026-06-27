@@ -1,0 +1,27 @@
+{
+  "id": 68,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Greebybobes",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Greebybobes",
+  "text": "Greebybobes are an alien species that lived on the Planet Parblesnops. They appeared frequently as background characters throughout the series before their gruesome planet getting destroyed by Cromulons in the episode \"Get Schwifty\". However a couple of them are seen in later episodes implying the species isn't extinct.\n\nTheir planet, with the entire Greebybobe population on it, was transported by Cromulons to Signus 5 Expanse to be a part of the TV show Planet Music. They were the first ones eliminated by plasma ray for refusing to play their music and wanting to be set free again, which upset the Cromulons and led to their disqualification in the show. A Greebybobe was seen at Rick's party at the end of \"Vindicators 3: The Return of Worldender\" and first appeared in the alien airport in the episode \"Pilot\".",
+  "sources": [
+    {
+      "id": "locations-68-wiki",
+      "title": "Greebybobes",
+      "url": "https://rickandmorty.fandom.com/wiki/Greebybobes",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-68-api",
+      "title": "Girvonesk API record",
+      "url": "https://rickandmortyapi.com/api/location/68",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

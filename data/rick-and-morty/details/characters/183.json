@@ -1,0 +1,27 @@
+{
+  "id": 183,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Johnny Depp",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Johnny_Depp",
+  "text": "Johnny Depp (C-500A) is an American actor. He appeared in the episode \"Rixty Minutes\" as Jerry Smith (C-500A)'s best friend.\n\nHe is based on the real-life actor of the same name.\n\nHe was present at the premiere party of Last Will and Testimeow: Weekend at Dead Cat Lady's House II, which was directed and produced by his friend Jerry. He witnessed his friend's very public meltdown while having his arms around two women and looked visibly shaken by the event.",
+  "sources": [
+    {
+      "id": "characters-183-wiki",
+      "title": "Johnny Depp",
+      "url": "https://rickandmorty.fandom.com/wiki/Johnny_Depp",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-183-api",
+      "title": "Johnny Depp API record",
+      "url": "https://rickandmortyapi.com/api/character/183",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

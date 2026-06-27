@@ -1,0 +1,27 @@
+{
+  "id": 122,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bird World",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bird_World",
+  "text": "Bird World is the planet where Birdperson lives. TV-signals from Earth take 20 years to reach this planet, meaning it's 20 light-years away from Earth.\n\nBirdperson lived through the deep casualties of the \"Bird Wars\" in his early life, which gave way to his acute understanding of mortality and pain.\n\nThe Gromflomites and the Galactic Federation invaded Bird World during Birdperson's youth. The Galactic Federation kept the native population oppressed during their rule over the planet; a rule that ended following the Battle of Blood Ridge, where the Galactic Federation suffered a great loss. The planet returned to a more normal state where Bird People could live without fear of Gromflomites.\n\nBirdperson made mention of his homeplanet during his visit to the Smith Residence in \"Ricksy Business\", and received a visit from Morty Smith in \"Get Schwifty\". Parts of Bird World was shown as memories during Rick's trip through Birdperson's mind in \"Rickternal Friendshine of the Spotless Mort\".",
+  "sources": [
+    {
+      "id": "locations-122-wiki",
+      "title": "Bird World",
+      "url": "https://rickandmorty.fandom.com/wiki/Bird_World",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-122-api",
+      "title": "Avian Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/122",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

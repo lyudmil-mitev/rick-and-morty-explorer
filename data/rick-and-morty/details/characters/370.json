@@ -1,0 +1,27 @@
+{
+  "id": 370,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Two Guys with Handlebar Mustaches",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Two_Guys_with_Handlebar_Mustaches",
+  "text": "The Two Guys with Handlebar Mustaches are characters that appeared in the episode \"Rixty Minutes\".\n\nThey are interdimensional beings that appeared on an alternate dimension's version of Saturday Night Live. One of them is a basketball player while the other one is a Buddhist.",
+  "sources": [
+    {
+      "id": "characters-370-wiki",
+      "title": "Two Guys with Handlebar Mustaches",
+      "url": "https://rickandmorty.fandom.com/wiki/Two_Guys_with_Handlebar_Mustaches",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-370-api",
+      "title": "Two Guys with Handlebar Mustaches API record",
+      "url": "https://rickandmortyapi.com/api/character/370",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

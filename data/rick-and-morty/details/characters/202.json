@@ -1,0 +1,27 @@
+{
+  "id": 202,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lighthouse Keeper",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lighthouse_Keeper",
+  "text": "The Lighthouse Keeper was a magdalian who worked the lighthouse on a distant planet. Rick and Morty came to the lighthouse to put up a beacon to send themselves back to Earth, but the Lighthouse Keeper told them that they were allowed to do so on the condition that they listened to his tale.\n\nIn the episode \"Look Who's Purging Now\", Rick and Morty were on a distant planet where a purge was going on. In order to leave, Rick had to set up a beacon on the lighthouse of the beach. When they went to the lighthouse, the chief opened up the door. He told them that he did not have any need to be part of the purge because he had no anger directed towards anyone, but gladly offered Rick and Morty to kill him, only to find out that all they wanted was to use his lighthouse for their beacon. He allowed them in, but told them that they could only do it if they listened to his tale. Rick set up the beacon while Morty sat through the Keeper's tale.\n\nAs it turned out, the keeper's \"tale\" was actually a screenplay, centering on a woman named Jacey Lakums. Morty found the screenplay difficult to sit through, due to the keeper's lack of writing skill; the screenplay proved to be incoherent, boring, pretentious, and cliched. He found himself eating Yummy' Yums candy bar to keep his patience. When the keeper finally finished telling his tale, he asked for Morty's opinion. Morty, attempting to be polite, merely told him that it was good. The keeper, pressing further, demanded constructive criticism, at which Morty suggested that a \"three weeks earlier\" framing device was unnecessary. In response, the keeper reacted poorly, declaring \"you're a petty person and you're insecure, and you're taking it out on me,\" and that he was now kicking the two of them out.\n\nThe keeper barged upstairs to try to take down the beacon, while Morty followed him to talk him out of it. Over the course of explaining himself to Rick, Morty claims to have \"sat through\" the reading, which enrages the keeper further. At this point, Morty lets out his anger properly, simply telling the keeper flat-out that the screenplay was terrible. The scuffle between them escalates, and Morty shoves the keeper down the lighthouse stairs, at which he tumbles all the way to the bottom and snaps his neck on impact. Morty angrily shouts back, \"You want me to cut back to three weeks earlier, when you were alive?\"\n\nAt first the Lighthouse Keeper appeared to be friendly man as he let Rick and Marty take shelter in his lighthouse so they could set up a beacon. Unlike other members of his species, he did not show any signs of violent tendencies and stated that he does not hold grudges towards anyone and is uninterested in taking part in the yearly purge festival. He is however quite stubborn as when he asked Morty to offer an honest critique on his screenplay and Morty tries to do so, the lighthouse chief quickly loses his temper and tells Morty to get out all while calling him a \"shitty person\".",
+  "sources": [
+    {
+      "id": "characters-202-wiki",
+      "title": "Lighthouse Keeper",
+      "url": "https://rickandmorty.fandom.com/wiki/Lighthouse_Keeper",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-202-api",
+      "title": "Lighthouse Keeper API record",
+      "url": "https://rickandmortyapi.com/api/character/202",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

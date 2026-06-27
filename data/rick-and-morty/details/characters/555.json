@@ -1,0 +1,27 @@
+{
+  "id": 555,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Randotron",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Randotron",
+  "text": "Randotron is a robot who appears in the episode \"One Crew Over the Crewcoo's Morty\".\n\nRandotron is a robot Rick that is programmed to be the opposite of Rick’s previous robot Heistotron. Its purpose is give people random instructions based on three David Lynch movies. However, Heistotron planned for it and secretly took over its body so it would send instructions to Rick's team that will lead them to it.",
+  "sources": [
+    {
+      "id": "characters-555-wiki",
+      "title": "Randotron",
+      "url": "https://rickandmorty.fandom.com/wiki/Randotron",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-555-api",
+      "title": "Randotron API record",
+      "url": "https://rickandmortyapi.com/api/character/555",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

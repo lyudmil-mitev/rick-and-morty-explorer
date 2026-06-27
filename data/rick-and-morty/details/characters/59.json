@@ -1,0 +1,27 @@
+{
+  "id": 59,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Brad Anderson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Brad_Anderson",
+  "text": "Brad Anderson (May 14, 1924 – August 30, 2015) was a real-life television and movie producer also known for making the newspaper comic strip, Marmaduke. A cartoon version of him appeared in the episode Raising Gazorpazorp, voiced by Maurice LaMarche. He was seen at the end, talking to Morty and Morty Jr. about how he is haunted daily by thoughts of mutilation and sexual assault and that he channels this into his work. This inspired Morty Jr. to stop destroying the town and start working on an autobiography about his life.",
+  "sources": [
+    {
+      "id": "characters-59-wiki",
+      "title": "Brad Anderson",
+      "url": "https://rickandmorty.fandom.com/wiki/Brad_Anderson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-59-api",
+      "title": "Brad Anderson API record",
+      "url": "https://rickandmortyapi.com/api/character/59",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

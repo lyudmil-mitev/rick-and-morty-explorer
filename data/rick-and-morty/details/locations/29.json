@@ -1,0 +1,27 @@
+{
+  "id": 29,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dorian 5",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dorian_5",
+  "text": "Dorian 5 was a planet which used to be the home of an unknown alien species. This species was exterminated, along with the planet, by The Vindicators, allegedly in order to kill Doom-Nomitron.\n\nPrior to the events in episode Vindicators 3: The Return of Worldender, The Vindicators had assembled without Rick Sanchez and Morty Smith, due to conflicting personalities, to defeat Doom-Nomitron. Calypso, Diablo Verde and Lady Katana died fighting Doom-Nomitron, possibly on Dorian 5. Doom-Nomitron, using his shape-shifting powers, hid out among the Dorian 5-population. Not being able to distinguish him from the native aliens, The Vindicators took to exterminating the whole planet to make sure they killed Doom-Nomitron.\n\nHowever, in Mercy Kill (Vindicators 2), the story was revealed to be fabricated, as Doom-Nomitron was never actually there. The group was called to the planet, However, as Vance Maximus and Supernova couldn't tell the difference between the people who called them and the enemy, they brutally slaughtered the entire planet's population. The two then debate on whether to kill a survivor. After the survivor dies anyway, Supernova forces Vance to leave the planet before she has a violent miscarriage which ends up destroying the planet.",
+  "sources": [
+    {
+      "id": "locations-29-wiki",
+      "title": "Dorian 5",
+      "url": "https://rickandmorty.fandom.com/wiki/Dorian_5",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-29-api",
+      "title": "Dorian 5 API record",
+      "url": "https://rickandmortyapi.com/api/location/29",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

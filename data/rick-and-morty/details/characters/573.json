@@ -1,0 +1,27 @@
+{
+  "id": 573,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Snake Adolf Hitler",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Snake_Adolf_Hitler",
+  "text": "Snake Adolf Hitler was a minor character in the episode \"Rattlestar Ricklactica\". He was presumably a dictator on the Snake Planet in 2019, as the development of their history had been delayed due to their discovery of time travel. Apparently, the many futures it caused disasters and this is the reason why several time-traveling snakes tried to assassinate him.\n\nSnake Hitler was most likely erased from history after the Time Cops curtailed the evolution of smart snakes, making him disappear with the rest of the Snake Planet's populace.",
+  "sources": [
+    {
+      "id": "characters-573-wiki",
+      "title": "Snake Adolf Hitler",
+      "url": "https://rickandmorty.fandom.com/wiki/Snake_Adolf_Hitler",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-573-api",
+      "title": "Snake Hitler API record",
+      "url": "https://rickandmortyapi.com/api/character/573",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 317,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shmlonathan Shmlower",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shmlonathan_Shmlower",
+  "text": "Shmlonathan Shmlower is a character who appeared in the episode \"Rixty Minutes\". He is a character on a show called Shmlo's the Shmloss?, that comes from an alternate dimension, where every noun begins with the \"Shml\" prefix. He is a parody on Jonathan Bower from Who's the Boss?.",
+  "sources": [
+    {
+      "id": "characters-317-wiki",
+      "title": "Shmlonathan Shmlower",
+      "url": "https://rickandmorty.fandom.com/wiki/Shmlonathan_Shmlower",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-317-api",
+      "title": "Shmlonathan Shmlower API record",
+      "url": "https://rickandmortyapi.com/api/character/317",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

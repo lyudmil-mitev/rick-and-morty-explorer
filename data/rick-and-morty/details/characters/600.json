@@ -1,0 +1,27 @@
+{
+  "id": 600,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Crazy Cat Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Crazy_Cat_Morty",
+  "text": "Crazy Cat Morty appears in the game Pocket Mortys.",
+  "sources": [
+    {
+      "id": "characters-600-wiki",
+      "title": "Crazy Cat Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Crazy_Cat_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-600-api",
+      "title": "Cats Fan API record",
+      "url": "https://rickandmortyapi.com/api/character/600",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

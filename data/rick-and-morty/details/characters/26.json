@@ -1,0 +1,27 @@
+{
+  "id": 26,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Arthricia",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Arthricia",
+  "text": "Arthricia is a magdalian who lives on a distant planet that appeared in the episode \"Look Who's Purging Now.\" She is a gracious but devious little Amish girl, and is a cat-like humanoid. She doesn't agree with the yearly purges, in which her planet's people act on their otherwise repressed desire for violence (resulting in everyone attempting to kill each other, unless they hide) and fights every year to survive during them.\n\nArthricia first appeared in the episode Look Who's Purging Now, where she was one of the people on the Purge Planet. She was seen getting cornered and about to get killed during the purge until Morty spotted her. He convinced Rick to fly down there and save her, which he did. When they saved her, Arthricia explained that she disagreed with the politics of the purge and always wanted to put an end to it. She then lied to Rick and Morty, saying that her grandmother was left on the planet and they needed to save her. After they went back down into a shed, Arthricia stole Rick's laser gun and shot him in the liver, then took off in his ship without him, leaving Rick and Morty to fend for themselves.\n\nRick and Morty later found Arthricia again and, angry about what she did before, Morty threatened to kill her. Rick stopped him and Arthricia explained that she stole his ship because she wanted to kill the descendents of the rich people who came up with the idea of the purge and forced society to comply with it thousands of years before that day, for keeping the tradition in place. Rick helped Arthricia by giving her one of the war suits and they both broke into the mansion where the rich people lived and slaughtered them all.\n\nIn the end, Rick and Arthricia had freed their world of the purge. Morty asked Arthricia out, but she told him that she already had a boyfriend. So he and Rick left, and Arthricia lived peacefully with the rest of her people for a few seconds, until they started to argue about politics again, and started killing each other. It's unknown what happened to her after the purge was restarted. She most likely survived because the purge was ended quickly before someone could get killed.\n\nArthricia holds strong political beliefs and a huge grudge on her society for the pain it put her through all her life with its yearly purges. She will go to many lengths to make sure they repay their debts, and in the end, she ends up killing them without hesitation. She is a quick, if irrational, thinker. This was proven when she stole Rick's Ship instead of asking them politely to help her. Although this can be justified since she has probably learned several times during purges to never trust anyone.",
+  "sources": [
+    {
+      "id": "characters-26-wiki",
+      "title": "Arthricia",
+      "url": "https://rickandmorty.fandom.com/wiki/Arthricia",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-26-api",
+      "title": "Arthricia API record",
+      "url": "https://rickandmortyapi.com/api/character/26",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

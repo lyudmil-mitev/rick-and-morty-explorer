@@ -1,0 +1,27 @@
+{
+  "id": 6,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Interdimensional Cable",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Interdimensional_Cable",
+  "text": "The Interdimensional Cable is a cable box invented by Rick that gives access to television shows across every dimension.\n\nRick introduced it in the episode Rixty Minutes. It is a cable box that has access to all of the TV shows in the entire multiverse. The interdimensional cable can receive all of the TV channels from every planet, dimension, universe, reality, etc. and broadcast it right on whatever television it is hooked up to. Rick creates it by attaching Crystallized Xanthenite into the box.",
+  "sources": [
+    {
+      "id": "locations-6-wiki",
+      "title": "Interdimensional Cable",
+      "url": "https://rickandmorty.fandom.com/wiki/Interdimensional_Cable",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-6-api",
+      "title": "Interdimensional Cable API record",
+      "url": "https://rickandmortyapi.com/api/location/6",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

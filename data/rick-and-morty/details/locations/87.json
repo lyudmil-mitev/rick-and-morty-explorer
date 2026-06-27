@@ -1,0 +1,27 @@
+{
+  "id": 87,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Globaflyn",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Globaflyn",
+  "text": "Globaflyn is a chemical that, once consumed, seems to show a person the thing they want most. According to Rick's description, it \"connects the whatever-you-want section of your brain to the whatever-you-have section\".\n\nRick keeps people he refuses to let into his life, but doesn't want to kill, in sacs filled with globaflyn, at sublevel B3 of his garage.",
+  "sources": [
+    {
+      "id": "locations-87-wiki",
+      "title": "Globaflyn",
+      "url": "https://rickandmorty.fandom.com/wiki/Globaflyn",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-87-api",
+      "title": "Globaflyn API record",
+      "url": "https://rickandmortyapi.com/api/location/87",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

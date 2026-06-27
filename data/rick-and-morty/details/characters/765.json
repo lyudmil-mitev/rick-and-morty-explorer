@@ -1,0 +1,27 @@
+{
+  "id": 765,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Brosephamons",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Brosephamons",
+  "text": "The Brosephamons , also known as Pom Poms , are an alien species appearing in the Rick and Morty Universe. They made their only appearance in \"The Whirly Dirly Conspiracy\".",
+  "sources": [
+    {
+      "id": "characters-765-wiki",
+      "title": "Brosephamons",
+      "url": "https://rickandmorty.fandom.com/wiki/Brosephamons",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-765-api",
+      "title": "Native Alien API record",
+      "url": "https://rickandmortyapi.com/api/character/765",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

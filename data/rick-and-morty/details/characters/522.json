@@ -1,0 +1,27 @@
+{
+  "id": 522,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mr. Goldenfold's Larvae",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mr._Goldenfold's_Larvae",
+  "text": "Mr. Goldenfold's larvae were the children of the Mr. Goldenfold who exists in the Wasp Universe.",
+  "sources": [
+    {
+      "id": "characters-522-wiki",
+      "title": "Mr. Goldenfold's Larvae",
+      "url": "https://rickandmorty.fandom.com/wiki/Mr._Goldenfold's_Larvae",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-522-api",
+      "title": "Caterpillar Mr. Goldenfold’s Larvae API record",
+      "url": "https://rickandmortyapi.com/api/character/522",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 475,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Construction Dancer Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Construction_Dancer_Morty",
+  "text": "to Cop Rick and Morty|The Ricklantis Mixup}}\n\n is a Morty working at the sleazy club \"The Creepy Morty\".\n\nMorty started working at The Creepy Morty some time after it opened, in the Mortytown district of The Citadel. Wearing a sparkling construction helmet, he would perform boring dances for paying customers.\n\nCop Rick and Morty came to visit the Creepy Morty during his shift, looking for Big Morty. When they walked through the club, offered to dance for them; one dance for 10 and two for 25. Cop Rick rejected his offer and noted his bad maths skills. Morty ran away once the gunfight between the two cops and Big Morty started.",
+  "sources": [
+    {
+      "id": "characters-475-wiki",
+      "title": "Construction Dancer Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Construction_Dancer_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-475-api",
+      "title": "Dancer Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/475",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

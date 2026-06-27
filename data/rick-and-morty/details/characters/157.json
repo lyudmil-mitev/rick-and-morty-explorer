@@ -1,0 +1,27 @@
+{
+  "id": 157,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hole in the Wall Where the Men Can See it All",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hole_in_the_Wall_Where_the_Men_Can_See_it_All",
+  "text": "The Hole in the Wall Where the Men Can See it All is a character that appeared in the episode \"Rixty Minutes\".\n\nIt is an interdimensional hole in the wall which made an appearance on an alternate dimension's version of Saturday Night Live.",
+  "sources": [
+    {
+      "id": "characters-157-wiki",
+      "title": "Hole in the Wall Where the Men Can See it All",
+      "url": "https://rickandmorty.fandom.com/wiki/Hole_in_the_Wall_Where_the_Men_Can_See_it_All",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-157-api",
+      "title": "Hole in the Wall Where the Men Can See it All API record",
+      "url": "https://rickandmortyapi.com/api/character/157",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

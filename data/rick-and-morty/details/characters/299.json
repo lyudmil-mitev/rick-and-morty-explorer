@@ -1,0 +1,27 @@
+{
+  "id": 299,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Robot Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Robot_Rick",
+  "text": "Robot Rick is an alternate version of Rick Sanchez that appeared in the episode \"Close Rick-Counters of the Rick Kind.\" He is a robot that resembles Rick.",
+  "sources": [
+    {
+      "id": "characters-299-wiki",
+      "title": "Robot Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Robot_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-299-api",
+      "title": "Robot Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/299",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 781,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Garage",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Garage",
+  "text": "The Garage serves as the primary workshop, and occasional living quarters of Rick Sanchez. There is a large, well-hidden laboratory underneath. It has an AI, similar to the Space Cruiser.",
+  "sources": [
+    {
+      "id": "characters-781-wiki",
+      "title": "Garage",
+      "url": "https://rickandmorty.fandom.com/wiki/Garage",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-781-api",
+      "title": "Rick's Garage API record",
+      "url": "https://rickandmortyapi.com/api/character/781",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

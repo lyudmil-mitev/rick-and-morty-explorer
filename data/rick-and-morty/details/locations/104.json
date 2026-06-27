@@ -1,0 +1,27 @@
+{
+  "id": 104,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Portal Technology",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Portal_Technology",
+  "text": "Portals allow travel between two different locations. Usually, these locations exist in the same universe. The only groups that have been known to manufacture intergalactic portal technology are versions of Rick, Dinosaurs, and the Galactic Federation present in Dimension 35-C (Intergalactic Customs in \"Pilot\"). Prior to the start of the series, the mathematical formula for interdimensional portal travel was independently invented by two Ricks, namely Rick Prime and Rick C-137. They later shared this technology with other Ricks across the multiverse, who then utilized this ability to explore a defined portion of the multiverse colloquially referred to as the Central Finite Curve. Some organizations and people are aware of the existence of interdimensional teleportation, but it is unclear whether they possess the necessary understanding to employ use of it or not (e.g. Time Court, Morty Smith (304-X), and the gaseous beings of the \"Fart\" dimension).",
+  "sources": [
+    {
+      "id": "locations-104-wiki",
+      "title": "Portal Technology",
+      "url": "https://rickandmorty.fandom.com/wiki/Portal_Technology",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-104-api",
+      "title": "Near-Duplicate Reality API record",
+      "url": "https://rickandmortyapi.com/api/location/104",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 552,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Key Catcher",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Key_Catcher",
+  "text": "Key Catcher is a member of Miles Knightly's heist crew who appears in the episode \"One Crew Over the Crewcoo's Morty\".\n\nKey Catcher is first seen as apart of Miles Knightly’s crew in stealing the Crystal Skull of Horwitz. However, Rick reveals that he built a robot named Heistotron and hypnotizes him with the other crew members to give him and Morty the crystal instead.",
+  "sources": [
+    {
+      "id": "characters-552-wiki",
+      "title": "Key Catcher",
+      "url": "https://rickandmorty.fandom.com/wiki/Key_Catcher",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-552-api",
+      "title": "Key Catcher API record",
+      "url": "https://rickandmortyapi.com/api/character/552",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

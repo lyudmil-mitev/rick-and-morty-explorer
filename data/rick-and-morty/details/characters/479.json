@@ -1,0 +1,27 @@
+{
+  "id": 479,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Private Sector Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Private_Sector_Rick",
+  "text": "Private Sector Rick was a presidential candidate in the Citadel Election in \"The Ricklantis Mixup\".\n\nPrivate Sector Rick was one of several Ricks candidates in the election for the next president of the Citadel of Ricks. He was initially leading the polls (until Candidate Morty took the lead following the debate and eventually won).\n\nIt was shown that he didn't take Candidate Morty very seriously and neither did the other candidates.\n\nHe can be seen in a side room, along with Rick Guilt Rick and Retired General Rick, when the bodies of Ricks killed by Evil Morty's order are being loaded into the airlocks to be disposed into space. Shortly afterward, Private Sector Rick was also killed on Evil Morty's orders, his lifeless corpse visibly floating in space with other Ricks and Mortys ejected from the Citadel.",
+  "sources": [
+    {
+      "id": "characters-479-wiki",
+      "title": "Private Sector Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Private_Sector_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-479-api",
+      "title": "Private Sector Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/479",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

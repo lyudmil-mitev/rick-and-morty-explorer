@@ -1,0 +1,27 @@
+{
+  "id": 44,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Big Morty's Bodyguard Mortys",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Big_Morty's_Bodyguard_Mortys",
+  "text": "Big Morty's Bodyguard Mortys are two characters who appeared in \"The Ricklantis Mixup\". They were killed by Cop Rick and Cop Morty.\n\nBoth Bodyguard Mortys are visible on two sides of the front of the room Big Morty is in. The Morty in the tank top is on the left side and the Morty with the vest is on the right. The Tank Top Morty gives Cop Rick an envelope with money in it. Later, the Big Morty, Cop Rick, and Cop Morty are asked by the two Bodyguard Mortys, \"Which Morty?\" two separate times. The first time Cop Rick responds with \"my partner.\" The second time they ask it Big Morty responds with \"The Cop, morons.\"\n\nAfter Cop Rick refuses to take the money the two Bodyguard Mortys grab their guns, Cop Morty punches the Tank Top Morty first before also attacking the Vest Morty. A shoot-out occurs, where Cop Morty shoots Vest Morty in the face, killing him instantly. Cop Rick shoots the Tank Top Morty in the face as well also killing him.",
+  "sources": [
+    {
+      "id": "characters-44-wiki",
+      "title": "Big Morty's Bodyguard Mortys",
+      "url": "https://rickandmorty.fandom.com/wiki/Big_Morty's_Bodyguard_Mortys",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-44-api",
+      "title": "Body Guard Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/44",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

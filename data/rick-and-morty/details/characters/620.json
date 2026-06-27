@@ -1,0 +1,27 @@
+{
+  "id": 620,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Ramamama",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Ramamama",
+  "text": "Ramamama is a fictional planet within the Story Train narrative mentioned by the Ramamama Lord when he tells a disguised Rick the reason how he fought him and why he wants to kill him. On the planet, the Ramamama Lord kills his enemies by dropping and dissolving them in acid. It first appears in \"Never Ricking Morty\".",
+  "sources": [
+    {
+      "id": "characters-620-wiki",
+      "title": "Ramamama",
+      "url": "https://rickandmorty.fandom.com/wiki/Ramamama",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-620-api",
+      "title": "Ramamama Lord API record",
+      "url": "https://rickandmortyapi.com/api/character/620",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

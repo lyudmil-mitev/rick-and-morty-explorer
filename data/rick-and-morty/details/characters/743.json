@@ -1,0 +1,27 @@
+{
+  "id": 743,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Alyson Hannigan",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Alyson_Hannigan",
+  "text": "Alyson Hannigan was an alien public defender who appeared in the episode Amortycan Grickfitti.",
+  "sources": [
+    {
+      "id": "characters-743-wiki",
+      "title": "Alyson Hannigan",
+      "url": "https://rickandmorty.fandom.com/wiki/Alyson_Hannigan",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-743-api",
+      "title": "Alyson Hannigan API record",
+      "url": "https://rickandmortyapi.com/api/character/743",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

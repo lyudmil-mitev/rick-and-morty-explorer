@@ -1,0 +1,27 @@
+{
+  "id": 11,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Albert Einstein",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Albert_Einstein",
+  "text": "Albert Einstein was a scientist who invented the theory of relativity. He appeared in the Rick and Morty episode A Rickle in Time and is based on the real-life scientist of the same name.\n\nIn the Pilot episode, when Jerry came across Rick and Morty, returning from their adventure when Morty should have been at school, Jerry yelled at Rick in anger and addressed him as \"Albert Ein-douche.\" This was a pun on Albert Einstein's name.\n\nAlbert Einstein would not make his first physical appearance until the episode A Rickle in Time, in the post-credits epilogue. Here, the Fourth Dimensional Being, after previously being beaten unconscious by Rick, causing him to lose him and fail to arrest him for his crimes against space time, went through time with his partner looking for him. They eventually came across Albert Einstein in his lab and proceeded to beat him senseless, believing him to be Rick and told him not to mess with time. After they left, Albert quickly got back up and angrily said to himself that from that point on, he will mess with time. This seems to be Einstein's in-universe backstory which led to him to publish theories about time, such as Einstein's general theory of relativity.",
+  "sources": [
+    {
+      "id": "characters-11-wiki",
+      "title": "Albert Einstein",
+      "url": "https://rickandmorty.fandom.com/wiki/Albert_Einstein",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-11-api",
+      "title": "Albert Einstein API record",
+      "url": "https://rickandmortyapi.com/api/character/11",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

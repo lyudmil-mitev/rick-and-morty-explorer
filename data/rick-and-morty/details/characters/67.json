@@ -1,0 +1,27 @@
+{
+  "id": 67,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bulbhead",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bulbhead",
+  "text": "Bulbhead is a huge alien who collects alien species in his menagerie. He captured Rick and Morty before the episode Morty's Mind Blowers.",
+  "sources": [
+    {
+      "id": "characters-67-wiki",
+      "title": "Bulbhead",
+      "url": "https://rickandmorty.fandom.com/wiki/Bulbhead",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-67-api",
+      "title": "Collector API record",
+      "url": "https://rickandmortyapi.com/api/character/67",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

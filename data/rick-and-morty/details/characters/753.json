@@ -1,0 +1,27 @@
+{
+  "id": 753,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Space Cruiser",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Space_Cruiser",
+  "text": "in Dimension C-137]]\n\nThe Space Cruiser is an interdisciplinary vehicle designed and built by engineer-scientist Rick Sanchez with the aim of making space travel an easier and faster task for him. The space cruiser is tens of millions or hundreds of millions times faster than the speed of light because it overcomes several thousand light years in less than an hour. Rick's space transport apparently works on the warp engine warping and accelerating space-time of the universe around the ship which is also used by other higher alien species in their space transport.",
+  "sources": [
+    {
+      "id": "characters-753-wiki",
+      "title": "Space Cruiser",
+      "url": "https://rickandmorty.fandom.com/wiki/Space_Cruiser",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-753-api",
+      "title": "Space Cruiser API record",
+      "url": "https://rickandmortyapi.com/api/character/753",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

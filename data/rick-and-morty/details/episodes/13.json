@@ -1,0 +1,27 @@
+{
+  "id": 13,
+  "status": "ok",
+  "textType": "synopsis",
+  "wikiTitle": "Mortynight Run",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mortynight_Run",
+  "text": "\"Mortynight Run\" is the second episode of the second season of Rick and Morty. It is the thirteenth episode of the series overall. It premiered on August 2, 2015. It was written by David Phillips and directed by Dominic Polcino. The episode is rated TV-14-LV.\n\nAfter Rick sells a gun to an alien assassin so he can afford an afternoon at a video arcade, Morty tries to stop the assassin.\n\nWhile Rick is teaching Morty how to drive the Space Cruiser, he talks about how liberating it will be to have Morty go on errands for him. Morty, excited to be driving the ship, thinks this sounds cool. Rick then gets a call from an unknown person. He asks the person where they will meet and ends the driving lesson, stating that they have some business to attend to. He then gets startled when Jerry suddenly ask a question about navigation and gets asked by Rick why he is on the ship, to which he says that \"We [Rick and Jerry] agreed that a boy's father should be present when he's learning to drive\". Rick exclaims that they do not have time to get him back home so they send him at Jerryboree, a \"totally unregistered cross-temporal asteroid\" daycare designed specifically for Jerrys.\n\nAfter they arrive at the location about the unknown caller, Rick tells him to wait but Morty is insistent to come but he rejects it and defends himself after Morty thinks what he is doing is shady. A gromflomite then knocks on the windows, gives Rick 3000 flerbos and then ask him if he has 'the weapon'. Rick introduces the person to Morty, and gives hive and antimatter gun. The gromflomite then introduces himself as Krombopulos Michael, alien assasin. After Michael left, Morty then questions if he sends weapons to killers for money. Rick reveals that sold the gun to afford an afternoon at a video arcade Blips and Chitz, which features a game called \"Roy: A Life Well Lived\". Morty, upset by Rick's immoral decision, attempts to stop Krombopulous Michael from killing his target. After accidentally killing Krombopulous Michael with his poor spaceship piloting, Morty is introduced to the assassin's target, who assumes the name \"Fart\".\n\nMorty insists on freeing Fart and helping him get back to the wormhole he came through to return him to his race. Government forces give chase, leading to a shoot out with lots of civilian casualties, and Rick rages that none of these people would have died if Morty hadn't interfered with Krombopulous Michael. After returning Fart to the wormhole to his home planet, Fart reveals his plan to return with his race and \"cure\" all carbon based life forms from the universe. Morty is then forced to make a moral decision, and kills his friend using the antimatter gun, meaning that all the deaths and destruction that resulted from his decision to save Fart were for nothing.\n\nMeanwhile, Jerry has spent his time socializing with many other Jerrys at Jerryboree, before being picked up atop the end of the day. The three are then called over by another Rick and Morty asking if they have their Jerry. Morty reveals he has lost his father's number and only has a Blips and Chitz ticket. The two Ricks swap Jerrys without knowing which Jerry is which. The episode ends with a promotional ad for \"Blips & Chitz\".",
+  "sources": [
+    {
+      "id": "episodes-13-wiki",
+      "title": "Mortynight Run",
+      "url": "https://rickandmorty.fandom.com/wiki/Mortynight_Run",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "episodes-13-api",
+      "title": "Mortynight Run API record",
+      "url": "https://rickandmortyapi.com/api/episode/13",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

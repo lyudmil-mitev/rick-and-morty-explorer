@@ -1,0 +1,27 @@
+{
+  "id": 598,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bible-saurus",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bible-saurus",
+  "text": "Bible-saurus is a Story Train character who appears in the episode \"Never Ricking Morty\".\n\nBible-saurus is first seen with other Bible-themed parody characters congratulating Rick and Morty after praying to Jesus Christ to drain the control panel and stop the Story Train.",
+  "sources": [
+    {
+      "id": "characters-598-wiki",
+      "title": "Bible-saurus",
+      "url": "https://rickandmorty.fandom.com/wiki/Bible-saurus",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-598-api",
+      "title": "Biblesaurus API record",
+      "url": "https://rickandmortyapi.com/api/character/598",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

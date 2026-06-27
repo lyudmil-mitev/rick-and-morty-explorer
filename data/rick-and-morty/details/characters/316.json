@@ -1,0 +1,27 @@
+{
+  "id": 316,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shmlona Shmlobinson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shmlona_Shmlobinson",
+  "text": "Shmlona Shmlobinson is a parody on Mona Robinson from Who's the Boss?. She appeared in the episode \"Rixty Minutes\". She is an interdimensional being who comes from a dimension where every noun begins with the \"Shml\" prefix. She is on a show called Shmlo's the Shmloss?.",
+  "sources": [
+    {
+      "id": "characters-316-wiki",
+      "title": "Shmlona Shmlobinson",
+      "url": "https://rickandmorty.fandom.com/wiki/Shmlona_Shmlobinson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-316-api",
+      "title": "Shmlona Shmlobinson API record",
+      "url": "https://rickandmortyapi.com/api/character/316",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

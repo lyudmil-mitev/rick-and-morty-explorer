@@ -1,0 +1,27 @@
+{
+  "id": 400,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Giant Court",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Giant_Court",
+  "text": "Giant Court is a court that Rick and Morty are taken to in the episode Meeseeks and Destroy after they \"kill\" Dale, and a few minutes later his wife along with their son catches them in the act. They are let off their charges by a lawyer who represents small people based on the fact that they weren't read their rights. The court system shows blatant discrimination towards Rick and Morty in an apparent reference to the Jim Crow South.\n\nA tiny tavern, Thirsty Step, is located in one of the steps leading down from the giant courthouse.",
+  "sources": [
+    {
+      "id": "characters-400-wiki",
+      "title": "Giant Court",
+      "url": "https://rickandmorty.fandom.com/wiki/Giant_Court",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-400-api",
+      "title": "Giant Judge API record",
+      "url": "https://rickandmortyapi.com/api/character/400",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 27,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Artist Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Artist_Morty",
+  "text": "Artist Morty is an alternate version of Morty Smith that appeared in the episode Close Rick-Counters of the Rick Kind. He is a version of Morty who is a French artist who draws sketches in his notebook. His fate was unknown as of the events of \"The Rickshank Rickdemption.\" but was revealed that he survived the Citadel collision in the episode, \"The Ricklantis Mixup.\"",
+  "sources": [
+    {
+      "id": "characters-27-wiki",
+      "title": "Artist Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Artist_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-27-api",
+      "title": "Artist Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/27",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

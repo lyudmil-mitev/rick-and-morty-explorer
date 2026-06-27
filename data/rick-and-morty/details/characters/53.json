@@ -1,0 +1,27 @@
+{
+  "id": 53,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Blue Shirt Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Blue_Shirt_Morty",
+  "text": "Blue Shirt Morty is an alternate version of a different timeline of Morty Smith. His distinct feature is his blue shirt, which deviates from the common yellow shirt worn by most Mortys.\n\nHe is first seen in Close Rick-Counters of the Rick Kind at The Citadel alongside his Rick, who is talking with a Guard Rick. Morty seems sceptical or confused by something Guard Rick says, tilting his head to the side with a raised eyebrow. Rick and Morty are escorted past them on their way to the Council of Ricks. Blue Shirt Morty is not present at the trial.\n\nIn The Rickshank Rickdemption, many Mortys are killed when the Citadel is transported into a prison of the Galactic Federation. Blue Shirt Morty is one of the Mortys who survived.\n\nIn Rickmurai Jack, His body can be briefly seen among the many bodies of Ricks and Mortys before the Citadel is flooded with portal fluid.",
+  "sources": [
+    {
+      "id": "characters-53-wiki",
+      "title": "Blue Shirt Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Blue_Shirt_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-53-api",
+      "title": "Blue Shirt Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/53",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

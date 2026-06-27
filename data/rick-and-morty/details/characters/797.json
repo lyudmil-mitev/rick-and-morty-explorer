@@ -1,0 +1,27 @@
+{
+  "id": 797,
+  "status": "contextual_source",
+  "textType": "description",
+  "wikiTitle": "Broghs",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Broghs",
+  "text": "Broghs are pink, three-eyed aliens that inhabit Slartivart. This contextual species page supports the API record homeworld and episode context, but the wiki names the species Broghs rather than Slartivartians, so the type label should be reviewed before final prose.",
+  "sources": [
+    {
+      "id": "characters-797-api",
+      "title": "Slartivartian API record",
+      "url": "https://rickandmortyapi.com/api/character/797",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "characters-797-wiki-context",
+      "title": "Broghs",
+      "url": "https://rickandmorty.fandom.com/wiki/Broghs",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "No individual character page found; use Broghs species page as contextual source and note mismatch with API type label Slartivartian."
+}

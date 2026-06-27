@@ -1,0 +1,27 @@
+{
+  "id": 16,
+  "status": "ok",
+  "textType": "synopsis",
+  "wikiTitle": "Get Schwifty (episode)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Get_Schwifty_(episode)",
+  "text": "\"Get Schwifty\" is the fifth episode of the second season of Rick and Morty. It is the sixteenth episode of the series overall. It premiered on August 23, 2015. It was written by Tom Kauffman and directed by Wes Archer. The episode is rated TV-14-DL.\n\nWhen an alien entity appears with musical demands, Rick and Morty call on Ice-T to help them write a tune for an intergalactic song competition.\n\nA massive alien head appears over the Earth, interfering with Earth's gravity and spawning several global disasters in the process. When the head exclaims, \"Show me what you got,\" Rick travels to The Pentagon to inform the President of the United States that the alien head is a Cromulon, and it seeks a live performance of a catchy new song.\n\nUnfortunately, an earthquake hit the Grammy Awards presentation, killing all of Earth's most famous musicians (including but not limited to Pharrell, Randy Newman, Billy Corgan, and The-Dream) with the exception of Ice-T who survived the earthquake. In desperation, Rick and Morty compose and perform the song \"Get Schwifty\". The head is pleased and transports the entire Earth to an intergalactic musical competition, viewed by more Cromulons, where the losers' planets are obliterated. Rick then tells the President that any astronauts they had in orbit at the time are dead.\n\nRick and Morty team up with Ice-T to compose a new song, but Morty panics and steals Rick's portal device to save his family. Ice-T reveals himself to be a jaded alien and leaves Rick alone. Jerry, Beth, Summer and Ethan get involved with a religious cult whose beliefs are based on their interpretation of the actions of the Cromulons. Morty gets lost and traverses several portal openings, eventually stumbling onto Bird Person's world. Bird Person encourages Morty to have faith in Rick and sends him back to Earth.\n\nGeneral Nathan ends up losing it, betrays the president, and launches nuclear bombs at the host Cromulon as he was wanting to do the whole episode, however this barely effects him and in reply, he simply states BOO, NOT COOL! and he disqualifies Earth, but Ice-T returns and saves the planet from annihilation. Rick and Morty, back together again, perform a new hit song, satisfy the Cromulons, and win the contest. Nathan runs at the president with an M16 after all is saved, but Rick turns him into a snake. Meanwhile, the alien head cult quickly disbands after realizing it was all just a musical reality show.\n\nIn the post-credits, Ice-T returns to his planet upon his exile and is restored to his Water-T form. When the Numbericons attack with his father Helium-Q getting killed by a falling debris, Water-T leads the Alphabetrium inhabitants into fighting the Numbericons.",
+  "sources": [
+    {
+      "id": "episodes-16-wiki",
+      "title": "Get Schwifty (episode)",
+      "url": "https://rickandmorty.fandom.com/wiki/Get_Schwifty_(episode)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "episodes-16-api",
+      "title": "Get Schwifty API record",
+      "url": "https://rickandmortyapi.com/api/episode/16",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

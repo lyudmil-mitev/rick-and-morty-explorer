@@ -1,0 +1,27 @@
+{
+  "id": 548,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Truckula",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Truckula",
+  "text": "Truckula is a vampire truck racer who joined Rick Sanchez's heist crew before double-crossing him and joining Knightly's Eight.\n\nTruckula was in the middle of a race when Rick came and recruited him into Sanchez's Five, Rick and Morty's heist crew formed with the sole purpose of obtaining professional passes for Heist-Con. After Rick and Morty's successful entrance into the conference, Truckula was ditched by Rick along with the rest of Sanchez's Five. Truckula was then moments later recruited into Knightly's Eight, effectively double-crossing Rick to steal the Crystal Skull of Horowitz; but this was interrupted by Heistotron, which then recruited them into double-crossing Miles and give the crystal skull to Rick. The team pulled off the heist, with Truckula providing the escape car and driving them back to Heist-Con. They handed Rick the crystal skull and gave Miles a bag of Rick's shit. At the end of Miles' stage show, they joined in on tearing down the whole building on Rick's orders.",
+  "sources": [
+    {
+      "id": "characters-548-wiki",
+      "title": "Truckula",
+      "url": "https://rickandmorty.fandom.com/wiki/Truckula",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-548-api",
+      "title": "Truckula API record",
+      "url": "https://rickandmortyapi.com/api/character/548",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

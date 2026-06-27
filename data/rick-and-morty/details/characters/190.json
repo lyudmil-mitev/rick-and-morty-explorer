@@ -1,0 +1,27 @@
+{
+  "id": 190,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Kiara",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Kiara",
+  "text": "Kiara was Jerry's rebound alien girlfriend from The ABC's of Beth.\n\nDespite her tendency to hunt other aliens for sport, Kiara claims she will never harm humans, having formed a Soul Bond with Jerry. However, she takes the custom very seriously, and (hypocritically) hunted Morty and Summer after Jerry wrongfully convinced her they were a threat. She is proven to be a self-righteous hypocrite as right when she began to rant about and call out Jerry and his species for being selfish and manipulative, and for using her as a rebound, she herself was caught by her ex, Trandoor, who pointed out that Earth was his territory. Their argument clearly showed that Kiara was using Jerry for the same exact reason, in order to make her ex-boyfriend jealous.",
+  "sources": [
+    {
+      "id": "characters-190-wiki",
+      "title": "Kiara",
+      "url": "https://rickandmorty.fandom.com/wiki/Kiara",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-190-api",
+      "title": "Keara API record",
+      "url": "https://rickandmortyapi.com/api/character/190",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 118,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Changeformer Bro Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Changeformer_Bro_Morty",
+  "text": "Changeformer Bro Morty is a Rock-type Morty from the game Pocket Mortys. He got added alongside Hell Demon Morty after the premiere of Amortycan Grickfitti. He can't evolve.",
+  "sources": [
+    {
+      "id": "locations-118-wiki",
+      "title": "Changeformer Bro Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Changeformer_Bro_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-118-api",
+      "title": "Space Tahoe API record",
+      "url": "https://rickandmortyapi.com/api/location/118",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

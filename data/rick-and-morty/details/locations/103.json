@@ -1,0 +1,27 @@
+{
+  "id": 103,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Merged Dimension",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Merged_Dimension",
+  "text": "The Merged Dimension is an alternate dimension introduced in \"The Vat of Acid Episode\". It is the result of Rick Sanchez merging many different realities together.",
+  "sources": [
+    {
+      "id": "locations-103-wiki",
+      "title": "Merged Dimension",
+      "url": "https://rickandmorty.fandom.com/wiki/Merged_Dimension",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-103-api",
+      "title": "Merged Universe API record",
+      "url": "https://rickandmortyapi.com/api/location/103",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 378,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lizard Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lizard_Rick",
+  "text": "Lizard Rick is a lizard person-version of Rick seen climbing walls at The Citadel.\n\nHe first appeared in the Season 3 premiere episode, \"The Rickshank Rickdemption\", and can be spotted crawling on the walls of the Citadel. It is unknown what happened to him following the fall of the Galactic Federation and near destruction of The Citadel.\n\nHe later makes a cameo in \"Rickmurai Jack\" in Rick C-137's flashback, where he appears on the wall with many photos of many Ricks belonging to the future Council alliance, including himself. Rick C-137 later went on a rampage killing those Ricks, but considering he remained alive many years later, Rick probably lost him in his blind rage.",
+  "sources": [
+    {
+      "id": "characters-378-wiki",
+      "title": "Lizard Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Lizard_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-378-api",
+      "title": "Wall Crawling Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/378",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

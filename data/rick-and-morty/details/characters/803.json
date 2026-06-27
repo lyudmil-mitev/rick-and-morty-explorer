@@ -1,0 +1,27 @@
+{
+  "id": 803,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hot Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hot_Rick",
+  "text": "\"Hot Rick\" is the tenth and final episode of the eighth season of Rick and Morty. It is the 81st episode of the series overall. It premiered on July 27, 2025. It was written by Albro Lundy and James Siciliano and directed by Brian Kaufman. This episode is rated TV-14-DLSV.",
+  "sources": [
+    {
+      "id": "characters-803-wiki",
+      "title": "Hot Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Hot_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-803-api",
+      "title": "40 Years Old Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/803",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

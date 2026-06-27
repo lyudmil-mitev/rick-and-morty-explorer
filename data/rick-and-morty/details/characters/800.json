@@ -1,0 +1,27 @@
+{
+  "id": 800,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Turkey Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Turkey_Morty",
+  "text": "Turkey Morty is a Scissors-type Morty in Pocket Mortys. He can't evolve.",
+  "sources": [
+    {
+      "id": "characters-800-wiki",
+      "title": "Turkey Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Turkey_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-800-api",
+      "title": "Super Turkey API record",
+      "url": "https://rickandmortyapi.com/api/character/800",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 744,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hellraiser",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hellraiser",
+  "text": "is a Rick and Morty claymation promotional video that premiered November 1, 2019 on Adult Swim. The video is a parody of the 1987 film Hellraiser. It is apart of The Non-Canonical Adventures series and is written and directed by Lee Hardcastle.",
+  "sources": [
+    {
+      "id": "characters-744-wiki",
+      "title": "Hellraiser",
+      "url": "https://rickandmorty.fandom.com/wiki/Hellraiser",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-744-api",
+      "title": "Cenobite API record",
+      "url": "https://rickandmortyapi.com/api/character/744",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

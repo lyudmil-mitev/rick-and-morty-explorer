@@ -1,0 +1,27 @@
+{
+  "id": 112,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Eric McMahan",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Eric_McMahan",
+  "text": "Eric McMahan is a news reporter for a news station who covered the giant naked santa who floated above the USA on Christmas. He was situated in Los Angeles and reported on the giant santa's giant feet, hinting to that the giant santa must also have a giant penis.",
+  "sources": [
+    {
+      "id": "characters-112-wiki",
+      "title": "Eric McMahan",
+      "url": "https://rickandmorty.fandom.com/wiki/Eric_McMahan",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-112-api",
+      "title": "Eric McMan API record",
+      "url": "https://rickandmortyapi.com/api/character/112",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

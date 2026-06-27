@@ -1,0 +1,27 @@
+{
+  "id": 540,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Running Bird",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Running_Bird",
+  "text": "Running Bird is a Native American brave, who fell victim to the Lovefinderrz app.\n\nRunning Bird downloaded the app Lovefinderrz and matched with Maggie. On horseback, he jumped through the window of the church where Maggie was present to be married to Jeff, who seconds earlier drove off with a guy on a motorcycle. He showed Maggie that they matched on the dating app, prompting her to check her phone and confirm their match. He helped her get up on his horse and the two rode off together out of the church.",
+  "sources": [
+    {
+      "id": "characters-540-wiki",
+      "title": "Running Bird",
+      "url": "https://rickandmorty.fandom.com/wiki/Running_Bird",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-540-api",
+      "title": "Running Bird API record",
+      "url": "https://rickandmortyapi.com/api/character/540",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

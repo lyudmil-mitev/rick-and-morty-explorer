@@ -1,0 +1,27 @@
+{
+  "id": 563,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Wizard",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Wizard",
+  "text": "The Wizard is a sorcerer who is the main antagonist of Claw and Hoarder: Special Ricktim's Morty.",
+  "sources": [
+    {
+      "id": "characters-563-wiki",
+      "title": "The Wizard",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Wizard",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-563-api",
+      "title": "The Wizard API record",
+      "url": "https://rickandmortyapi.com/api/character/563",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

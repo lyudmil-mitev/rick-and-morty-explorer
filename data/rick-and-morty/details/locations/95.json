@@ -1,0 +1,27 @@
+{
+  "id": 95,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez",
+  "text": "Richard \"Rick\" Sanchez of Dimension C-137, commonly referred to as Rick C-137, is one of the two titular main protagonists (alongside Morty Smith) of Rick and Morty.\n\nHe is a megagenius scientist whose alcoholism and reckless, nihilistic behavior are sources of concern for \"his daughter's\" family, as well as the safety of her son, Morty. At the start of the series, Rick had returned to the Smith Family's lives after being absent for an unspecified amount of time, with the reasons for his absence being shrouded in mystery.\n\nRick began his journey as a young inventor in Dimension C-137, where he lived with his wife Diane and daughter Beth. As Rick repeatedly failed to create interdimensional portal travel, Rick Prime, an alternate version of himself, visited Dimension C-137 and offered Rick the tools to make it possible. When Rick turned down the offer, Rick Prime, feeling insulted, responded by murdering Diane and Beth. This motivated a devastated Rick to finally invent working portal technology, becoming the only version of himself aside from Rick Prime to do so independently. He quickly utilized his new invention by going on a lifetime hunt for Rick Prime with the intent to avenge his family. At an unknown point after this, Rick Prime punished Rick for his relentless pursuit by erasing Diane Sanchez from every single reality across the Multiverse.\n\nSoon after beginning his search, Rick ended up joining the Resistance alongside Birdperson, and later, Squanchy, where they fought against the Galactic Federation. Following the Battle of Blood Ridge, Rick left to resume looking for Rick Prime and began killing countless amounts of his alternate selves in the process over the next few decades. Eventually, the other Ricks surrendered to Rick C-137, who formed the Council of Ricks and oversaw the construction of the Citadel of Ricks, although he left before it was completed. Rick, now an elderly man, landed in Rick Prime's original dimension, taking his place as the father of that dimension's Beth Smith, hoping one day Rick Prime would return. Whilst living in the Prime Dimension, Rick formed a bond with Morty, his new grandson, and began taking him on various misadventures.\n\nRick would finally get his revenge when he killed Rick Prime via an unlikely alliance with Evil Morty. With his main goal in life now complete, Rick initially fell back into his alcoholic and depressive ways until Morty helped him find a new purpose in their classic adventures. Rick was also able to move on from the loss of Diane by erasing his memories of her and allowing sentient memories of her and a younger version of himself live together in harmony.\n\nAs the series has progressed, Rick relocated yet again to another dimension twice, and has continuously committed more heinous acts that often leave many individuals dead and cause conflict with the Smith family. Rick's morality has frequently come into question, and many of the episodes shift him into a more antagonistic role.",
+  "sources": [
+    {
+      "id": "locations-95-wiki",
+      "title": "Rick Sanchez",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-95-api",
+      "title": "New Improved Galactic Federation Quarters API record",
+      "url": "https://rickandmortyapi.com/api/location/95",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

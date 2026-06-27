@@ -1,0 +1,27 @@
+{
+  "id": 50,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Blim Blam",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Blim_Blam",
+  "text": "{{Character\n|name=\n|image=Blim_Blam.png\n|species = Korblock\n|status = Alive\n|job = Murderer\n|first = Auto Erotic Assimilation\n|voice actor = John Kassir\n}}\nBlim Blam is a Korblock murderer who eats babies, and apparently traveled to Earth to do so. He was eventually captured and chained up by Rick in an attempt to cure Blim Blam's \"space AIDS\" in order to become rich selling the cure. He was discovered by Beth and Jerry, however, and the two's bickering annoyed Blim Blam to the point that he broke free, berated the two by using a translation device Rick had (as he could only speak in alien beforehand), and then left promising never to return to Earth.",
+  "sources": [
+    {
+      "id": "characters-50-wiki",
+      "title": "Blim Blam",
+      "url": "https://rickandmorty.fandom.com/wiki/Blim_Blam",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-50-api",
+      "title": "Blim Blam API record",
+      "url": "https://rickandmortyapi.com/api/character/50",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

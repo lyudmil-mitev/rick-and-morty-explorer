@@ -1,0 +1,27 @@
+{
+  "id": 709,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dracula",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dracula",
+  "text": "Dracula is a vampire who appears in the episode \"Mort: Ragnarick\".\n\nDracula is recruited by Rick, Morty, and Bigfoot along with other monsters to fight The Pope, but they are killed by the latter’s infinite energy, When they are sent to Valhalla, the three use Dracula and the other monsters as a distraction for the Valhalla Vikings as Rick, Morty, and Bigfoot escape the realm with them realizing that they have been used at the end.",
+  "sources": [
+    {
+      "id": "characters-709-wiki",
+      "title": "Dracula",
+      "url": "https://rickandmorty.fandom.com/wiki/Dracula",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-709-api",
+      "title": "Dracula API record",
+      "url": "https://rickandmortyapi.com/api/character/709",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

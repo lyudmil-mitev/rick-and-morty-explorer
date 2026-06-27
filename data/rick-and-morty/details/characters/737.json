@@ -1,0 +1,27 @@
+{
+  "id": 737,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rickdependence Spray/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rickdependence_Spray%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-737-wiki",
+      "title": "Rickdependence Spray/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Rickdependence_Spray%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-737-api",
+      "title": "Cirque du Soleil Zumanity Member API record",
+      "url": "https://rickandmortyapi.com/api/character/737",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

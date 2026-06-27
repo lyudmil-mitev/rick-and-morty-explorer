@@ -1,0 +1,27 @@
+{
+  "id": 685,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mort Dinner Rick Andre",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mort_Dinner_Rick_Andre",
+  "text": "\"Mort Dinner Rick Andre\" is the first episode of the fifth season of Rick and Morty. It is the 42nd episode of the series overall. It premiered on June 20, 2021. It was written by Jeff Loveness and directed by Jacob Hair. The episode is rated TV-14-DLSV.",
+  "sources": [
+    {
+      "id": "characters-685-wiki",
+      "title": "Mort Dinner Rick Andre",
+      "url": "https://rickandmorty.fandom.com/wiki/Mort_Dinner_Rick_Andre",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-685-api",
+      "title": "Evolved Narnian Disguised as Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/685",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

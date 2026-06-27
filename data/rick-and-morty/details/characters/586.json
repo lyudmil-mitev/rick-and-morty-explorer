@@ -1,0 +1,27 @@
+{
+  "id": 586,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cameos and references in outside media",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cameos_and_references_in_outside_media",
+  "text": "Cameos and References are times when Rick and Morty or anything else related to Rick and Morty have made notable appearances, been mentioned, shown, titled, parodied, or crossed over in other television shows, movies, video games, comics, web series, music, commercials, or any form of media.",
+  "sources": [
+    {
+      "id": "characters-586-wiki",
+      "title": "Cameos and references in outside media",
+      "url": "https://rickandmorty.fandom.com/wiki/Cameos_and_references_in_outside_media",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-586-api",
+      "title": "PC Basketball Player API record",
+      "url": "https://rickandmortyapi.com/api/character/586",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

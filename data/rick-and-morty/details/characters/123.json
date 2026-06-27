@@ -1,0 +1,27 @@
+{
+  "id": 123,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Left-Handed Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Left-Handed_Morty",
+  "text": "Left-Handed Morty, commonly known as Fat Morty, was a Morty on the The Citadel who debuted in season 3 episode 7 \"The Ricklantis Mixup\". He is friends with Slick Morty, Glasses Morty, and Lizard Morty whom he is also classmates with at a school for Mortys in the Citadel. Left-Handed Morty, as his name would suggest, believed his defining trait was being left-handed. However, as he also happened to be more overweight than the average Morty, everyone else saw him as Fat Morty and the name stuck.\n\nIn his debuting episode, Left-Handed Morty embarked on an adventure with his friends to find the wishing portal in the Citadel before graduating at the school of Morty's. When they eventually found the wishing portal, Left-Handed Morty threw in his panini maker in order to sacrifice something to make the wish come true. Ironically, he wished for a million sandwiches.\n\nIn the beginning of \"Solaricks\", what seems to be Left-Handed Morty is among the heavy casualties of the Citadel's destruction when his body is seen floating through space, alongside many other deceased Ricks and Morty. But it could be possible that is not Left-Handed Morty and that there is more than one fat Morty that looks like him, as his friends can not be seen alongside him.",
+  "sources": [
+    {
+      "id": "characters-123-wiki",
+      "title": "Left-Handed Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Left-Handed_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-123-api",
+      "title": "Fat Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/123",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

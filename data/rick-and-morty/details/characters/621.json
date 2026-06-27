@@ -1,0 +1,27 @@
+{
+  "id": 621,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Ruth Bader Ginsburg",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Ruth_Bader_Ginsburg",
+  "text": "Ruth Bader Ginsburg is a lawyer and jurist who served as a associate justice of the United States Supreme Court who appears in the episode \"Never Ricking Morty\".\n\nRuth Bader Ginsburg is seen during Morty’s Bechdel test story when introducing herself as “that Supreme Court lady” and congratulating Beth and Summer via phone for defeating female scorpions with their rays.",
+  "sources": [
+    {
+      "id": "characters-621-wiki",
+      "title": "Ruth Bader Ginsburg",
+      "url": "https://rickandmorty.fandom.com/wiki/Ruth_Bader_Ginsburg",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-621-api",
+      "title": "Ruth Bader Ginsburg API record",
+      "url": "https://rickandmortyapi.com/api/character/621",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

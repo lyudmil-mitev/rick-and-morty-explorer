@@ -1,0 +1,27 @@
+{
+  "id": 119,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Evil Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Evil_Rick",
+  "text": "Rick Sanchez of Dimension 79⊢⊇V, also known as Evil Rick, is an alternate version of Rick Sanchez who appears in \"Close Rick-Counters of the Rick Kind\" as one of the two main antagonists (alongside Evil Morty) and the mechanical puppet of Evil Morty.\n\nThis version of Rick was originally the grandfather of Evil Morty, who forcibly implanted cybernetics inside Evil Rick in order to control him remotely. Evil Rick attempted suicide on at least one occasion, but was forced to comply by Evil Morty. Evil Rick would ultimately meet his end by a horde of furious Mortys his grandson had taken captive under his name, although by that point he welcomed death.\n\nSince Evil Rick was controlled by Evil Morty for a period of time, including his debut episode, his personality is mostly derived from Evil Morty.\n\nAccording to Dan Harmon, Evil Rick was an organic Rick with cybernetic implants (as opposed to a full robot), and none of his words or actions in Season 1 were carried out at his own will; they were all Evil Morty's doing, torturing other Mortys through Evil Rick in order to create hatred towards all Ricks.\n\nIt is known that before he became Evil Morty's puppet, Evil Rick had a similar personality to most Ricks, being condescending towards his grandson and belittling him when the latter stood up for himself. Albeit, while drunk, he admitted he saw Morty as his \"little buddy\" and that he wants to be on adventures with him for a hundred years. Evil Morty's control, while strong, was not absolute, and when Evil Rick asserted himself, he displayed intense suicidal tendencies. When the tortured Morty's broke free and attacked Evil Rick, he literally begged for death and was happy to be at the end of his life.",
+  "sources": [
+    {
+      "id": "characters-119-wiki",
+      "title": "Evil Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Evil_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-119-api",
+      "title": "Evil Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/119",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

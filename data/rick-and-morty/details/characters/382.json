@@ -1,0 +1,27 @@
+{
+  "id": 382,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Worldender",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Worldender",
+  "text": "Worldender is a supervillain and an antagonist who appeared in \"Vindicators 3: The Return of Worldender\". He is the arch-nemesis of The Vindicators. His villainy, as his name implies, is revealed to be destroying planets and committing genocide against numerous alien species.\n\nLittle is known about Worldender, other than the fact that he revels in the genocide of entire species and destroying worlds. Whether he does this to accomplish some homicidal goal, feeds on the worlds he destroys, or does it simply for his enjoyment is unknown. He has suffered defeat at the hands of The Vindicators in the past, though how many times is unknown.\n\nIn \"Vindicators 3: The Return of Worldender\", The Vindicators assemble to thwart Worldender once again, only to find that Rick Sanchez had slaughtered Worldender and his forces the night before while on a drunken bender, leaving Worldender's barely-alive body on display, disemboweled and suspended from the ceiling by a meat hook.\n\nHis corpse would appear later in the episode, being used as photo prop at Rick's party.",
+  "sources": [
+    {
+      "id": "characters-382-wiki",
+      "title": "Worldender",
+      "url": "https://rickandmorty.fandom.com/wiki/Worldender",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-382-api",
+      "title": "Worldender API record",
+      "url": "https://rickandmortyapi.com/api/character/382",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

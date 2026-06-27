@@ -1,0 +1,27 @@
+{
+  "id": 42,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Big-Head Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Big-Head_Morty",
+  "text": "is a version of Morty with a head of equal size to the rest of his body. He was present at the Citadel of Ricks in the episode The Rickshank Rickdemption when Morty Smith and Summer Smith were brought in for their trial before the Council of Ricks. was talking with two regular Mortys in the background.\n\nIn the same episode, many Mortys are killed when the Citadel of Ricks is transported into a prison of the Galactic Federation, it is unknown if Big Head Morty is one of the Mortys who died.",
+  "sources": [
+    {
+      "id": "characters-42-wiki",
+      "title": "Big-Head Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Big-Head_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-42-api",
+      "title": "Big Head Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/42",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

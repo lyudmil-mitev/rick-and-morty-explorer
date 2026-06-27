@@ -1,0 +1,27 @@
+{
+  "id": 413,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Old Lady Thompson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Old_Lady_Thompson",
+  "text": "Old Lady Thompson was a neighbour of the Smith Family back before Snuffles moved to Planet Dogg-One.\n\nShe is an elderly woman who needs a walker to move around, she seems to have a temper and she has a deep hatred for the dogs. She frightened Jerry on several occasions when loudly complaining about his dog defecating on her lawn. In these situations, Jerry would hide with Morty from her.\n\nShe was brought up in Rick and Morty Issue 21 by Morty as an example of how cowardly his father is, as he kept hiding from her instead of facing her like an adult.",
+  "sources": [
+    {
+      "id": "characters-413-wiki",
+      "title": "Old Lady Thompson",
+      "url": "https://rickandmorty.fandom.com/wiki/Old_Lady_Thompson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-413-api",
+      "title": "Old Women API record",
+      "url": "https://rickandmortyapi.com/api/character/413",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

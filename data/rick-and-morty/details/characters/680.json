@@ -1,0 +1,27 @@
+{
+  "id": 680,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Adam",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Adam",
+  "text": "Adam is a Narnian appearing in the episode \"Mort Dinner Rick Andre\" as the main antagonist alongside his ancestors and descendants.\n\nAdam was a young child before being forced into training by his Mother, he fought several holograms of Morty until he was ready, he was sent to the C-131 dimension through a portal to kill Morty, while trying to kill him, he shoots a hole through the wall assassinating Mr. Nimbus's octopus and looking confused, Jessica later stabs a tube connecting to Adam. He see's a hallucination of his Mother as a type of bird before subsequently being pulled back into Narnia and dying.",
+  "sources": [
+    {
+      "id": "characters-680-wiki",
+      "title": "Adam",
+      "url": "https://rickandmorty.fandom.com/wiki/Adam",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-680-api",
+      "title": "Adam API record",
+      "url": "https://rickandmortyapi.com/api/character/680",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

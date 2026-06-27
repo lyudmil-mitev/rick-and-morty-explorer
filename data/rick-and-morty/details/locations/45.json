@@ -1,0 +1,27 @@
+{
+  "id": 45,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Krootabulon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Krootabulon",
+  "text": "Krootabulon is the home planet of the Krootabulan race. It can be assumed to have a different ecosystem than Earth and a harsher environment, resulting in the Krootabulans becoming a warrior race. A creature named Gorgon presumably lives on this planet and has the same role as a bull on Earth. Varrix may have lived here before Krootabulans started hunting them.",
+  "sources": [
+    {
+      "id": "locations-45-wiki",
+      "title": "Krootabulon",
+      "url": "https://rickandmorty.fandom.com/wiki/Krootabulon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-45-api",
+      "title": "Krootabulon API record",
+      "url": "https://rickandmortyapi.com/api/location/45",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

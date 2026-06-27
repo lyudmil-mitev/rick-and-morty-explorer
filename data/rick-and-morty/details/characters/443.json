@@ -1,0 +1,27 @@
+{
+  "id": 443,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tank Top Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tank_Top_Morty",
+  "text": "Tank Top Morty (formerly called Vest Top Morty) appears in the game Pocket Mortys. He evolves from V-Neck Morty.",
+  "sources": [
+    {
+      "id": "characters-443-wiki",
+      "title": "Tank Top Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Tank_Top_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-443-api",
+      "title": "Tank Top Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/443",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

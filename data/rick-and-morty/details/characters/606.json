@@ -1,0 +1,27 @@
+{
+  "id": 606,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Goomby",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Goomby",
+  "text": "Goomby is an alien who once helped Rick get to his family on Christmas.\n\nSome point in the past, Goomby helped Rick get home with presents on Christmas using a sleigh. Rick quickly thanked Goomby before running inside with the presents. Before Goomby was about to leave, Rick came outside to thank him one more time. Goomby, misreading Rick's intent, makes to walk inside the house, only for Rick to clarify that it wasn't an invitation and proceeds to make up excuses for why he can't accommodate Goomby. Goomby apologizes and Rick locks him outside.\n\nAt a later point, he is on the story train and tells the story, describing it as how he and Rick saved Christmas.",
+  "sources": [
+    {
+      "id": "characters-606-wiki",
+      "title": "Goomby",
+      "url": "https://rickandmorty.fandom.com/wiki/Goomby",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-606-api",
+      "title": "Goomby API record",
+      "url": "https://rickandmortyapi.com/api/character/606",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

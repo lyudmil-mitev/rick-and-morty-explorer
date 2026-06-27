@@ -1,0 +1,27 @@
+{
+  "id": 36,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glaagablaaga",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glaagablaaga",
+  "text": "Glaagablaaga is the planet of Garblovians. This planet is seen on Interdimensional Cable 2: Tempting Fate. Not much else is known of this planet.",
+  "sources": [
+    {
+      "id": "locations-36-wiki",
+      "title": "Glaagablaaga",
+      "url": "https://rickandmorty.fandom.com/wiki/Glaagablaaga",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-36-api",
+      "title": "Glaagablaaga API record",
+      "url": "https://rickandmortyapi.com/api/location/36",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

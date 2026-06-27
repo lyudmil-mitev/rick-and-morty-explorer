@@ -1,0 +1,27 @@
+{
+  "id": 78,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Snake Planet",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Snake_Planet",
+  "text": "Snake Planet is a planet in Dimension C-131 that first appeared in the episode \"Rattlestar Ricklactica\". It was inhabited by sapient Snakes, which were later reverted out of existence by Time Cops after the snakes started thoughtlessly meddling with time travel technology.\n\nUnlike most other extraterrestrial life forms in Rick and Morty, the snakes on this planet do not communicate with regular language. Instead, they communicate by hissing.\n\nMorty was bitten by a snake astronaut, so Rick analyzed this planet in order to find an antidote. This led to their discovery of snake jazz, and also the antidote. Morty later returned to this planet to deliver Slippy disguised as the astronaut snake that he previously killed; the return of which sparked a series of events and led to the snakes inventing time travel technology and set in motion a Terminator style war in the near future. Rick and Morty then returned to this planet in its past to covertly deliver instructions to the students of Snake M.I.T. covering everything they would need to know to invent time travel many years in advance using snake math. The recently enlightened inhabitants used time travel to alter events in the past and future; the increased activity eventually got picked up by the Time Police. This was at least partially due to one of the students using the technology to prevent the assassination of Snake Abraham Lincoln, leading to a butterfly effect which likely caused Snake Adolf Hitler to win Snake World War II. Shleemypants and his colleague promptly time-traveled to the planet in the distant past after learning what had taken place and beat up the first snake to use a stick as a tool, which prevented the snakes from ever again becoming an advanced species.",
+  "sources": [
+    {
+      "id": "locations-78-wiki",
+      "title": "Snake Planet",
+      "url": "https://rickandmorty.fandom.com/wiki/Snake_Planet",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-78-api",
+      "title": "Snake Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/78",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

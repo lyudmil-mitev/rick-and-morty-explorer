@@ -1,0 +1,27 @@
+{
+  "id": 150,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cornvelious Daniel",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cornvelious_Daniel",
+  "text": "Cornvelious Daniel was the Galactic Federation agent tasked with obtaining the formula for inter-dimensional travel from Rick Sanchez's brain. He served as an antagonist in \"The Rickshank Rickdemption\".",
+  "sources": [
+    {
+      "id": "characters-150-wiki",
+      "title": "Cornvelious Daniel",
+      "url": "https://rickandmorty.fandom.com/wiki/Cornvelious_Daniel",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-150-api",
+      "title": "Cornvelious Daniel API record",
+      "url": "https://rickandmortyapi.com/api/character/150",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 66,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Coach Feratu",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Coach_Feratu",
+  "text": "Balik Alistane or Coach Feratu was an unseen character that was mentioned in the episode Big Trouble In Little Sanchez. He was a Vampire who was employed as a gym teacher at Harry Herpson High School.\n\nThe name \"Feratu\" was an alias he used while being around humans. His real vampire name was Balik Alistane.",
+  "sources": [
+    {
+      "id": "characters-66-wiki",
+      "title": "Coach Feratu",
+      "url": "https://rickandmorty.fandom.com/wiki/Coach_Feratu",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-66-api",
+      "title": "Coach Feratu (Balik Alistane) API record",
+      "url": "https://rickandmortyapi.com/api/character/66",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

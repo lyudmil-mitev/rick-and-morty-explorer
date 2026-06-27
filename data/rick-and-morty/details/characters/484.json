@@ -1,0 +1,27 @@
+{
+  "id": 484,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Sheikh Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Sheikh_Rick",
+  "text": "was one of the Ricks from the Shadow Council of Ricks, who appeared to resemble an Arabic leader.\n\nSheikh Rick is a Rick that is a member of the the Shadow Council of Ricks. He was executed by Evil Morty, when Evil Morty asked who agreed that he had no control. Sheikh Rick was ejected into space with Campaign manager Morty, Rick Sanchez III, Cop Morty, Garment District Rick, and Investigator Rick. This was Sheikh Rick’s only appearance in the entirety of the show, so we might not see him ever again.\n\nSheikh Rick was part of the shadow council that he may have been friends with many of the other council members.",
+  "sources": [
+    {
+      "id": "characters-484-wiki",
+      "title": "Sheikh Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Sheikh_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-484-api",
+      "title": "Sheik Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/484",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

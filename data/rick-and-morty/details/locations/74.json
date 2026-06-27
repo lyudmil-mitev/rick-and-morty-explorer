@@ -1,0 +1,27 @@
+{
+  "id": 74,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Furniture Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Furniture_Universe",
+  "text": "The Furniture Universe is a universe where furniture are sentient beings who use human beings as furniture, eat phones for sustenance and use pizza as phones.\n\nBesides the obvious, all other readily observable aspects of this dimension appear to be more or less unchanged.\n\nRick and Morty temporarily hid in this dimension after successfully evading the Council of Ricks.",
+  "sources": [
+    {
+      "id": "locations-74-wiki",
+      "title": "Furniture Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Furniture_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-74-api",
+      "title": "Earth (Chair Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/74",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

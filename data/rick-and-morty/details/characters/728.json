@@ -1,0 +1,27 @@
+{
+  "id": 728,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Sperm Queen",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Sperm_Queen",
+  "text": "The Sperm Queen is the main antagonist of the episode Rickdependence Spray.",
+  "sources": [
+    {
+      "id": "characters-728-wiki",
+      "title": "Sperm Queen",
+      "url": "https://rickandmorty.fandom.com/wiki/Sperm_Queen",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-728-api",
+      "title": "Sperm Queen API record",
+      "url": "https://rickandmortyapi.com/api/character/728",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

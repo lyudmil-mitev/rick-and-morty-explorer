@@ -1,0 +1,27 @@
+{
+  "id": 330,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Solicitor Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Solicitor_Rick",
+  "text": "Solicitor Rick is a version of Rick Sanchez who first appeared in the episode \"Close Rick-Counters of the Rick Kind.\" He attempted to sell Morty dazzlers to Rick, who was on his way to a trial, but to no avail. He was at the Citadel during the events of \"The Rickshank Rickdemption.\"\n\nHe was seen on the Citadel of Ricks, confronting Rick, Morty, and the Council of Ricks when they were walking to the courtroom. He was trying to sell them Morty dazzlers; some sort of fancy necklaces. They kept shutting him out, but he continued to pester them about it, annoying them.\n\nIn The Rickshank Rickdemption, after the Citadel of Ricks was teleported into the Galactic Federation Prison, he was one of the Ricks fighting against loose prisoners and Gromflomites. He managed to kill a Narduarvian and a Gromflomite guard before he was thrown at a Rick Guard and out of sight.\n\nRick puts on a smile and a good mood when he tries to make a sale, but is quickly saddened when brushed off by Rick Sanchez. The fact that he tried to make a sale with a prisoner could point to him not making a lot of sales, as with his reaction to being rejected. He has shown to be proficient with a gun when the Citadel was teleported into the Galactic Federal Prison.",
+  "sources": [
+    {
+      "id": "characters-330-wiki",
+      "title": "Solicitor Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Solicitor_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-330-api",
+      "title": "Solicitor Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/330",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 62,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Canklanker Thom",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Canklanker_Thom",
+  "text": "Canklanker Thom was a Gromflomite veteran who served in the Galactic Federation's military during the revolt 27 glaagnars ago. He later started working at a Galactic Federation Prison, and after the Galactic Federation's fall, ingested his cyanide pill.\n\nThom served in the Galactic Federation Gromflomite forces at the Battle of Blood Ridge. On their last surge to eliminate the rebels, he got separated from his platoon when his legs were crushed by a HoverGORD. After lying there for several days, he was found by Rick Sanchez who, albeit unintentionally, saved Canklanker by defecating on his face. This kept Thom alive until he was found a few days later by a medic team.[http://fedconnect.galacticfederation.com/post/155973862723/gromflomite-veterans-reflect-on-blood-ridge]\n\nAt some point, he started working at the Galactic Federation Prison where Rick Sanchez would later be incarcerated. Following the transportation of the Citadel of Ricks into the Galactic Prison, and the beginning of the Blemflarck crisis, Thom decided to ingest his standard-provided cyanide pill and died.[http://fedconnect.galacticfederation.com/profile?id=g-6060842]",
+  "sources": [
+    {
+      "id": "characters-62-wiki",
+      "title": "Canklanker Thom",
+      "url": "https://rickandmorty.fandom.com/wiki/Canklanker_Thom",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-62-api",
+      "title": "Canklanker Thom API record",
+      "url": "https://rickandmortyapi.com/api/character/62",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

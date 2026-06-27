@@ -1,0 +1,27 @@
+{
+  "id": 203,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lil B",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lil_B",
+  "text": "Lil B, also known as Snubbly Chubbs , was a jazz singer who performed at Birdperson and Tammy Gueterman's wedding on Planet Squanch.\n\nLil B and his band was invited to play at the wedding of Birdperson and Tammy on Planet Squanch. He and the band played Alien Jazz Rap before the ceremony, and another song at the reception. They paused playing when Rick Sanchez was making a toast to the couple. In the ensuing shootout, Lil B's alien band was nowhere to be seen in as they were last seen performing before the shootout. Their musical equipment was still present at the massacre though, and Lil B was shot dead on stage.\n\nSurprisingly, in Gotron Jerrysis Rickvangelion, Lil B and his band are shown to be still alive and are performing during the Smiths’ barbecue cookout. This may imply that they survived the events of the Wedding Squanchers or they’re an alternate version of them from another reality.",
+  "sources": [
+    {
+      "id": "characters-203-wiki",
+      "title": "Lil B",
+      "url": "https://rickandmorty.fandom.com/wiki/Lil_B",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-203-api",
+      "title": "Lil B API record",
+      "url": "https://rickandmortyapi.com/api/character/203",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

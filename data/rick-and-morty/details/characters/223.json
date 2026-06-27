@@ -1,0 +1,27 @@
+{
+  "id": 223,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Michael Jenkins",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Michael_Jenkins",
+  "text": "Michael Jenkins is a character that appears in the episode, \"Interdimensional Cable 2: Tempting Fate\". He appears and is killed in the show, Man vs. Car. He is killed by a Pink colored car.",
+  "sources": [
+    {
+      "id": "characters-223-wiki",
+      "title": "Michael Jenkins",
+      "url": "https://rickandmorty.fandom.com/wiki/Michael_Jenkins",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-223-api",
+      "title": "Michael Jenkins API record",
+      "url": "https://rickandmortyapi.com/api/character/223",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

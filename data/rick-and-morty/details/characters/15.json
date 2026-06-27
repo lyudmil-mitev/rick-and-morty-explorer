@@ -1,0 +1,27 @@
+{
+  "id": 15,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Alien Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Alien_Rick",
+  "text": "Alien Rick is an alternate version of Rick Sanchez with alien-like appearance.\n\nHe was one of the many Ricks to attend Rick (C-137)'s trial before the Council of Ricks in \"Close Rick-counters of the Rick Kind.\n\nIn The Rickshank Rickdemption, he was talking with Black Rick and another unnamed Rick. Morty and Summer were escorted past them on their way to the Council of Ricks.\n\nIn the same episode, many Ricks are killed when the Citadel of Ricks is transported into a prison of the Galactic Federation. It is unknown if Alien Rick is one of the Ricks who died.\n\nHe later makes a cameo in \"Rickmurai Jack\" in Rick C-137's flashback, where he appears on the wall with many photos of many Ricks belonging to the future Council alliance, including himself. Rick C-137 later went on a rampage killing those Ricks, but considering he remained alive many years later, Rick either lost him in his blind rage or the Alien Rick seen in the show is just an identical character.",
+  "sources": [
+    {
+      "id": "characters-15-wiki",
+      "title": "Alien Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Alien_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-15-api",
+      "title": "Alien Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/15",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 17,
+  "status": "alias_match",
+  "textType": "description",
+  "wikiTitle": "Dimension 5126",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dimension_5126",
+  "text": "Dimension 5126, also known as the Season 2 dimension, is the universe the series main Jerry is from. This wiki page is the strongest alias/context match for the API location Earth (5-126).",
+  "sources": [
+    {
+      "id": "locations-17-api",
+      "title": "Earth (5-126) API record",
+      "url": "https://rickandmortyapi.com/api/location/17",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "locations-17-wiki-alias",
+      "title": "Dimension 5126",
+      "url": "https://rickandmorty.fandom.com/wiki/Dimension_5126",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "Mapped API location Earth (5-126) to wiki page Dimension 5126."
+}

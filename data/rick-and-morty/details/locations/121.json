@@ -1,0 +1,27 @@
+{
+  "id": 121,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Rickshank Rickdemption",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Rickshank_Rickdemption",
+  "text": "\"The Rickshank Rickdemption\" is the first episode of the third season of Rick and Morty. It is the 22nd episode of the series overall. It premiered on April 1, 2017. It was written by Mike McMahan and directed by Juan Meza-León. The episode is rated TV-14-DLV.",
+  "sources": [
+    {
+      "id": "locations-121-wiki",
+      "title": "The Rickshank Rickdemption",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Rickshank_Rickdemption",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-121-api",
+      "title": "Rick's Consciousness API record",
+      "url": "https://rickandmortyapi.com/api/location/121",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

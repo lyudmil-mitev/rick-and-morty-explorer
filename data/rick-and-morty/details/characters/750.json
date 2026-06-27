@@ -1,0 +1,27 @@
+{
+  "id": 750,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Nippalians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Nippalians",
+  "text": "The Nippalians is a species of blue-skinned humanoid aliens inhabiting an unnamed planet, which was taken over by the hivemind Unity. The species is split by two different standards of nipple appearance, causing a civil war.",
+  "sources": [
+    {
+      "id": "characters-750-wiki",
+      "title": "Nippalians",
+      "url": "https://rickandmorty.fandom.com/wiki/Nippalians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-750-api",
+      "title": "Mousetrap Nipples API record",
+      "url": "https://rickandmortyapi.com/api/character/750",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

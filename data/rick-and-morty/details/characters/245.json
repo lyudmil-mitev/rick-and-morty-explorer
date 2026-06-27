@@ -1,0 +1,27 @@
+{
+  "id": 245,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mrs. Lipnip",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mrs._Lipnip",
+  "text": "Mrs. Lipnip is the wife of Joseph Lipnip, and the mother of Thomas Lipnip. She appeared in \"The ABC's of Beth\".\n\nIn \"The ABC's of Beth\", Rick and Beth sent Tommy's Clone to her house, to make her think her real son was alive and in good health. She bought the bait and went to her husband's execution, to present the evidence that he didn't kill his son, just in time to save him and reunite the family.\n\nIn the Prime Dimension, she turned into a Cronenberg and her further fate is unknown. In \"Solaricks\", she is killed along with the entire human population of Dimension C-131 by Mr. Frundles. In the Parmesan Dimension, she is probably alive.",
+  "sources": [
+    {
+      "id": "characters-245-wiki",
+      "title": "Mrs. Lipnip",
+      "url": "https://rickandmorty.fandom.com/wiki/Mrs._Lipnip",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-245-api",
+      "title": "Mrs. Lipkip API record",
+      "url": "https://rickandmortyapi.com/api/character/245",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

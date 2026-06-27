@@ -1,0 +1,27 @@
+{
+  "id": 51,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fungo",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fungo",
+  "text": "Fungo is an alien character who appeared in the episode Interdimensional Cable 2: Tempting Fate. He is one of the two diplomats who along with Yaarb tries to convince Jerry Smith to donate his penis to Shrimply Pibbles for heart surgery.",
+  "sources": [
+    {
+      "id": "characters-51-wiki",
+      "title": "Fungo",
+      "url": "https://rickandmorty.fandom.com/wiki/Fungo",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-51-api",
+      "title": "Blue Diplomat API record",
+      "url": "https://rickandmortyapi.com/api/character/51",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 580,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Steve (The Rickchurian Mortydate)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Steve_(The_Rickchurian_Mortydate)",
+  "text": "Steve is a member of The President's Secret Service. He appeared in \"The Rickchurian Mortydate\".\n\nIn \"The Rickchurian Mortydate\", The President sent two of his secret service members, including Steve, to summon Rick and Morty. Steve and his co-worker traveled all the way from White House to Smith Residence, only to find out that Rick and Morty could teleport there in seconds, using the portal gun. Steve questioned why they went through that entire ordeal just to do that, and his co-worker cut him off, telling him that he knows just as little as he does, being merely an employee who works for The President.",
+  "sources": [
+    {
+      "id": "characters-580-wiki",
+      "title": "Steve (The Rickchurian Mortydate)",
+      "url": "https://rickandmorty.fandom.com/wiki/Steve_(The_Rickchurian_Mortydate)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-580-api",
+      "title": "Secret Service Snake API record",
+      "url": "https://rickandmortyapi.com/api/character/580",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

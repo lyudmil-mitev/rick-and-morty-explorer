@@ -1,0 +1,27 @@
+{
+  "id": 689,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scarecrow Jerry",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scarecrow_Jerry",
+  "text": "Scarecrow Jerry is a scarecrow version of Jerry who appears in the episode \"Mortyplicity\".\n\nScarecrow Jerry is a decoy version of Jerry who is seen locked in a cage with the rest of the scarecrow Smith Family. Scarecrow Rick promises to find skin and create pelts for himself and his family to make them \"beautiful again\". Scarecrow Jerry is then killed by the Glockenspiel family as they burn their cage.",
+  "sources": [
+    {
+      "id": "characters-689-wiki",
+      "title": "Scarecrow Jerry",
+      "url": "https://rickandmorty.fandom.com/wiki/Scarecrow_Jerry",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-689-api",
+      "title": "Scarecrow Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/689",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

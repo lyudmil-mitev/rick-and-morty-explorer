@@ -1,0 +1,27 @@
+{
+  "id": 369,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tusked Assassin",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tusked_Assassin",
+  "text": "The Tusked Assassin is a character who appeared in The Whirly Dirly Conspiracy. He is a Tuskfish Alien who was hired to assassinate Rick Sanchez on the Whirly Dirly.\n\nThe Tusked Assassin is first seen in the background when Risotto Groupon captures Jerry Smith and makes a deal with him to have Rick Sanchez assassinated. He is next seen on the Whirly Dirly Rollercoaster sitting next to another alien assassin three carts behind where Jerry and Rick were sitting. The Tusked Assassin tries to kill Rick with a sniper rifle after the coaster drops but when Jerry interferes, the Tusked Assassin ends up accidentally shooting Jerry instead but Jerry survives due to being inside the immortality field. The Tusked Assassin then gets out of his coaster and fights Rick but Rick overpowers him and throws him onto another rollercoaster cart.\n\nThe Tusked assassin is not seen again until after the entire rollercoaster breaks down and shuts down the immortality field. He is seen severely injured and after getting out of the rollercoaster cart, he is confused and angry towards Jerry for betraying him and tells him that He and Jerry made a deal before passing out from his injuries. Its unknown whether he is alive or not as he was injured but his injuries were apparently non fatal consisting of several bruises and a fractured left arm. This is supported by the fact that during the scene where Jerry is being eaten alive by a Gibble Snake, the same blood soaked coaster the assassin was on is present but his body is nowhere to be seen.",
+  "sources": [
+    {
+      "id": "characters-369-wiki",
+      "title": "Tusked Assassin",
+      "url": "https://rickandmorty.fandom.com/wiki/Tusked_Assassin",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-369-api",
+      "title": "Tusked Assassin API record",
+      "url": "https://rickandmortyapi.com/api/character/369",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

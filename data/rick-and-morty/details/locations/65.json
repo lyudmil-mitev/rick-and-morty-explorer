@@ -1,0 +1,27 @@
+{
+  "id": 65,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Trunk Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Trunk_Morty",
+  "text": "Trunk Morty is a Trunk person-version of Morty Smith. He is briefly seen in a hospital in \"The Ricklantis Mixup\".",
+  "sources": [
+    {
+      "id": "locations-65-wiki",
+      "title": "Trunk Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Trunk_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-65-api",
+      "title": "Trunk World API record",
+      "url": "https://rickandmortyapi.com/api/location/65",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

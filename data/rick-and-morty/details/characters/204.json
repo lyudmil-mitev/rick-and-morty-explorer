@@ -1,0 +1,27 @@
+{
+  "id": 204,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lisa",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lisa",
+  "text": "Lisa was an alien little girl who appeared in the episode, \"The Whirly Dirly Conspiracy.\" She was seen playing with her brother at the restaurant where Rick and Jerry are drinking. They have a real weapon they shoot each other with. The restaurant is part of a resort with an immortality shield, making Lisa, her brother, and everyone there immortal.",
+  "sources": [
+    {
+      "id": "characters-204-wiki",
+      "title": "Lisa",
+      "url": "https://rickandmorty.fandom.com/wiki/Lisa",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-204-api",
+      "title": "Lisa API record",
+      "url": "https://rickandmortyapi.com/api/character/204",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 22,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Aqua Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Aqua_Rick",
+  "text": "is an alternate version of Rick Sanchez with aquatic features often seen at The Citadel with his Morty.\n\n was one of many many Ricks who banded together to create the Citadel due to many enemies who wanted him dead. He would often bring his Morty along to the Citadel, including the time when Rick and Morty of Dimension C-137 were arrested and brought to the Citadel to stand trial. and his Morty was standing around on the upper levels of the Citadel was passed by the arrested Rick and Morty escorted by Guard Ricks. They soon joined in the audience at the trial before C-137 Rick and Morty escaped.\n\nHe and his Morty was present at the Citadel during the events of the fall of the Galactic Federation and the destruction of the Citadel by Rick C-137. The two aquatic humanoids were walking past the escorted Morty and Summer, who were on their way to the Council of Ricks. would go on to survive the catastrophic event and help rebuild the Citadel.\n\nDuring the first presidential election on the Citadel, he had become just another Rick in the crowd who went to work and did their job. He showed up to Candidate Morty's public appearance outside the \"Hard Rick Café\" to show his support for the presidential candidate. He was presumably shocked when Candidate Morty was shot by Campaign Manager Morty in the middle of the crowd. He would later go on to vote for Candidate Morty in the election and bring upon the great change for the Citadel.\n\nHe later makes a cameo in \"Rickmurai Jack\" in Rick C-137's flashback, where he appears on the wall with many photos of many Ricks belonging to the future Council alliance, including himself. Rick C-137 later went on a rampage killing those Ricks, but considering he remained alive many years later, Rick either lost him in his blind rage or the Aqua Rick seen in the show is just an identical character.",
+  "sources": [
+    {
+      "id": "characters-22-wiki",
+      "title": "Aqua Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Aqua_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-22-api",
+      "title": "Aqua Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/22",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

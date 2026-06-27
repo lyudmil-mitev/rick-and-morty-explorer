@@ -1,0 +1,27 @@
+{
+  "id": 683,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Narnia Dimension",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Narnia_Dimension",
+  "text": "The Narnia Dimension was a pocket dimension where time moved significantly faster relative to Dimension C-131. As the speed at which time passed in the Narnia Dimension relative to Dimension C-131 isn't shown to be consistent during it's only appearance, exactly how much faster time passed within it cannot be accurately calculated (sometimes a few decades pass in half a minute and even one time, several centuries pass in less than 10 seconds).\n\nAt some point, Rick Sanchez discovered the Dimension and built a standardized portal gun that would not only access it alone, but also sync the timelines of both his universe and the Narnia Dimension as long as the portal remained open. He used it whenever he needed to rapidly age objects such as wine. Eventually an intelligent species of bovine/dog like humanoids evolved on the planet of the Dimension where the portal led, as well as horned cetaceans with bovine features as well as long-lived birds and leeches.\n\nThe planet was habitable, largely resembling Earth save for having two moons. For the most part, the species was a peaceful species that interacted friendly with interdimensional travelers. Since Rick cared little about the Dimension other than its utility to age objects, he had virtually no contact with the beings.",
+  "sources": [
+    {
+      "id": "characters-683-wiki",
+      "title": "Narnia Dimension",
+      "url": "https://rickandmorty.fandom.com/wiki/Narnia_Dimension",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-683-api",
+      "title": "Evolved Narnian API record",
+      "url": "https://rickandmortyapi.com/api/character/683",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

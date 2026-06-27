@@ -1,0 +1,27 @@
+{
+  "id": 345,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Teacher Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Teacher_Rick",
+  "text": "Teacher Rick is an alternate version of Rick Sanchez who first appeared in the episode, \"The Ricklantis Mixup\". He is a teacher at Morty Academy, where Rickless Mortys are being trained for a new Rick.\n\nHe teaches at the Morty Academy which was created for Morty's to be the best sidekicks and always be positive towards Ricks, it seems as if Morty's are trained with only one point of view allowed and they have to be on that view or else they will fail the class/not graduate from the Morty Academy. He has students called Left-Handed Morty, Lizard Morty, Slick Morty, and Glasses Morty. He has one Rick called Slow Rick, which he refers to as \"Tall Morty\".\n\nAt the end of The Ricklantis Mixup when Evil Morty takes over Teacher Rick tells the Morty's there will be no new Ricks and that the school's curriculum is changing. He does not know the details of such a change as he has been fired.\n\nWhether he left the Citadel after losing his position is unknown, if he stayed he likely died when the Citadel was destroyed by Evil Morty.",
+  "sources": [
+    {
+      "id": "characters-345-wiki",
+      "title": "Teacher Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Teacher_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-345-api",
+      "title": "Teacher Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/345",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

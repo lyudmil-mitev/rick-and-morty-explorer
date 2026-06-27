@@ -1,0 +1,27 @@
+{
+  "id": 32,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Roy: A Life Well Lived",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Roy%3A_A_Life_Well_Lived",
+  "text": "Roy: A Life Well Lived is a Virtual Reality Life Simulator, a game seen at the Blips and Chitz arcade and is played by Rick and Morty in the episode \"Mortynight Run\" and during the events of \"Rick: A Mort Well Lived\" after an unplanned power interruption left Morty's mind split into the NPC population.",
+  "sources": [
+    {
+      "id": "locations-32-wiki",
+      "title": "Roy: A Life Well Lived",
+      "url": "https://rickandmorty.fandom.com/wiki/Roy%3A_A_Life_Well_Lived",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-32-api",
+      "title": "Roy: A Life Well Lived API record",
+      "url": "https://rickandmortyapi.com/api/location/32",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

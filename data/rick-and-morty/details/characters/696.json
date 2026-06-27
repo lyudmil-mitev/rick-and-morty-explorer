@@ -1,0 +1,27 @@
+{
+  "id": 696,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glockenspiel Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glockenspiel_Morty",
+  "text": "Glockenspiel Morty is a major character in the episode Mortyplicity, and is one of the many Morty Smith decoys. He helped Glockenspiel Beth create a peaceful community for decoys to reside. He, along with many other decoys, were betrayed by Glockenspiel Jerry, leading to him and many other decoys being killed by the squids.\n\nAfter scarecrow variants of the Smith family kidnap another decoy Smith family, Glockenspiel Morty and his version of the Smith family intervenes, saving the other Smith family from the scarecrow versions. They do not care for killing other decoys, instead saving as many as they can. They take their counterparts into a canyon, where a community of various decoys hide underground. As Glockenspiel Beth creates peace with the community of decoys, the squids attack them, causing Glockenspiel Jerry to lock himself in the escape route with a can of varnish, effectively leaving Glockenspiel Morty and the rest of the decoys to die.",
+  "sources": [
+    {
+      "id": "characters-696-wiki",
+      "title": "Glockenspiel Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Glockenspiel_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-696-api",
+      "title": "Glockenspiel Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/696",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

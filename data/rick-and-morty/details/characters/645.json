@@ -1,0 +1,27 @@
+{
+  "id": 645,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shane",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shane",
+  "text": "Shane is a Glorzo parasite that formerly worked for Summer as a leader in their technologically advanced Glorzo society under her rule in the Glorzo Empire. He appears in the episode \"Promortyus\".\n\nThe body of Shane's host presumably crash landed or visited the Glorzo asteroid and was attacked and controlled by a Glorzo parasite. Shane is then seen when Summer introduces him to Steve as she mentions that he will be taking over his day-to-day job and fires Steve. Shane presumably died after Rick, Morty and Summer escaped the Glorzo asteroid and Morty's harmonica playing kills the entire Glorzo species.",
+  "sources": [
+    {
+      "id": "characters-645-wiki",
+      "title": "Shane",
+      "url": "https://rickandmorty.fandom.com/wiki/Shane",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-645-api",
+      "title": "Shane API record",
+      "url": "https://rickandmortyapi.com/api/character/645",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

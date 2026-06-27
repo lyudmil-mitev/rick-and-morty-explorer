@@ -1,0 +1,27 @@
+{
+  "id": 772,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Arm Head Mutant Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Arm_Head_Mutant_Morty",
+  "text": "Arm Head Mutant Morty is a mutated version of Morty with a full length right arm sticking out of his forehead.\n\n was tasked with protecting one of The Citadel's entrances when it was grounded, along with other mutant Mortys. Morty C-594 and Rick C-594 encountered the group of mutants on their way to the Council of Ricks. When his fight with Morty C-594 began, Morty C-594 threw a rock at his mutated opponent, but caught the rock with his third arm. Out of ideas on how to defeat him, Morty C-594 asked Rick for help, who merely shot with a stun gun.",
+  "sources": [
+    {
+      "id": "characters-772-wiki",
+      "title": "Arm Head Mutant Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Arm_Head_Mutant_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-772-api",
+      "title": "Wrap-it-up Little Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/772",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

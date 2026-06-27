@@ -1,0 +1,27 @@
+{
+  "id": 26,
+  "status": "ok",
+  "textType": "synopsis",
+  "wikiTitle": "The Whirly Dirly Conspiracy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Whirly_Dirly_Conspiracy",
+  "text": "\"The Whirly Dirly Conspiracy\" is the fifth episode of the third season of Rick and Morty. It is the 26th episode of the series overall. It premiered on August 20, 2017. It was written by Ryan Ridley and directed by Juan Meza-León. The episode is rated TV-14-DLSV.\n\nRick and Jerry go to a resort where dying is impossible, but a creature wants to kill Rick anyway. Summer's attempt to enlarge her breasts goes awry.",
+  "sources": [
+    {
+      "id": "episodes-26-wiki",
+      "title": "The Whirly Dirly Conspiracy",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Whirly_Dirly_Conspiracy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "episodes-26-api",
+      "title": "The Whirly Dirly Conspiracy API record",
+      "url": "https://rickandmortyapi.com/api/episode/26",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

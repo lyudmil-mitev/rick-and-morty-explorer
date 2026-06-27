@@ -1,0 +1,27 @@
+{
+  "id": 142,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gibble Snake",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gibble_Snake",
+  "text": "The Gibble Snake appears in The Whirly Dirly Conspiracy. It is a huge snake that preys on children that wander off. Jerry accidentally steps into its mouth and the Gibble Snake swallows him. Rick then uses his knife to get Jerry out of its stomach, killing the Snake. Rick then uses Jerry being coated in the creature's bile to attract a Shmooglite Runner.",
+  "sources": [
+    {
+      "id": "characters-142-wiki",
+      "title": "Gibble Snake",
+      "url": "https://rickandmorty.fandom.com/wiki/Gibble_Snake",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-142-api",
+      "title": "Gibble Snake API record",
+      "url": "https://rickandmortyapi.com/api/character/142",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

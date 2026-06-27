@@ -1,0 +1,27 @@
+{
+  "id": 213,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Magnesium-J",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Magnesium-J",
+  "text": "{{Character\n|image = Magnesium J.png\n|name =\n|origin = Alphabetrium\n|voice = N/A\n|job = Elder\n|status = Alive\n|first = Get Schwifty\n|voice actor=Justin Roiland (\"Get Schwifty\")\nTroy Baker (\"Rise of the Numbericons: The Movie\")}} to Water-T|Get Schwifty}}\nMagnesium-J is an Alphabetrian royal figure of a castle on Alphabetrium. He served alongside Hydrogen-F and Helium-Q to govern the planet.\n\nThe Alphabetrians turned Water-T into Ice-T when he refused to care about anyone, and banished him from their world. He would only be able to return if he learned to care about other people.\n\nAfter Ice-T helped save Earth from the Cromulons, he returned to his home planet to meet with the elders. and his fellow elders had heard of Ice-T's feat and welcomed him home. decided that Ice-T's exiled could now end, and granted him back his original form. This was immediately followed by the Numbericons attacking Alphabetrium, causing a large rock to fall down on Helium-Q and kill him. Water-T drew his guns and charged the Numbericons to avenge his father's death.\n\nIn the episode \"Rise of the Numbericons: The Movie\", Magnesium-J is again seen granting Water-T his original form with the other elders of Alphabetrium.",
+  "sources": [
+    {
+      "id": "characters-213-wiki",
+      "title": "Magnesium-J",
+      "url": "https://rickandmorty.fandom.com/wiki/Magnesium-J",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-213-api",
+      "title": "Magnesium-J API record",
+      "url": "https://rickandmortyapi.com/api/character/213",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

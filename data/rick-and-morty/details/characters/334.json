@@ -1,0 +1,27 @@
+{
+  "id": 334,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Stealy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Stealy",
+  "text": "Stealy, also known as Mr. Stealy , is a character seen in \"Interdimensional Cable 2: Tempting Fate\". He stars in The Adventures of Stealy, a TV series where he goes through locations stealing numerous items and determining their value in Brapples.",
+  "sources": [
+    {
+      "id": "characters-334-wiki",
+      "title": "Stealy",
+      "url": "https://rickandmorty.fandom.com/wiki/Stealy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-334-api",
+      "title": "Stealy API record",
+      "url": "https://rickandmortyapi.com/api/character/334",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

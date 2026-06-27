@@ -1,0 +1,27 @@
+{
+  "id": 34,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Morty Smith (Evil Rick's Target Dimension)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Morty_Smith_(Evil_Rick's_Target_Dimension)",
+  "text": "Morty Smith is an alternate version of the original Morty, that appeared in the episode Close Rick-Counters of the Rick Kind, he is the son of Jerry Smith and Beth Smith, the younger brother of Summer Smith, the grandson of Leonard Smith, Joyce Smith, Rick Sanchez and Diane Sanchez, the great-grandson of Rick's Father and a unnamed woman, and the great-nephew of the Unnamed Uncle. He and his grandfather Rick were the victims of Evil Rick and Evil Morty.",
+  "sources": [
+    {
+      "id": "locations-34-wiki",
+      "title": "Morty Smith (Evil Rick's Target Dimension)",
+      "url": "https://rickandmorty.fandom.com/wiki/Morty_Smith_(Evil_Rick's_Target_Dimension)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-34-api",
+      "title": "Earth (Evil Rick's Target Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/34",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

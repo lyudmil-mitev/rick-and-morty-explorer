@@ -1,0 +1,27 @@
+{
+  "id": 68,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Colossus",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Colossus",
+  "text": "Colossus , also known as Baddus Maddus and Colossoid , was a warrior on the Post-Apocalyptic Dimension's version of Earth and the leader of the Death Stalkers before Summer killed him.\n\nColossus, as leader of the Death Stalkers, was chasing Rick, Morty and Summer through a desert for trespassing on their area. He was driving in a vehicle with a crown painted on the front, symbolizing his leadership, and ordered Mohawk Guy to \"light them up\"; blowing himself up on the back of Rick's car. When Rick stopped to pick up a fragment of Isotope-322, Summer grabbed their shotgun and shot out Colossus' front wheel. His vehicle flipped over Summer and landed on him, causing a great loss of blood and loss of feeling in his legs. He crawled towards Summer and told her to kill him, which she did, but she first clarified it was of her own free will.",
+  "sources": [
+    {
+      "id": "characters-68-wiki",
+      "title": "Colossus",
+      "url": "https://rickandmorty.fandom.com/wiki/Colossus",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-68-api",
+      "title": "Colossus API record",
+      "url": "https://rickandmortyapi.com/api/character/68",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

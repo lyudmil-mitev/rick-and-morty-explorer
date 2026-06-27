@@ -1,0 +1,27 @@
+{
+  "id": 242,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mr. Meeseeks",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mr._Meeseeks",
+  "text": ":For the Kirkland-brand knockoff see Mr. Meeseeks (Kirkland)\n\nMr. Meeseeks (voiced by Justin Roiland from Season 1 - Season 4) is the name of a type of being summoned by activating a Mr. Meeseeks Box. The Meeseeks appear in the fifth episode of the first season, \"Meeseeks and Destroy\" as the titular main antagonists. They are known to inhabit planets across the universe.\n\nMeeseeks are creatures who are created to serve a singular purpose for which they will go to any length to fulfill. After they serve their purpose, they expire and vanish into the air. Their motivation to help others comes from the fact that existence is painful to a Meeseeks, and the only way to be removed from existence is to complete the task they were called to perform. Physical violence or damage cannot eliminate them, with multiple Meeseeks in the episode sustaining severe head trauma (to the point of having entire sections of their heads caved in and their eyes popping out of their sockets) or bodily mutilation (limbs ripped off, bones broken, multiple lacerations, strangulation, severe blunt force trauma) while still being fully conscious and physically functioning. The first Meeseeks spawned attributed this invulnerability to their being unable to die until their purpose is fulfilled; whether this means it is physically impossible to kill a Meeseeks is unclear. In Edge of Tomorty: Rick Die Rickpeat, however, it’s shown that Meeseeks can die of suffocation when exposed to the vacuum of space.\n\nThey typically live for no more than a few hours, and thus two days is an eternity for Meeseeks. The longer the Meeseeks stay alive, the more sanity they begin to lose. Rick warns the Smith family to keep their tasks simple.\n\nIf a Meeseeks is not given a purpose at the beginning of its existence, it seems to default to taking the purpose of the Meeseeks before it. This was seen when a Meeseeks created for Jerry created a second Meeseeks, which it then to kill a third Meeseeks that it was in an argument with. The Meeseeks then wildly began pressing the box without giving orders and all the resulting Meeseeks began trying in vain to kill the rest of the Meeseeks. Additionally, a Meeseeks can be persuaded to shift their purpose, as seen when the Meeseeks who were purposed to either help Jerry or kill the other Meeseeks were convinced by one to find and kill Jerry.\n\nMr. Meeseeks exhibits a friendly, cheerful, and helpful demeanor; willing to assist the one who brought him into existence, however possible. Ideally, Mr. Meeseeks will dispatch the simple task given to him, and disappear shortly after its completion. However, if given a task that is outside of Mr. Meeseeks' capabilities, he will not be able to cease existing. This unusual lifespan will cause Mr. Meeseeks' attitude and mental state to worsen dramatically; the relatively long and tortuous existence quickly drives him to violent behavior and outright insanity. Meeseeks who have been spawned in tandem are seen to distrust and attack one another as their sanity decays, although they will continue to attempt any possible solution to their original purpose, including collaboration with other Meeseeks. The psychological and physical effects of existence upon Meeseeks (e.g. discoloration of skin, hair growth) can manifest in less than 24 hours. According to Jerry's original Mr. Meeseeks, two days is \"an eternity\" in Meeseeks time.",
+  "sources": [
+    {
+      "id": "characters-242-wiki",
+      "title": "Mr. Meeseeks",
+      "url": "https://rickandmorty.fandom.com/wiki/Mr._Meeseeks",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-242-api",
+      "title": "Mr. Meeseeks API record",
+      "url": "https://rickandmortyapi.com/api/character/242",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

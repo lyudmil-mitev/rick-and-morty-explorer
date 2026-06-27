@@ -1,0 +1,27 @@
+{
+  "id": 24,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Microverse Battery",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Microverse_Battery",
+  "text": "The Microverse Battery is a gadget developed by Rick to supply power to his flying ship. It is featured in the episode \"The Ricks Must Be Crazy.\"",
+  "sources": [
+    {
+      "id": "locations-24-wiki",
+      "title": "Microverse Battery",
+      "url": "https://rickandmorty.fandom.com/wiki/Microverse_Battery",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-24-api",
+      "title": "Rick's Battery Microverse API record",
+      "url": "https://rickandmortyapi.com/api/location/24",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

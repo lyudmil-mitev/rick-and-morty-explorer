@@ -1,0 +1,27 @@
+{
+  "id": 363,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Trandor",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Trandor",
+  "text": "Trandor is the ex-boyfriend of Kiara. He appeared in \"The ABC's of Beth\".\n\nTrandor used to be in a relationship with the warrior princess Kiara before he ended it. And while he returned to hunting Varrix on Earth (his domain), Kiara did not take the breakup lightly and sought to make him jealous by engaging in a new relationship on Earth where Trandor would notice.\n\nJerry, being the coward that he is, blamed his children Morty and Summer for his breakup with Kiara. This led her to chase them all into a cave with a small colony of Varrix. After Jerry owned up the reason behind their breakup, Kiara started on a rant on humanity before Trandor noticed them in the same cave. At once, Trandor knew why Kiara had appeared on Earth and did not seem to want to take her back. As they were arguing, Summer and Morty pick up Jerry who realizes that Kiara was using him to get back at her ex just as he was using her to get back to his ex.",
+  "sources": [
+    {
+      "id": "characters-363-wiki",
+      "title": "Trandor",
+      "url": "https://rickandmorty.fandom.com/wiki/Trandor",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-363-api",
+      "title": "Trandor API record",
+      "url": "https://rickandmortyapi.com/api/character/363",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

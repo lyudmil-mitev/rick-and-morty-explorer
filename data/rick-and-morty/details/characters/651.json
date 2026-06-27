@@ -1,0 +1,27 @@
+{
+  "id": 651,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Crystallized Xanthenite",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Crystallized_Xanthenite",
+  "text": "Crystallized Xanthenite, also known as Time Crystal(s) is a material capable of interacting with the flow of time and bypassing split timelines.",
+  "sources": [
+    {
+      "id": "characters-651-wiki",
+      "title": "Crystallized Xanthenite",
+      "url": "https://rickandmorty.fandom.com/wiki/Crystallized_Xanthenite",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-651-api",
+      "title": "Crystal Dealer API record",
+      "url": "https://rickandmortyapi.com/api/character/651",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

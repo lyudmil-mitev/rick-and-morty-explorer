@@ -1,0 +1,27 @@
+{
+  "id": 448,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gear People",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gear_People",
+  "text": "The Gear People are a race of bio-mechanical aliens whose physiology, technology, and society is built largely on gears. The most notable gear person in the series is Rick's friend Gearhead, an engineer and expert on the \"Gear Wars\".",
+  "sources": [
+    {
+      "id": "characters-448-wiki",
+      "title": "Gear People",
+      "url": "https://rickandmorty.fandom.com/wiki/Gear_People",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-448-api",
+      "title": "Gear Cop API record",
+      "url": "https://rickandmortyapi.com/api/character/448",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

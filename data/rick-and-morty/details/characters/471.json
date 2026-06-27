@@ -1,0 +1,27 @@
+{
+  "id": 471,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rest and Ricklaxation",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rest_and_Ricklaxation",
+  "text": "\"Rest and Ricklaxation\" is the sixth episode of the third season of Rick and Morty. It is the 27th episode of the series overall. It premiered on August 27, 2017. It was written by Tom Kauffman and directed by Anthony Chun. The episode is rated TV-14-DLV.",
+  "sources": [
+    {
+      "id": "characters-471-wiki",
+      "title": "Rest and Ricklaxation",
+      "url": "https://rickandmorty.fandom.com/wiki/Rest_and_Ricklaxation",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-471-api",
+      "title": "Little Voltron API record",
+      "url": "https://rickandmortyapi.com/api/character/471",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

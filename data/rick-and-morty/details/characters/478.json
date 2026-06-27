@@ -1,0 +1,27 @@
+{
+  "id": 478,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Neeeews Reporter",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Neeeews_Reporter",
+  "text": "The reporter at Neeeews was one of the many fans of Mr. Poopybutthole.\n\nWhen Mr. Poopybutthole got famous, all Sausage Fellas became obsessive fans of him, and were devastated after he disappeared without warning.\n\nOne day, a reporter at Neeews was talking about how there is still no sign of Mr. Poopybutthole, until he suddenly appeared with Summer. He apologized for his departure, but revealed that he's gonna remain on Earth as he has a better life there. The reporter refused to believe he would be capable of such a thing, so she accused Summer of brainwashing him. Everyone believed it and took Mr. Poopybutthole to Cecelia's studio, and Summer to Space Jail.",
+  "sources": [
+    {
+      "id": "characters-478-wiki",
+      "title": "Neeeews Reporter",
+      "url": "https://rickandmorty.fandom.com/wiki/Neeeews_Reporter",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-478-api",
+      "title": "Journalist Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/478",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

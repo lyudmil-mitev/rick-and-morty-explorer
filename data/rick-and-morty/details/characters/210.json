@@ -1,0 +1,27 @@
+{
+  "id": 210,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Lucy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Lucy",
+  "text": "Lucy is a character who appeared in the episode \"Ricksy Business\", serving as the main antagonist. She worked as a maid on the Titanic 2.\n\nWhile coming off as a sweet lady, she eventually becomes obsessed with Jerry; attempting to force him to have sex with her at gunpoint.",
+  "sources": [
+    {
+      "id": "characters-210-wiki",
+      "title": "Lucy",
+      "url": "https://rickandmorty.fandom.com/wiki/Lucy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-210-api",
+      "title": "Lucy API record",
+      "url": "https://rickandmortyapi.com/api/character/210",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 367,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Trunk People",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Trunk_People",
+  "text": "Trunk People are a synthetic species of human-like creatures that have trunks on their faces. Scientists gave them trunks that allows them to have sex with both male and female partners.",
+  "sources": [
+    {
+      "id": "characters-367-wiki",
+      "title": "Trunk People",
+      "url": "https://rickandmorty.fandom.com/wiki/Trunk_People",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-367-api",
+      "title": "Trunk Man API record",
+      "url": "https://rickandmortyapi.com/api/character/367",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

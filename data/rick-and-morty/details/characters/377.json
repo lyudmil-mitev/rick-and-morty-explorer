@@ -1,0 +1,27 @@
+{
+  "id": 377,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Voltamatron",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Voltamatron",
+  "text": "is a parasitic alien which once possessed Morty Smith. It appeared in the episode \"Morty's Mind Blowers\".\n\nVoltamatron, somehow, entered Morty's body at some point prior to the episode \"Morty's Mind Blowers\". Presumably in order to destroy Earth, it possessed Morty in front of the latter's family and showcased its cosmic powers by levitating objects around him. Rick knew the only way to overpower Voltamatron was to show Morty love and urged the Smiths to do so. Telling Morty they love him, Voltamatron was slowly forced out of Morty; however, the Smiths quickly lost their concentration and started complaining about Morty instead. This allowed Voltamatron to start re-entering Morty, causing him great pain. This incident was later removed from Morty's memory and placed in Rick's memory chamber.",
+  "sources": [
+    {
+      "id": "characters-377-wiki",
+      "title": "Voltamatron",
+      "url": "https://rickandmorty.fandom.com/wiki/Voltamatron",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-377-api",
+      "title": "Voltematron API record",
+      "url": "https://rickandmortyapi.com/api/character/377",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

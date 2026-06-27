@@ -1,0 +1,27 @@
+{
+  "id": 205,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Little Dipper",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Little_Dipper",
+  "text": "Little Dipper is a Tinymouth that first appeared in Unbelievable Tales as a guest star for \"Silly Silly Fun Fun\". He appears on Rick and Morty in \"Interdimensional Cable 2: Tempting Fate\" advertising \"Lil' Bits\".\n\nLittle Dipper is seen in an advertisement on television when Rick Sanchez modifies it to receive signals from all possible dimensions. Whilst his dimension's name is unknown, it appears in this reality, everyone on Earth has very large heads, but small faces. Little Dipper explains that his restaurant only serves tiny plates, making them easier to eat. Strangely, he cannot keep a straight face and keeps laughing during filming, but persists anyway. At one point, he exclaims that the restaurant even has \"tiny people\" when two children walk past, with one of them frowning at his profanity.\n\nThe ad ends with him harassing a customer whilst he is using a urinal, but insists he is just joking.",
+  "sources": [
+    {
+      "id": "characters-205-wiki",
+      "title": "Little Dipper",
+      "url": "https://rickandmorty.fandom.com/wiki/Little_Dipper",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-205-api",
+      "title": "Little Dipper API record",
+      "url": "https://rickandmortyapi.com/api/character/205",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

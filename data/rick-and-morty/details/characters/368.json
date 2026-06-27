@@ -1,0 +1,27 @@
+{
+  "id": 368,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Truth Tortoise",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Truth_Tortoise",
+  "text": "The Truth Tortoise appears in Morty's Mind Blowers as the opening scene where Rick and Morty are running from Morpheus (From Neil Gaiman's series of the same name) with the Truth Tortoise. Rick mentions to never looking its eyes, \"because you'll know everything.\"\n\nThe tortoise then says \"Daed si luap, eltaeb a mi\" which is backwards for \"im a beatle, paul is deaD\" which is a reference to a conspiracy theory that claimed that Paul McCartney from The Beatles died during 1966-67 and was replaced by a look-alike. Freaked out at what the tortoise is saying, Morty throws it into the void, causing the dimension to collapse. Justin Roiland actually did the voice for this part.",
+  "sources": [
+    {
+      "id": "characters-368-wiki",
+      "title": "Truth Tortoise",
+      "url": "https://rickandmorty.fandom.com/wiki/Truth_Tortoise",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-368-api",
+      "title": "Truth Tortoise API record",
+      "url": "https://rickandmortyapi.com/api/character/368",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

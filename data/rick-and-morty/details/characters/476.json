@@ -1,0 +1,27 @@
+{
+  "id": 476,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Flower Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Flower_Morty",
+  "text": "Flower Morty is a version of Morty with a flower growing out from the top of his head.\n\nFlower Morty is seen in \"The Ricklantis Mixup\", when Cop Rick and Cop Morty visit The Creepy Morty to meet Big Morty. Flower Morty appears to be a regular who slavingly comes to play the slot machines. He presumably ran out the door once the shoot out between the cops and Big Morty began. His hair is much more gray than other Mortys.",
+  "sources": [
+    {
+      "id": "characters-476-wiki",
+      "title": "Flower Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Flower_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-476-api",
+      "title": "Flower Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/476",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

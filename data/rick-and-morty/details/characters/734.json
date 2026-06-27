@@ -1,0 +1,27 @@
+{
+  "id": 734,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Amazing Johnathan",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Amazing_Johnathan",
+  "text": "The Amazing Johnathan is a comedian and magician who appears in the episode \"Rickdependence Spray\".\n\nThe Amazing Johnathan is first seen when taking part in the fight against the war between the humans, Chuds, and Mutant Sperm. He is later seen ripping a “heart” out of a mutant sperm and explains how sperms are single cells and don’t have organs but are organelles. He still calls what he ripped out a heart as it resembles it.",
+  "sources": [
+    {
+      "id": "characters-734-wiki",
+      "title": "The Amazing Johnathan",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Amazing_Johnathan",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-734-api",
+      "title": "Amazing Johnathan API record",
+      "url": "https://rickandmortyapi.com/api/character/734",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

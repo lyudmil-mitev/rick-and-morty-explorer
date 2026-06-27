@@ -1,0 +1,27 @@
+{
+  "id": 16,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Amish Cyborg",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Amish_Cyborg",
+  "text": "Amish Cyborg was a fake persona taken by an Memory Parasite. He appeared in the episode Total Rickall. He was shot and killed by Rick while fleeing from him in the kitchen.\n\nA silly and nonsensical character. In his case, making an Amish man into a cyborg, when the Amish are a community known for refusing the conveniences of modern technology, is essentially an oxymoron in itself.",
+  "sources": [
+    {
+      "id": "characters-16-wiki",
+      "title": "Amish Cyborg",
+      "url": "https://rickandmorty.fandom.com/wiki/Amish_Cyborg",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-16-api",
+      "title": "Amish Cyborg API record",
+      "url": "https://rickandmortyapi.com/api/character/16",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

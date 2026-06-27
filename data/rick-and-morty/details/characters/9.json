@@ -1,0 +1,27 @@
+{
+  "id": 9,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pavel Bartek",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pavel_Bartek",
+  "text": "Pavel Bartek is an antagonist who leads a Russian agency in the episode Pickle Rick. He dies in the explosion caused by Pickle Rick at the agency's headquarters.\n\nPavel Bartek leads a Russian agency in a mansion somewhere in the US when Rick, in the form of Pickle Rick, escapes the sewers through one of their toilets. Once Rick is noticed by the agents in the mansion, Pavel is notified of an incident and called to the surveillance room. He sends his agents to locate Pickle Rick, but they all fall prey to Rick's elaborate traps. As a last resort, Pavel approaches the imprisoned Jaguar with the promise of freedom for both Jaguar and his daughter if he kills Pickle Rick.\n\nWhen he belives Jaguar is dead, he starts to unseal the building, but Pickle Rick decides to kill Pavel instead. Afraid for his life, he attempts to bribe Pickle Rick with $100 million . Pickle Rick tells Pavel to give the money to Jaguar's daughter, but then Pavel reveals that Jaguar's daughter has already been dead for some time. After his agents calls an escape helicopter and the police, Pavel shoots them both and intends to escape in the helicopter with the agency's money. He is stopped when Pickle Rick and Jaguar steal the helicopter and Rick sets off a large quantity of explosives in the building. He falls to his knees and utters \"Farewell Solenya\" before the mansions blows up and kills him.\n\nPavel Bartek is a cold and selfish man who cares very little for other people's lives. This is evident both with holding Jaguar captive in a dark cell for an unknown span of time, and when he shoots his own agents just before attempting to flee in a helicopter. His cowardice is shown when he offers Pickle Rick $100m worth of bonds belonging to the people in order to keep his own life. He has a habit of losing his temper whenever someone speaks out of turn or disobeys orders. He can be seen to be manipulative when he lies about Jaguar's daughter being alive in order to employ him against Pickle Rick, when she had already been dead for some time. However, the director is also relatively cunning and is nearly able to outsmart Pickle Rick, though it is eventually he who is outwitted.",
+  "sources": [
+    {
+      "id": "characters-9-wiki",
+      "title": "Pavel Bartek",
+      "url": "https://rickandmorty.fandom.com/wiki/Pavel_Bartek",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-9-api",
+      "title": "Agency Director API record",
+      "url": "https://rickandmortyapi.com/api/character/9",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

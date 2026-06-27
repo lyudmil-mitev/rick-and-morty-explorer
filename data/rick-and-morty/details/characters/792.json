@@ -1,0 +1,27 @@
+{
+  "id": 792,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Crow Aliens",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Crow_Aliens",
+  "text": "The Crow Aliens are a race of large anthropomorphic crows that appear in the episode \"Forgetting Sarick Mortshall\".\n\nThe Crow Aliens a race of anthropomorphic crows from outer space that teach Rick how to be more in tune with his Two Crows and later make all crows feral on Earth. They are later killed by Rick with the help of Two Crows to stop their invasion.",
+  "sources": [
+    {
+      "id": "characters-792-wiki",
+      "title": "Crow Aliens",
+      "url": "https://rickandmorty.fandom.com/wiki/Crow_Aliens",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-792-api",
+      "title": "Alien Crow API record",
+      "url": "https://rickandmortyapi.com/api/character/792",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

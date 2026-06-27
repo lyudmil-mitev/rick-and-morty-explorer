@@ -1,0 +1,27 @@
+{
+  "id": 94,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Draygon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Draygon",
+  "text": "Draygon is a fantasy world where different types of dragons live.\n\nIn Claw and Hoarder: Special Ricktim's Morty, Rick promised Morty a dragon if he helped him on his adventure to retrieve the \"Ultimate Cube\". However, the cube was purple, and Rick was disappointed, as he wanted a cube in a different color. While flying through space, Morty asks when he would get his dragon. Rick forgot about the promise probably to manipulate Morty into helping on the adventure. Morty being stubborn complains about wanting a dragon, so Rick sprays Morty with sleeping gas to shut him up but accidentally makes himself sleep crash his flying car and land him in the hospital. Beth checking on Rick brings up Morty wanting a dragon. Rick, tired of hearing Morty complain, gives him a dragon. A wizard makes Morty sign a contract in blood giving him a book of spells then opening a portal and leave. The portal looks like Rick's but with writing and a black opening and requires a wand to open. Morty gets a red dragon named Balthromaw, who gets tired of listening to Morty's commands. Balthromaw had a dispute with Rick, but they hung out later on. This forms a soul bond and the dragon cheated on Morty with Rick and broke their contract the soul bond seems to give sexual pleasure to the dragon and the person caught in it. The wizard than punishes the dragon for breaking his contract, Rick can feel the pain too since he's connected to the dragons soul. They then go through the portal and went to a different world.",
+  "sources": [
+    {
+      "id": "locations-94-wiki",
+      "title": "Draygon",
+      "url": "https://rickandmorty.fandom.com/wiki/Draygon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-94-api",
+      "title": "Draygon API record",
+      "url": "https://rickandmortyapi.com/api/location/94",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

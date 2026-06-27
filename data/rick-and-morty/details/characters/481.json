@@ -1,0 +1,27 @@
+{
+  "id": 481,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Retired General Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Retired_General_Rick",
+  "text": "Retired General Rick, also known as General Rick , was an alternate version of Rick and a presidential candidate in the Citadel Election in \"The Ricklantis Mixup\". He used to be part of the Citadel's militia.\n\nRetired General Rick was one of several Ricks candidates in the election for the next president of the Citadel of Ricks. He was the clear frontrunner of the election, leading the polls until the debate, where Candidate Morty took the lead and eventually won. (Although according to the guards, it was almost close enough to trigger a recount, indicating RGR came in a close second)\n\nIt was shown that he didn't take Candidate Morty very seriously and neither did the other candidates.\n\nHe can be seen in a side room, along with Rick Guilt Rick, during the scene where the bodies of Ricks killed by Evil Morty's order are being loaded up in the airlocks to be disposed into space.\n\nIt's unknown if he was present and died during the destruction of the Citadel or left it and survived his likely demise.",
+  "sources": [
+    {
+      "id": "characters-481-wiki",
+      "title": "Retired General Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Retired_General_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-481-api",
+      "title": "Retired General Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/481",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

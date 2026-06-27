@@ -1,0 +1,27 @@
+{
+  "id": 543,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Vermigurber",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Vermigurber",
+  "text": "Vermigurber is an alien fly mafia boss that runs a frog restaurant. He encountered Rick when the latter was hunting down Tony for using his private toilet.\n\nVermigurber has a casual and fun-loving personality, teasing his frog lackies for wanting to eat him and then offering them free drugs. He holds little regard for many of his children, not caring if he loses a few of them. He makes bad puns when threatening targets and cares a lot about staying on top of current slang and expressions.",
+  "sources": [
+    {
+      "id": "characters-543-wiki",
+      "title": "Vermigurber",
+      "url": "https://rickandmorty.fandom.com/wiki/Vermigurber",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-543-api",
+      "title": "Vermigurber API record",
+      "url": "https://rickandmortyapi.com/api/character/543",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

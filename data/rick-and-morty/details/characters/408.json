@@ -1,0 +1,27 @@
+{
+  "id": 408,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Quick Mystery",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Quick_Mystery",
+  "text": "Quick Mystery is an interdimensional TV show hosted by a grown man in a trenchcoat, most likely a crime detective. He introduces each quick mystery by saying a variation of \"Here's a quick mystery\".\n\nRick randomly switches to this show in \"Rixty Minutes\" and the Smith family watches it for a short while before continuing to flip through channels.\n\nEach episode consists of clips of short murder mysteries where a murder has been committed and the perpetrator stands forward and admits to the murder while also presenting the murder weapon. That person is then arrested and convicted by a judge to jail or execution.\n\nQuick Mystery is a parody of the long running documentary television series Unsolved Mysteries, which was originally hosted by actor Robert Stack from 1987 to 2002. On the show Stack, often dressed in a trenchcoat, would introduce and narrate segments about unsolved crimes and mysterious supernatural events. Quick Mystery is also a satire of the detective genre by presenting mysteries in a simple, unrealistic and anti-climactic way. It mocks detective stories like Sherlock Holmes, Poirot and Miss Marple by showing what they would be like if all of the complexities were removed. This is one of many detective genre satires within Rixty Minutes with another being Baby Legs.",
+  "sources": [
+    {
+      "id": "characters-408-wiki",
+      "title": "Quick Mystery",
+      "url": "https://rickandmorty.fandom.com/wiki/Quick_Mystery",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-408-api",
+      "title": "Quick Mystery Presenter API record",
+      "url": "https://rickandmortyapi.com/api/character/408",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

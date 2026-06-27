@@ -1,0 +1,27 @@
+{
+  "id": 498,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fascist Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fascist_Rick",
+  "text": "Fascist Rick was the version of Rick inhabiting the Fascist Dystopian Universe. He was killed by his own Morty, who considered him inferior and too political.\n\nRick used to go on adventures with his Morty before he ventured into politics and helped the President by sterilizing China. Being a part of the elite on his Earth, Rick would stroll around the house while wearing a bathrobe and drinking martinis.\n\nIn the middle of the night, he was awaken by Rick C-137 waking up in one of clones and exiting his underground lab. The two had a short chat in the garage before Rick revealed this Earth to be controlled by a fascist dictatorship. Rick C-137's hestitation to this realization had Rick ready his laser gun, but the two got interrupted by the Morty of this universe. Rick was accused by Rick C-137 of being a clone, which he denied and Morty agreed that his grandfather is the real one. Rick was then shot in the chest by Morty, who considered him an inferior Rick and too political.\n\nRick seemed happy to help another Rick, so long as the Rick was in agreement with the fascist dystopian government currently in control of America. He was ready to kill Rick C-137 for hestitating on the question of whether or not he was down with fascist dystopians. This version of Rick was less prepared to be killed than Rick C-137, who keeps a wide range of backup plans in case of an unwanted death.",
+  "sources": [
+    {
+      "id": "characters-498-wiki",
+      "title": "Fascist Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Fascist_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-498-api",
+      "title": "Fascist Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/498",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 641,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bruce",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bruce",
+  "text": "Bruce is an alien Glorzo parasite that was formerly attached to Rick's face and worked as a political soapbox YouTuber. He appears in the episode \"Promortyus\".\n\nIn the episode \"Promortyus\", Bruce first appears when Rick gets close to a Glorzo egg as he attaches himself to his face and possesses him. While Steve was an appointed leader, Bruce becomes jealous and leaves the Glorzo government to work as a political soapbox YouTuber as other Glorzo parasites were not fond of him and his content. Bruce talks to Steve after the later gets fired and replaced with Shane as he reveals that he was jealous of Summer taking him away from him.\n\nThe two then make amends with each other and kiss as they plan to escape the Glorzo society and run away together. However, Rick is freed from Bruce's control after Morty takes him off of his face and is killed by Rick using his laser gun. Rick uses the corpse of Bruce in order to disguise himself when talking to other Glorzo parasites but stops after quickly being seen through.",
+  "sources": [
+    {
+      "id": "characters-641-wiki",
+      "title": "Bruce",
+      "url": "https://rickandmorty.fandom.com/wiki/Bruce",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-641-api",
+      "title": "Bruce API record",
+      "url": "https://rickandmortyapi.com/api/character/641",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

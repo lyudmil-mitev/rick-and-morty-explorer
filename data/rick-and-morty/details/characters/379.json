@@ -1,0 +1,27 @@
+{
+  "id": 379,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Wedding Bartender",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Wedding_Bartender",
+  "text": "The wedding bartender is a moopydoop who worked as a bartender on Planet Squanch for a wedding. Whether he was a casualty at the wedding or left beforehand is unknown.\n\nHe appeared as the main bartender for the wedding of Tammy Gueterman and Birdperson. He was serving Rick drinks and made a comment that he \"had a lot of vodka\" when Rick complained about Morty giving him bad advice.\n\nHis fate after the wedding is unknown as Tammy revealed that the whole wedding was a trap and he was never seen in the massacre that followed.",
+  "sources": [
+    {
+      "id": "characters-379-wiki",
+      "title": "Wedding Bartender",
+      "url": "https://rickandmorty.fandom.com/wiki/Wedding_Bartender",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-379-api",
+      "title": "Wedding Bartender API record",
+      "url": "https://rickandmortyapi.com/api/character/379",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

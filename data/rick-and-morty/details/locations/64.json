@@ -1,0 +1,27 @@
+{
+  "id": 64,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Healthy Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Healthy_Morty",
+  "text": "",
+  "sources": [
+    {
+      "id": "locations-64-wiki",
+      "title": "Healthy Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Healthy_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-64-api",
+      "title": "Detoxifier API record",
+      "url": "https://rickandmortyapi.com/api/location/64",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

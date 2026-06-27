@@ -1,0 +1,27 @@
+{
+  "id": 56,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Immortality Field Resort",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Immortality_Field_Resort",
+  "text": "Immortality Field Resort is a luxury resort built inside an immortality field. Rick brought Jerry here in the episode \"The Whirly Dirly Conspiracy\" on Morty's request.\n\nThe area in which the resort resides was once the kingdom of the Brosephamons. The kingdom was at one point usurped by another alien race using weapons supplied by Rick, enslaving the native aliens to work at the resort.\n\nBy Morty's wish, Rick brought Jerry to this resort in order to cheer him up. Once they had arrived Rick was attacked and killed by Shnoopy Bloopers, who in turn was killed by Rick; before resurrecting back to life due to the immortality field. Jerry would later be forced into a backroom by Risotto Groupon and his henchmen to be included in a plot against Rick. This lead Jerry and Rick onto the Whirly Dirly, a popular theme park ride at the resort, where Risotto had positioned assassins to kill Rick. Jerry would then get cold feet and save Rick on the ride, with Rick defeating both Risotto's assassins and henchmen, as well as destroying the immortality field.",
+  "sources": [
+    {
+      "id": "locations-56-wiki",
+      "title": "Immortality Field Resort",
+      "url": "https://rickandmorty.fandom.com/wiki/Immortality_Field_Resort",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-56-api",
+      "title": "Mega Gargantuan Kingdom API record",
+      "url": "https://rickandmortyapi.com/api/location/56",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

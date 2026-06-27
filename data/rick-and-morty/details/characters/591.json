@@ -1,0 +1,27 @@
+{
+  "id": 591,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pilot (Rick and Morty)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pilot_(Rick_and_Morty)",
+  "text": "\"Pilot\" is the first episode of the first season of Rick and Morty. It is the first episode of the series overall. It premiered on December 2, 2013. It was written by Dan Harmon and Justin Roiland, and directed by Justin Roiland. The episode is rated TV-14-DLSV.",
+  "sources": [
+    {
+      "id": "characters-591-wiki",
+      "title": "Pilot (Rick and Morty)",
+      "url": "https://rickandmorty.fandom.com/wiki/Pilot_(Rick_and_Morty)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-591-api",
+      "title": "High Pilot API record",
+      "url": "https://rickandmortyapi.com/api/character/591",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

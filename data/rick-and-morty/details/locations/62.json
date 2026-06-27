@@ -1,0 +1,27 @@
+{
+  "id": 62,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez (J-22)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(J-22)",
+  "text": "Rick Sanchez J-22 is an alternate version of Rick Sanchez who first appeared in the episode, \"The Ricklantis Mixup\", He is a factory worker at Simple Rick’s Wafer Cookie Factory, first acting as part of the wafer assembly line and later as part of the flavor core.\n\nAt one point, he became a member of the Citadel of Ricks. He spent 15 years as a factory worker. He hoped to get a promotion, and when Regional Manager Rick promoted Cool Rick instead, who had only recently joined the citadel, he became even more bitter and disillusioned. This bitterness got to the point that he went on a rampage, destroying his wafer assembly machine and killing Regional Manager Rick in a fit of rage. After sealing himself into the flavor core, he took an unconscious Simple Rick as a hostage, and made demands to SWAT Team Ricks for an unregistered portal gun. His demands were met and he freed Simple Rick who was understandably disoriented, convincing him that he is going to be ok. This is followed by J-22 abruptly sending him through a portal, which had been underhandedly locked to the coordinates of the Blender Dimension by the SWAT Team. This tragically resulted in Simple Rick's brutal death at the hands of his captors.\n\nJust before he is about to be apprehended, Rick D. Sanchez III appears just in the nick of time, commending J-22 for the guts he had to rebel against the bureaucratic system, saying he spent enough time as a factory worker, and then frees him from police custody. As he was being applauded by his coworkers and getting emotional over seeing a limo just for him, Rick D. Sanchez III subdued and rapidly used him as a replacement of Simple Rick's memory for the flavor of Simple Rick's Wafers.\n\nIt's unknown if he was present and died during the destruction of the Citadel or left it and survived his likely demise.",
+  "sources": [
+    {
+      "id": "locations-62-wiki",
+      "title": "Rick Sanchez (J-22)",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(J-22)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-62-api",
+      "title": "Earth (J-22) API record",
+      "url": "https://rickandmortyapi.com/api/location/62",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

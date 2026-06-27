@@ -1,0 +1,27 @@
+{
+  "id": 274,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Quantum Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Quantum_Rick",
+  "text": "Quantum Rick was one of the six members of the defunct Council of Ricks. In: Close Rick-Counters of the Rick Kind, he along with the rest of the council accused Rick C-137 of the murders of 27 Ricks as well as the capture and torture of their Mortys. He along with the others apologized to C-137 after the later found the real killer (Evil Rick). In: The Rickshank Rickdemption The Citadel was teleported to a prison of the Galactic Federation by Rick. The other council members got killed by C-137 however the fate of Quantum Rick remains a mystery.",
+  "sources": [
+    {
+      "id": "characters-274-wiki",
+      "title": "Quantum Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Quantum_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-274-api",
+      "title": "Quantum Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/274",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

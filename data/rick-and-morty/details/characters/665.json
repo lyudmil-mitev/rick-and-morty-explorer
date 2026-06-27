@@ -1,0 +1,27 @@
+{
+  "id": 665,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Florflok",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Florflok",
+  "text": "Florflok is a child of Gaia and Reggie.\n\nAfter Gaia gave birth to Florflok, he was raised through Rick Sanchez and Beth Smith's sorting factory and was categorized as \"unproductive\", being dumped out into the mud. There, he met Jerry Smith, who taught him and all the other unproductives about camping. Jerry passed Florflok and congratulated him on almost producing smoke on his campfire.\n\nLater, the unproductives waged war on the rest of Gaia and Reggie's children, led by Jerry. When Reggie was killed, his massive body fell from the sky and killed most of his children.",
+  "sources": [
+    {
+      "id": "characters-665-wiki",
+      "title": "Florflok",
+      "url": "https://rickandmorty.fandom.com/wiki/Florflok",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-665-api",
+      "title": "Florflock API record",
+      "url": "https://rickandmortyapi.com/api/character/665",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 585,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bartender Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bartender_Morty",
+  "text": "Bartender Morty is an alternative version of Morty who works as a bartender at the The Creepy Morty, a club located in the Mortytown district of the Citadel of Ricks.\n\nBartender Morty worked as bartender at the club The Creepy Morty during the time around the Morty Mart robbery. One of the nights he worked, Cop Rick and Cop Morty entered The Creepy Morty to meet with Big Morty. At the time, Bartender Morty was talking with Marty Morty and didn't notice or mind the two cops.\n\nWhen the gunfight broke out, Bartender Morty hid behind his bar counter throughout the chaos. He did not emerge before Cop Rick executed Cop Morty.",
+  "sources": [
+    {
+      "id": "characters-585-wiki",
+      "title": "Bartender Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Bartender_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-585-api",
+      "title": "Bartender API record",
+      "url": "https://rickandmortyapi.com/api/character/585",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

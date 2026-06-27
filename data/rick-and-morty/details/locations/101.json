@@ -1,0 +1,27 @@
+{
+  "id": 101,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glorzo",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glorzo",
+  "text": "The Glorzo are a race of alien parasites who appear in the episode \"Promortyus\".",
+  "sources": [
+    {
+      "id": "locations-101-wiki",
+      "title": "Glorzo",
+      "url": "https://rickandmorty.fandom.com/wiki/Glorzo",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-101-api",
+      "title": "Glorzo Asteroid API record",
+      "url": "https://rickandmortyapi.com/api/location/101",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

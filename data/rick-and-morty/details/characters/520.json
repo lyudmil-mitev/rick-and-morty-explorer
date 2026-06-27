@@ -1,0 +1,27 @@
+{
+  "id": 520,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Wasp Jerry",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Wasp_Jerry",
+  "text": "is the version of Jerry Smith in the Wasp Universe. He appears to have a much better relationship with his family than other versions of Jerry.\n\nJerry sat and ate dinner with his family and the guest Rick shortly after the Rick appeared in their universe. While eating Larva Mr. Goldenfold, he was told by Summer that she planned to fly around with her friends after dinner to find something to sting. He warned her not to use up all of her venom, which she playfully countered by stating that she was not a bee. The family finished dinner before Wasp Rick helped their guest back to his reality.\n\nWasp Jerry has a good relationship with both of his kids, as well as his wife; very much in contrast to Jerry Smith from Dimension 5126 . He is still protective of his kids and warns them to be careful when going out to sting creatures.",
+  "sources": [
+    {
+      "id": "characters-520-wiki",
+      "title": "Wasp Jerry",
+      "url": "https://rickandmorty.fandom.com/wiki/Wasp_Jerry",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-520-api",
+      "title": "Wasp Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/520",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

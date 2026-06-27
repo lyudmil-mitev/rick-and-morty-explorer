@@ -1,0 +1,27 @@
+{
+  "id": 569,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shadow Jacker",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shadow_Jacker",
+  "text": "Shadow Jacker is a elderly dragon who appears in the episode \"Claw and Hoarder: Special Ricktim's Morty\".\n\nShadow Jacker is first seen when Rick, Morty, Summer and Balthromaw encounter him with other slut dragons. He joins them to perform asoul-bond ritual to kill The Wizard at his lair. After Shadow Jacker, the Smiths and the dragons kill the Wizard with their attack, Rick and Balthromaw are not soul-bonded anymore Morty and the other dragons and the dragons earn their freedom.",
+  "sources": [
+    {
+      "id": "characters-569-wiki",
+      "title": "Shadow Jacker",
+      "url": "https://rickandmorty.fandom.com/wiki/Shadow_Jacker",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-569-api",
+      "title": "Shadow Jacker API record",
+      "url": "https://rickandmortyapi.com/api/character/569",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

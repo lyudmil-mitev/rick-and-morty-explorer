@@ -1,0 +1,27 @@
+{
+  "id": 149,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gordon Lunas",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gordon_Lunas",
+  "text": "Gordon Lunas was a mysterious man, who appears to live on the moon in \"Morty's Mind Blowers.\"\n\nThe original Gordon presumably became a Cronenberg in the Cronenberged Dimension.\n\nGordon first appeared one night as Morty was looking at the moon through his telescope. Morty at first admires the American flag planted on the lunar surface before he notices a strange figure standing in a mid-stride walking pose. He then goes and tells his family, but nobody, including Rick, believes him; they suggest that it was merely a smudge on the lens. He then finds out that Mr. Lunas is, in fact, a real person, as he comes to Morty's high school to work as a guidance counselor. Later on, Morty snaps pictures of Lunas, planting an American flag in his yard, and tells Principal Vagina that he thinks Lunas is \"up to something\" and \"lives on the moon.\" Vagina takes this as a metaphor for pedophilia, and goes outside to the parking lot to confront Lunas, ending in Lunas getting punched in the face. As a result of this accusation, Lunas goes home and commits suicide, which Morty finds out about from the ambulances outside of Lunas' home. Morty later eavesdrops on Lunas' funeral, where it is learned that Lunas served in the Marine Corps, and that \"from a certain angle, some people would say he looked like a smudge.\" Morty then runs home and sees that there is, in fact, a smudge on his telescope lens, realizing that Lunas was a normal human and he caused him to kill himself.\n\nMorty was so disgusted by his actions that he had Rick erase the memory of him driving a man to suicide.",
+  "sources": [
+    {
+      "id": "characters-149-wiki",
+      "title": "Gordon Lunas",
+      "url": "https://rickandmorty.fandom.com/wiki/Gordon_Lunas",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-149-api",
+      "title": "Gordon Lunas API record",
+      "url": "https://rickandmortyapi.com/api/character/149",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

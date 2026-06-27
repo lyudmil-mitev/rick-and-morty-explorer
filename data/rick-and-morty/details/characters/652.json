@@ -1,0 +1,27 @@
+{
+  "id": 652,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Ricks Must Be Crazy/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Ricks_Must_Be_Crazy%2FTranscript",
+  "text": "This article is a transcript of the Rick and Morty episode The Ricks Must Be Crazy from Season 2. It aired on August 30, 2015.",
+  "sources": [
+    {
+      "id": "characters-652-wiki",
+      "title": "The Ricks Must Be Crazy/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Ricks_Must_Be_Crazy%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-652-api",
+      "title": "SWAT Officer API record",
+      "url": "https://rickandmortyapi.com/api/character/652",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

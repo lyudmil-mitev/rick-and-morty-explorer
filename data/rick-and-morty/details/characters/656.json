@@ -1,0 +1,27 @@
+{
+  "id": 656,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Johnny Carson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Johnny_Carson",
+  "text": "Johnny Carson is a television host, comedian, and writer who appears in the episode \"The Vat of Acid Episode\".\n\nJohnny Carson is seen in the Merged Dimension as he is still alive and hosting his show The Tonight Show Starring Johnny Carson. He introduces a SWAT officer who thinks that he is immune to acid due to being splashed by Rick’s fake vat of acid. However, the officer dies in a real vat of acid, and Johnny jokes about his demise, before begging to be allowed to die himself.",
+  "sources": [
+    {
+      "id": "characters-656-wiki",
+      "title": "Johnny Carson",
+      "url": "https://rickandmorty.fandom.com/wiki/Johnny_Carson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-656-api",
+      "title": "Impervious to Acid SWAT Officer API record",
+      "url": "https://rickandmortyapi.com/api/character/656",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

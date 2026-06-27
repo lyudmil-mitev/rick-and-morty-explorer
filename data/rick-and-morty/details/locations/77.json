@@ -1,0 +1,27 @@
+{
+  "id": 77,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fascist dimension",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fascist_dimension",
+  "text": "The fascist dimension is an alternative dimension where Earth turned into a global fascist society. Rick and Morty went on a massacre in this dimension to save it from fascism in Rick and Morty Issue 29.\n\nAt some point in this dimension, fascism became the dominating ideology on Earth. As a result, the planet's experienced centuries of income inequality and poverty. A nearby planet filled with immigrants and refugees who are just trying to find a better life, has been at war for millennia. Lies have been used to wipe out a history of intellectuals.\n\nThis Earth received a brief visit from C-137 Rick and Morty, who went on a killing spree inside of a diner.",
+  "sources": [
+    {
+      "id": "locations-77-wiki",
+      "title": "Fascist dimension",
+      "url": "https://rickandmorty.fandom.com/wiki/Fascist_dimension",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-77-api",
+      "title": "Earth (Fascist Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/77",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

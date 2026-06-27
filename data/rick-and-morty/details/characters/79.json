@@ -1,0 +1,27 @@
+{
+  "id": 79,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Crustolomons",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Crustolomons",
+  "text": "Crustolomons are large purple four-legged spider-like aliens with four crab-like claws, seven eyes and a vertical mouth. Their bodies are covered by a purple shell. Every ten seconds they make a snickering sound, and they are capable of speaking english.\n\nIn the episode Close Rick-counters of the Rick Kind, Evil Rick and Morty use these creatures as henchmen for keeping all the Mortys prisoner.",
+  "sources": [
+    {
+      "id": "characters-79-wiki",
+      "title": "Crustolomons",
+      "url": "https://rickandmorty.fandom.com/wiki/Crustolomons",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-79-api",
+      "title": "Crab Spider API record",
+      "url": "https://rickandmortyapi.com/api/character/79",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

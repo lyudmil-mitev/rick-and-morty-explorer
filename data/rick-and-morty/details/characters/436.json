@@ -1,0 +1,27 @@
+{
+  "id": 436,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glorfingr 7",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glorfingr_7",
+  "text": "Glorfingr 7 is a planet that is home to a bunch of giant, gooey Wharborgarbors that are obsessed with engaging in very weird forms of sexual activity and being used as sex toys. The planet has a number of small mining villages.",
+  "sources": [
+    {
+      "id": "characters-436-wiki",
+      "title": "Glorfingr 7",
+      "url": "https://rickandmorty.fandom.com/wiki/Glorfingr_7",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-436-api",
+      "title": "Giant Testicle Monster API record",
+      "url": "https://rickandmortyapi.com/api/character/436",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

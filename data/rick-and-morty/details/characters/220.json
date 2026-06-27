@@ -1,0 +1,27 @@
+{
+  "id": 220,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Farmer Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Farmer_Rick",
+  "text": "{{Character\n|name =\n|image = Megafruitfarmerrick.png\n|species = Human\n|job = Mega Fruit farmer\n|status = Alive\n|voice actor = Justin Roiland\n|first = The Ricklantis Mixup\n|age = 70}}\n }}\n is a Mega Fruit farmer on The Citadel.\n\n worked as a farmer on The Citadel with his trusted robot dog. One day, four Mortys (Slick, Left-Handed, Lizard and Glasses) sneaked onto his farm to steal his Mega Fruit. He fired a warning shot before sending his robot dog after the intruders, chasing them into the nearby river.\n\nThose four Mortys would return after President Morty changed the Citadel to focus more on Mortys. objected to the Mortys taking his fruit, but the Guard Ricks present would not stop them.\n\n was seen killing Morty of C-137 in a possible future seen by a Death Crystal.",
+  "sources": [
+    {
+      "id": "characters-220-wiki",
+      "title": "Farmer Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Farmer_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-220-api",
+      "title": "Mega Fruit Farmer Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/220",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

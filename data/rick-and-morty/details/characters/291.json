@@ -1,0 +1,27 @@
+{
+  "id": 291,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez (J-22)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(J-22)",
+  "text": "Rick Sanchez J-22 is an alternate version of Rick Sanchez who first appeared in the episode, \"The Ricklantis Mixup\", He is a factory worker at Simple Rick’s Wafer Cookie Factory, first acting as part of the wafer assembly line and later as part of the flavor core.\n\nRick Sanchez J-22 lived a very boring life as a factory worker, hoping for a promotion to a better position. Deep down, he always had an inner frustration working as a simple factory worker, even though he was just as smart as all of the higher-up Ricks and has a knowledge of everything in the universe, and by becoming part of a society like this, even though it was made up entirely of Ricks and Mortys, it took away everything that made Rick unique in their respective universes and in general. Eventually, he gets fed up with living in such a pathetic and low-paying job and goes on a rampage, killing his boss and locking himself in the flavor core with Simple Rick, and subsequently demanding a portal gun to escape from his \"prison,\" He is also not gullible, knowing that the portal gun given to him was likely pre-set to the blender dimension; however, he was consequently tricked by Rick D. Sanchez III into believing he was being promoted for his rebellious and anarchical attitude so the memory formed could be used as a new flavor for the wafer cookies.",
+  "sources": [
+    {
+      "id": "characters-291-wiki",
+      "title": "Rick Sanchez (J-22)",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(J-22)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-291-api",
+      "title": "Rick J-22 API record",
+      "url": "https://rickandmortyapi.com/api/character/291",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

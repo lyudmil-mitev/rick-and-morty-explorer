@@ -1,0 +1,27 @@
+{
+  "id": 54,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bobby Moynihan",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bobby_Moynihan",
+  "text": "Bobby Moynihan is an American actor and comedian.\n\nAn alternate version of him appears in the episode \"Rixty Minutes\". In the episode, Rick and Morty are watching a \"Saturday Night Live\" from an alternate reality in which Moynihan is returning for his 25th consecutive season on the show.\n\nRick commented an interesting fact to Morty that Bobby Moynihan and Piece of Toast hate each other due to some \"creative differences.\"",
+  "sources": [
+    {
+      "id": "characters-54-wiki",
+      "title": "Bobby Moynihan",
+      "url": "https://rickandmorty.fandom.com/wiki/Bobby_Moynihan",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-54-api",
+      "title": "Bobby Moynihan API record",
+      "url": "https://rickandmortyapi.com/api/character/54",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

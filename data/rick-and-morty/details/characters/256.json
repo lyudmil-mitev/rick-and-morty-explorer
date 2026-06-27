@@ -1,0 +1,27 @@
+{
+  "id": 256,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pat Guterman",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pat_Guterman",
+  "text": "Pat Guterman was the husband of Donna Guterman, the father of Tammy Gueterman, and the father-in-law of Birdperson, he is first introduced in the episode The Wedding Squanchers during her wedding to Bird Person. He and his wife introduced themselves to the spouses Smith, Jerry and Beth during the wedding's reception.\n\nLater, it is revealed that Pat, Donna, and Tammy are agents for the Galactic Federation. Pat and Donna are not humans and are shown as deadly robots. The two of them directly pursue the Smith family as they attempt to escape. Pat slips on a group of earthworms and falls out of the back of a spaceship from a great height.",
+  "sources": [
+    {
+      "id": "characters-256-wiki",
+      "title": "Pat Guterman",
+      "url": "https://rickandmorty.fandom.com/wiki/Pat_Guterman",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-256-api",
+      "title": "Pat Gueterman API record",
+      "url": "https://rickandmortyapi.com/api/character/256",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 113,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Ferkus 9",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Ferkus_9",
+  "text": "Ferkus 9 is a planet that appears in the episode \"A Rickconvenient Mort.\" Originally it was going to be destroyed by an oncoming meteor strike until the meteor was destroyed thanks to Summer's intervention.",
+  "sources": [
+    {
+      "id": "locations-113-wiki",
+      "title": "Ferkus 9",
+      "url": "https://rickandmorty.fandom.com/wiki/Ferkus_9",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-113-api",
+      "title": "Ferkus 9 API record",
+      "url": "https://rickandmortyapi.com/api/location/113",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

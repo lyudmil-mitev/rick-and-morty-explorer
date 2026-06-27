@@ -1,0 +1,27 @@
+{
+  "id": 153,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hamsters In Butts",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hamsters_In_Butts",
+  "text": "The Hamsters In Butts are a race of Interdimensional hamsters who reside in the rectums of humans. The Smith family took a vacation in their dimension in \"Rixty Minutes\".\n\nThe hamsters always stay inside their butt-person, as their homes are inside the humans' rectum. In their world, the hamsters have taken on all the roles that humans have on most other Earths, including being doctors, anchormen, soldiers and more. Their humans walk backwards so that the hamsters are always in front. It is not known if the humans are intelligent, as they all seem to have a neutral, bored look on their faces at all times, and have not been shown to speak.",
+  "sources": [
+    {
+      "id": "characters-153-wiki",
+      "title": "Hamsters In Butts",
+      "url": "https://rickandmorty.fandom.com/wiki/Hamsters_In_Butts",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-153-api",
+      "title": "Hamster In Butt API record",
+      "url": "https://rickandmortyapi.com/api/character/153",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

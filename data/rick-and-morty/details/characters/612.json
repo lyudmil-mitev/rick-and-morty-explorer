@@ -1,0 +1,27 @@
+{
+  "id": 612,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Marcus",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Marcus",
+  "text": "Marcus is a Story Train character and university student who assists Rick. He appears in the episode \"Never Ricking Morty\".\n\nIn the episode \"Never Ricking Morty\", Marcus first appears in a university setting through a cutaway narrative outside of the Story Train that Rick was sent to where the latter is a college professor and testing a machine. Rick mentions how his machine worked as they play pool in a bar where he explains to Marcus how he remembers a different life he had. Morty then appears as a veteran stabbing Rick and shocking Marcus as Morty tries to explain to Rick that the story they are trapped in is not real as Story Lord pulls them out of the narrative.",
+  "sources": [
+    {
+      "id": "characters-612-wiki",
+      "title": "Marcus",
+      "url": "https://rickandmorty.fandom.com/wiki/Marcus",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-612-api",
+      "title": "Marcus API record",
+      "url": "https://rickandmortyapi.com/api/character/612",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

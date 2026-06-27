@@ -1,0 +1,27 @@
+{
+  "id": 571,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Slippy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Slippy",
+  "text": "After accidentally killing a snake astronaut, Rick had to get some anti-venom by scanning their culture, getting both it and snake jazz before leaving, taking a Morty who believed himself to be at fault for the situation. Morty begged Rick to help him make things right, but Rick said that it was their problem and not his.\n\nHowever, Morty did not listen, and studied the dead snake's markings before buying a snake at the pet store, proceeding to draw the dead snake's markings on her, being bitten every step of the way, even as he flung her down onto the Snake Planet to take the astronaut's place.\n\nHowever, things have their consequences, and as Rick had said to him, it was their problem and theirs alone. If it weren't for that decision, they would have wiped themselves to extinction via global war, but the snake governments have cracked the language barrier, finding that there were other things bigger and scarier to unite against, with organizations such as Serpicorp, inventing things like time travel in order to kill Morty before he can change things further.\n\nSlippy is next seen during the time-travel fiasco, when a bunch of time-travelling snakes fight over killing her new brood or protecting them. When the first tool-using snake was killed by Shleemypants and his buddy, all the advanced snakes disappeared, eating their own tails.\n\nWhat happened to Slippy after that is unknown.",
+  "sources": [
+    {
+      "id": "characters-571-wiki",
+      "title": "Slippy",
+      "url": "https://rickandmorty.fandom.com/wiki/Slippy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-571-api",
+      "title": "Slippy API record",
+      "url": "https://rickandmortyapi.com/api/character/571",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

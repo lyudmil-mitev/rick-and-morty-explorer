@@ -1,0 +1,27 @@
+{
+  "id": 297,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Risotto's Tentacled Henchman",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Risotto's_Tentacled_Henchman",
+  "text": "Risotto's Tentacled Henchman is one of Risotto Groupon's employees at his restaurant in the Immortality Field Resort. He was a part of a plot to assassinate Rick Sanchez, but was killed by a bomb Rick stored in his lab coat.\n\nThe Tantacled Henchman first appears when Jerry is sucked through a hand dryer. He grabs Jerry and holds him up against the wall, but lets go when Jerry tells them that his hands are dry. He remains present during Risotto's conversation with Jerry, where Risotto explains their plot to kill Rick.\n\nHe returns in a helicopter when the Tusked Assassin and the Fluffy Assassin fail to kill Rick. He extends his mechanical tentacles and grabs Rick's shoulders, but Rick activates a bomb before releasing himself from the coat. The Tentacled Henchman draws the coat up into the helicopter before it explodes, resulting in the helicopter crashing into The Whirly Dirly.",
+  "sources": [
+    {
+      "id": "characters-297-wiki",
+      "title": "Risotto's Tentacled Henchman",
+      "url": "https://rickandmorty.fandom.com/wiki/Risotto's_Tentacled_Henchman",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-297-api",
+      "title": "Risotto's Tentacled Henchman API record",
+      "url": "https://rickandmortyapi.com/api/character/297",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

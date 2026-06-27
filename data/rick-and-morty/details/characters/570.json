@@ -1,0 +1,27 @@
+{
+  "id": 570,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Chachi",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Chachi",
+  "text": "Chachi was a cat-like alien that helped Morty Smith obtain the Ultimate Cube. He was shot to death by naga aliens.\n\nChachi helped Morty escape from prison on an alien planet, and get his hands on a purple cube called \"the ultimate cube\" for Rick Sanchez. The two ran from the naga aliens together to reach Rick's ship, where Morty confirmed their success in obtaining the cube. Before they could leave, however, Chachi was shot through the head by the pursuing aliens and died. Rick and Morty did escape the aliens seconds later.",
+  "sources": [
+    {
+      "id": "characters-570-wiki",
+      "title": "Chachi",
+      "url": "https://rickandmorty.fandom.com/wiki/Chachi",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-570-api",
+      "title": "Chachi API record",
+      "url": "https://rickandmortyapi.com/api/character/570",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

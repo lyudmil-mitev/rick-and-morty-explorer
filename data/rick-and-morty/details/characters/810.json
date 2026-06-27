@@ -1,0 +1,27 @@
+{
+  "id": 810,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Stan Lee Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Stan_Lee_Rick",
+  "text": "Stan Lee Rick is a version of Rick that resembles comic book writer Stan Lee and appears in the episode \"Rickmurai Jack\".\n\nWhen President Morty mentions how he scanned Rick's brain for plans on how to break out of the Central Finite Curve a long time ago when capturing him and Morty, the screen pauses and Stan Lee Rick appears on the bottom of the screen to tell the viewer to watch Season 1, episode 9 and says \"Excelsior!\" as he moves away and the scene resumes itself.",
+  "sources": [
+    {
+      "id": "characters-810-wiki",
+      "title": "Stan Lee Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Stan_Lee_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-810-api",
+      "title": "Stan Lee Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/810",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

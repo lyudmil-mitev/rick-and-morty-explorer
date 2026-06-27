@@ -1,0 +1,27 @@
+{
+  "id": 148,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Goddess Beth",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Goddess_Beth",
+  "text": "Goddess Beth is one of the mythologs of Beth Smith. She appears in the episode \"Big Trouble In Little Sanchez\" She is the way Ideal Jerry sees Beth.\n\nIn the episode \"Big Trouble In Little Sanchez\", whilst Beth Smith is wearing the Mytholog helmet and creating Ideal Jerrys, Jerry puts the helmet onto one of them. Since the Ideal Jerrys were Beth's idea of a perfect Jerry, in their minds, they viewed Beth as a goddess. As a result, the helmet created a new Beth Mytholog that took the form of a goddess. After being created, she ordered the fighting to stop and promptly killed Beth's original mytholog with ease, as it displeased her. All of the Jerry Mythologs then bowed to her as she set the original Beth free. Following this, her current whereabouts are unknown.",
+  "sources": [
+    {
+      "id": "characters-148-wiki",
+      "title": "Goddess Beth",
+      "url": "https://rickandmorty.fandom.com/wiki/Goddess_Beth",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-148-api",
+      "title": "Goddess Beth API record",
+      "url": "https://rickandmortyapi.com/api/character/148",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

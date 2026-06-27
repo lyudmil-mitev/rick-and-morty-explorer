@@ -1,0 +1,27 @@
+{
+  "id": 321,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shrimply Pibbles",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shrimply_Pibbles",
+  "text": "Shrimply Pibbles is the galaxy's most influential civil rights leader. He appears in Interdimensional Cable 2: Tempting Fate when Jerry's penis is needed to replace his failing heart.\n\nAfter Jerry eventually refuses to donate his penis, Shrimply's supporters manage to amass enough money to perform the operation with a synthetic heart instead of Jerry's penis and save him anyway.",
+  "sources": [
+    {
+      "id": "characters-321-wiki",
+      "title": "Shrimply Pibbles",
+      "url": "https://rickandmorty.fandom.com/wiki/Shrimply_Pibbles",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-321-api",
+      "title": "Shrimply Pibbles API record",
+      "url": "https://rickandmortyapi.com/api/character/321",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

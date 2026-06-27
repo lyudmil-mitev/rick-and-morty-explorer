@@ -1,0 +1,27 @@
+{
+  "id": 13,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Alien Googah",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Alien_Googah",
+  "text": "The Alien Googah is an alien creature that invaded The Sex Tunnels of The White House in \"The Rickchurian Mortydate\". The Googah is actually quite small in size, and poses no real threat to anyone.\n\nIn \"The Rickchurian Mortydate\", The Alien Googah somehow made its was into The White House, where it hid out in The John F. Kennedy Sex Tunnels. A janitor came across the alien and alerted The President. The President, concerned, contacted Rick and Morty, seeing them as the only ones fit to defeat it. When explaining the problem to Rick and Morty, The President didn't know what the creature was called, so he just made up the word \"Alien Googah\" for it. Rick and Morty went into the sex tunnels to find the alien and when they did, it turned out it was insultingly small in size. Rick shot it a few times and it cowered back into a hole it chewed in the wall. Rick and Morty decided the alien was completely harmless and that The President was wasting their time, by making them fight it, so they just left the scene, and decided to play Minecraft instead.",
+  "sources": [
+    {
+      "id": "characters-13-wiki",
+      "title": "Alien Googah",
+      "url": "https://rickandmorty.fandom.com/wiki/Alien_Googah",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-13-api",
+      "title": "Alien Googah API record",
+      "url": "https://rickandmortyapi.com/api/character/13",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

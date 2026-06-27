@@ -1,0 +1,27 @@
+{
+  "id": 217,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mechanical Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mechanical_Morty",
+  "text": "Mechanical Morty is a robotic copy of Morty Smith, built by Rick to trick Beth into thinking her family was still around, when they were in the Post-Apocalyptic Dimension. He appeared in \"Rickmancing the Stone\".\n\nMechanical Morty is the only of the three robots to have overridden his programming and gained human emotions, apparently due to having spent so much time with Beth. He began insisting he was alive and dramatically ranted about wanting to run in a stream with his mother and actually eat ice cream. However, his robotic system overrode this programming and he went with the other robots back to the garage, where they were destroyed by the original Rick, Morty, and Summer.\n\nru:Механический Морти",
+  "sources": [
+    {
+      "id": "characters-217-wiki",
+      "title": "Mechanical Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Mechanical_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-217-api",
+      "title": "Mechanical Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/217",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

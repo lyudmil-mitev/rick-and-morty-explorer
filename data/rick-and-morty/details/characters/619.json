@@ -1,0 +1,27 @@
+{
+  "id": 619,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Beth Sanchez (Simple Rick's Dimension)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Beth_Sanchez_(Simple_Rick's_Dimension)",
+  "text": "This alternate version of Beth Sanchez is from Simple Rick's Dimension and only appeared in Simple Rick's flashback.\n\nBeth appears as a child in Simple Rick's memory, celebrating her birthday - possibly her third judging by the 3 candles on her cake.\n\nAt some point before The Ricklantis Mixup, they were separated.",
+  "sources": [
+    {
+      "id": "characters-619-wiki",
+      "title": "Beth Sanchez (Simple Rick's Dimension)",
+      "url": "https://rickandmorty.fandom.com/wiki/Beth_Sanchez_(Simple_Rick's_Dimension)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-619-api",
+      "title": "Professor Sanchez API record",
+      "url": "https://rickandmortyapi.com/api/character/619",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

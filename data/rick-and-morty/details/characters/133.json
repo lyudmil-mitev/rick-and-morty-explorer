@@ -1,0 +1,27 @@
+{
+  "id": 133,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Garblovians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Garblovians",
+  "text": "Garblovians are an alien race in the Rick and Morty multiverse. They speak what sounds like a nonsense language, saying things like \"Aga blah blah\" or \"Gaggablaghblagh\" while expecting every other race to understand. Garblovians frequently explode into a blue gooey mess. It is unknown why they explode. Jerry tries unsuccessfully to communicate with a few varieties of them after trying to leave the daycare center.\n\nGarblovians seem to have cannibalistic tendencies, as a pair of Garblovians were seen drinking the liquid remains of a fellow Garblovian who previously exploded in front of Jerry.",
+  "sources": [
+    {
+      "id": "characters-133-wiki",
+      "title": "Garblovians",
+      "url": "https://rickandmorty.fandom.com/wiki/Garblovians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-133-api",
+      "title": "Garblovian API record",
+      "url": "https://rickandmortyapi.com/api/character/133",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

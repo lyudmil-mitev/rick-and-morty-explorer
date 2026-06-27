@@ -1,0 +1,27 @@
+{
+  "id": 44,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Jerryboree",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Jerryboree",
+  "text": "The Jerryboree is an interdimensional daycare used to look after various versions of Jerry Smith from the multiverse.\n\nJerryboree first appeared in Mortynight Run, as a daycare for Jerries. It is located in Furp Rock Plaza on an unregistered cross-temporal asteroid, which has the co-ordinates 3924917. Ricks and Morties are required to fill out a paper including information of their Jerry, including their original dimension, their allergies, length of stay, and reason for drop off.\n\nJerries are then taken to a room of other Jerries, decorated with golf courses, tunnel slides (see summer slide), and a miniature Titanic 2 model. However, the scenery doesn't seem to appeal to Jerries dropped off here, as most of them wander around, confused. Part of the Jerryboree is a slide that drops into a ball pit into a room that resembles the interior of the Smith House. It is said by the employees that it is an exit, but it simply leads to said room. There is an employee who wears a Beth suit to entertain the Jerries, often inviting them to watch a movie.\n\nAll the Jerrys who ever passed through Rick's portals returned to their original dimensions after the reboot of portal travelers in \"Solaricks.\" However, titular Jerry visits the Jerryboree again in \"Bethic Twinstinct\", showing that the business continues to exist.",
+  "sources": [
+    {
+      "id": "locations-44-wiki",
+      "title": "Jerryboree",
+      "url": "https://rickandmorty.fandom.com/wiki/Jerryboree",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-44-api",
+      "title": "Jerryboree API record",
+      "url": "https://rickandmortyapi.com/api/location/44",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

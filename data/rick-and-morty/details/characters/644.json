@@ -1,0 +1,27 @@
+{
+  "id": 644,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glorzo Disguise Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glorzo_Disguise_Morty",
+  "text": "Glorzo Disguise Morty is a Paper-type Morty in Pocket Mortys. He was added to the game, after the release of \"Promortyus\". He can't evolve.",
+  "sources": [
+    {
+      "id": "characters-644-wiki",
+      "title": "Glorzo Disguise Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Glorzo_Disguise_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-644-api",
+      "title": "Old Glorzo API record",
+      "url": "https://rickandmortyapi.com/api/character/644",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

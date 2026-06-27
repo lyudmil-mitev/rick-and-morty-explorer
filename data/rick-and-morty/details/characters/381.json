@@ -1,0 +1,27 @@
+{
+  "id": 381,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Woman Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Woman_Rick",
+  "text": "Woman Rick is an inanimate Rick character who appeared in the episode Close Rick-counters of the Rick Kind. She appeared acting as one of the chairs in the fake dimensions. She is in Rick's clothing when Rick and Morty run from the Council of Ricks.",
+  "sources": [
+    {
+      "id": "characters-381-wiki",
+      "title": "Woman Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Woman_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-381-api",
+      "title": "Woman Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/381",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

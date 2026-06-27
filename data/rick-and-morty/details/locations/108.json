@@ -1,0 +1,27 @@
+{
+  "id": 108,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Defiance",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Defiance",
+  "text": "The Defiance is a rebellious group opposing The New Galactic Federation, and was apparently founded and led by Beth Smith. They have launched several attacks on the New Federation in their attempts to stop its growth and eventual takeover of the galaxy.\n\nThe Defiance was founded in response to the rise of the \"New Galactic Federation\": a new version of the old Galactic Federation, which collapsed due to the actions of Rick Sanchez. Beth Smith formed the group with other aliens that wished to oppose the rising federation, and her actions with the group eventually made her the most wanted creature in the galaxy.\n\nBeth led a team of resistance fighters in an assault at a New Galactic Federation outpost. They triggered explosives inside of the main building before escaping to their ship and shooting down all Gromflomite soldiers chasing them. Beth was allowing a single federation soldier to survive in order to spread the word of the Defiance. The bug soldier was, however, unable to remember her name and thereby became useless, resulting in Beth killing him as well. The team returned to their base where their doctor fixed Beth's robotic arm and found an electronic device in her neck. This revelation prompted Beth to leave the Defiance to chase down her father.\n\nIn the episode \"Rickfending Your Mort\", the Defiance is seen again with Birdperson joining in the interim for a mission briefing as he introduces their target Dichotomous Daniel. However, Space Beth is heard farting but she lies out it to the other members and blames it on her chair.\n\nIn \"Valkyrick\", the Defiance is seen arguing about their plans of assassinating the Gromflomite Queen while Space Beth skips the meeting to go to her ship, revealing that someone else has killed her beforehand. After Rick becomes involved in Space Beth's mission and berates the Defiance for her treatment, Space Beth is then fired from their team. Later on, Space Beth is presumably reinstated in the Defiance after saving the galaxy from Fantabulous' plan of transforming Gromflomites into Ultromflomites.\n\nThe Defiance (C-131)",
+  "sources": [
+    {
+      "id": "locations-108-wiki",
+      "title": "The Defiance",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Defiance",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-108-api",
+      "title": "Defiance's Base API record",
+      "url": "https://rickandmortyapi.com/api/location/108",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

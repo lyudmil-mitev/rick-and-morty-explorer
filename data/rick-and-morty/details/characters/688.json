@@ -1,0 +1,27 @@
+{
+  "id": 688,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scarecrow Summer",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scarecrow_Summer",
+  "text": "Scarecrow Summer is a scarecrow version of Summer. She appears in the episode \"Mortyplicity\".\n\nScarecrow Summer is a decoy version of Summer who is seen locked in a cage with the rest of the scarecrow Smith Family. Scarecrow Rick promises to find skin and create pelts for himself and his family to make them \"beautiful again\". Scarecrow Summer is then killed by the Glockenspiel family as they burn their cage.",
+  "sources": [
+    {
+      "id": "characters-688-wiki",
+      "title": "Scarecrow Summer",
+      "url": "https://rickandmorty.fandom.com/wiki/Scarecrow_Summer",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-688-api",
+      "title": "Scarecrow Summer API record",
+      "url": "https://rickandmortyapi.com/api/character/688",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

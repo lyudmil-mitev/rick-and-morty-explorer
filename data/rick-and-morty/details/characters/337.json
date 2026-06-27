@@ -1,0 +1,27 @@
+{
+  "id": 337,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Stu",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Stu",
+  "text": "Stu was a Zigerion scammer working for Prince Nebulon. He was killed in an explosion caused by Rick Sanchez.\n\nHe was on the team of scammers attempting to steal Rick's recipe for concentrated dark matter. They captured Rick and put him in a simulation, inside of a simulation, inside of another simulation. Stu was the Zigerion who discovered Jerry's presence in the simulation and alerted Prince Nebulon. Like the rest of the Zigerions aboard the spacecraft, he was killed when the \"formula\" they believe they scammed from Rick caused a massive explosion and destroyed their entire ship.\n\nWhile he only appeared in the episode briefly, Stu seemed more serious and professional than many of his colleagues. He didn't whine or joke about Rick and Morty's nudity, instead remaining focused on his job.\n\nStu was also intelligent and efficient, being the first to realize a second human is in the simulation and quickly identifying him as Rick's son-in-law by proxy, Jerry Smith.",
+  "sources": [
+    {
+      "id": "characters-337-wiki",
+      "title": "Stu",
+      "url": "https://rickandmorty.fandom.com/wiki/Stu",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-337-api",
+      "title": "Stu API record",
+      "url": "https://rickandmortyapi.com/api/character/337",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

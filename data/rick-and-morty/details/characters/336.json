@@ -1,0 +1,27 @@
+{
+  "id": 336,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Steven Phillips",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Steven_Phillips",
+  "text": "Steven \"Steve\" Phillips is an nippalian who appeared in the episode Auto Erotic Assimilation. He is part of an entire species of aliens that is under the control of Unity.\n\nBefore being put under Unity's control, Steven was a registered sex offender, but after Unity had taken control over him, he became a nice, civilized man who obeys the rules and lives a normal life. Summer and Morty both started protesting against Unity taking away the free will of everyone on the planet and confronted Steven, specifically, trying to get his true self to hear her and set himself free. He eventually did get set free, and when he did, he creepily took a picture of Summer and Morty's feet.",
+  "sources": [
+    {
+      "id": "characters-336-wiki",
+      "title": "Steven Phillips",
+      "url": "https://rickandmorty.fandom.com/wiki/Steven_Phillips",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-336-api",
+      "title": "Steven Phillips API record",
+      "url": "https://rickandmortyapi.com/api/character/336",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

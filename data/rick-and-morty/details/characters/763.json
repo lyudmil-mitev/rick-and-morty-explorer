@@ -1,0 +1,27 @@
+{
+  "id": 763,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Marvin",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Marvin",
+  "text": "is a bartender of a bar that Coop, Mary Lou, Johnson, and many soldiers attend, which may be in Washington, D.C.\n\nIn Rick & Morty's Thanksploitation Spectacular, he first appeared serving Coop before he went off to turn into a turkey. Later, when The President came to the bar to recruit Coop and other soldiers that had been fired by Turkey President, Marvin discriminated against the President. He first pointed to a \"No Presidents\" sign that said a previous president had left $53 unpaid, but after the President explained that he was being impersonated by Turkey President, he admitted he was racist and walked away.\n\nHe cameoed in Fear No Mort at the beginning where he is at the Carnival of Nightmares watching a dunk tank with the man in a suit, who passes him a goblet of some unknown beverage as Rick and Morty appear.\n\nHe is racist, and admitted to it, although several Black soldiers can be seen in his bar with a beer so he may not have refused to serve them as he did with the President.\n\nHe dislikes The President on account of his race, and also out of a dislike for presidents in general. Coop was on a first-name basis with him.",
+  "sources": [
+    {
+      "id": "characters-763-wiki",
+      "title": "Marvin",
+      "url": "https://rickandmorty.fandom.com/wiki/Marvin",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-763-api",
+      "title": "Marvin API record",
+      "url": "https://rickandmortyapi.com/api/character/763",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 279,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Regular Legs",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Regular_Legs",
+  "text": "Regular Legs is a character who appeared in \"Rixty Minutes\".\n\nHe is a detective on a murder mystery TV series in an alternate dimension that features him and his partner, Baby Legs.\n\nBaby Legs and Regular Legs later track a criminal down to his hideout. Baby Legs attempts to chase down the criminal, but is unable to keep up and falls over due to his baby legs. Regular Legs then springs into action and uses his regular-sized legs to catch up with the criminal and arrests him.\n\nAfterwards, Baby Legs accepts Regular Legs as his partner after initially believing he didn't need anyone to help him. Their Chief commends the two of them, then tells them to get the fuck out of there.",
+  "sources": [
+    {
+      "id": "characters-279-wiki",
+      "title": "Regular Legs",
+      "url": "https://rickandmorty.fandom.com/wiki/Regular_Legs",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-279-api",
+      "title": "Regular Legs API record",
+      "url": "https://rickandmortyapi.com/api/character/279",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

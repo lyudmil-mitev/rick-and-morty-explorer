@@ -1,0 +1,27 @@
+{
+  "id": 25,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Menagerie",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Menagerie",
+  "text": "The Menagerie is where Bulbhead houses his collection of alien species. Only the inside of the menagerie was seen in Morty's Mind Blowers.\n\nRick and Morty were captured and imprisoned in Bulbhead's menagerie as specimens of the human race. The collection also consisted of Gazorpians, Klaaxzovians, Pripudlians, Boobloosians, Tumblorkians, Mr. Meeseeks, Boulder People, Traflorkians and more. Using the television in their room, Rick was able to broadcast instructions on construction of a teleportation vehicle to NASA. Two NASA employees arrived in their room, where Rick and Morty offered them their coat and shirt before entering the vehicle and leaving them in the menagerie.",
+  "sources": [
+    {
+      "id": "locations-25-wiki",
+      "title": "The Menagerie",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Menagerie",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-25-api",
+      "title": "The Menagerie API record",
+      "url": "https://rickandmortyapi.com/api/location/25",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

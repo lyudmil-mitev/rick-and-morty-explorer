@@ -1,0 +1,27 @@
+{
+  "id": 278,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Regional Manager Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Regional_Manager_Rick",
+  "text": "Regional Manager Rick, formerly known as Supervisor Rick, is a Rick that appears in the episode \"The Ricklantis Mixup\". He is briefly the regional manager of the Simple Rick’s Wafer Cookie factory before his death at the hands of Rick J-22.\n\nRick was promoted to supervisor, presumably from a position on the factory floor, five years prior to his next promotion to regional manager. He developed a dislike for his employees as well as his job over the years.\n\nOn the day of The Citadel's first presidential election, Rick announces to his employees at the factory that he is being promoted to the position of Regional Manager, and that he's promoting Cool Rick (who only just came to the Citadel) to his previous position as Supervisor Rick. He then proceeds to leave straight afterwards without allowing any questions about his decision. He is later seen watching Candidate Morty's speech when Rick (J-22) walks in and kills him in his chair. Rick (J-22) then realizes that his murder of Regional Manager Rick was witnessed by the other workers (through glass walls) and runs out.",
+  "sources": [
+    {
+      "id": "characters-278-wiki",
+      "title": "Regional Manager Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Regional_Manager_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-278-api",
+      "title": "Regional Manager Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/278",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

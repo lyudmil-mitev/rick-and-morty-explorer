@@ -1,0 +1,27 @@
+{
+  "id": 402,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Bachelor",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Bachelor",
+  "text": "The Bachelor is an American reality television dating game show that debuted on March 25, 2002, on ABC. The show is hosted by Chris Harrison. The Bachelor revolves around a single bachelor who starts with a pool of romantic interests, for whom the bachelor is expected to select a wife.",
+  "sources": [
+    {
+      "id": "characters-402-wiki",
+      "title": "The Bachelor",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Bachelor",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-402-api",
+      "title": "Guy from The Bachelor API record",
+      "url": "https://rickandmortyapi.com/api/character/402",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

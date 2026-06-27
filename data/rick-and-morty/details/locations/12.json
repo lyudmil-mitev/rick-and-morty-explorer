@@ -1,0 +1,27 @@
+{
+  "id": 12,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cronenbergs",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cronenbergs",
+  "text": "Cronenbergs are hideously mutated creatures found in the multiverse. They were formerly the inhabitants of Cronenberg World, but is now the major species on planet Earth in the Prime Dimension. (previously misidentified as Dimension C-137) .\n\nThese genetically-mutated creatures were made accidentally by Rick in the episode \"Rick Potion No. 9\" when he tried to turn the \"Mantis-people\" back into regular Humans. Everyone on Earth became Cronenbergs except for Jerry, Beth, and Summer, due to being closely related to Morty. In another universe, where everyone had previously been Cronenbergs (Cronenberg World), the opposite happened and everyone were accidentally turned into savage Humans by Cronenberg Rick and Morty. They both fled to the Prime Dimension to continue living among Cronenbergs.\n\nIn \"The Rickshank Rickdemption\". it has been shown that Jerry, Beth, and Summer have been subsisting on Cronenberg meat for some time. This indicates that, up until that point, at least a small population of Cronenbergs survived since the date of their mutation.\n\nIn the episode \"Solaricks\", multiple Cronenbergs are seen roaming around in the Prime Dimension as one attacks Morty when he is sent back into his original dimension after Jerry Smith Prime hunts and cooks it. Another one is later seen attacking Morty as the latter runs away from it.\n\nIn the \"Rick and Morty Issue 45\", Cronenberg Morty explains to Summer that the Cronenbergs of the Prime Dimension are just savage creatures, whereas the Cronenbergs of Cronenberg World were civilized and more like humans.\n\nIn the \"Rick and Morty: Rick's New Hat\" comic series, some Cronenergs shown as sentient creatures. They survived together with Mr. Poopybutthole Prime and looked for a place to live.",
+  "sources": [
+    {
+      "id": "locations-12-wiki",
+      "title": "Cronenbergs",
+      "url": "https://rickandmorty.fandom.com/wiki/Cronenbergs",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-12-api",
+      "title": "Cronenberg Earth API record",
+      "url": "https://rickandmortyapi.com/api/location/12",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 27,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Crustula",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Crustula",
+  "text": "Crustula is a planet that appeared in the episode \"Close Rick-Counters of the Rick Kind\".\n\nEvil Rick and Evil Morty built a secret hideout/torture chamber on this planet, where they held thousands of kidnapped Mortys and tortured them in order to create \"Morty waves\" to camouflage their own brain waves. Rick Sanchez, after being framed for their murders and escaping the Council of Ricks, tracked them down to this planet and defeated Evil Rick with the help of Morty Smith.",
+  "sources": [
+    {
+      "id": "locations-27-wiki",
+      "title": "Crustula",
+      "url": "https://rickandmorty.fandom.com/wiki/Crustula",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-27-api",
+      "title": "Hideout Planet API record",
+      "url": "https://rickandmortyapi.com/api/location/27",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

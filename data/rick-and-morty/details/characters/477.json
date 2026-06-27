@@ -1,0 +1,27 @@
+{
+  "id": 477,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fancy Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fancy_Rick",
+  "text": "was a Rick working as a hairdresser at his own salon, \"Rick Salon\", at The Citadel. He worked to create a creature by mixing Rick and Morty DNA, but was killed by Rick Sanchez before he could finish it.\n\n opened a hair salon at the Citadel in order to collect hair from Ricks and Mortys for his experiments. He also employed a Morty, Bald Morty, to work for him and help collect customers' hair. One day they were visited by a pair of Rick and Morty, whom they serviced like usual until the Morty's phone accidentally dropped out of his pocket. Bald Morty secretly grabbed the phone and disappeared into the backroom, which the Morty customer mentioned to . He walked into the backroom and caught Bald Morty playing with the stolen phone and naming their secret experiment \"Barbara Streisand\". Tired of Bald Morty disobeying him, allowed the experiment to pull Bald Morty into its tank and dissolve the Morty into itself.\n\nAt some point later, was arrested for illegally cutting a Morty's hair without his permission. He argued in court that Morty hair was necessary for his experiments, at which point the accusing Rick realized what needed the hair for. threw his scissors in the Rick's face and escaped through a portal back to his backroom, where his experiment still resided. He was followed by the Morty he had attempted to shave and revealed what his experiment was, but was cut short when the Rick from the court room reemerged through a portal above him with a huge pair of scissors to impale . He died on the spot and bled out on the floor while the Rick and Morty released the experiment into the ocean.",
+  "sources": [
+    {
+      "id": "characters-477-wiki",
+      "title": "Fancy Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Fancy_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-477-api",
+      "title": "Hairdresser Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/477",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

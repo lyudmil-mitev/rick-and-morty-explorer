@@ -1,0 +1,27 @@
+{
+  "id": 250,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mrs. Sullivan",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mrs._Sullivan",
+  "text": "Mrs. Sullivan is a fictional character in Dimension C-500A. She is the central character of a film franchise, in which her dead body is played for comedy. She appeared in \"Rixty Minutes\".\n\nMrs. Sullivan is the main character in Last Will and Testimeow: Weekend at Dead Cat Lady's House II which was written and directed by the Jerry Smith of Dimension C-500A. Mrs. Sullivan is a single old lady who lives with a bunch of cats. She dies early in the movie, after which her cats control her like a puppet and pretend she is still alive in order to create her will and inherit her estate, even engaging in a relationship with her attorney.\n\nIn the third film installment, her body is transported by her cats through a desert four thousand years in the future.",
+  "sources": [
+    {
+      "id": "characters-250-wiki",
+      "title": "Mrs. Sullivan",
+      "url": "https://rickandmorty.fandom.com/wiki/Mrs._Sullivan",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-250-api",
+      "title": "Mrs. Sullivan API record",
+      "url": "https://rickandmortyapi.com/api/character/250",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

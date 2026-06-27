@@ -1,0 +1,27 @@
+{
+  "id": 260,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Phillip Jacobs",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Phillip_Jacobs",
+  "text": "Phillip Jacobs is the host of Personal Space, an interdimensional cable show watched by Rick, Morty, and Summer at St. Gloopy Noops Hospital.\n\nWhen Rick changes the channel on the hospital TV to the Personal Space show, Phillip Jacobs is welcoming back the audience. He seems very paranoid and jumpy about anyone who might be around him, then turns back to the show. He guides the audience over to a slideshow where he presents the key points of personal space (personal space, personal space, stay out of my personal space, keep away from my personal space, get out of that personal space, stay away from my personal space, keep away from dat personal space, personal space and personal space)\n\nHe states that he is so passionate about personal space, that he isn't even interested in having skin of himself. He then proceeds to rip his own skin off his body, until he is stood bloody and nothing but muscle. He then ends the show, telling the audience to tune in next week.",
+  "sources": [
+    {
+      "id": "characters-260-wiki",
+      "title": "Phillip Jacobs",
+      "url": "https://rickandmorty.fandom.com/wiki/Phillip_Jacobs",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-260-api",
+      "title": "Phillip Jacobs API record",
+      "url": "https://rickandmortyapi.com/api/character/260",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

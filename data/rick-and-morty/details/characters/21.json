@@ -1,0 +1,27 @@
+{
+  "id": 21,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Aqua Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Aqua_Morty",
+  "text": "Aqua Morty is an alternate version of Morty Smith who often would be at The Citadel with his Rick.\n\n came to The Citadel with his Rick at the same time as the trial of Rick C-137, and watched them be escorted to the council chambers before joining the audience for the trial. He also watched as C-137 Rick and Morty escaped from the Citadel.\n\nHe was again at The Citadel when Morty and Summer were escorted to the Council to inform them of the capture of their Rick. Soon after, the Citadel was teleported into a Galactic Federation Prison and fighting broke out. It's unknown if survived this event.",
+  "sources": [
+    {
+      "id": "characters-21-wiki",
+      "title": "Aqua Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Aqua_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-21-api",
+      "title": "Aqua Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/21",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

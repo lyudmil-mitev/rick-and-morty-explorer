@@ -1,0 +1,27 @@
+{
+  "id": 270,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Prince Nebulon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Prince_Nebulon",
+  "text": "Prince Nebulon was the leader of the Zigerions in Rick and Morty. He appears as the main antagonist in M. Night Shaym-Aliens!. He has a long-standing grudge against Rick Sanchez and is committed to stealing the recipe for Concentrated Dark Matter from him. He is apparently concerned with the discoloration of his butthole flaps.",
+  "sources": [
+    {
+      "id": "characters-270-wiki",
+      "title": "Prince Nebulon",
+      "url": "https://rickandmorty.fandom.com/wiki/Prince_Nebulon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-270-api",
+      "title": "Prince Nebulon API record",
+      "url": "https://rickandmortyapi.com/api/character/270",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

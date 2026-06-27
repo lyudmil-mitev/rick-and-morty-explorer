@@ -1,0 +1,27 @@
+{
+  "id": 312,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Schlami",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Schlami",
+  "text": "The Schlami is a species of alien creatures from another dimension. It appeared in the episode \"Interdimensional Cable 2: Tempting Fate\". Little is known about their species, except for the fact that one of them works in a factory for making Plumbuses. Their job consists of rubbing the dinglebop and then spitting on it, after it has been pushed through the grumbo.",
+  "sources": [
+    {
+      "id": "characters-312-wiki",
+      "title": "Schlami",
+      "url": "https://rickandmorty.fandom.com/wiki/Schlami",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-312-api",
+      "title": "Shlaammi API record",
+      "url": "https://rickandmortyapi.com/api/character/312",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

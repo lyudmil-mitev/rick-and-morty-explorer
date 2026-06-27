@@ -1,0 +1,27 @@
+{
+  "id": 63,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Centaur",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Centaur",
+  "text": "The Centaur is a mythological creature that is half man half horse. It appeared in the episode Lawnmower Dog. He was inside of Mrs. Pancakes' dream, which was inside of Mr. Goldenfold's dream and Rick and Morty later intercepted his dream. He is one of the guards at the S&M chamber.\n\nHe seems to resemble Hanzo from Overwatch.\n\nru:Кентавр",
+  "sources": [
+    {
+      "id": "characters-63-wiki",
+      "title": "Centaur",
+      "url": "https://rickandmorty.fandom.com/wiki/Centaur",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-63-api",
+      "title": "Centaur API record",
+      "url": "https://rickandmortyapi.com/api/character/63",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

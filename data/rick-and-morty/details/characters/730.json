@@ -1,0 +1,27 @@
+{
+  "id": 730,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Poñeta",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Po%C3%B1eta",
+  "text": "Princess Poñeta is the daughter of the King of the CHUD's, and the mother of Rick Sanchez's unnamed Foal. She rescues Rick and Morty from execution and creates peace between Humans and CHUD's when she reveals that she is pregnant with Rick's foal. She later gives birth to a blue-maned, half-human foal that shares characteristics with Rick. This foal quickly digs into the earth, and Poñeta states that CHUD foals are \"...ready to go, right out of the box\". After this Rick and Poñeta part ways and she follows the foal into the ground.\n\nShe is voiced by Christina Ricci.",
+  "sources": [
+    {
+      "id": "characters-730-wiki",
+      "title": "Poñeta",
+      "url": "https://rickandmorty.fandom.com/wiki/Po%C3%B1eta",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-730-api",
+      "title": "Princess Ponietta API record",
+      "url": "https://rickandmortyapi.com/api/character/730",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

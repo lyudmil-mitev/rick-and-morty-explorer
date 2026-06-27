@@ -1,0 +1,27 @@
+{
+  "id": 409,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mr. Sneezy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mr._Sneezy",
+  "text": "Mr. Sneezy is a character who appeared in \"Rixty Minutes\". He is a guy from an alternate dimension. He is a short guy from a commercial where they advertised a car, the \"Sneezy XL\", that made sneeze noises when you honked the horn, and could drive over rocks and through water.",
+  "sources": [
+    {
+      "id": "characters-409-wiki",
+      "title": "Mr. Sneezy",
+      "url": "https://rickandmorty.fandom.com/wiki/Mr._Sneezy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-409-api",
+      "title": "Mr. Sneezy API record",
+      "url": "https://rickandmortyapi.com/api/character/409",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

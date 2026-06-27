@@ -1,0 +1,27 @@
+{
+  "id": 119,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Christina LaCroix (C-131)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Christina_LaCroix_(C-131)",
+  "text": "Christina LaCroix is a very popular girl at Harry Herpson High School in the Dimension C-131.",
+  "sources": [
+    {
+      "id": "locations-119-wiki",
+      "title": "Christina LaCroix (C-131)",
+      "url": "https://rickandmorty.fandom.com/wiki/Christina_LaCroix_(C-131)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-119-api",
+      "title": "France API record",
+      "url": "https://rickandmortyapi.com/api/location/119",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 735,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick's Foal",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick's_Foal",
+  "text": "Rick's foal is an chud-human hybrid offspring of Rick Sanchez and Princess Poñeta.",
+  "sources": [
+    {
+      "id": "characters-735-wiki",
+      "title": "Rick's Foal",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick's_Foal",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-735-api",
+      "title": "Foal Sanchez API record",
+      "url": "https://rickandmortyapi.com/api/character/735",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

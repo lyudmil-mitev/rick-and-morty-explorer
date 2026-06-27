@@ -1,0 +1,27 @@
+{
+  "id": 276,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Tough Rat",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Tough_Rat",
+  "text": "Tough Rat is a character who appears in Pickle Rick. When Rick turns himself into a pickle and is flushed in sewer he is attacked by group of rats. Tough Rat is the strongest and the most distinctive rat. As such, Rick kills Tough Rat last. He states that Tough Rat was only special to the rats but means nothing to him so he won't give it any name, such as \"Stripes\" or \"Scar\" or \"Goliath\".",
+  "sources": [
+    {
+      "id": "characters-276-wiki",
+      "title": "Tough Rat",
+      "url": "https://rickandmorty.fandom.com/wiki/Tough_Rat",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-276-api",
+      "title": "Rat Boss API record",
+      "url": "https://rickandmortyapi.com/api/character/276",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

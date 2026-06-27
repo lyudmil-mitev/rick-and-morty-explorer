@@ -1,0 +1,27 @@
+{
+  "id": 268,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Poncho",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Poncho",
+  "text": "Poncho was a character in Rick and Morty. He appears as a bodyguard and the main antagonist in the episode \"Anatomy Park.\" Poncho was a hired gun for Dr. Xenon Bloom to provide security for Anatomy Park.\n\nHe originally approaches Morty with disdain, but later compliments the boy's ability to think on his feet. It is later revealed that Poncho was responsible for the outbreak of diseases, when Morty discovers Poncho carrying around the Bubonic Plague.\n\nPoncho reveals that he'd perform any job over working for Dr. Xenon Bloom, who gave him horrible employee benefits. When the safety of Annie is threatened, Morty throws himself at Poncho. The Bubonic plague then turns on Poncho, who falls from a high balcony.",
+  "sources": [
+    {
+      "id": "characters-268-wiki",
+      "title": "Poncho",
+      "url": "https://rickandmorty.fandom.com/wiki/Poncho",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-268-api",
+      "title": "Poncho API record",
+      "url": "https://rickandmortyapi.com/api/character/268",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

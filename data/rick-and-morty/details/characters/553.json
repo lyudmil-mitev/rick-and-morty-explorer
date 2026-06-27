@@ -1,0 +1,27 @@
+{
+  "id": 553,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Shape Shiftress",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Shape_Shiftress",
+  "text": "The Shape Shiftress is a member of Miles Knightly's heist crew who appears in the episode \"One Crew Over the Crewcoo's Morty\".\n\nThe Shape Shiftress is first seen as apart of Miles Knightly’s crew in stealing the Crystal Skull of Horwitz. However, Rick reveals that he built a robot named Heistotron and hypnotizes her with the other crew members to give him and Morty the crystal instead.",
+  "sources": [
+    {
+      "id": "characters-553-wiki",
+      "title": "The Shape Shiftress",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Shape_Shiftress",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-553-api",
+      "title": "The Shapeshiftress API record",
+      "url": "https://rickandmortyapi.com/api/character/553",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

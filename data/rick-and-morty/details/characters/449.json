@@ -1,0 +1,27 @@
+{
+  "id": 449,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick: A Mort Well Lived/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick%3A_A_Mort_Well_Lived%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-449-wiki",
+      "title": "Rick: A Mort Well Lived/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick%3A_A_Mort_Well_Lived%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-449-api",
+      "title": "Roy's Mum API record",
+      "url": "https://rickandmortyapi.com/api/character/449",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

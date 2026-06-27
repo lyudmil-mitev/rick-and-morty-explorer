@@ -1,0 +1,27 @@
+{
+  "id": 194,
+  "status": "contextual_source",
+  "textType": "description",
+  "wikiTitle": "Kozbians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Kozbians",
+  "text": "Kozbians are octopus-like tentacled aliens in Rick and Morty. This contextual species page supports the API record type and appearance context, but does not identify this record as a distinct named individual.",
+  "sources": [
+    {
+      "id": "characters-194-api",
+      "title": "Kozbian API record",
+      "url": "https://rickandmortyapi.com/api/character/194",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "characters-194-wiki-context",
+      "title": "Kozbians",
+      "url": "https://rickandmorty.fandom.com/wiki/Kozbians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "No individual character page found; use Kozbians species page as contextual source."
+}

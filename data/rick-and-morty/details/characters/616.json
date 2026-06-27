@@ -1,0 +1,27 @@
+{
+  "id": 616,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Interdimensional Cable",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Interdimensional_Cable",
+  "text": "The Interdimensional Cable is a cable box invented by Rick that gives access to television shows across every dimension.",
+  "sources": [
+    {
+      "id": "characters-616-wiki",
+      "title": "Interdimensional Cable",
+      "url": "https://rickandmorty.fandom.com/wiki/Interdimensional_Cable",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-616-api",
+      "title": "Phantom of the Opera Fan API record",
+      "url": "https://rickandmortyapi.com/api/character/616",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

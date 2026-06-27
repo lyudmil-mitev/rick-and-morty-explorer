@@ -1,0 +1,27 @@
+{
+  "id": 470,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rest and Ricklaxation/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rest_and_Ricklaxation%2FTranscript",
+  "text": "",
+  "sources": [
+    {
+      "id": "characters-470-wiki",
+      "title": "Rest and Ricklaxation/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Rest_and_Ricklaxation%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-470-api",
+      "title": "Alien Spa Employee API record",
+      "url": "https://rickandmortyapi.com/api/character/470",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

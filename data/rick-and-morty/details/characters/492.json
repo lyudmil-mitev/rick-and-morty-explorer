@@ -1,0 +1,27 @@
+{
+  "id": 492,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Varrix",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Varrix",
+  "text": "The Varrix are a species of light-skinned Humanoid aliens. They infest planets by disguising themselves as a planet's native species and nesting in caves. Their nests are spread across 300 galaxies, and they are the primary hunting target of Krootabulans.",
+  "sources": [
+    {
+      "id": "characters-492-wiki",
+      "title": "Varrix",
+      "url": "https://rickandmorty.fandom.com/wiki/Varrix",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-492-api",
+      "title": "Varrix API record",
+      "url": "https://rickandmortyapi.com/api/character/492",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 74,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cop Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cop_Rick",
+  "text": "Cop Rick is an alternate version of Rick Sanchez who first appeared in the episode, \"The Ricklantis Mixup\". He is a police officer of The Citadel, and was the former partner of Cop Morty before killing him in the nightclub The Creepy Morty in Mortytown.\n\nAfter graduating, Cop Rick was assigned to patrol Mortytown with Cop Morty, arresting the Mortytown Locos for robbing a convenience store. After being stabbed by the fourth Loco, who played on his sympathy, Rick went to heal himself, allowing Cop Morty to destroy their hideout and kill the criminals.\n\nThough horrified by what he'd seen, Rick followed Morty into The Creepy Morty where Big Morty offered them a bribe. Unable to stay silent, Cop Rick placed Big Morty under arrest, sparking a firefight that ended with Big Morty being shot by Cop Morty whom Cop Rick then killed. Stepping outside, Cop Rick surrendered himself to the reinforcements for all the deaths.\n\nWhile willing to accept his punishment, Cop Rick was freed thanks to Evil Morty, now the President of the Citadel, changing the rules, later affixing his new badge.\n\nCop Rick is shown to be a rarity among Ricks, in that he actually has a sense of honor and responsibility. He upholds a strong sense of justice, and takes his job seriously, following codes of regulation and various protocols, going as far as to call out Cop Morty, who was his senior partner, on his dishonest code violations.\n\nAlthough initially sharing the ideas of mistreating Mortys as other Ricks, Cop Rick is thrown off by the sheer tenacity of Cop Morty and is left horrified by his actions against other Mortys in Mortytown, apparently leading him to \"go soft.\" This behavior causes him to let his guard down and literally get stabbed in the back by another Morty.",
+  "sources": [
+    {
+      "id": "characters-74-wiki",
+      "title": "Cop Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Cop_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-74-api",
+      "title": "Cop Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/74",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

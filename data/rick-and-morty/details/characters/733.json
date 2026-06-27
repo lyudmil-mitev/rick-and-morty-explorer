@@ -1,0 +1,27 @@
+{
+  "id": 733,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Kathy Ireland",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Kathy_Ireland",
+  "text": "The original Kathy Ireland presumably became a Cronenberg in the Cronenberged dimension.\n\nKathy Ireland is Blazen's wife and a swimsuit model for Sports Illustrated. She asks Morty if Blazen was wearing her thong but she states that Blazen probably told Morty not to tell her. However, she says she hopes Blazen was wearing her thong because even though he was ashamed of it, people should always be honest. Morty tells her that Blazen was wearing her thong to which Kathy Ireland calls him a \"gross animal pig.\"",
+  "sources": [
+    {
+      "id": "characters-733-wiki",
+      "title": "Kathy Ireland",
+      "url": "https://rickandmorty.fandom.com/wiki/Kathy_Ireland",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-733-api",
+      "title": "Kathy Ireland API record",
+      "url": "https://rickandmortyapi.com/api/character/733",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 546,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Angie Flint",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Angie_Flint",
+  "text": "is an ex-con that currently works with picking ticks off of pigs. She was briefly in Sanchez's Five before recruited into Knightly's Eight.\n\nAngie Flint met Rick Sanchez at one point before she had arms modified to be able to build in ion engine, and spent time in jail. After release, she had trouble finding a job due to her fake arms and jail time, but found work in picking ticks off pigs in a jungle. Rick recruited her to join his heist crew, along with Glar and Truckula, which Rick put together in order to enter Heist-Con for free. Rick ditched them once they were inside, where Angie and the others got recruited by Miles Knightly into his own Knightly's Eight and sent them to heist the Crystal Skull of Horowitz. On their way out, Heistotron shot them with darts and had them perform the heist for Rick instead. Angie cut through the glass containing the crystal skull and escaped on Truckula's truck. They handed the skull to Rick just before the main show, who handed them a bag of shit to give to Miles on stage later.",
+  "sources": [
+    {
+      "id": "characters-546-wiki",
+      "title": "Angie Flint",
+      "url": "https://rickandmorty.fandom.com/wiki/Angie_Flint",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-546-api",
+      "title": "Angie Flint API record",
+      "url": "https://rickandmortyapi.com/api/character/546",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

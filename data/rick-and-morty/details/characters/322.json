@@ -1,0 +1,27 @@
+{
+  "id": 322,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Simple Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Simple_Rick",
+  "text": "Simple Rick was a Rick that appears in the episode The Ricklantis Mixup. It is likely he was kidnapped or forced into his servitude by Rick D. Sanchez III prior to the events of The Ricklantis Mixup.\n\nSimple Rick appears in the Simple Rick's Wafers ad which discloses how the Simple Rick's Wafers are made. He was originally from earth, but 60 iterations off the Central Finite Curve, meaning Simple Rick is genetically identical to other Ricks but had somewhat different ambitions. It is revealed that he was contained in a room, strapped to a chair, and wore a helmet that forces him to relive the same happy memory of little Beth’s third birthday over and over again. The brain chemicals that are produced by his happiness were liquified by a machine attached to his helmet and was made into the primary ingredient for Simple Rick's wafers. He appears again later after Rick J-22 killed The Regional Manager Rick. As Rick J-22 was later cornered in the flavor core, he was J-22’s only hostage. After Rick J-22's demands of a portal gun was met, he attempted to rescue Simple Rick with it by firing a supposed portal to freedom and pushed him in. Unfortunately, the portal gun was actually hacked as its coordinates were locked on to the Blender Dimension, and Simple Rick was torn into shreds within seconds.\n\nAs seen through one of his memories, Simple Rick enjoyed a vastly different lifestyle from other Ricks as he was a loving father, without any apparent selfishness or interest in hard science and inter-dimensional travel as he is said to enjoy working more with wood than polarity plating alluding to the narrator possibly indicating he never sought portal tech to any degree. At some point he built a toy out of wood in his garage and gave it to little Beth as her birthday present, to which she joyfully exclaimed I love Daddy! causing Simple Rick to cry tears of joy.",
+  "sources": [
+    {
+      "id": "characters-322-wiki",
+      "title": "Simple Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Simple_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-322-api",
+      "title": "Simple Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/322",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

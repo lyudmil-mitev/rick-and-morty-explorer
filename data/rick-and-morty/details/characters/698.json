@@ -1,0 +1,27 @@
+{
+  "id": 698,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Last Temptation of Jerry",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Last_Temptation_of_Jerry",
+  "text": "\"The Last Temptation of Jerry\" is the fourth episode of the eigth season of Rick and Morty. It is the 75th episode of the series overall. It premieres on June 15, 2025. It was written by Heather Anne Campbell and directed by Douglas Einar Olsen. This episode is rated TV-MA-LSV.",
+  "sources": [
+    {
+      "id": "characters-698-wiki",
+      "title": "The Last Temptation of Jerry",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Last_Temptation_of_Jerry",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-698-api",
+      "title": "Wicker Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/698",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

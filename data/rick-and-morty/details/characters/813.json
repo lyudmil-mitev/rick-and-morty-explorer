@@ -1,0 +1,27 @@
+{
+  "id": 813,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Crow Horse",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Crow_Horse",
+  "text": "Crow Horse is a crow-horse hybrid robot that Rick formerly used to travel with Two Crows on their adventures. It appears in the episode \"Rickmurai Jack\".\n\nIn the episode \"Rickmurai Jack\", Crow Horse is first seen when it is summoned by Rick to travel away with Two Crows from Morty and go on another adventure after the latter wants him to come back home. It is later seen with Rick traveling to a bar and across many different landscapes.\n\nAfter Rick finds out that Two Crows used him as a rebound for Crowscare, Rick travels back to the Smith Residence with Crow Horse as he sets it free and runs off as a giant explosion and people screaming are heard due to Crow Horse's apparent destruction.",
+  "sources": [
+    {
+      "id": "characters-813-wiki",
+      "title": "Crow Horse",
+      "url": "https://rickandmorty.fandom.com/wiki/Crow_Horse",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-813-api",
+      "title": "Crow Horse API record",
+      "url": "https://rickandmortyapi.com/api/character/813",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 235,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mortytown Locos",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mortytown_Locos",
+  "text": "The Mortytown Locos were three alternative versions of Morty that were a gang who operated in the Mortytown district of the The Citadel. They were all disintegrated by Cop Morty, along with their hideout.",
+  "sources": [
+    {
+      "id": "characters-235-wiki",
+      "title": "Mortytown Locos",
+      "url": "https://rickandmorty.fandom.com/wiki/Mortytown_Locos",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-235-api",
+      "title": "Mortytown Loco API record",
+      "url": "https://rickandmortyapi.com/api/character/235",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

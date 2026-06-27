@@ -1,0 +1,27 @@
+{
+  "id": 120,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Senthol Diempathate",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Senthol_Diempathate",
+  "text": "Senthol Diempathate is an illicit, psychoactive, and mind-altering substance of unknown origin, whose name loosely translates to \"synthetic empathy.\" It was first referenced in season 5, episode 8, \"Rickternal Friendship of the Spotless Mort.\" The episodes premise was a memory \"flashback\" where Rick and Memory Rick attempt to save Birdperson s conscious mind, so he can awaken from a coma. Various individuals, including Memory Rick and Memory Bird Person, are seen partaking in it's effects during an alien music festival.\n\nMemory Rick is initially approached by Birdperson where he inquires about the \"freely distributed, grossly illegal, Federation hallucinogen,\" which was rumored as to being openly shared amongst the crowd. This prompts Memory Rick to admit that he \"didn't pay for it\", and therefore doesn't know how much to charge in exchange for each hit. The past version of Rick is then seen offering some to Birdperson where they subsequently introduce themselves.\n\nThe effects of this drug on the user are unclear, however its names suggests that it induces a state of commutal understanding of its users emotions. Later in the episode when Rick and Birdperson are reminiscing the occurrence of their first meeting, Birdperson excitedly recalls the event as being \"A great time,\" which points to its effects being euphoria and an uplifting psychological state. The smoke itself gives off a neon fuchsia glow and is accompanied by a high-pitched cosmic chime when exhaled. The visual representation of senthol diempathate is shown in the episode as being in a semi-gaseous form and depicted as emanating from a small vivid reddish-pink \"creature\" or sprite contained within a sealed vessel.\n\nIt appears that Rick (even before experiencing complications with the Best Friend Rejuvenation Sequence) had some amount of the substance in glass containers hidden in a secret compartment behind his corkboard in the garage. It is unknown whether he had previously been using it for recreational purposes, or if he had recently acquired it specifically as a contingency method of restoring Birdperson's fleeting consciousness, should any problems had arisen. This method allowed Rick to get his bearings in Birdperson's mind by triggering a state-dependent memory retrieval with the added benefit of simultaneously providing an exit route to a shared memory to later egress back into the real world.",
+  "sources": [
+    {
+      "id": "locations-120-wiki",
+      "title": "Senthol Diempathate",
+      "url": "https://rickandmorty.fandom.com/wiki/Senthol_Diempathate",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-120-api",
+      "title": "Birdperson's Consciousness API record",
+      "url": "https://rickandmortyapi.com/api/location/120",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

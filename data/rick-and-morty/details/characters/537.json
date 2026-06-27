@@ -1,0 +1,27 @@
+{
+  "id": 537,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Maggie",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Maggie",
+  "text": "The original Maggie presumably became a Cronenberg in the Cronenberged dimension.\n\nMaggie is a wedding bride, who fell victim to the Lovefinderrz app. Due to the app, she was briefly paired up with Jeff and was about to marry him, until she was redirected to Running Bird.",
+  "sources": [
+    {
+      "id": "characters-537-wiki",
+      "title": "Maggie",
+      "url": "https://rickandmorty.fandom.com/wiki/Maggie",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-537-api",
+      "title": "Maggie API record",
+      "url": "https://rickandmortyapi.com/api/character/537",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

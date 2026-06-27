@@ -1,0 +1,27 @@
+{
+  "id": 131,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gar Gloonch",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gar_Gloonch",
+  "text": "Gar Gloonch was a Zombodian that appeared in the episode Big Trouble In Little Sanchez.\n\nHe and his wife, Zarbadar were having marital issues and went to Nuptia 4, for counseling. They went through the procedure of physically manifesting their partner's mytholog, which were imprisoned for later use. Unfortunately for them their attempt to repair their marriage unexpectedly ended in disaster when the mythologues of Beth and Jerry Smith broke out of their cells and went on a murderous rampage, killing Gar and Zarbadar in the process.",
+  "sources": [
+    {
+      "id": "characters-131-wiki",
+      "title": "Gar Gloonch",
+      "url": "https://rickandmorty.fandom.com/wiki/Gar_Gloonch",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-131-api",
+      "title": "Gar Gloonch API record",
+      "url": "https://rickandmortyapi.com/api/character/131",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

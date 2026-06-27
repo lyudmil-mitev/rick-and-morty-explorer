@@ -1,0 +1,27 @@
+{
+  "id": 366,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Trunk Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Trunk_Morty",
+  "text": "Trunk Morty is a Trunk person-version of Morty Smith. He is briefly seen in a hospital in \"The Ricklantis Mixup\".\n\nTrunk Morty is shown on the CN news coverage of President Morty's visit to a hospital on the Citadel and greeting injured Mortys. Trunk Morty is hospitalized with a damaged arm, held in a sling. He shakes hands with President Morty, which greatly improves on his mood. He shares a room with Crystallized Morty, who also was greeted by President Morty on his visit.",
+  "sources": [
+    {
+      "id": "characters-366-wiki",
+      "title": "Trunk Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Trunk_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-366-api",
+      "title": "Trunk Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/366",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 360,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Toxic Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Toxic_Morty",
+  "text": "Toxic Morty, also known as Gunk Morty , was an extracted manifestation of what Morty Smith considered to be all his \"toxic\" attributes at the time of Rest and Ricklaxation, the counter part of Healthy Morty.\n\nToxic Morty first appears when Rick and Morty visit an intergalactic day spa and go through a machine that \"removes cognitive toxins,\" according to the alien at the spa. Toxic Morty, along with Toxic Rick, awaken within the toxin tank of the machine, which appears to them as a toxic wasteland. Toxic Rick is able to utilize the scarce resources inside the tank to contact Healthy Rick, who eventually releases both Toxic Rick and Toxic Morty. Toxic Morty aids in Toxic Rick's escape from the Smith Residence and subsequent scheme to \"toxify the whole world.\"\n\nTo put a stop to Toxic Rick's over-the-top villainy, Healthy Rick shoots Toxic Morty with a slow-kill device, soliciting an emotional response from Toxic Rick's \"irrational attachments,\" ultimately forcing Toxic Rick to merge with himself to save Morty. Healthy Morty, however, flees as soon as Rick is one again. Rick manages to track Healthy Morty down three weeks later, and injected Toxic Morty's essence into Healthy Morty, thereby reverting Morty to his normal personality.\n\nHe is the embodiment of all qualities Morty deems negative. Toxic Morty was fearful and self-depreciating, as well as entirely submissive to Toxic Rick. While it was never explicitly shown, (likely due to him playing only a sidekick's role in Toxic Rick's plans) Toxic Morty is implied to have been very conscientious and moral, since these qualities were explicitly absent in Healthy Morty, who at one point ordered Healthy Rick to kill Toxic Rick. This means that Morty views his conscience as a negative or perhaps limiting quality.",
+  "sources": [
+    {
+      "id": "characters-360-wiki",
+      "title": "Toxic Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Toxic_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-360-api",
+      "title": "Toxic Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/360",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 102,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Alien Gangsters",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Alien_Gangsters",
+  "text": "The unnamed Alien Gangsters are a group of intergalactic dealers who appears in the episode \"The Vat of Acid Episode\".",
+  "sources": [
+    {
+      "id": "locations-102-wiki",
+      "title": "Alien Gangsters",
+      "url": "https://rickandmorty.fandom.com/wiki/Alien_Gangsters",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-102-api",
+      "title": "Alien Acid Plant API record",
+      "url": "https://rickandmortyapi.com/api/location/102",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

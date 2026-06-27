@@ -1,0 +1,27 @@
+{
+  "id": 252,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Noob-Noob",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Noob-Noob",
+  "text": "Noob-Noob is a small masked character who made his first appearance in Vindicators 3: The Return of Worldender. He is the underappreciated intern of the Vindicators, and most of his tasks are janitor work. \n\nNoob-Noob appears to be ready to graduate to a full Vindicator, but is forced to remain behind after Rick gets drunk, passes out, and defecates all over the ship's holo-table. Nevertheless, he seems to be the only member of the Vindicators that enjoys Rick's humor, and as Rick later reveals to Morty (while drunk), Noob-Noob is the only one that Rick values, even more than Morty, to which Morty replies with \"Motherf***er.\" At the end of the episode, Logic raps about how underappreciated Noob-Noob is, although Rick doesn't remember him.",
+  "sources": [
+    {
+      "id": "characters-252-wiki",
+      "title": "Noob-Noob",
+      "url": "https://rickandmorty.fandom.com/wiki/Noob-Noob",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-252-api",
+      "title": "Noob-Noob API record",
+      "url": "https://rickandmortyapi.com/api/character/252",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

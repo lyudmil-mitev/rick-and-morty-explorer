@@ -1,0 +1,27 @@
+{
+  "id": 526,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Danny Publitz",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Danny_Publitz",
+  "text": "{{Character\n|image =\n|name =\n|species = Human\n|status = Alive\n|job = Works at Jersey Mike's Subs\n|relationships = Summer Smith (ex-lover)\n|origin = Earth (Dimension C-131)\n|first = The Old Man and the Seat\n|voice actor = Dustin Ybarra\n}}\nDanny Publitz was the first guy Summer Smith met through Lovefinderrz. She left him later that same day to go find her new match.\n\nDanny matched with Summer Smith shortly after they both dowloaded the dating app. He immediately ran to find her, tripping over a fire hydrant and fell down on the ground, but kept going and found her at the mall. The two kissed in front of Beth Smith, whom they ignored, and ran off to get a motel room. They only managed to get the room key before Beth caught up with them, who was intent on stopping them from sharing the room for the night. Her plan did not work, however, and the two had sex with Beth in the next room. Danny fell asleep right after, allowing Summer to sneak out and find her new match.\n\nDanny works at a Jersey Mike's Sub and likes to boast about seeing twenty-five Phish concerts every year. He also snores when he sleeps, much to the annoyance of Summer when they were briefly together.",
+  "sources": [
+    {
+      "id": "characters-526-wiki",
+      "title": "Danny Publitz",
+      "url": "https://rickandmorty.fandom.com/wiki/Danny_Publitz",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-526-api",
+      "title": "Danny Publitz API record",
+      "url": "https://rickandmortyapi.com/api/character/526",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

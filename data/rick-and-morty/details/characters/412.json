@@ -1,0 +1,27 @@
+{
+  "id": 412,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cat Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cat_Rick",
+  "text": "Cat Rick Sanchez is an alternative version of Rick from a dimension where humans are cat-people, he appeared briefly in the background in Rick and Morty Issue 22, he is the father of Cat Beth, and the maternal grandfather of Cat Morty. He is a member of the Citadel's militia.\n\nCat Rick was sent with a group of other Ricks by the Council of Ricks to apprehend Doofus Jerry after he beat up Rick Sanchez. This caused Doofus Jerry to wonder about how many other dimensions before Cat Rick and another Rick hauled him through their portal.\n\nAt the Citadel of Ricks, Cat Rick found it amusing when another Rick told them about the last time a Jerry walked into the Genetic Restructurer and came out with two butts. This amusement was short lasted when Doofus Jerry exited the Genetic Restructurer and had altered his pheromones to be particularly poisonous to Ricks, killing a lot of the Ricks in the courtroom, Cat Rick fortunately survives, and returns to home with his daughter and grandson.",
+  "sources": [
+    {
+      "id": "characters-412-wiki",
+      "title": "Cat Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Cat_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-412-api",
+      "title": "Giant Cat Monster API record",
+      "url": "https://rickandmortyapi.com/api/character/412",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

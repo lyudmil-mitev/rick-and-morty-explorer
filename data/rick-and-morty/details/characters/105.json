@@ -1,0 +1,27 @@
+{
+  "id": 105,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dr. Glip-Glop",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dr._Glip-Glop",
+  "text": "Dr. Glip-Glop is a minor character introduced in the episode \"Interdimensional Cable 2: Tempting Fate\". He was initially assigned to treat Jerry, who was suffering from an illness after consuming mutant bacteria. However, as Dr. Glip-Glop was introducing himself, Jerry vomited on him. The goo landed on his eyes and sent him into a murderous rage due to its effects. Before he could attack anyone, he was shot and disintegrated by Rick.\n\nHe was labelled by the hospital staff to be the \"Best Doctor in the Galaxy.\"",
+  "sources": [
+    {
+      "id": "characters-105-wiki",
+      "title": "Dr. Glip-Glop",
+      "url": "https://rickandmorty.fandom.com/wiki/Dr._Glip-Glop",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-105-api",
+      "title": "Dr. Glip-Glop API record",
+      "url": "https://rickandmortyapi.com/api/character/105",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

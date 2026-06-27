@@ -1,0 +1,27 @@
+{
+  "id": 298,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Robot Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Robot_Morty",
+  "text": "Robot Morty is an alternate version of Morty Smith who appeared in the episode Close Rick-Counters of the Rick Kind. He is a robotic version of Morty who is dressed up to look like him.",
+  "sources": [
+    {
+      "id": "characters-298-wiki",
+      "title": "Robot Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Robot_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-298-api",
+      "title": "Robot Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/298",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

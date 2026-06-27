@@ -1,0 +1,27 @@
+{
+  "id": 819,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "For the Damaged Coda",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/For_the_Damaged_Coda",
+  "text": "\"For the Damaged Coda\" is a song by Blonde Redhead, used as the unofficial theme song for Evil Morty. It is featured at the end of the episodes \"Close Rick-counters of the Rick Kind,\" played while Evil Morty destroys his eye-patch transmitter, and \"The Ricklantis Mixup\" played after Evil Morty is revealed to be the new president of The Citadel.\n\nBlonde Redhead later created a remixed version for Rick and Morty called More Coda, which plays during \"Rickmurai Jack\" when Evil Morty breaks open the Central Finite Curve and escapes into the rest of the multiverse. A slower arrangement plays over part of the flashback of Evil Morty's origin in \"Unmortricken\".\n\nThe song is based on the classical piece Nocturne Op. 55 No.1 by Frédéric Chopin.",
+  "sources": [
+    {
+      "id": "characters-819-wiki",
+      "title": "For the Damaged Coda",
+      "url": "https://rickandmorty.fandom.com/wiki/For_the_Damaged_Coda",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-819-api",
+      "title": "Redhead Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/819",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

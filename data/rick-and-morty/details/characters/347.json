@@ -1,0 +1,27 @@
+{
+  "id": 347,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "President Curtis",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/President_Curtis",
+  "text": "President Curtis is an upcoming animated science fiction comedy spin-off television series based on Rick and Morty. The series was created by Dan Harmon and James Siciliano. It is set to premiere on Adult Swim on July 25, 2026 at 11:30pm EST, before the network's Toonami block starts and each episode will be added to HBO Max the day after they premiere.",
+  "sources": [
+    {
+      "id": "characters-347-wiki",
+      "title": "President Curtis",
+      "url": "https://rickandmorty.fandom.com/wiki/President_Curtis",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-347-api",
+      "title": "President Curtis API record",
+      "url": "https://rickandmortyapi.com/api/character/347",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 314,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Shmlamantha Shmlicelli",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Shmlamantha_Shmlicelli",
+  "text": "Shmlamantha Shmlicelli is a character who appeared in \"Rixty Minutes\". She is on a TV show called Shmlo's the Shmloss?, which comes from a dimension where every noun begins with the \"Shml\" prefix. She is a parody on Samantha Micelli from Who's the Boss?.",
+  "sources": [
+    {
+      "id": "characters-314-wiki",
+      "title": "Shmlamantha Shmlicelli",
+      "url": "https://rickandmorty.fandom.com/wiki/Shmlamantha_Shmlicelli",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-314-api",
+      "title": "Shmlamantha Shmlicelli API record",
+      "url": "https://rickandmortyapi.com/api/character/314",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

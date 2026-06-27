@@ -1,0 +1,27 @@
+{
+  "id": 211,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mar-Sha",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mar-Sha",
+  "text": "{{Character\n|name =\n|image = Mar Sha 2.1.jpg\n|first = Raising Gazorpazorp\n|species = Gazorpian\n|status = Alive\n|job = Ruler of Gazorpazorp\n|voice actor = Claudia Black}} is a female Gazorpian featured in the episode, \"Raising Gazorpazorp\", and the ruler of the planet of the same name (Gazorpazorp).\n\n first appeared in \"Raising Gazorpazorp\", where she is visited by Rick and Summer. gives them a tour of underground Gazorpazorp, and tells them the reason for the planets strange form of government. But after discovering that Rick and Summer were yet from another planet that was \"dominated by males\", she makes plans to execute them. Summer talks her out of killing them by using her own words against her; gives them a ship, and sends them home.\n\n feels very indifferent towards males. Not feeling even the least sentimental towards a male Gazorpian baby being launched out into the wild amongst the most dangerous creatures in the galaxy. She hates to be on the same level of intelligence as a male, even going as far as to lying just to prove them wrong. However, after learning from Summer that some males in the galaxy are more civilized than the primitive males of Gazorpazorp, she conceded that; \"...sometimes the truth hurts, but it must be accepted.\", and allowed Rick and Summer to return to their planet.",
+  "sources": [
+    {
+      "id": "characters-211-wiki",
+      "title": "Mar-Sha",
+      "url": "https://rickandmorty.fandom.com/wiki/Mar-Sha",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-211-api",
+      "title": "Ma-Sha API record",
+      "url": "https://rickandmortyapi.com/api/character/211",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

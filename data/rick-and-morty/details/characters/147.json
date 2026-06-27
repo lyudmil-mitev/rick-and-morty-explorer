@@ -1,0 +1,27 @@
+{
+  "id": 147,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gobo",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gobo",
+  "text": "Gobo was an alien who appeared in \"Morty's Mind Blowers\". His time in the show was short-lived and he was never actually seen while he was still alive.\n\nGobo crash landed on planet Earth and needed to be sent back to outer space. The Smith Family put their heads together to send Gobo back to space, since he couldn't survive in the Earth's atmosphere for long. However, the government wanted Gobo as well and wouldn't let them send him home. While Morty distracted them by pretending to transport Gobo in a basket, Jerry had the responsibility of bringing him to the hill, where they'd launch him back to space. However, he must have gotten the plans wrong, as he assumed Morty would take care of it. He instead left Gobo in his car and by the time the family came back to get him, Gobo was dead and they had to dispose of his corpse. Jerry, of course, hated this, and was able to get Rick to erase this memory for him. This was all until the events of \"Morty's Mind Blowers\", where he found the memory helmet and put it on, bringing back that same memory again.",
+  "sources": [
+    {
+      "id": "characters-147-wiki",
+      "title": "Gobo",
+      "url": "https://rickandmorty.fandom.com/wiki/Gobo",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-147-api",
+      "title": "Gobo API record",
+      "url": "https://rickandmortyapi.com/api/character/147",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

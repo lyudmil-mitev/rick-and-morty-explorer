@@ -1,0 +1,27 @@
+{
+  "id": 184,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Jon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Jon",
+  "text": "Jon is a parody on the character of the same name from the Garfield comics. He is a character on the Gazorpazorp's TV Show, Gazorpazorpfield.",
+  "sources": [
+    {
+      "id": "characters-184-wiki",
+      "title": "Jon",
+      "url": "https://rickandmorty.fandom.com/wiki/Jon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-184-api",
+      "title": "Jon API record",
+      "url": "https://rickandmortyapi.com/api/character/184",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

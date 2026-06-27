@@ -1,0 +1,27 @@
+{
+  "id": 222,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Michael Denny and the Denny Singers",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Michael_Denny_and_the_Denny_Singers",
+  "text": "Michael Denny and the Denny Singers is a group of people who paid for an ad urging people to vote no on Proposition XW2, a ballot measure that would allow \"gay...errr Trunk People to get married\". The group is first mentioned in the episode \"Rixty Minutes\".\n\nMichael Denny also bears a strong resemblance to Donald Trump.",
+  "sources": [
+    {
+      "id": "characters-222-wiki",
+      "title": "Michael Denny and the Denny Singers",
+      "url": "https://rickandmorty.fandom.com/wiki/Michael_Denny_and_the_Denny_Singers",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-222-api",
+      "title": "Michael Denny and the Denny Singers API record",
+      "url": "https://rickandmortyapi.com/api/character/222",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

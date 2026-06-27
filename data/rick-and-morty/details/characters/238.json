@@ -1,0 +1,27 @@
+{
+  "id": 238,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mr. Booby Buyer",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mr._Booby_Buyer",
+  "text": "Mr. Booby Buyer is a character who appeared in the episode Meeseeks and Destroy. He is a perverted inter-dimensional being who apparently tries to buy boobs from people, using Schmeckles.\n\nMr. Booby Buyer was at the Thirsty Step Tavern at the same time as Rick and Morty. While Rick was attempting to understand the value of Schmeckles, the waitress expressed how her fake breasts cost her 25 schmeckles. Immediately after Mr. Booby Buyer appeared and offer the waitress 25 schmeckles for her breasts, which she declined. Dissatisfied, he retreated behind a wooden girder.",
+  "sources": [
+    {
+      "id": "characters-238-wiki",
+      "title": "Mr. Booby Buyer",
+      "url": "https://rickandmorty.fandom.com/wiki/Mr._Booby_Buyer",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-238-api",
+      "title": "Mr. Booby Buyer API record",
+      "url": "https://rickandmortyapi.com/api/character/238",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

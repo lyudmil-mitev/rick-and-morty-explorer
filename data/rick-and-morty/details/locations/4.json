@@ -1,0 +1,27 @@
+{
+  "id": 4,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Vindicators 3: The Return of Worldender/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Vindicators_3%3A_The_Return_of_Worldender%2FTranscript",
+  "text": "NOTE: Because a drunken Rick on a video recording is treated as a separate character by others, \"Drunk Rick\" will be noted here separately from \"Rick\".",
+  "sources": [
+    {
+      "id": "locations-4-wiki",
+      "title": "Vindicators 3: The Return of Worldender/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Vindicators_3%3A_The_Return_of_Worldender%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-4-api",
+      "title": "Worldender's lair API record",
+      "url": "https://rickandmortyapi.com/api/location/4",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

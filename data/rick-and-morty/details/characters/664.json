@@ -1,0 +1,27 @@
+{
+  "id": 664,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Ticktock",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Ticktock",
+  "text": "Ticktock is a child of Gaia and Reggie.\n\nAfter Gaia gave birth to Ticktock, he was raised through Rick Sanchez and Beth Smith's sorting factory and was categorized as \"unproductive\", being dumped out into the mud. There, he met Jerry Smith, who taught him and all the other unproductives about camping. Jerry passed Ticktock and told him to keep whittling.\n\nLater, the unproductives waged war on the rest of Gaia and Reggie's children, led by Jerry. When Reggie was killed, his massive body fell from the sky and killed most of his children.",
+  "sources": [
+    {
+      "id": "characters-664-wiki",
+      "title": "Ticktock",
+      "url": "https://rickandmorty.fandom.com/wiki/Ticktock",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-664-api",
+      "title": "Ticktock API record",
+      "url": "https://rickandmortyapi.com/api/character/664",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

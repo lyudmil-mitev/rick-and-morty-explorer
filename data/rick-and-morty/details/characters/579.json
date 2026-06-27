@@ -1,0 +1,27 @@
+{
+  "id": 579,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Caveman Snake",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Caveman_Snake",
+  "text": "The Caveman Snake is a space snake and the first snake to use tools. He appears in the episode \"Rattlestar Ricklactica\".\n\nIn the episode \"Rattlestar Ricklactica\", the Caveman Snake first appears in the space snake planet within the past carrying a Cavewoman Snake and dragging her to his cave. Shleemypants and a Time Cop arrive to confront the Caveman snake after they are notified that snakes are traveling through time and causing a situation, as the Cavewoman Snake quickly leaves them. Both Time Cops fight and beat the snake to death, and cause their entire species to go extinct and the time travel crisis to end.",
+  "sources": [
+    {
+      "id": "characters-579-wiki",
+      "title": "Caveman Snake",
+      "url": "https://rickandmorty.fandom.com/wiki/Caveman_Snake",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-579-api",
+      "title": "Snake with Legs API record",
+      "url": "https://rickandmortyapi.com/api/character/579",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

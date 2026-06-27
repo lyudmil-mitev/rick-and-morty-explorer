@@ -1,0 +1,27 @@
+{
+  "id": 181,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Grace Smith",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Grace_Smith",
+  "text": "Grace Smith is a girl who attends Harry Herpson High School. She is very close friends with Jessica, and is usually seen by her side in most of her appearances, either chatting, or sitting next to her to keep her company. She is voiced by Reagan Gomez-Preston.\n\nGrace seems to care more about Jessica's popularity status than she does, and is quick to scold her if she acts out of the ordinary. As a result, she and Jessica are among the most popular girls in the school, and apparently decide who else deserves to be deemed popular as well. This caused Summer to alienate her friend Nancy to impress them, but this eventually backfired when they befriended Nancy, and abandoned Summer to go to Squanchy's party. It is also evident that she is not fond of Jessica's boyfriend Brad, as indicated by her frowning at him in \"Ricksy Business\" when he started a fight with Abradolf Lincler, and made Jessica upset. Not much is known about her but it can be assumed that if Morty were to succeed in going out with Jessica, that she would be his sole rival for her attention.\n\nIn \"Summer of All Fears\", she is seen at Harry Herpson High School making fun of Summer's outfit along with Sharon Lewis.",
+  "sources": [
+    {
+      "id": "characters-181-wiki",
+      "title": "Grace Smith",
+      "url": "https://rickandmorty.fandom.com/wiki/Grace_Smith",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-181-api",
+      "title": "Jessica's Friend API record",
+      "url": "https://rickandmortyapi.com/api/character/181",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

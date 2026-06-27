@@ -1,0 +1,27 @@
+{
+  "id": 47,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Pluto",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Pluto",
+  "text": "Pluto is a dwarf planet located in Earth's Solar System. inhabited by sentient Plutonians. The planet is first mentioned in \"Something Ricked This Way Comes\", when Jerry and Morty Smith are abducted and transported there.\n\nPluto is ruled by King Flippy Nips, a denier of Pluto's environmental shrinking crisis and close associate of Pluto's corporate leaders. His son, Scroopy Noopers, is an activist who aims to stop the mining operations responsible for Pluto's shrinking.\n\nPluto first appeared in \"Something Ricked This Way Comes\", when Morty and his father Jerry were making a model of the solar system as a science project for school. When Jerry started to add Pluto to the model, Morty pointed out to him that Pluto was \"no longer a planet.\" He then Googled it and confirmed that the celestial body is, in fact, no longer considered a planet, due to several other bodies in the solar system being larger and/or having more planetary mass than Pluto. Jerry, outraged at this change from the science he grew up with, called NASA to chew them out about Pluto, claiming that it is still a planet.\n\nUnbeknownst to the Smiths, the Plutonians were monitoring Jerry's phone call, and decided to abduct him and Morty so the two could serve as representatives of Earth's science, and convince the Plutonians once and for all that Pluto is a planet.\n\nAfter Jerry makes several public appearances to the Plutonians, claiming that Pluto is still a planet, Morty is taken aside by the environmental activist Scroopy Noopers, who shows Morty that the dwarf planet is shrinking due to mass mining of Pluto's resources; namely, plutonium. Noopers explains that if the mining continues, Pluto will continue to shrink until it \"poofs\" out of existence. Morty reveals this fact to Jerry, who doesn't take it seriously at first. However upon finding out that Scroopy is actually the son of the king who's willing to throw his own son in jail for telling the truth, he has a change of heart and announces to the population of Pluto that it is no longer classifiable as a planet, enraging them and resulting in him and Morty being returned to Earth.\n\nThe future of the planet is unknown, but it is likely that the planet will continue to shrink until it is destroyed, or until the seismic activity caused by the mining of plutonium destroys all life on the planet, as well as the mining facilities.",
+  "sources": [
+    {
+      "id": "locations-47-wiki",
+      "title": "Pluto",
+      "url": "https://rickandmorty.fandom.com/wiki/Pluto",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-47-api",
+      "title": "Pluto API record",
+      "url": "https://rickandmortyapi.com/api/location/47",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

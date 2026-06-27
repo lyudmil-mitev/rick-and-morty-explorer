@@ -1,0 +1,27 @@
+{
+  "id": 350,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Thomas Lipnip",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Thomas_Lipnip",
+  "text": "{{SimilarName| |Tommy's Clone}}\n\nThomas \"Tommy\" Lipnip is Beth's childhood friend. He appeared in \"The ABC's of Beth\".\n\nAs a little girl, Beth invited Tommy into Froopyland where she proceeded to trap him due to being jealous of him and his loving father.\n\nDuring this time, Tommy entered into a bizarre and revolting cycle of cannibalistic incest with the creatures to survive the new world.\n\nWhen Beth attempts to bring Tommy back in order to prove his father's innocence, who was convicted of murdering and eating him, she is forced to take matters into her own hands. She reveals her identity and tells him of his father's impending fate. Tommy was shocked to see her again, but refused to either care about his father's predicament or return to his world with her unless she apologized and admitted her fault (which she didn't want to like her father did earlier). At the end, Beth didn't apologize to him and realized she was like her father. Tommy then ordered the froopy creatures to kill her, and Beth and the creatures started a battle.\n\nBeth returns Froppyland where she personally kill him. She return to the real world covered in blood and with a finger so that Rick can make a clone of him, which means he is likely dead.",
+  "sources": [
+    {
+      "id": "characters-350-wiki",
+      "title": "Thomas Lipnip",
+      "url": "https://rickandmorty.fandom.com/wiki/Thomas_Lipnip",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-350-api",
+      "title": "Thomas Lipkip API record",
+      "url": "https://rickandmortyapi.com/api/character/350",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

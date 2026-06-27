@@ -1,0 +1,27 @@
+{
+  "id": 668,
+  "status": "contextual_source",
+  "textType": "description",
+  "wikiTitle": "Squanchies",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Squanchies",
+  "text": "Squanchies are feline humanoid aliens from Planet Squanch. This contextual species page supports the API record type and origin context, but does not identify Defiance Squanchette as a distinct named individual.",
+  "sources": [
+    {
+      "id": "characters-668-api",
+      "title": "Defiance Squanchette API record",
+      "url": "https://rickandmortyapi.com/api/character/668",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "characters-668-wiki-context",
+      "title": "Squanchies",
+      "url": "https://rickandmorty.fandom.com/wiki/Squanchies",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "No individual character page found; use Squanchies species page as contextual source."
+}

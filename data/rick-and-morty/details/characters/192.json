@@ -1,0 +1,27 @@
+{
+  "id": 192,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "King Flippy Nips",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/King_Flippy_Nips",
+  "text": "King Flippy Nips is the ruler of Pluto. He first appeared in 'Something Ricked This Way Comes' as the central antagonist.\n\nIn the episode Something Ricked This Way Comes, King Flippy Nips has Jerry and Morty kidnapped to Pluto because of Jerry's dedication to Pluto being a planet. He then puts Jerry in front of crowds and on TV to continue to say that Pluto is a planet, while claiming that Jerry is a real scientist. He awards Jerry with the Plutobel Prize (the highest honor reward for scientists) while keep urging Jerry to talk of how much of a planet Pluto is.\n\nWhen the plutonian police captures Scroopy Noopers, King Flippy sends him to Plutanomo Bay military prison for continuing to say that Pluto is not a planet. Afterwards, while talking to Jerry about Scroopy, he let's it slip that Pluto is a celestial dwarf before correcting himself and sending Jerry off to his Plutobel Prize ceremony. When Jerry refuses to cooperate about Pluto's planet-status King Flippy rudely sends Jerry back to Earth.\n\nHe acts quite self-centered. He is also selfish because he knows everything his son says is real, but keeps quiet about it because he wants to stay king. He is also highly manipulative.",
+  "sources": [
+    {
+      "id": "characters-192-wiki",
+      "title": "King Flippy Nips",
+      "url": "https://rickandmorty.fandom.com/wiki/King_Flippy_Nips",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-192-api",
+      "title": "King Flippy Nips API record",
+      "url": "https://rickandmortyapi.com/api/character/192",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

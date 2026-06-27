@@ -1,0 +1,27 @@
+{
+  "id": 507,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Teddy Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Teddy_Rick",
+  "text": "Teddy Rick is a fascist teddy bear-version of Rick Sanchez who also speaks German.\n\n lives in a universe populated by teddy bear-like creatures, where a fascist regime called \"BR\" is controlling America, of which he appears to be a veteran. Like many other versions of Rick, he launched his own \"Operation Phoenix\" in case of his untimely death. Rick (C-137)'s backup accidentally got uploaded to Teddy Rick's clone and was greeted by his teddy counterpart, who immediately asked him in German if he was fascist. Rick (C-137) immediately took his own life to be uploaded to another universe where fascism was not the norm.",
+  "sources": [
+    {
+      "id": "characters-507-wiki",
+      "title": "Teddy Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Teddy_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-507-api",
+      "title": "Fascist Teddy Bear Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/507",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 769,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Big Fat Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Big_Fat_Rick",
+  "text": "Big Fat Rick is one of the alternate versions of Rick Sanchez who appears in \"Gotron Jerrysis Rickvangelion\".\n\nHe, along with other versions of the Smith family, was invited by Rick C-137 on a cook-off to discuss the repairment of their GoTrons.",
+  "sources": [
+    {
+      "id": "characters-769-wiki",
+      "title": "Big Fat Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Big_Fat_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-769-api",
+      "title": "Big Fat rick API record",
+      "url": "https://rickandmortyapi.com/api/character/769",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

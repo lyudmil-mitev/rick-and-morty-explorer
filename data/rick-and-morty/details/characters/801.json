@@ -1,0 +1,27 @@
+{
+  "id": 801,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Season 7",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Season_7",
+  "text": "Season 7 is the seventh season of Rick and Morty. It premiered on October 15, 2023 and ended on December 17, 2023. It contained 10 episodes, which was on par with most previous seasons.\n\nHowever, in contrast to previous seasons, this season was the first not to feature co-creator Justin Roiland. Roiland's roles were recast with Ian Cardoni as Rick and Harry Belden as Morty starting with this season.",
+  "sources": [
+    {
+      "id": "characters-801-wiki",
+      "title": "Season 7",
+      "url": "https://rickandmorty.fandom.com/wiki/Season_7",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-801-api",
+      "title": "7+7 Years Old Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/801",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

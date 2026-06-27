@@ -1,0 +1,27 @@
+{
+  "id": 500,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Fascist Dystopian Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Fascist_Dystopian_Universe",
+  "text": "The is a universe where Earth is ruled by a fascist dictatorship. It was one of several similar universes Rick ended up in after he accidentally died on Forbodulon Prime.",
+  "sources": [
+    {
+      "id": "characters-500-wiki",
+      "title": "Fascist Dystopian Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Fascist_Dystopian_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-500-api",
+      "title": "Fascist Mr. President API record",
+      "url": "https://rickandmortyapi.com/api/character/500",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

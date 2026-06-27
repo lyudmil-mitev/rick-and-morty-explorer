@@ -1,0 +1,27 @@
+{
+  "id": 439,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Beth Smith (Evil Rick's Target Dimension)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Beth_Smith_(Evil_Rick's_Target_Dimension)",
+  "text": "(née Sanchez) is an alternate version of the original Beth, who appeared in the episode Close Rick-Counters of the Rick Kind, she is the daughter of Rick Sanchez and Mrs. Sanchez, the wife of Jerry Smith, and the mother of Summer Smith and Morty Smith, she is also the daughter-in-law of Leonard Smith and Joyce Smith, and the granddaughter of Rick's Father and a unnamed woman.\n\nIn the episode Close Rick-Counters of the Rick Kind, Beth and her family were sitting around the table, eating breakfast. Beth was telling her father Rick that it was the one year anniversary of Rick returning to the house, after being gone from her life for so long. She suggested that she makes flying saucer shaped pancakes to celebrate, but he declined to it. Just then, Evil Rick and Evil Morty opened a portal, walked into the room, and shot her father Rick as well as tranquilizing her son Morty and taking the boy with them, leaving Beth screaming at the top of her lungs in terror, along with her husband and daughter.\n\nBeth is an intelligent, ambitious and independent woman who suffers from a variety of deep-seated insecurities. A dedicated veterinary horse surgeon, she is the family's main breadwinner and often tries to do the best for her family based on this sense of responsibility. She is insecure about her profession, however, and is quick to snap at the implication she is not a 'real' surgeon or a 'real' veterinarian, since she generally is a horse surgeon.",
+  "sources": [
+    {
+      "id": "characters-439-wiki",
+      "title": "Beth Smith (Evil Rick's Target Dimension)",
+      "url": "https://rickandmorty.fandom.com/wiki/Beth_Smith_(Evil_Rick's_Target_Dimension)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-439-api",
+      "title": "Veterinary API record",
+      "url": "https://rickandmortyapi.com/api/character/439",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

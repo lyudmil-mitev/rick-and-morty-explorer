@@ -1,0 +1,27 @@
+{
+  "id": 660,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Beth Smith (C-132)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Beth_Smith_(C-132)",
+  "text": "(née Sanchez) is the tritagonist of the Rick and Morty comic series, she is the daughter of Rick Sanchez and Mrs. Sanchez, the wife of Jerry Smith, and the mother of Summer Smith and Morty Smith, she is also the daughter-in-law of Leonard Smith and Joyce Smith, and the granddaughter of Rick's Father and an unnamed woman. She has been on quite a few Adventures of her own with and without Rick, and each time has proven herself worthy of being a reoccurring ally of his. Rick was absent throughout the majority of her childhood and adolescence, only just recently coming back into her life. His abandonment caused her to paint a false picture of him in her head, almost always viewing him through rose colored glasses. But because of this, she is unaware of all the red flags, endangering her family and herself.\n\nBeth is an intellectual woman in a complicated relationship with nearly every member in her family. Especially her husband Jerry. She is annoyed by her husband's insecurities, and his cowardice. And along with her harsh, cynical demeanor, they have proven several times to be a terrible match. She is a logical woman, but is ignorant of what isn't good for her and others. This is the case for not only her relationship with Jerry, but her father and children as well.",
+  "sources": [
+    {
+      "id": "characters-660-wiki",
+      "title": "Beth Smith (C-132)",
+      "url": "https://rickandmorty.fandom.com/wiki/Beth_Smith_(C-132)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-660-api",
+      "title": "Morty’s Mother-in-law API record",
+      "url": "https://rickandmortyapi.com/api/character/660",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

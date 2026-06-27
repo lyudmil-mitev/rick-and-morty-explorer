@@ -1,0 +1,27 @@
+{
+  "id": 452,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Simon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Simon",
+  "text": "Simon is a guy who works for The Pentagon and appeared in the episode Get Schwifty.\n\nThe original Simon presumably became a Cronenberg in the Cronenberged dimension.\n\nHe was summoned to The Pentagon by The President in order to handle the Cromulons that had just appeared in the sky. He told the President how every broadcaster on the planet was beaming out information on string theory, world history, the human genome and more, but was cut short by General Nathan. When Nathan presented his idea, launching nuclear missiles at the giant head, Simon was the first to speak against it. When Rick revealed the Cromulon to waiting for a hit song, Simon suggested Vivaldi, which Rick shut down and called him \"Frasier\". He later told the President that the magnetic poles were about to reverse due to the presence of the giant head.",
+  "sources": [
+    {
+      "id": "characters-452-wiki",
+      "title": "Simon",
+      "url": "https://rickandmorty.fandom.com/wiki/Simon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-452-api",
+      "title": "Simon API record",
+      "url": "https://rickandmortyapi.com/api/character/452",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 5,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Anatomy Park (episode)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Anatomy_Park_(episode)",
+  "text": "\"Anatomy Park\" is the third episode of the first season of Rick and Morty. It is the third episode of the series overall. It premiered on December 16, 2013. It was written by Eric Acosta and Wade Randolph, and directed by John Rice. The episode is rated TV-14-DLSV.",
+  "sources": [
+    {
+      "id": "locations-5-wiki",
+      "title": "Anatomy Park (episode)",
+      "url": "https://rickandmorty.fandom.com/wiki/Anatomy_Park_(episode)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-5-api",
+      "title": "Anatomy Park API record",
+      "url": "https://rickandmortyapi.com/api/location/5",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

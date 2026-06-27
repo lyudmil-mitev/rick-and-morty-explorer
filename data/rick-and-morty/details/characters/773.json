@@ -1,0 +1,27 @@
+{
+  "id": 773,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Yo-Yo Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Yo-Yo_Rick",
+  "text": ": This article is about Yo-Yo Rick. You may be looking for other versions of Rick.\n\nYo-Yo Rick Sanchez is an alternative version of Rick who plays with a yo-yo. His first appearance is in Gotron Jerrysis Rickvangelion\n\nHe is one of the many Ricks to appear in the episode Gotron Jerrysis Rickvangelion.",
+  "sources": [
+    {
+      "id": "characters-773-wiki",
+      "title": "Yo-Yo Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Yo-Yo_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-773-api",
+      "title": "Yo-yo Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/773",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

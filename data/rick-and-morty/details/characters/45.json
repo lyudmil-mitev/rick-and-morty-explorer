@@ -1,0 +1,27 @@
+{
+  "id": 45,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bill Galliams",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bill_Galliams",
+  "text": "Bill Galliams works as a news presenter on TV in their station's studio and knows the other news reporters by name. On Christmas he was in on reporting on the giant naked santa that was floating over the USA. He set the program over to Tom Randolph in New York and then to Eric McMahan in Los Angeles to cover the giant from top to bottom.",
+  "sources": [
+    {
+      "id": "characters-45-wiki",
+      "title": "Bill Galliams",
+      "url": "https://rickandmorty.fandom.com/wiki/Bill_Galliams",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-45-api",
+      "title": "Bill API record",
+      "url": "https://rickandmortyapi.com/api/character/45",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

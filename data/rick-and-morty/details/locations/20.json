@@ -1,0 +1,27 @@
+{
+  "id": 20,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Dimension C-131",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Dimension_C-131",
+  "text": "Dimension C-131 , (also known as the Replacement Dimension or the Frundled Dimension), is a dimension in the multiverse to which Rick Sanchez and Morty Smith traveled in the episode \"Rick Potion No. 9\" after escaping the Prime Dimension. The mainline Beth, Summer and Space Beth originate from this dimension.\n\nDimension C-131 is a dimension that is apparently identical to Morty's original dimension, a dimension in which Rick accidentally turned everyone into Cronenbergs.\n\nBeing too lazy to change things back to normal, Rick traveled to an alternate dimension where his counterpart had been lucky with the situation (and did fix it) and was also conveniently killed by a failed experiment alongside Morty. When they arrived, they took the dead bodies of that dimension's versions of themselves, buried them in the backyard, and continued in this timeline.\n\nIn \"Morty's Mind Blowers\", it is revealed that, at one point, Morty discovered that Dimension C-131 was run by squirrels, who managed an elaborate underground conspiracy. When the squirrels found out he knew too much and started chasing after him, Morty ran back to Rick who neutralized the rodents and told Morty they had to move to another universe. Although behind the scenes, Rick and Morty solved the problem with the squirrels, because in subsequent episodes the crack around the Smith house from \"Ricksy Business\" and \"A Rickle in Time\" is still shown with the characters mentioning past events such as in \"Amortycan Grickfitti\".\n\nWhen Rick sought to destroy the Galactic Federation in \"The Rickshank Rickdemption\", he teleported the Citadel into the Galactic Federation Prison of Dimension C-131. When the Citadel managed to extract itself from the prison, the Ricks and Mortys chose to remain in Dimension C-131.\n\nIn \"Solaricks\", Earth became infected by Mr. Frundles after Jerry C-131 released him into the world, forcing the titular Smith family to settle in another dimension.\n\nAs shown in \"Mortyplicity\", in the far future, the Earth eventually healed from its Frundlfication, and the world is re-inhabited slowly by animal-descended humanoids, eventually recreating both the 'wild west' age of humanity, and later Christianity. After all this, Glockenspiel Jerry is the last surviving member of the Smith family from this dimension.",
+  "sources": [
+    {
+      "id": "locations-20-wiki",
+      "title": "Dimension C-131",
+      "url": "https://rickandmorty.fandom.com/wiki/Dimension_C-131",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-20-api",
+      "title": "Earth (Replacement Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/20",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

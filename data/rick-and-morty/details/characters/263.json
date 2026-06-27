@@ -1,0 +1,27 @@
+{
+  "id": 263,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Korlunxes",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Korlunxes",
+  "text": "Korlunxes are an alien species that made their only appearance in Interdimensional Cable 2: Tempting Fate. Two of them served as bodyguards of Shrimply Pibbles. They appeared after Jerry Smith held an entire operating room hostage in an attempt to force the doctors to accept Jerry's donation. They shot Jerry when he kept resisting them.",
+  "sources": [
+    {
+      "id": "characters-263-wiki",
+      "title": "Korlunxes",
+      "url": "https://rickandmorty.fandom.com/wiki/Korlunxes",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-263-api",
+      "title": "Pibbles Bodyguard API record",
+      "url": "https://rickandmortyapi.com/api/character/263",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

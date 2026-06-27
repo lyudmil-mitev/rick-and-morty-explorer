@@ -1,0 +1,27 @@
+{
+  "id": 176,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Jerry Smith (C-500A)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Jerry_Smith_(C-500A)",
+  "text": "Jerry Smith (C-500A) is an alternate version of the original Jerry, in Dimension C-500A. He and Beth Sanchez never got married and never had children. Jerry went on to become a very successful actor, but later suffered a nervous breakdown and entered a new relationship with Beth.\n\nYears later, he kept up his success and often met Depp to snort cocaine together in strip clubs. He attended a party at DiCaprio's yatch, where he had sex with actress Kristen Stewart. He also ventured into screenwriting and directing with Last Will and Testimeow: Weekend at Dead Cat Lady's House II, something which would prove to be one of the greater mistakes in his career. At its release party, Jerry suffered a nervous breakdown, reportedly evoked by a stack of magazines in the bathroom at the party (one of which featured Beth Sanchez on the cover). He proceeded to: run out of the bathroom while stripping off his clothes in front of the guests; use a steak knife to remove his big toe, which caused him to faint fron bloodloss and medics administered an andrenaline shot to revive him; and pull out big chunks of his hair.\n\nHe exited the party to assault an old lady in the crowd and steal her mobility scooter, which he \"payed\" for by throwing coins at her (which turned out to be worthless R2D2 collectible coins), while screaming \"I HAVE TO FIND HER\".\n\nJerry's personality is basically the same as the personality of the original Jerry, only he is put in an environment that respects and advantages him a lot more, which completely takes away from the \"loser\" side of his personality and replaces it with quite the opposite. Jerry acts like a winner and takes pride in himself being famous. He was very famous and he took so much pride in himself being famous that he acted pretty egotistical and self-absorbed about it.",
+  "sources": [
+    {
+      "id": "characters-176-wiki",
+      "title": "Jerry Smith (C-500A)",
+      "url": "https://rickandmorty.fandom.com/wiki/Jerry_Smith_(C-500A)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-176-api",
+      "title": "Celebrity Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/176",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

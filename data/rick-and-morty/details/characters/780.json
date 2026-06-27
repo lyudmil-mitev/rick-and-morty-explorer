@@ -1,0 +1,27 @@
+{
+  "id": 780,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Memory Tammy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Memory_Tammy",
+  "text": "Memory Tammy is a memory version of Tammy Guterman who appears in the episode \"Rickternal Friendshine of the Spotless Mort\".\n\nMemory Tammy is first seen in Birdperson’s mind and is represented by him as the loving girlfriend he originally met and knew at first, rather than the undercover agent working for the Galactic Federation in that she revealed herself to be. She is seen in Birdperson’s mind spending time with him and learn about their child when meeting Rick and Memory Rick. They then escape as the memory Galactic Federation attacks them and Memory Tammy is killed when she is engulfed by a black goo-like creature. She says goodbye to Birdperson as he and Rick leave his mind.",
+  "sources": [
+    {
+      "id": "characters-780-wiki",
+      "title": "Memory Tammy",
+      "url": "https://rickandmorty.fandom.com/wiki/Memory_Tammy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-780-api",
+      "title": "Memory Tammy API record",
+      "url": "https://rickandmortyapi.com/api/character/780",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

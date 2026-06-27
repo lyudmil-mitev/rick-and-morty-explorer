@@ -1,0 +1,27 @@
+{
+  "id": 519,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Wasp Summer",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Wasp_Summer",
+  "text": "Wasp Summer is the version of Summer Smith in the Wasp Universe. She appeared in the episode, \"Edge of Tomorty: Rick Die Rickpeat\".\n\nSummer was eating dinner with her family in the dining room when Rick C-137 appeared in their garage, and Wasp Rick went to check the situation. She did not appear bothered by having two grandpas at the dinner table, instead just enjoying eating Larva Mr. Goldenfold. She mentioned her plans to fly around with her friends to look for something to sting, to which her father told to be careful and not waste all of her venom. She playfully replied that she was not a bee, and went out once dinner was over.\n\nSummer has a more positive relationship to her father than Summer Smith in the Dimension C-131. She enjoys stinging other creatures for fun with her friends.",
+  "sources": [
+    {
+      "id": "characters-519-wiki",
+      "title": "Wasp Summer",
+      "url": "https://rickandmorty.fandom.com/wiki/Wasp_Summer",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-519-api",
+      "title": "Wasp Summer API record",
+      "url": "https://rickandmortyapi.com/api/character/519",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

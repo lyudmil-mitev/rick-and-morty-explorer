@@ -1,0 +1,27 @@
+{
+  "id": 420,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Scroopy Noopers",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Scroopy_Noopers",
+  "text": "Scroopy Noopers is a scientist and outcast on the celestial dwarf Pluto. He first appeared in Something Ricked This Way Comes.\n\nBefore meeting Morty, Scroopy Noopers was protesting outside of Pluto's Ministry of Money's fundraising, yelling about how the corporations are shrinking Pluto by mining out the plutonium in the planet's core.\n\nScroopy finds Morty at the set of Good Morning Pluto where Jerry is a guest. After introducing himself he brings Morty, at gunpoint, to a plutonium mine to show him how Pluto shrinks from the mining. He asks Morty to tell Jerry to stop saying that Pluto is a planet, which goes unsuccessfully.\n\nLater, he is captured by the plutonian police and brought before his father, King Flippy Nips, who sends him to Plutanamo Bay military prison. The revelation that Flippy Nips would have his own son arrested for telling the truth makes Jerry realize that Morty is more important than what he believes is true leading him to tell the Plutonians about the true status of their planet.\n\nru:Скрупи Нуперз\n\nHe is an environmentalist who realizes that the Plutonian leaders are using Jerry to convince the citizens that their planet is not in danger. Although he is the son of the king, he is a rebel and an outcast who is not afraid of going against the strong members of society. Noopers is presumably in Plutanamo Bay serving a prison sentence for treason.",
+  "sources": [
+    {
+      "id": "characters-420-wiki",
+      "title": "Scroopy Noopers",
+      "url": "https://rickandmorty.fandom.com/wiki/Scroopy_Noopers",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-420-api",
+      "title": "Plutonian Host API record",
+      "url": "https://rickandmortyapi.com/api/character/420",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

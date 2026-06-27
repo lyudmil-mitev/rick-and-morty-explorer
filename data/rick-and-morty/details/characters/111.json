@@ -1,0 +1,27 @@
+{
+  "id": 111,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Eli's Girlfriend",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Eli's_Girlfriend",
+  "text": "Eli's Girlfriend is a woman from the Post-Apocalyptic Dimension. She and Eli had sexual relations, impregnating her with a son. She was a fake-friend of Summer during the three week interval she lived in her neighborhood with Hemorrhage. She appeared in the episode \"Rickmancing the Stone\".",
+  "sources": [
+    {
+      "id": "characters-111-wiki",
+      "title": "Eli's Girlfriend",
+      "url": "https://rickandmorty.fandom.com/wiki/Eli's_Girlfriend",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-111-api",
+      "title": "Eli's Girlfriend API record",
+      "url": "https://rickandmortyapi.com/api/character/111",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

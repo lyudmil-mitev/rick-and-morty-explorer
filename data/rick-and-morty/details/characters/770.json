@@ -1,0 +1,27 @@
+{
+  "id": 770,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hothead Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hothead_Rick",
+  "text": "Hothead Rick is an alternate version of Rick Sanchez who appears in \"Gotron Jerrysis Rickvangelion\". He got his nickname because of his dramatic outbursts.\n\nHothead Rick, along with other versions of the Smith family, was invited by Rick C-137 at a cook-off to discuss the repairment of their GoTrons. During the discussion, he had an outburst, blaming the main Smith family for acting better than them, and wanting to leave on his GoTron, which blew up, prompting Hothead Rick to leave to his dimension using his Portal Gun.\n\nThen, during a fight with GoTron Ferrets, he catapulted out when the red ferret began launching fire on the incomplete GoTron. He tried to ran away, but the ferret burned him.",
+  "sources": [
+    {
+      "id": "characters-770-wiki",
+      "title": "Hothead Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Hothead_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-770-api",
+      "title": "Hothead Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/770",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

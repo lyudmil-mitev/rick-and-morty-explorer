@@ -1,0 +1,27 @@
+{
+  "id": 457,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "W7 Radio",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/W7_Radio",
+  "text": "{{Object\n|name =\n|image = Interdimensional Radio Cassette.png\n|type = Interdimensional radio channel\n|origin = The Spill Zone\n}}\nW7 Radio is an interdimensional radio channel, only appearing in the game Rick and Morty: Virtual Rick-ality. They are sometimes sponsored by a hologram company. Judging from the front of the tape, it is based in dimension J-128.",
+  "sources": [
+    {
+      "id": "characters-457-wiki",
+      "title": "W7 Radio",
+      "url": "https://rickandmorty.fandom.com/wiki/W7_Radio",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-457-api",
+      "title": "Funny Songs Presenter API record",
+      "url": "https://rickandmortyapi.com/api/character/457",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

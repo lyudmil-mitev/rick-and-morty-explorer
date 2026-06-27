@@ -1,0 +1,27 @@
+{
+  "id": 22,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Signus 5 Expanse",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Signus_5_Expanse",
+  "text": "Signus 5 Expanse is a solar system where a race of enormous floating heads, known as Cromulons, live. The center of this area appears to be a disco ball-like Star. The Cromulons also possess a giant plasma ray which they use, presumably, telepathically.\n\nHere the Cromulons host the Cromulon reality TV show Planet Music by transporting five planets, against their will, and having them compete against each other by performing their own hit songs. Earth was transported here and was up against planets like Arboles Mentirosos and Parblesnops, and was declared the last winner of the show.\n\nIt appeared in the episode \"Get Schwifty\".",
+  "sources": [
+    {
+      "id": "locations-22-wiki",
+      "title": "Signus 5 Expanse",
+      "url": "https://rickandmorty.fandom.com/wiki/Signus_5_Expanse",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-22-api",
+      "title": "Signus 5 Expanse API record",
+      "url": "https://rickandmortyapi.com/api/location/22",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

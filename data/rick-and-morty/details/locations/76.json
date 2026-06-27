@@ -1,0 +1,27 @@
+{
+  "id": 76,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Toxic Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Toxic_Morty",
+  "text": "Toxic Morty, also known as Gunk Morty , was an extracted manifestation of what Morty Smith considered to be all his \"toxic\" attributes at the time of Rest and Ricklaxation, the counter part of Healthy Morty.",
+  "sources": [
+    {
+      "id": "locations-76-wiki",
+      "title": "Toxic Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Toxic_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-76-api",
+      "title": "Alien Day Spa API record",
+      "url": "https://rickandmortyapi.com/api/location/76",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

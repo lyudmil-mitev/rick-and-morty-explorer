@@ -1,0 +1,27 @@
+{
+  "id": 493,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "The Rickchurian Mortydate",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Rickchurian_Mortydate",
+  "text": "\"The Rickchurian Mortydate\" is the 10th and final episode of the third season of Rick and Morty, and the 31st episode of the series overall. It premiered on October 1, 2017. It was written by Dan Harmon and directed by Anthony Chun. The episode is rated TV-14-DLV.",
+  "sources": [
+    {
+      "id": "characters-493-wiki",
+      "title": "The Rickchurian Mortydate",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Rickchurian_Mortydate",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-493-api",
+      "title": "Secretary of the Interior API record",
+      "url": "https://rickandmortyapi.com/api/character/493",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

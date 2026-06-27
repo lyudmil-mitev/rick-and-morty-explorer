@@ -1,0 +1,27 @@
+{
+  "id": 410,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Two Brothers",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Two_Brothers",
+  "text": "Two Brothers, also known as Alien Invasion Tomato Monster Mexican Armada Brothers Who Are Just Regular Brothers Running In A Van From An Asteroid And All Sorts Of Things The Movie, is a movie produced by Glorpian Studios that exists in an alternate dimension. The movie's trailer was shown on \"Rixty Minutes\". In the trailer for the movie, two brothers are seen combating the obstacles of meteors, giant cat monsters, a tornando, a Mexican armada with tomato weapons, old gladiator women, and even the moon colliding with the planet. The two brothers can be seen at the end of the trailer appearing overwhelmed by the ridiculousness.\n\nJan Quadrant Vincent 16, a movie trailer animated and announced in the same exact style as Two Brothers was introduced in \"Interdimensional Cable 2: Tempting Fate\".",
+  "sources": [
+    {
+      "id": "characters-410-wiki",
+      "title": "Two Brothers",
+      "url": "https://rickandmorty.fandom.com/wiki/Two_Brothers",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-410-api",
+      "title": "Two Brothers API record",
+      "url": "https://rickandmortyapi.com/api/character/410",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

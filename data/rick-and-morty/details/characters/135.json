@@ -1,0 +1,27 @@
+{
+  "id": 135,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Garment District Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Garment_District_Rick",
+  "text": "Garment District Rick is a Rick that appears in \"The Ricklantis Mixup\".\n\nGarment District Rick is implied to be a successful businessman and entrepreneur. He declares that the Shadow Council of Ricks will continue to control the Citadel, as they had done since before the creation of the Council of Ricks. He is killed on the orders of Evil Morty, who purged the Shadow Council (save for two members) in order to consolidate his own power as the newly elected President of the Citadel. Garment District Rick's corpse is tossed out of the airlock of the Citadel, left to float alongside many other Ricks and Mortys killed over the course of the episode.",
+  "sources": [
+    {
+      "id": "characters-135-wiki",
+      "title": "Garment District Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Garment_District_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-135-api",
+      "title": "Garment District Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/135",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

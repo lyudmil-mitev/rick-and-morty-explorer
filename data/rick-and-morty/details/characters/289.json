@@ -1,0 +1,27 @@
+{
+  "id": 289,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez (D716)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D716)",
+  "text": "Rick Sanchez (D716) was a co-anchor for Citadel Morning News on the channel CN at the Citadel. He works alongside Rick Sanchez (D716-B) in the studio, with Rick Sanchez (D716-C) in the field. He is from Dimension (D716).\n\nRick (D716) works as a news anchor during the Citadel Presidential Election; the first democratic election for the Citadel's leader. He started the show with the headline \"Gravity outages in East Sanchez Heights\", with Rick (D716-B) reading the next, before cutting to commercial. Afterward, he is seen reporting on the presidential race being only one day away before mocking the Morty candidate with his co-host.\n\nLater that same day he reports on the hostage situation at the Simple Rick’s Wafer Cookie factory while badmouthing Rick (D716-C) to his co-host. Next, he incredulously continues on over to how the Morty candidate is soaring in the election polls after his speech at the presidential debate.\n\nWhen now-President Morty initiated the destruction of the Citadel in order to escape the Central Finite Curve, D716 lambasted the Citadel news before trying to escape in a portal. However, the Citadel's portal fluid had been tampered with by President Morty, and upon trying to leave he was killed by a creature on the other end of his portal.",
+  "sources": [
+    {
+      "id": "characters-289-wiki",
+      "title": "Rick Sanchez (D716)",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D716)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-289-api",
+      "title": "Rick D716-C API record",
+      "url": "https://rickandmortyapi.com/api/character/289",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 760,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Turkey President",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Turkey_President",
+  "text": "The Turkey President is a turkey clone of The President who is the main antagonist of the episode \"Rick & Morty's Thanksploitation Spectacular\".\n\nDuring a plan to stop Rick and Morty from obtaining a pardon, President Curtis turns himself into a turkey to identify Rick who he and Morty have also transforms into turkeys. However, the marines receive the turkey and inject it with a sample of President Curtis' DNA transforming into a turkey humanoid. The Turkey President begins to create a turkey rebellion to overthrow humankind by transforming turkeys into soldiers called Gobblers while also giving pay raises to Congress so they will comply. President Curtis resurrects the Googa Aliens and team up with Rick and Morty to fight the Turkey President. At the end, President Curtis fights the Turkey President in hand-to-hand combat and defeats him after the Turkey President uses a wishbone to explode himself in an attempt to kill him.",
+  "sources": [
+    {
+      "id": "characters-760-wiki",
+      "title": "Turkey President",
+      "url": "https://rickandmorty.fandom.com/wiki/Turkey_President",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-760-api",
+      "title": "Turkey Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/760",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

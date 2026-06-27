@@ -1,0 +1,27 @@
+{
+  "id": 145,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glenn",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glenn",
+  "text": "Glenn was a one-off character who appears briefly in the Pilot episode of Rick and Morty. He and several of his comrades are shot and killed by Morty during a gunfight at interdimensional customs under the deception of Rick Sanchez that Glenn and his species were robots.\n\nWhile Rick attempted to hack a portal back to their home dimension, he ordered Morty to shoot at the guards to buy him some time. While Morty was initially reluctant to shoot at the guards, Rick claimed that the Gromflomites were \"just robots\" and that it was \"okay to shoot them.\"\n\nMorty was horrified when he shot Glenn and saw that he fell down in agony and began bleeding, realizing that he was in fact not a robot. While Glenn bled out, one of his comrades shouted for someone to \"call his wife and children,\" adding another dimension of twisted tragedy to Glenn's (possible) untimely demise.",
+  "sources": [
+    {
+      "id": "characters-145-wiki",
+      "title": "Glenn",
+      "url": "https://rickandmorty.fandom.com/wiki/Glenn",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-145-api",
+      "title": "Glenn API record",
+      "url": "https://rickandmortyapi.com/api/character/145",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

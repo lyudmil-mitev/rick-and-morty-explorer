@@ -1,0 +1,27 @@
+{
+  "id": 261,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Photography Cyborgs",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Photography_Cyborgs",
+  "text": "Photography Cyborgs are a type of cyborgs who can be hired to take pictures at social events, while some work for the Galactic Federation.",
+  "sources": [
+    {
+      "id": "characters-261-wiki",
+      "title": "Photography Cyborgs",
+      "url": "https://rickandmorty.fandom.com/wiki/Photography_Cyborgs",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-261-api",
+      "title": "Photography Cyborg API record",
+      "url": "https://rickandmortyapi.com/api/character/261",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

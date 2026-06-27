@@ -1,0 +1,27 @@
+{
+  "id": 32,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bearded Lady",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bearded_Lady",
+  "text": "The Bearded Lady  was a false character, portrayed by the  Memory Parasites. She appears in a pink dress with a long brown beard and fancy hair. Sh e appeared in the episode  Total Rickall .",
+  "sources": [
+    {
+      "id": "characters-32-wiki",
+      "title": "Bearded Lady",
+      "url": "https://rickandmorty.fandom.com/wiki/Bearded_Lady",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-32-api",
+      "title": "Bearded Lady API record",
+      "url": "https://rickandmortyapi.com/api/character/32",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

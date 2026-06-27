@@ -1,0 +1,27 @@
+{
+  "id": 678,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Japheth",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Japheth",
+  "text": "Japheth is a character who appeared in \"Mort Dinner Rick Andre\" as the main antagonist (alongside his descendants). He is the only son of Hoovy and Bova.\n\nBefore Japheth was even born, his father, Hoovy, walked through a portal with Morty Smith in order to help the boy carry a crate of wine back to his home dimension. Unknown to Hoovy, time passes significantly faster between the two dimensions. Hoovy returns to find his farmstead dilapidated and seemingly abandoned. After finding the skeletal remains of his wife, Hoovy is ambushed and stabbed by Japheth, who berates his father for abandoning them. With his dying words, Hoovy expresses his sorrow and warns Japheth of Morty.\n\nJapheth buries the remains of his parents and continues living on their run-down farm, training and awaiting for Morty's return. One day, Morty does indeed return and finds Japheth kneeling in front of his parent's graves. At the mention of Hoovy's name, Japheth lunges after and brutally beats Morty, who manages to escape. After this encounter, Japheth revitalizes his family's ruined farm and starts a family, having at least three sons.\n\nNow elderly, Japheth is out tending to his fields when Morty returns once more, and is shoved to the ground and kicked. Japheth's sons rush out and witness the scuffle, and apologize to their father for not believing his tales of Morty. Weakened from the attack, Japheth dies in his son's arms after urging them to stop Morty the next time he returns. Japheth's plea to his sons ultimately sets off a generational war against Morty, with Japheth's sons and further descendants patiently awaiting the return of Morty and reacting hostilely when he does.",
+  "sources": [
+    {
+      "id": "characters-678-wiki",
+      "title": "Japheth",
+      "url": "https://rickandmorty.fandom.com/wiki/Japheth",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-678-api",
+      "title": "Japheth's Youngest Son API record",
+      "url": "https://rickandmortyapi.com/api/character/678",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

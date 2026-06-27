@@ -1,0 +1,27 @@
+{
+  "id": 375,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Vance Maximus",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Vance_Maximus",
+  "text": "Vance Maximus, Renegade Starsoldier was a member of the superhero team The Vindicators, who made his first appearance in \"Vindicators 3: The Return of Worldender\". He was a pastiche/parody of flippant, scene-stealing heroes like Peter Quill/Star Lord and Tony Stark/Iron Man.\n\nMaximus appears calm, collected, and suave. With a love for casual drinking and seemingly endless charm, he is much loved by his teammates. He recruited Rick and Morty to help them once before but later neglected to summon them for their second adventure due to \"personality conflicts.\"\n\nThey were eventually summoned again for their third mission to stop the evil Worldender. However, during the mission, they discover that Rick had gone on a drunken rampage the night before and had killed Worldender and all his goons while setting up a Saw-like death game to prove that the Vindicators aren't as great as they, or anyone else, thinks they are during his blackout. It's during this that Vance succumbs to his anxiety and his true self is revealed: an emotionally-insecure neurotic who collapses under pressure. During this, he harshly admitted that the only reason he let Morty tag along was because he's \"the learning disabled kid we do photo ops with\" which earned him an angry glare from Rick. While frantically attempting to escape the game he flew into a booby-trapped air duct, killing him. His death left everyone in the room shocked, including Rick. Soon after his lower half started flying out of control forcing Crocubot to destroy it.\n\nAt first, he appears to be a very calm, humorous, and caring leader. The team often laughs at his jokes, and Morty was very appreciative of Vance when he gave him a Vindicator's jacket.\n\nBut when they are trapped, another side is revealed. Behind the affectation of a dashing rogue, he is an anxious, image-conscious phony as he reveals he only brought Morty along and gave him the jacket because Morty was the equivalent of the mentally challenged child that they needed to boost their publicity as affectionate heroes.",
+  "sources": [
+    {
+      "id": "characters-375-wiki",
+      "title": "Vance Maximus",
+      "url": "https://rickandmorty.fandom.com/wiki/Vance_Maximus",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-375-api",
+      "title": "Vance Maximus API record",
+      "url": "https://rickandmortyapi.com/api/character/375",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

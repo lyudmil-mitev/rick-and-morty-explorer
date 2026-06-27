@@ -1,0 +1,27 @@
+{
+  "id": 50,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Kyle",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Kyle",
+  "text": "Kyle is a minor character introduced in the episode \"The Ricks Must Be Crazy\" who existed within Zeep Xanflorp's Miniverse.",
+  "sources": [
+    {
+      "id": "locations-50-wiki",
+      "title": "Kyle",
+      "url": "https://rickandmorty.fandom.com/wiki/Kyle",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-50-api",
+      "title": "Kyle's Teenyverse API record",
+      "url": "https://rickandmortyapi.com/api/location/50",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

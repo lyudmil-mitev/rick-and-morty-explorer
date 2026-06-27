@@ -1,0 +1,27 @@
+{
+  "id": 509,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Bullies",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Bullies",
+  "text": "The Bullies are three students that bullied Morty at Harry Herpson High School. They appear in Edge of Tomorty: Rick Die Rickpeat, with one of them having previously appeared in the ending credits of Something Ricked This Way Comes.\n\nThe secondary ginger bully bullied a young child at a playground and was beaten up by Rick and Summer as a result of his actions.\n\nWhen Morty was stopped by the lead bully that bullied him in the school hallway, the bully made numerous threats in regard to his nonchalant attitude, all of which were ignored due to Morty's overconfidence brought on by the death crystal in his possession. After touching the bully's face, he smashed his head into a locker then promised that Morty would die the following day. Both the bully and his friends were present when Morty arrived with weaponry he took from The Garage the next day. After briefly taunting Morty, the lead bully took a swing with a chain but missed and was carried up into the atmosphere in several seconds. The other bullies attacked Morty, but one was gummed and the other was sucked into a very small box, which Morty then picked up and stored.\n\nIn the episode \"The Old Man and the Seat\", the lead bully appears on a milk carton in Jerry's refrigerator and noted as missing.\n\nIn the episode \"Amortycan Grickfitti\", the brown haired bully is seen bullying and making fun of Bruce Chutback after it is revealed that he is wore the same pair of pants twice.\n\nIn the episode \"Full Meta Jackrick\", the lead bully appears chasing after Marvin the Cowardly Security Guard on a shopping cart near a supermarket.",
+  "sources": [
+    {
+      "id": "characters-509-wiki",
+      "title": "Bullies",
+      "url": "https://rickandmorty.fandom.com/wiki/Bullies",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-509-api",
+      "title": "Bully API record",
+      "url": "https://rickandmortyapi.com/api/character/509",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

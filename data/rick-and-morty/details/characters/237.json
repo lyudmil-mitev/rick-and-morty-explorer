@@ -1,0 +1,27 @@
+{
+  "id": 237,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mr. Benson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mr._Benson",
+  "text": "Mr. Benson is the across the street neighbor of the Smith Family who was frozen in time during the episodes Ricksy Business and A Rickle in Time, while falling off his ladder.\n\nThe original Mr. Benson presumably became a Cronenberg in the Cronenberged dimension.\n\nIn the episode Ricksy Business, Mr. Benson was on the ladder, which was propped up against his house, while he was fixing the roof. The ladder tipped over and he began to fall off, just as Rick froze time, leaving him frozen in mid-air.\n\nIn the episode A Rickle in Time, which took place six months after the events of the previous episode, Rick finally unfroze time and Mr. Benson fell flat on the ground in pain. Morty and Summer were arguing over who was supposed to be in charge of putting a mattress underneath Mr. Benson to break his fall once they unfroze time, because they both failed to do so. Later, Mr. Benson was seen being loaded into an ambulance, and they came to the conclusion that Summer was the one left in charge of the mattress. At the end of the episode, Mr. Benson was seen in a wheelchair, having permanently become a paraplegic. A few friends and/or relatives were gathered around him, giving him flowers, sad about the recent events.",
+  "sources": [
+    {
+      "id": "characters-237-wiki",
+      "title": "Mr. Benson",
+      "url": "https://rickandmorty.fandom.com/wiki/Mr._Benson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-237-api",
+      "title": "Mr. Benson API record",
+      "url": "https://rickandmortyapi.com/api/character/237",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

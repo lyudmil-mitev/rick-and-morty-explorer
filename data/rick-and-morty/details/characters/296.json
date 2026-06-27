@@ -1,0 +1,27 @@
+{
+  "id": 296,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Risotto Groupon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Risotto_Groupon",
+  "text": "Risotto Groupon is an antagonist who appeared in The Whirly Dirly Conspiracy. He is the assistant general manager of the restaurant at the Immortality Field Resort, and is the apparent leader of his species there.\n\nSome time before the events of The Whirly Dirly Conspiracy, Risotto Groupon's kingdom was usurped by enemies that were equipped by Rick. He wants revenge against Rick, and tries to recruit Jerry to help him, informing him of a gap in the immortality field on the Whirly Dirly roller coaster ride. After Rick survives the attempt on his life, Risotto catches up to him and Jerry on a commercial space-liner, whose security injected synaptic dampeners into Rick to subdue violent tendencies and controversial thought, as well as use of his \"Class-C or above\" cybernetic implants. Jerry holds Risotto off long enough for the space-liner to enter a wormhole, sending the three of them into a mind-altering trip through space-time. The trip through the wormhole takes long enough to allow Rick's synaptic dampeners to wear off, allowing him to utilize his cybernetic implants, quickly disarming Risotto, and killing him.",
+  "sources": [
+    {
+      "id": "characters-296-wiki",
+      "title": "Risotto Groupon",
+      "url": "https://rickandmorty.fandom.com/wiki/Risotto_Groupon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-296-api",
+      "title": "Risotto Groupon API record",
+      "url": "https://rickandmortyapi.com/api/character/296",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

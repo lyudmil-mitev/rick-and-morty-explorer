@@ -1,0 +1,27 @@
+{
+  "id": 474,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Cowboy Dancer Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Cowboy_Dancer_Morty",
+  "text": "Cowboy Dancer Morty was a dancer working at The Creepy Morty who witnessed the fight between Cop Rick and Morty, and Big Morty. He is sometimes confused with Western Morty\n\nAfter the near destruction, and later rebuilding, of the The Citadel; this Morty worked at the sleazy strip club \"The Creepy Morty\", located in the Mortytown district. He was paid to dance up on the central stage while dressed in some cowboy gear, to the enjoyment of drunk Morty customers. Cop Rick and Cop Morty visited the Creepy Morty during one of 's shifts, though he did not notice them. Only once the shootout started between the two cops and Big Morty, did stop performing. He assured them that his guns were fake and dropped them quickly. When the fight was over he promised not to say anything and crept away from the two cops.",
+  "sources": [
+    {
+      "id": "characters-474-wiki",
+      "title": "Cowboy Dancer Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Cowboy_Dancer_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-474-api",
+      "title": "Dancer Cowboy Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/474",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

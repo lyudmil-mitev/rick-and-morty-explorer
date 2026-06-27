@@ -1,0 +1,27 @@
+{
+  "id": 90,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Daron Jefferson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Daron_Jefferson",
+  "text": "Daron Jefferson is an nippalian from the episode Auto Erotic Assimilation, that is under the control of Unity. When he was released of his slavery to Unity, it was revealed that he used to be a landscaper back when he had free will. it was also revealed that he was a racist, who believed that the cone-nippled nippalians were superior to the ring-nippled nippalians. He helped start a race war between his own kind and the ring-nippled nippalians.",
+  "sources": [
+    {
+      "id": "characters-90-wiki",
+      "title": "Daron Jefferson",
+      "url": "https://rickandmorty.fandom.com/wiki/Daron_Jefferson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-90-api",
+      "title": "Daron Jefferson API record",
+      "url": "https://rickandmortyapi.com/api/character/90",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

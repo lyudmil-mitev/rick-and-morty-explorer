@@ -1,0 +1,27 @@
+{
+  "id": 114,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Morty Smith",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Morty_Smith",
+  "text": "Mortimer \"Morty\" Smith Sr. of the Prime Dimension is one of the two titular main protagonists (alongside Rick Sanchez) of Rick and Morty. He was often incorrectly identified as Morty C-137 until Season 5.\n\nMorty is Rick Sanchez's grandson and is often forced to tag along on his various misadventures as a sidekick whilst attending Harry Herpson High School along with his sister, Summer. At the beginning of the series, Morty was shown to be an incredibly anxious and submissive teenage boy. He had little say in the adventures he went on with Rick and was often verbally abused and manipulated by him. However, Morty eventually gained more confidence as time went on and is now more capable and independent rather than a mere sidekick. This newfound confidence also allowed Morty to distance himself from Rick more often due to his despicable tendencies, although Morty still stays by his side when necessary.\n\nIt has since been revealed in \"Rickmurai Jack\" and \"Solaricks\" that Rick (C-137) is not his true grandfather, as protagonist Morty is actually the biological grandson of Rick Prime, a version of Rick who murdered C-137's family. After decades of failing to get revenge on Rick Prime, Rick eventually arrived in Morty's dimension to take his place , kickstarting the series and thus Rick and Morty's adventures.",
+  "sources": [
+    {
+      "id": "locations-114-wiki",
+      "title": "Morty Smith",
+      "url": "https://rickandmorty.fandom.com/wiki/Morty_Smith",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-114-api",
+      "title": "Morty API record",
+      "url": "https://rickandmortyapi.com/api/location/114",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

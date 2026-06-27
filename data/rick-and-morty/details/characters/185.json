@@ -1,0 +1,27 @@
+{
+  "id": 185,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Joseph Lipnip",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Joseph_Lipnip",
+  "text": "Joseph Eli Lipnip is a man, who was falsely accused of eating his son, Tommy, when he was trapped in Froopyland, by Beth, when she and Tommy were children.\n\nHe is nearly executed when Tommy's clone shows up and he is declared innocent. Its unknown what happened to him after that, but it is suggested that he was released from prison and went back to his wife and \"son\". He appeared in \"The ABC's of Beth\".\n\nIn the Prime Dimension, he turned into a Cronenberg and his further fate is unknown. In \"Solaricks\", he is killed along with the entire human population of Dimension C-131 by Mr. Frundles. In the Parmesan Dimension, he is probably alive.",
+  "sources": [
+    {
+      "id": "characters-185-wiki",
+      "title": "Joseph Lipnip",
+      "url": "https://rickandmorty.fandom.com/wiki/Joseph_Lipnip",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-185-api",
+      "title": "Joseph Eli Lipkip API record",
+      "url": "https://rickandmortyapi.com/api/character/185",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

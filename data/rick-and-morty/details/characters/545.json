@@ -1,0 +1,27 @@
+{
+  "id": 545,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Miles Knightly",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Miles_Knightly",
+  "text": "Miles Knightly was a \"heist artist\" -- a skilled thief who prided himself on his strategic and charismatic approach to theft. He was introduced and featured in the episode \"One Crew over the Crewcoo's Morty\".\n\nKnightly comes into the storyline when Rick and Morty discover Knightly's calling card after a tomb raiding adventure. This leads them to Heist-Con, a convention hosted by Knightly himself. He challenged Rick to a \"heist-off,\" which resulted in an unexpected turn of events. Rick, using his robot Heistotron, managed to outmaneuver Knightly's plans and cause a chaotic scenario where all attendees of Heist-Con were ordered to steal everything in the convention center. This led to Knightly's gruesome dismemberment and death.\n\nKnightly was a rather polite, albeit arrogant, individual with a deep admiration for the heist genre, seeing it as an art form. He was highly confident in his heisting abilities and was genuinely surprised when Rick outsmarted him in a \"heist-off,\" proof to his previous level of self-assuredness.",
+  "sources": [
+    {
+      "id": "characters-545-wiki",
+      "title": "Miles Knightly",
+      "url": "https://rickandmorty.fandom.com/wiki/Miles_Knightly",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-545-api",
+      "title": "Heist-Con Receptionist API record",
+      "url": "https://rickandmortyapi.com/api/character/545",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

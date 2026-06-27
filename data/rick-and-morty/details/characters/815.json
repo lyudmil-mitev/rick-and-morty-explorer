@@ -1,0 +1,27 @@
+{
+  "id": 815,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Punk Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Punk_Morty",
+  "text": "Punk Morty appears in the game Pocket Mortys.",
+  "sources": [
+    {
+      "id": "characters-815-wiki",
+      "title": "Punk Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Punk_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-815-api",
+      "title": "Punk Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/815",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 82,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Wasp Universe",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Wasp_Universe",
+  "text": "The Wasp Universe is an alternate reality where the residents are giant sentient wasps instead of humans, although not all humans in this universe are wasps.\n\nThis universe's history is similar to most other dimensions, but with humans replaced by wasps. There was at one point a wasp Hitler, who was defeated and had his fascist ideology crushed. Despite this, Rick C-137 was urged by Wasp Rick to not mention any kind of support for wasp Hitler around Morty.",
+  "sources": [
+    {
+      "id": "locations-82-wiki",
+      "title": "Wasp Universe",
+      "url": "https://rickandmorty.fandom.com/wiki/Wasp_Universe",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-82-api",
+      "title": "Earth (Wasp Dimension) API record",
+      "url": "https://rickandmortyapi.com/api/location/82",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 90,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Reggie",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Reggie",
+  "text": "Reggie is a godlike being who is the former lover of Gaia. He is the main antagonist of episode \"Childrick of Mort\".",
+  "sources": [
+    {
+      "id": "locations-90-wiki",
+      "title": "Reggie",
+      "url": "https://rickandmorty.fandom.com/wiki/Reggie",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-90-api",
+      "title": "Mount Olympus API record",
+      "url": "https://rickandmortyapi.com/api/location/90",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

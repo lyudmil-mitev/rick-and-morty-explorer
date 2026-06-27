@@ -1,0 +1,27 @@
+{
+  "id": 199,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Larvaalians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Larvaalians",
+  "text": "The Larvaalians are an alien species that was part of the Galactic Federation before its fall. Their home planet was destroyed by Cromulons.",
+  "sources": [
+    {
+      "id": "characters-199-wiki",
+      "title": "Larvaalians",
+      "url": "https://rickandmorty.fandom.com/wiki/Larvaalians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-199-api",
+      "title": "Larva Alien API record",
+      "url": "https://rickandmortyapi.com/api/character/199",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 798,
+  "status": "contextual_source",
+  "textType": "description",
+  "wikiTitle": "Ferkisians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Ferkisians",
+  "text": "Ferkisians are slug-like aliens from Ferkus 9 that appear in A Rickconvenient Mort. This contextual species page supports the API record homeworld and species context, with a spelling difference between API Ferkusian and wiki Ferkisians.",
+  "sources": [
+    {
+      "id": "characters-798-api",
+      "title": "Ferkusian API record",
+      "url": "https://rickandmortyapi.com/api/character/798",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    },
+    {
+      "id": "characters-798-wiki-context",
+      "title": "Ferkisians",
+      "url": "https://rickandmorty.fandom.com/wiki/Ferkisians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T23:30:56.832Z"
+    }
+  ],
+  "notes": "No individual character page found; use Ferkisians species page as contextual source and note spelling difference with API type label Ferkusian."
+}

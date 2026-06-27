@@ -1,0 +1,27 @@
+{
+  "id": 146,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Glaxo Slimslom",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Glaxo_Slimslom",
+  "text": "{{Character\n|name =\n|species = Nuptian\n|job = Couples Counselor\n|first = Big Trouble In Little Sanchez\n|voice actor = Jim Rash\n|image = Screenshot_2015-09-28_at_8.07.59_AM.png\n|affiliation = Nuptia 4 (formerly)\n|status = Alive\n}} when Beth and Jerry blame Nuptia 4 for the chaos|Big Trouble in Little Sanchez|font-size = 20}} is an alien couples counselor at Nuptia 4, who appears in the episode \"Big Trouble In Little Sanchez\". Beth and Jerry were sent to Nuptia 4 by Rick for couples counselling because it is the galaxy's most successful couples counselling institute, meaning Glaxo must be one of the galaxy's best counsellors.\n\nAfter welcoming the Smiths, Glaxo took them to the institute's machine to create Beth's and Jerry's Mythologs to continue with their treatment. He later takes his current group on tour to see all the different mythologs belonging to everyone in the group, starting with Gar and Zarbadar Gloonch's. When they came to Beth and Jerry's mythologs, theirs managed to escape their cell and go on a murderous rampage through the whole facility. As Glaxo was fleeing with the Smiths, he is outraged by how dysfunctional their marriage is and how it shouldn't exist; saying \"You have the single worst marriage I've ever witnessed\". When they managed to find the last escape-ship, Glaxo runs aboard yelling that Beth and Jerry are not therapists and the ship leaves without them.",
+  "sources": [
+    {
+      "id": "characters-146-wiki",
+      "title": "Glaxo Slimslom",
+      "url": "https://rickandmorty.fandom.com/wiki/Glaxo_Slimslom",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-146-api",
+      "title": "Glexo Slim Slom API record",
+      "url": "https://rickandmortyapi.com/api/character/146",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

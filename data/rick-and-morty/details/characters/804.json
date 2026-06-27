@@ -1,0 +1,27 @@
+{
+  "id": 804,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Andy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Andy",
+  "text": "Andy is the mascot of the Citadel who appears in the episode \"Rickmurai Jack\".\n\nAndy is first seen when Rick and Morty enter the Citadel in order to fix Morty's age after the former takes an aging potion as he introduces him as the Citadel's new mascot. He then mentions how the place would not be home without Ricks \"Andy\" Morties. Rick and Morty then walk away from him with the latter calling him and his pun dumb.\n\nAndy's corpse can be seen in \"The Rick, The Mort & The Ugly\" when Rick and Morty are collecting scraps in space using the Space Cruiser.",
+  "sources": [
+    {
+      "id": "characters-804-wiki",
+      "title": "Andy",
+      "url": "https://rickandmorty.fandom.com/wiki/Andy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-804-api",
+      "title": "Andy API record",
+      "url": "https://rickandmortyapi.com/api/character/804",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 673,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hoovy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hoovy",
+  "text": "Hoovy is a character who appeared in \"Mort Dinner Rick Andre\". He and his partner, Bova, lived in an alternate dimension where time moved much faster than in the Dimension C-131.\n\nAt some point in his life, Hoovy met Bova and the two conceived a child together. Hoovy himself claimed he messed up several times during the early days of his and Bova's relationship, but she loved him for doing so. He didn't seem to take much interest in the wine Rick threw into his dimension to age, brushing it off as \"that crate full of alcohol that's been here for decades.\"\n\nWhen Morty Smith came to Hoovy's dimension to retrieve the aged wine, Hoovy helped him carry it and entered the Replacement dimension for a short time. However, during this brief visit, decades passed in his own world. Upon returning, Hoovy found Bova had given birth to their son, Japheth and subsequently passed away. A now adult Japheth stabbed Hoovy as revenge for abandoning them. Hoovy told his son it wasn't his fault and blamed Morty for his absence before dying from his wound. Hoovy's final words set off a chain of events where Japheth and Hoovy's descendants waited for Morty to return so they could finally kill him.\n\nIt is quite possible this domino effect leading to Hoovy's demise was entirely avoidable (as it appears Morty forgetfully, or even through innocent naiveté, actively chose to close the gateway behind him as he entered the garage with his new friend) though, it appears Morty never quite realized Hoovy's fate, misidentifying Japheth as his father several times thereafter.",
+  "sources": [
+    {
+      "id": "characters-673-wiki",
+      "title": "Hoovy",
+      "url": "https://rickandmorty.fandom.com/wiki/Hoovy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-673-api",
+      "title": "Hoovy API record",
+      "url": "https://rickandmortyapi.com/api/character/673",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

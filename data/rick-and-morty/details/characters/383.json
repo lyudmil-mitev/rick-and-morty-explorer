@@ -1,0 +1,27 @@
+{
+  "id": 383,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Yaarb",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Yaarb",
+  "text": "Yaarb is an alien diplomat who appeared in the episode Interdimensional Cable 2: Tempting Fate. He is one of the two diplomats who was trying to persuade Jerry Smith to donate his penis so it could be used to save the life of alien civil rights leader Shrimply Pibbles",
+  "sources": [
+    {
+      "id": "characters-383-wiki",
+      "title": "Yaarb",
+      "url": "https://rickandmorty.fandom.com/wiki/Yaarb",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-383-api",
+      "title": "Yaarb API record",
+      "url": "https://rickandmortyapi.com/api/character/383",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

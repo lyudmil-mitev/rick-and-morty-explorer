@@ -1,0 +1,27 @@
+{
+  "id": 418,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Behind Every Lover, There is a Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Behind_Every_Lover%2C_There_is_a_Rick",
+  "text": "Behind Every Lover, There is a Rick is a quest in the game Pocket Mortys. In this quest Guard Rick will ask for a Gwendolyn Doll.",
+  "sources": [
+    {
+      "id": "characters-418-wiki",
+      "title": "Behind Every Lover, There is a Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Behind_Every_Lover%2C_There_is_a_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-418-api",
+      "title": "Mrs. Sullivan's Boyfriend API record",
+      "url": "https://rickandmortyapi.com/api/character/418",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

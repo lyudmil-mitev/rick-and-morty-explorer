@@ -1,0 +1,27 @@
+{
+  "id": 806,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rickmurai Jack/Transcript",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rickmurai_Jack%2FTranscript",
+  "text": "This article is a transcript of the Rick and Morty episode Rickmurai Jack from Season 5.",
+  "sources": [
+    {
+      "id": "characters-806-wiki",
+      "title": "Rickmurai Jack/Transcript",
+      "url": "https://rickandmorty.fandom.com/wiki/Rickmurai_Jack%2FTranscript",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-806-api",
+      "title": "Metaphor for Capitalism API record",
+      "url": "https://rickandmortyapi.com/api/character/806",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

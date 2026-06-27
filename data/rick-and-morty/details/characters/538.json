@@ -1,0 +1,27 @@
+{
+  "id": 538,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Priest Witherspoon",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Priest_Witherspoon",
+  "text": "Priest Witherspoon is a priest, who fell victim to the Lovefinderrz app and went out with Josiah on impulse.\n\nThe original Priest Witherspoon presumably became a Cronenberg in the Cronenberged Dimension.\n\nPriest Witherspoon was set to marry Jeff and Maggie, who met each other through Lovefinderrz. While performing the ceremony, Summer Smith came crashing through one of the church windows in a parachute and disrupted the event. Summer told Jeff she could explain everything, which he said was unnecessary and asked Priest Witherspoon to marry him to Summer, instead of Maggie. Before Witherspoon could do this, however, Jeff ran off with a man on a motorcycle. Seconds later, a construction worker broke through the church wall on a lift and showed his match with the priest. Witherspoon quickly joined him on the lift and the two exited the church.",
+  "sources": [
+    {
+      "id": "characters-538-wiki",
+      "title": "Priest Witherspoon",
+      "url": "https://rickandmorty.fandom.com/wiki/Priest_Witherspoon",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-538-api",
+      "title": "Priest Witherspoon API record",
+      "url": "https://rickandmortyapi.com/api/character/538",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 231,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Morty Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Morty_Rick",
+  "text": "Morty Rick is either a Rick, a Morty, or a combination of both. He appeared in the episode \"The Rickshank Rickdemption\", in the background at the Citadel of Ricks.\n\nIn the same episode, many Mortys are killed when the Citadel of Ricks is transported into a prison of the Galactic Federation, it is unknown if Morty Rick is one of the Mortys who died.",
+  "sources": [
+    {
+      "id": "characters-231-wiki",
+      "title": "Morty Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Morty_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-231-api",
+      "title": "Morty Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/231",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

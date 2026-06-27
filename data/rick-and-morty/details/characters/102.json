@@ -1,0 +1,27 @@
+{
+  "id": 102,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Donna Guterman",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Donna_Guterman",
+  "text": "Donna Guterman was the wife of Pat Guterman, the mother of Tammy Guterman, and the mother-in-law of Birdperson, she is first introduced in the episode The Wedding Squanchers, during Birdperson's wedding. She and her husband introduce themselves to Jerry and Beth Smith during the wedding reception.\n\nLater, it is revealed that Donna, Pat and Tammy are agents for the Galactic Federation. Donna and Pat are revealed not to be human, but deadly robots. The two of them directly pursue the Smith family as they attempt to escape. Donna attempts to choke Summer (her daughter Tammy's friend) but is stabbed in the eye by Beth and quickly kicked out of a back of a spaceship.",
+  "sources": [
+    {
+      "id": "characters-102-wiki",
+      "title": "Donna Guterman",
+      "url": "https://rickandmorty.fandom.com/wiki/Donna_Guterman",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-102-api",
+      "title": "Donna Gueterman API record",
+      "url": "https://rickandmortyapi.com/api/character/102",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

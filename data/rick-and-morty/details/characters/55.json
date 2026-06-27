@@ -1,0 +1,27 @@
+{
+  "id": 55,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Boobloosians",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Boobloosians",
+  "text": "The Boobloosians are a species of short, large-headed bald aliens. A number of Boobloosians are involved with a hivemind called \"David Prime\".",
+  "sources": [
+    {
+      "id": "characters-55-wiki",
+      "title": "Boobloosians",
+      "url": "https://rickandmorty.fandom.com/wiki/Boobloosians",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-55-api",
+      "title": "Boobloosian API record",
+      "url": "https://rickandmortyapi.com/api/character/55",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

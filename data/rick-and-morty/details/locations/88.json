@@ -1,0 +1,27 @@
+{
+  "id": 88,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Heist-Con",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Heist-Con",
+  "text": "Heist-Con was a convention hosted by the heist artist Miles Knightly. It was centered around heisting and featured booths, shows and activities related to the topic.\n\nRick brought Morty to Heist-Con after begging him to go on an adventure. To go inside you need to cut a hole in the glass just like any heist where you're sneaking inside. To participate in the events you need to buy guest badges or professional badges although Rick refuses to buy a guest badge, the requirements of getting a professional badge is you need a heist crew of more than two people. The most recent Heist-Con had at least 3329 attendees.",
+  "sources": [
+    {
+      "id": "locations-88-wiki",
+      "title": "Heist-Con",
+      "url": "https://rickandmorty.fandom.com/wiki/Heist-Con",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "locations-88-api",
+      "title": "Heist-Con API record",
+      "url": "https://rickandmortyapi.com/api/location/88",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

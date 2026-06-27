@@ -1,0 +1,27 @@
+{
+  "id": 266,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Piece of Toast",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Piece_of_Toast",
+  "text": "Piece of Toast is a famous actor from an unspecified dimension.\n\nPiece of Toast has made his career with appearances on that dimension's Saturday Night Live and has broken into film industry taking on more serious roles. According to Rick, Piece of Toast and Bobby Moynihan hate each other and have \"creative differences\".\n\nIn \"The Ricks Must Be Crazy,\" Piece of Toast is shown on a poster for his feature film French Toast, hanging on the outside of Egan Cinema.",
+  "sources": [
+    {
+      "id": "characters-266-wiki",
+      "title": "Piece of Toast",
+      "url": "https://rickandmorty.fandom.com/wiki/Piece_of_Toast",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-266-api",
+      "title": "Piece of Toast API record",
+      "url": "https://rickandmortyapi.com/api/character/266",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

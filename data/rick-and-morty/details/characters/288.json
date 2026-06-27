@@ -1,0 +1,27 @@
+{
+  "id": 288,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Rick Sanchez (D716-B)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D716-B)",
+  "text": "Rick Sanchez (D716-B) is a co-anchor for the news channel CN on the Citadel of Ricks. He is from Dimension (D716-B).\n\nRick hosted the Citadel Morning News alongside Rick D716. The two reported on the Citadel's first democratic election, which ultimately resulted in the Morty candidate becoming president.\n\nPresident Morty later destroyed the Citadel, and D716 was killed after attempting to escape through a portal with tainted fluid. D716-B then took his counterpart's place and advised the news' viewers to buy prescription drugs, after D716 criticised them.\n\nIt is unknown if he survived the destruction of the Citadel, but he was likely killed.\n\nRick D716-B, being a scarred version of Rick D716, had a grudge against him for his appearance.",
+  "sources": [
+    {
+      "id": "characters-288-wiki",
+      "title": "Rick Sanchez (D716-B)",
+      "url": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez_(D716-B)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-288-api",
+      "title": "Rick D716-B API record",
+      "url": "https://rickandmortyapi.com/api/character/288",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

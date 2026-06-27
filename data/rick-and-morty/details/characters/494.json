@@ -1,0 +1,27 @@
+{
+  "id": 494,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Crystal Poachers",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Crystal_Poachers",
+  "text": "{{Organisation\n|image = S4e1 2019-11-13-12h17m59s778.png\n|caption = attacking Rick and Morty\n|type = Illegal poachers\n|status = Deceased\n|location = Forbodulon Prime\n|only = Edge of Tomorty: Rick Die Rickpeat\n}}\nCrystal Poachers are poachers who illegally mine Death Crystals on Forbodulon Prime. A trio of crystal poachers were killed by Rick Sanchez while he was illegally mining his own Death Crystals.\n\nCrystal Poachers came to be with the high value of Death Crystals on the black market. They travelled to Forbodulon Prime and mined as many crystals as they could carry, while armed with guns to attack other crystal miners. The poachers attacked Rick and Morty Smith once they discovered the duo, but Rick killed them all with ease by using a death crystal to predict when they were reloading their guns.",
+  "sources": [
+    {
+      "id": "characters-494-wiki",
+      "title": "Crystal Poachers",
+      "url": "https://rickandmorty.fandom.com/wiki/Crystal_Poachers",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-494-api",
+      "title": "Crystal Poacher API record",
+      "url": "https://rickandmortyapi.com/api/character/494",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

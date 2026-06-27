@@ -1,0 +1,27 @@
+{
+  "id": 446,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Jerryboree receptionist",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Jerryboree_receptionist",
+  "text": "The unnamed Jerryboree receptionist is an alien who appears in the episodes \"Mortynight Run\" and \"Bethic Twinstinct\".\n\nThe Jerryboree receptionist is first seen in the episode \"Mortynight Run\" when Jerry is checked into the Jerryboree. She greets him, walks him to the back section, and leaves him with the other Jerrys. She is seen again when Jerry tells her he wants to leave, and she directs him to a tube which leads back inside via a slide. Later, he announces that he is leaving and she tells him that it was always allowed. She is once again seen when Jerry arrives back to the Jerryboree, and she watches him walk back in while smiling at him.\n\nShe is also seen in the episode \"Bethic Twinstinct.\" She greets Jerry when he arrives at the Jerryboree to check himself in with the intention of having an affair with another Jerry. She informs him that he can't check himself in, due to past issues when Jerrys try to touch other Jerrys, at which point he leaves.",
+  "sources": [
+    {
+      "id": "characters-446-wiki",
+      "title": "Jerryboree receptionist",
+      "url": "https://rickandmorty.fandom.com/wiki/Jerryboree_receptionist",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-446-api",
+      "title": "Jerryboree Receptionist API record",
+      "url": "https://rickandmortyapi.com/api/character/446",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

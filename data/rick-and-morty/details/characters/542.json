@@ -1,0 +1,27 @@
+{
+  "id": 542,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Jerry Smith (Pocket Mortys)",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Jerry_Smith_(Pocket_Mortys)",
+  "text": "Jerry appears in almost every world in Pocket Mortys except the very first. He also appears in a few quests.",
+  "sources": [
+    {
+      "id": "characters-542-wiki",
+      "title": "Jerry Smith (Pocket Mortys)",
+      "url": "https://rickandmorty.fandom.com/wiki/Jerry_Smith_(Pocket_Mortys)",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-542-api",
+      "title": "Mountain Sweat Jerry API record",
+      "url": "https://rickandmortyapi.com/api/character/542",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

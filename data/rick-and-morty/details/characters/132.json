@@ -1,0 +1,27 @@
+{
+  "id": 132,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Gar's Mytholog",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Gar's_Mytholog",
+  "text": "Gar's Mytholog is a physical representation of how Zarbadar perceives Gar. It appeared in the episode Big Trouble In Little Sanchez.",
+  "sources": [
+    {
+      "id": "characters-132-wiki",
+      "title": "Gar's Mytholog",
+      "url": "https://rickandmorty.fandom.com/wiki/Gar's_Mytholog",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-132-api",
+      "title": "Gar's Mytholog API record",
+      "url": "https://rickandmortyapi.com/api/character/132",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

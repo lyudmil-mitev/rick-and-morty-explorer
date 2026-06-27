@@ -1,0 +1,27 @@
+{
+  "id": 826,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Purpose Robot",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Purpose_Robot",
+  "text": "The Purpose Robot (previously the Butter Robot) is a small, two armed, mobile, sentient robot Rick Sanchez created for fulfilling niche tasks (purposes) for him, greatly dissatisfied with each one. First created with the sole purpose of passing butter, the Purpose Robot is later assigned the purposes of breaking out of a cell, and pulling a lever to release Rhett Caan from his cell.",
+  "sources": [
+    {
+      "id": "characters-826-wiki",
+      "title": "Purpose Robot",
+      "url": "https://rickandmorty.fandom.com/wiki/Purpose_Robot",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-826-api",
+      "title": "Butter Robot API record",
+      "url": "https://rickandmortyapi.com/api/character/826",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "id": 613,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Mike Johnson",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Mike_Johnson",
+  "text": "Mike Johnson is a character created by Morty who appears in the episode \"Never Ricking Morty\".\n\nMike Johnson is seen within a story Morty creates in an attempt to disrupt the thematic seal of the Story Train. He appears in his house with coffee introducing himself and opening a door to greet a man who wants cookies. Mike lets the man as they see scorpions attacking the house and wanting food. Rick then stops the story due to it not working and it being terrible.",
+  "sources": [
+    {
+      "id": "characters-613-wiki",
+      "title": "Mike Johnson",
+      "url": "https://rickandmorty.fandom.com/wiki/Mike_Johnson",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-613-api",
+      "title": "Mike Johnson API record",
+      "url": "https://rickandmortyapi.com/api/character/613",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

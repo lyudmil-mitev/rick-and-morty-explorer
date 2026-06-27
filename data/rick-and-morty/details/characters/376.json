@@ -1,0 +1,27 @@
+{
+  "id": 376,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Veronica Ann Bennet",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Veronica_Ann_Bennet",
+  "text": "Veronica Ann Bennet is a Gazorpian who lives in the underground city of Paradise on the planet Gazorpazorp. She was put on trial for having bad bangs and was sentenced to \"the silent treatment\".\n\nVeronica was arrested because her bangs were not up to standard, or just because they were not cut right. She was placed in line before the Gazorpian judge in order to be handed her punishment. While standing in line in front of Rick Sanchez and Summer Smith, she had a short chat with Rick on why he was on trial. Before she could say what she was there for, she was called before the judge who read up her charges. The judge sentenced her to \"the silent treatment\", effectively having the rest of the gazorpian women ignore her, including her friend Jackie.",
+  "sources": [
+    {
+      "id": "characters-376-wiki",
+      "title": "Veronica Ann Bennet",
+      "url": "https://rickandmorty.fandom.com/wiki/Veronica_Ann_Bennet",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-376-api",
+      "title": "Veronica Ann Bennet API record",
+      "url": "https://rickandmortyapi.com/api/character/376",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

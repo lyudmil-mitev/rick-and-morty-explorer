@@ -1,0 +1,27 @@
+{
+  "id": 164,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Insurance Rick",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Insurance_Rick",
+  "text": "Insurance Rick is a version of Rick that sells Morty Insurance at The Citadel.\n\nWhen Rick Sanchez was brought to the Citadel of Ricks and walking towards the court room, Insurance Rick tried unsuccessfully to sell him Morty Insurance.\n\nIn \"The Rickshank Rickdemption\", many Ricks are killed when the Citadel of Ricks is transported into a prison of the Galactic Federation, it is unknown if Insurance Rick is one of the Ricks who died.\n\nHe has the same pestering personality as the other salesmen at the Citadel of Ricks, with attempting to sell his Morty insurance to Rick while he's being transported as a prisoner to the court room. However, instead of becoming sad by Rick's rejection, he appears quite angry when told to back off.",
+  "sources": [
+    {
+      "id": "characters-164-wiki",
+      "title": "Insurance Rick",
+      "url": "https://rickandmorty.fandom.com/wiki/Insurance_Rick",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-164-api",
+      "title": "Insurance Rick API record",
+      "url": "https://rickandmortyapi.com/api/character/164",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

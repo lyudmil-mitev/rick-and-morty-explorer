@@ -1,0 +1,27 @@
+{
+  "id": 152,
+  "status": "ok",
+  "textType": "description",
+  "wikiTitle": "Hammerhead Morty",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/Hammerhead_Morty",
+  "text": ".\"]]Hammerhead Morty is one of the alternate dimension versions of Morty Smith who, with the other Mortys, rebelled against Evil Rick. He first appeared in the episode \"Close Rick-Counters of the Rick Kind\". He appeared again, and was gravely injured, possibly fatally, in \"The Rickshank Rickdemption\", when a guard for the Council of Ricks used him as a weapon and a meat shield. After taking many shots for the guard, who was killed shortly after, Hammerhead Morty was last seen kneeling on the ground suffering from his injuries. His body was later extracted by the Galactic Federation.\n\nIn \"Close Rick-Counters of the Rick Kind\", Hammerhead Morty was kidnapped by Evil Morty and Evil Rick Sanchez along with a great number of other versions of Morty. He was kept as a prisoner with the rest until the \"one true Morty\", Morty Smith, appeared and led a revolt against their captors. After defeating the seemingly evil Rick, all of the captive Mortys were transported to The Citadel.\n\nHammerhead Morty briefly appeared in \"The Rickshank Rickdemption\", at the Citadel after it collided with the Galactic Federation Prison. He was used as a blunt weapon by a Guard Rick against several escaped prisoners before he died as a human shield for the Guard Rick.\n\nThe \"Rick and Morty Character Guide\" mentions that his body was extracted from the ruins later on and an autopsy found nails being processed in his digestive system.",
+  "sources": [
+    {
+      "id": "characters-152-wiki",
+      "title": "Hammerhead Morty",
+      "url": "https://rickandmorty.fandom.com/wiki/Hammerhead_Morty",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "characters-152-api",
+      "title": "Hammerhead Morty API record",
+      "url": "https://rickandmortyapi.com/api/character/152",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}

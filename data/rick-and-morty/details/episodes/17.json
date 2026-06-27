@@ -1,0 +1,27 @@
+{
+  "id": 17,
+  "status": "ok",
+  "textType": "synopsis",
+  "wikiTitle": "The Ricks Must Be Crazy",
+  "wikiUrl": "https://rickandmorty.fandom.com/wiki/The_Ricks_Must_Be_Crazy",
+  "text": "\"The Ricks Must Be Crazy\" is the sixth episode of the second season of Rick and Morty. It is the seventeenth episode of the series overall. It premiered on August 30, 2015. It was written by Dan Guterman and directed by Dominic Polcino. The episode is rated TV-14-DLV.\n\nWhen Rick's car breaks down, he and Morty go inside its battery. Morty discovers that Rick has created a miniature universe inside the battery.",
+  "sources": [
+    {
+      "id": "episodes-17-wiki",
+      "title": "The Ricks Must Be Crazy",
+      "url": "https://rickandmorty.fandom.com/wiki/The_Ricks_Must_Be_Crazy",
+      "publisher": "Rick and Morty Wiki",
+      "sourceType": "wiki",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    },
+    {
+      "id": "episodes-17-api",
+      "title": "The Ricks Must Be Crazy API record",
+      "url": "https://rickandmortyapi.com/api/episode/17",
+      "publisher": "Rick and Morty API",
+      "sourceType": "official-api",
+      "retrievedAt": "2026-06-26T22:31:04.379Z"
+    }
+  ],
+  "notes": ""
+}
