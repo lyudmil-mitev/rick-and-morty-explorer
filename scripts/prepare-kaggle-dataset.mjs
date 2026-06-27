@@ -15,13 +15,13 @@ const REQUIRED_CSVS = [
   'character_episodes.csv',
   'location_residents.csv',
 ]
-const REQUIRED_DETAILS_FILES = [
+const REQUIRED_DETAILS_CSVS = [
   'characters_source_material.csv',
   'locations_source_material.csv',
   'episodes_source_material.csv',
   'sources.csv',
-  'manifest.json',
 ]
+const DETAILS_RESOURCES = ['characters', 'locations', 'episodes']
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(__dirname, '..')
@@ -30,7 +30,6 @@ const downloadDir = path.resolve(projectRoot, options.downloadDir)
 const detailsDownloadDir = path.resolve(projectRoot, options.detailsDownloadDir)
 const publicDataDir = path.resolve(projectRoot, 'public/data/rick-and-morty')
 const targetImageDir = path.join(publicDataDir, 'images', 'characters')
-const publicDetailsSourceDir = path.join(publicDataDir, 'details-source-material')
 const publicDetailsDir = path.join(publicDataDir, 'details')
 
 assertSafeGeneratedPath(downloadDir)
@@ -52,7 +51,12 @@ async function prepareDataset() {
       await downloadReleaseDatasetArchive()
       await installDatasetFromDirectory(await findPreparedDatasetDirectory(downloadDir))
       releaseInstalled = true
-      console.log(`Prepared ${DATASET_SLUG} from the latest GitHub release in ${path.relative(projectRoot, publicDataDir)}`)
+      if (await hasPreparedDataset()) {
+        console.log(`Prepared ${DATASET_SLUG} from the latest GitHub release in ${path.relative(projectRoot, publicDataDir)}`)
+        return
+      }
+
+      console.warn('Latest GitHub release dataset did not include prepared details JSON; falling back to Kaggle for details data.')
     } catch (error) {
       releaseError = error
       console.warn(`GitHub release dataset download failed: ${formatError(error)}`)
@@ -74,11 +78,9 @@ async function prepareDataset() {
 
   await resetDetailsDatasetDirectory()
   await downloadKaggleDatasetArchive(DETAILS_DATASET_SLUG, detailsDownloadDir, 'details-dataset.zip', credentials)
-  await installDetailsDatasetFromDirectory(await findDetailsDatasetDirectory(detailsDownloadDir))
-  const detailsSummary = await generateDetailsRuntimeDataset()
-  await updateManifestWithDetailsDataset()
+  const detailsSummary = await generateDetailsRuntimeDataset(await findDetailsDatasetDirectory(detailsDownloadDir))
   await updateManifestWithRuntimeDetails(detailsSummary)
-  console.log(`Prepared ${DETAILS_DATASET_SLUG} in ${path.relative(projectRoot, publicDetailsSourceDir)}`)
+  console.log(`Prepared ${DETAILS_DATASET_SLUG} in ${path.relative(projectRoot, publicDetailsDir)}`)
 }
 
 async function readKaggleCredentials() {
@@ -97,10 +99,8 @@ async function resetBaseDatasetDirectories() {
 
 async function resetDetailsDatasetDirectory() {
   await rm(detailsDownloadDir, { recursive: true, force: true })
-  await rm(publicDetailsSourceDir, { recursive: true, force: true })
   await rm(publicDetailsDir, { recursive: true, force: true })
   await mkdir(detailsDownloadDir, { recursive: true })
-  await mkdir(publicDetailsSourceDir, { recursive: true })
   await mkdir(publicDetailsDir, { recursive: true })
 }
 
@@ -114,6 +114,7 @@ async function installDatasetFromDirectory(sourceDataDir) {
   await cp(sourceImageDir, targetImageDir, { recursive: true })
 
   const imageCount = await countFiles(targetImageDir)
+  const detailsSummary = await installPreparedDetailsFromDirectory(sourceDataDir)
   const manifest = {
     dataset: DATASET_SLUG,
     generatedAt: new Date().toISOString(),
@@ -124,48 +125,39 @@ async function installDatasetFromDirectory(sourceDataDir) {
     },
   }
 
+  if (detailsSummary) {
+    manifest.details = detailsSummary
+  }
+
   await writeFile(path.join(publicDataDir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`)
-}
-
-async function installDetailsDatasetFromDirectory(sourceDataDir) {
-  for (const fileName of REQUIRED_DETAILS_FILES) {
-    await copyRequired(path.join(sourceDataDir, fileName), path.join(publicDetailsSourceDir, fileName))
-  }
-}
-
-async function updateManifestWithDetailsDataset() {
-  const manifestPath = path.join(publicDataDir, 'manifest.json')
-  const manifest = JSON.parse(await readFile(manifestPath, 'utf8'))
-
-  manifest.detailsSourceMaterial = {
-    dataset: DETAILS_DATASET_SLUG,
-    path: 'details-source-material',
-    files: REQUIRED_DETAILS_FILES,
-  }
-
-  await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`)
 }
 
 async function updateManifestWithRuntimeDetails(detailsSummary) {
   const manifestPath = path.join(publicDataDir, 'manifest.json')
   const manifest = JSON.parse(await readFile(manifestPath, 'utf8'))
 
-  manifest.details = {
-    path: 'details',
-    files: detailsSummary.files,
-    counts: detailsSummary.counts,
-    statuses: detailsSummary.statuses,
-  }
+  manifest.details = detailsSummary
 
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`)
 }
 
-async function generateDetailsRuntimeDataset() {
+async function installPreparedDetailsFromDirectory(sourceDataDir) {
+  const sourceDetailsDir = path.join(sourceDataDir, 'details')
+  if (!await isDirectory(sourceDetailsDir)) {
+    return null
+  }
+
+  await rm(publicDetailsDir, { recursive: true, force: true })
+  await cp(sourceDetailsDir, publicDetailsDir, { recursive: true })
+  return summarizeDetailsRuntimeDataset()
+}
+
+async function generateDetailsRuntimeDataset(sourceDataDir) {
   const [sourceRows, characterRows, locationRows, episodeRows] = await Promise.all([
-    readCsv(path.join(publicDetailsSourceDir, 'sources.csv')),
-    readCsv(path.join(publicDetailsSourceDir, 'characters_source_material.csv')),
-    readCsv(path.join(publicDetailsSourceDir, 'locations_source_material.csv')),
-    readCsv(path.join(publicDetailsSourceDir, 'episodes_source_material.csv')),
+    readCsv(path.join(sourceDataDir, 'sources.csv')),
+    readCsv(path.join(sourceDataDir, 'characters_source_material.csv')),
+    readCsv(path.join(sourceDataDir, 'locations_source_material.csv')),
+    readCsv(path.join(sourceDataDir, 'episodes_source_material.csv')),
   ])
   const sourceMap = new Map(sourceRows.map((row) => [row.id, toDetailsSource(row)]))
   const files = []
@@ -202,12 +194,53 @@ async function generateDetailsRuntimeDataset() {
   }
 
   return {
+    dataset: DETAILS_DATASET_SLUG,
+    path: 'details',
     files,
     counts: {
       characters: characterRows.length,
       locations: locationRows.length,
       episodes: episodeRows.length,
     },
+    statuses,
+  }
+}
+
+async function summarizeDetailsRuntimeDataset() {
+  const files = []
+  const counts = Object.fromEntries(DETAILS_RESOURCES.map((resource) => [resource, 0]))
+  const statuses = {}
+
+  for (const resource of DETAILS_RESOURCES) {
+    const resourceDir = path.join(publicDetailsDir, resource)
+    if (!await isDirectory(resourceDir)) {
+      return null
+    }
+
+    const entries = await readdir(resourceDir, { withFileTypes: true })
+    for (const entry of entries) {
+      if (!entry.isFile() || !entry.name.endsWith('.json')) {
+        continue
+      }
+
+      const fileName = `${resource}/${entry.name}`
+      files.push(fileName)
+      counts[resource] += 1
+
+      const record = JSON.parse(await readFile(path.join(publicDetailsDir, fileName), 'utf8'))
+      incrementStatus(statuses, record.status || 'unknown')
+    }
+  }
+
+  if (files.length === 0) {
+    return null
+  }
+
+  return {
+    dataset: DETAILS_DATASET_SLUG,
+    path: 'details',
+    files: files.sort(),
+    counts,
     statuses,
   }
 }
@@ -257,14 +290,10 @@ async function hasPreparedDataset() {
     }
 
     await assertDirectory(targetImageDir)
-    await assertDirectory(publicDetailsSourceDir)
-    for (const fileName of REQUIRED_DETAILS_FILES) {
-      await assertFile(path.join(publicDetailsSourceDir, fileName))
+    const detailsSummary = await summarizeDetailsRuntimeDataset()
+    if (!detailsSummary) {
+      return false
     }
-    await assertDirectory(publicDetailsDir)
-    await assertDirectory(path.join(publicDetailsDir, 'characters'))
-    await assertDirectory(path.join(publicDetailsDir, 'locations'))
-    await assertDirectory(path.join(publicDetailsDir, 'episodes'))
 
     return await countFiles(targetImageDir) > 0
   } catch {
@@ -309,7 +338,7 @@ async function findDetailsDatasetDirectory(rootDirectory) {
     }
   }
 
-  throw new Error('Details dataset archive does not contain the expected source-material CSV files and manifest.')
+  throw new Error('Details dataset archive does not contain the expected source-material CSV files.')
 }
 
 async function hasDatasetFiles(directory) {
@@ -327,11 +356,20 @@ async function hasDatasetFiles(directory) {
 
 async function hasDetailsDatasetFiles(directory) {
   try {
-    for (const fileName of REQUIRED_DETAILS_FILES) {
+    for (const fileName of REQUIRED_DETAILS_CSVS) {
       await assertFile(path.join(directory, fileName))
     }
 
     return true
+  } catch {
+    return false
+  }
+}
+
+async function isDirectory(directory) {
+  try {
+    const stats = await stat(directory)
+    return stats.isDirectory()
   } catch {
     return false
   }

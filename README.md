@@ -76,13 +76,13 @@ The Kaggle dataset is prepared locally or in CI with:
 npm run dataset:prepare
 ```
 
-That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built from the Rick and Morty API, then copies the CSVs and character images into `public/data/rick-and-morty/` so Vite serves them as static assets. It also downloads `robbroadhead/rick-and-morty-details-fandom-wiki-dataset`, stores the source-material CSVs under `public/data/rick-and-morty/details-source-material/`, and generates per-record JSON files under `public/data/rick-and-morty/details/`.
+That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built from the Rick and Morty API, then copies the CSVs and character images into `public/data/rick-and-morty/` so Vite serves them as static assets. It also downloads `robbroadhead/rick-and-morty-details-fandom-wiki-dataset` and generates per-record JSON files under `public/data/rick-and-morty/details/`.
 
 The running app reads generated static files only; it does not call the live Rick and Morty API or Fandom while users browse the site. List pages load only the base CSV-derived dataset. Detail pages fetch one details JSON file on demand for the current character, location, or episode, so the browser does not need to load every description and synopsis into memory.
 
 `npm run dev` checks for those generated assets before starting Vite. If they are missing, it first tries to download a `.zip` dataset asset from the latest GitHub release, which works anonymously for public releases. You can override that URL with `DATASET_RELEASE_URL`.
 
-If the release download is unavailable, the script falls back to Kaggle. Kaggle downloads require `KAGGLE_USERNAME` and `KAGGLE_KEY` or `KAGGLE_API_TOKEN` to be set in your environment or in a local `.env` file.
+If the release download is unavailable or does not include the prepared detail JSON files, the script falls back to Kaggle. Kaggle downloads require `KAGGLE_USERNAME` and `KAGGLE_KEY` or `KAGGLE_API_TOKEN` to be set in your environment or in a local `.env` file.
 
 ## Styling
 
