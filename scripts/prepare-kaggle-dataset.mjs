@@ -31,6 +31,7 @@ const detailsDownloadDir = path.resolve(projectRoot, options.detailsDownloadDir)
 const publicDataDir = path.resolve(projectRoot, 'public/data/rick-and-morty')
 const targetImageDir = path.join(publicDataDir, 'images', 'characters')
 const publicDetailsSourceDir = path.join(publicDataDir, 'details-source-material')
+const publicDetailsDir = path.join(publicDataDir, 'details')
 
 assertSafeGeneratedPath(downloadDir)
 assertSafeGeneratedPath(detailsDownloadDir)
@@ -74,7 +75,9 @@ async function prepareDataset() {
   await resetDetailsDatasetDirectory()
   await downloadKaggleDatasetArchive(DETAILS_DATASET_SLUG, detailsDownloadDir, 'details-dataset.zip', credentials)
   await installDetailsDatasetFromDirectory(await findDetailsDatasetDirectory(detailsDownloadDir))
+  const detailsSummary = await generateDetailsRuntimeDataset()
   await updateManifestWithDetailsDataset()
+  await updateManifestWithRuntimeDetails(detailsSummary)
   console.log(`Prepared ${DETAILS_DATASET_SLUG} in ${path.relative(projectRoot, publicDetailsSourceDir)}`)
 }
 
@@ -95,8 +98,10 @@ async function resetBaseDatasetDirectories() {
 async function resetDetailsDatasetDirectory() {
   await rm(detailsDownloadDir, { recursive: true, force: true })
   await rm(publicDetailsSourceDir, { recursive: true, force: true })
+  await rm(publicDetailsDir, { recursive: true, force: true })
   await mkdir(detailsDownloadDir, { recursive: true })
   await mkdir(publicDetailsSourceDir, { recursive: true })
+  await mkdir(publicDetailsDir, { recursive: true })
 }
 
 async function installDatasetFromDirectory(sourceDataDir) {
@@ -141,6 +146,110 @@ async function updateManifestWithDetailsDataset() {
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`)
 }
 
+async function updateManifestWithRuntimeDetails(detailsSummary) {
+  const manifestPath = path.join(publicDataDir, 'manifest.json')
+  const manifest = JSON.parse(await readFile(manifestPath, 'utf8'))
+
+  manifest.details = {
+    path: 'details',
+    files: detailsSummary.files,
+    counts: detailsSummary.counts,
+    statuses: detailsSummary.statuses,
+  }
+
+  await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`)
+}
+
+async function generateDetailsRuntimeDataset() {
+  const [sourceRows, characterRows, locationRows, episodeRows] = await Promise.all([
+    readCsv(path.join(publicDetailsSourceDir, 'sources.csv')),
+    readCsv(path.join(publicDetailsSourceDir, 'characters_source_material.csv')),
+    readCsv(path.join(publicDetailsSourceDir, 'locations_source_material.csv')),
+    readCsv(path.join(publicDetailsSourceDir, 'episodes_source_material.csv')),
+  ])
+  const sourceMap = new Map(sourceRows.map((row) => [row.id, toDetailsSource(row)]))
+  const files = []
+  const statuses = {}
+
+  await Promise.all([
+    mkdir(path.join(publicDetailsDir, 'characters'), { recursive: true }),
+    mkdir(path.join(publicDetailsDir, 'locations'), { recursive: true }),
+    mkdir(path.join(publicDetailsDir, 'episodes'), { recursive: true }),
+  ])
+
+  for (const row of characterRows) {
+    const record = toRuntimeDetailsRecord(row, 'description', 'description_source_text', sourceMap)
+    const fileName = `characters/${record.id}.json`
+    await writeDetailsRecord(fileName, record)
+    files.push(fileName)
+    incrementStatus(statuses, record.status)
+  }
+
+  for (const row of locationRows) {
+    const record = toRuntimeDetailsRecord(row, 'description', 'description_source_text', sourceMap)
+    const fileName = `locations/${record.id}.json`
+    await writeDetailsRecord(fileName, record)
+    files.push(fileName)
+    incrementStatus(statuses, record.status)
+  }
+
+  for (const row of episodeRows) {
+    const record = toRuntimeDetailsRecord(row, 'synopsis', 'synopsis_source_text', sourceMap)
+    const fileName = `episodes/${record.id}.json`
+    await writeDetailsRecord(fileName, record)
+    files.push(fileName)
+    incrementStatus(statuses, record.status)
+  }
+
+  return {
+    files,
+    counts: {
+      characters: characterRows.length,
+      locations: locationRows.length,
+      episodes: episodeRows.length,
+    },
+    statuses,
+  }
+}
+
+async function writeDetailsRecord(fileName, record) {
+  await writeFile(path.join(publicDetailsDir, fileName), `${JSON.stringify(record, null, 2)}\n`)
+}
+
+function toRuntimeDetailsRecord(row, textType, textField, sourceMap) {
+  const status = row.status || 'needs_review'
+  const isDisplayable = status === 'ok' || status === 'contextual_source' || status === 'alias_match'
+
+  return {
+    id: parseId(row.id),
+    status,
+    textType,
+    wikiTitle: row.wiki_title || null,
+    wikiUrl: row.wiki_url || null,
+    text: isDisplayable ? row[textField] : '',
+    sources: parsePipeValues(row.source_ids).flatMap((sourceId) => {
+      const source = sourceMap.get(sourceId)
+      return source ? [source] : []
+    }),
+    notes: row.notes || '',
+  }
+}
+
+function toDetailsSource(row) {
+  return {
+    id: row.id,
+    title: row.title,
+    url: row.url,
+    publisher: row.publisher,
+    sourceType: row.sourceType,
+    retrievedAt: row.retrievedAt,
+  }
+}
+
+function incrementStatus(statuses, status) {
+  statuses[status] = (statuses[status] ?? 0) + 1
+}
+
 async function hasPreparedDataset() {
   try {
     for (const fileName of [...REQUIRED_CSVS, 'manifest.json']) {
@@ -152,6 +261,10 @@ async function hasPreparedDataset() {
     for (const fileName of REQUIRED_DETAILS_FILES) {
       await assertFile(path.join(publicDetailsSourceDir, fileName))
     }
+    await assertDirectory(publicDetailsDir)
+    await assertDirectory(path.join(publicDetailsDir, 'characters'))
+    await assertDirectory(path.join(publicDetailsDir, 'locations'))
+    await assertDirectory(path.join(publicDetailsDir, 'episodes'))
 
     return await countFiles(targetImageDir) > 0
   } catch {
@@ -329,6 +442,71 @@ async function downloadArchive(url, archivePath, headers = {}) {
   }
 
   await writeFile(archivePath, Buffer.from(await response.arrayBuffer()))
+}
+
+async function readCsv(filePath) {
+  return parseCsv(await readFile(filePath, 'utf8'))
+}
+
+function parseCsv(text) {
+  const rows = []
+  let row = []
+  let cell = ''
+  let quoted = false
+
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index]
+    const next = text[index + 1]
+
+    if (quoted) {
+      if (char === '"' && next === '"') {
+        cell += '"'
+        index += 1
+      } else if (char === '"') {
+        quoted = false
+      } else {
+        cell += char
+      }
+    } else if (char === '"') {
+      quoted = true
+    } else if (char === ',') {
+      row.push(cell)
+      cell = ''
+    } else if (char === '\n') {
+      row.push(cell)
+      rows.push(row)
+      row = []
+      cell = ''
+    } else if (char !== '\r') {
+      cell += char
+    }
+  }
+
+  if (cell.length > 0 || row.length > 0) {
+    row.push(cell)
+    rows.push(row)
+  }
+
+  const [headers = [], ...body] = rows
+  return body
+    .filter((values) => values.some((value) => value.length > 0))
+    .map((values) => Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ''])))
+}
+
+function parsePipeValues(value) {
+  return (value ?? '')
+    .split('|')
+    .map((item) => item.trim())
+    .filter(Boolean)
+}
+
+function parseId(value) {
+  const id = Number.parseInt(value, 10)
+  if (!Number.isFinite(id) || id < 1) {
+    throw new Error(`Invalid details id: ${value}`)
+  }
+
+  return id
 }
 
 async function readDotEnvValue(key) {

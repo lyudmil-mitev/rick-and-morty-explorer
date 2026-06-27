@@ -28,6 +28,7 @@ export default function DetailsLayout({
     facts,
     childrenTitle,
     children,
+    intro,
     recordLabel,
     variant = "character",
 }: {
@@ -36,6 +37,7 @@ export default function DetailsLayout({
     facts: DetailFacts[],
     childrenTitle: string,
     children?: React.ReactNode,
+    intro?: React.ReactNode,
     recordLabel?: string,
     variant?: DetailsVariant,
 }) {
@@ -64,6 +66,7 @@ export default function DetailsLayout({
                 </div>
             </aside>
             <section className="min-w-0">
+                {intro ? <div className="mb-6">{intro}</div> : null}
                 <h2 className="mb-4 text-left text-2xl font-bold text-slate-950 dark:text-slate-100">{childrenTitle}</h2>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
                     {children}

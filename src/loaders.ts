@@ -1,6 +1,7 @@
 import { Character, Episode, Location } from './rickmorty'
 import { Params } from 'react-router-dom'
 import { ApiResource, fetchApiResource, fetchApiResources, fetchPaginatedResource, parseApiId, parseApiUrlId } from './api'
+import { DetailsRecord, DetailsResource, fetchDetailsResource } from './details'
 
 type PaginatedLoaderData<TKey extends string, TResource> = {
   pages: number
@@ -9,16 +10,19 @@ type PaginatedLoaderData<TKey extends string, TResource> = {
 export type CharacterDetailsLoaderData = {
   character: Character
   episodes: Episode[]
+  details: DetailsRecord | null
 }
 
 export type EpisodeDetailsLoaderData = {
   episode: Episode
   characters: Character[]
+  details: DetailsRecord | null
 }
 
 export type LocationDetailsLoaderData = {
   location: Location
   residents: Character[]
+  details: DetailsRecord | null
 }
 
 function parsePage(request: Request) {
@@ -70,10 +74,14 @@ export function charactersLoader({ request }: { request: Request }) {
 }
 
 export async function characterDetailLoader({ params, request }: { params: Params<"characterId">, request: Request }): Promise<CharacterDetailsLoaderData> {
-  const character = await fetchApiResource<Character>('character', parseApiId(params.characterId, 'character'), request.signal)
-  const episodes = await fetchApiResources<Episode>('episode', parseApiUrlIds(character.episode), request.signal)
+  const characterId = parseApiId(params.characterId, 'character')
+  const character = await fetchApiResource<Character>('character', characterId, request.signal)
+  const [episodes, details] = await Promise.all([
+    fetchApiResources<Episode>('episode', parseApiUrlIds(character.episode), request.signal),
+    loadDetails('characters', characterId, request.signal),
+  ])
 
-  return { character, episodes }
+  return { character, episodes, details }
 }
 
 export function locationsLoader({ request }: { request: Request }) {
@@ -81,10 +89,14 @@ export function locationsLoader({ request }: { request: Request }) {
 }
 
 export async function locationDetailLoader({ params, request }: { params: Params<"locationId">, request: Request }): Promise<LocationDetailsLoaderData> {
-  const location = await fetchApiResource<Location>('location', parseApiId(params.locationId, 'location'), request.signal)
-  const residents = await fetchApiResources<Character>('character', parseApiUrlIds(location.residents), request.signal)
+  const locationId = parseApiId(params.locationId, 'location')
+  const location = await fetchApiResource<Location>('location', locationId, request.signal)
+  const [residents, details] = await Promise.all([
+    fetchApiResources<Character>('character', parseApiUrlIds(location.residents), request.signal),
+    loadDetails('locations', locationId, request.signal),
+  ])
 
-  return { location, residents }
+  return { location, residents, details }
 }
 
 export function episodesLoader({ request }: { request: Request }) {
@@ -92,8 +104,20 @@ export function episodesLoader({ request }: { request: Request }) {
 }
 
 export async function episodeDetailLoader({ params, request }: { params: Params<"episodeId">, request: Request }): Promise<EpisodeDetailsLoaderData> {
-  const episode = await fetchApiResource<Episode>('episode', parseApiId(params.episodeId, 'episode'), request.signal)
-  const characters = await fetchApiResources<Character>('character', parseApiUrlIds(episode.characters), request.signal)
+  const episodeId = parseApiId(params.episodeId, 'episode')
+  const episode = await fetchApiResource<Episode>('episode', episodeId, request.signal)
+  const [characters, details] = await Promise.all([
+    fetchApiResources<Character>('character', parseApiUrlIds(episode.characters), request.signal),
+    loadDetails('episodes', episodeId, request.signal),
+  ])
 
-  return { episode, characters }
+  return { episode, characters, details }
+}
+
+async function loadDetails(resource: DetailsResource, id: number, signal?: AbortSignal) {
+  try {
+    return await fetchDetailsResource(resource, id, signal)
+  } catch {
+    return null
+  }
 }

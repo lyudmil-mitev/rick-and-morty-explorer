@@ -15,6 +15,10 @@ const apiMocks = vi.hoisted(() => ({
   fetchPaginatedResource: vi.fn(),
 }))
 
+const detailsMocks = vi.hoisted(() => ({
+  fetchDetailsResource: vi.fn(),
+}))
+
 vi.mock('./api', async (importActual) => {
   const actual = await importActual<typeof import('./api')>()
 
@@ -23,6 +27,15 @@ vi.mock('./api', async (importActual) => {
     fetchApiResource: apiMocks.fetchApiResource,
     fetchApiResources: apiMocks.fetchApiResources,
     fetchPaginatedResource: apiMocks.fetchPaginatedResource,
+  }
+})
+
+vi.mock('./details', async (importActual) => {
+  const actual = await importActual<typeof import('./details')>()
+
+  return {
+    ...actual,
+    fetchDetailsResource: detailsMocks.fetchDetailsResource,
   }
 })
 
@@ -91,6 +104,7 @@ describe('loaders API requests', () => {
       .mockResolvedValueOnce(location)
       .mockResolvedValueOnce(episode)
     apiMocks.fetchApiResources.mockResolvedValue([])
+    detailsMocks.fetchDetailsResource.mockResolvedValue(null)
 
     await characterDetailLoader({ params: { characterId: '2' }, request: new Request('https://example.com/characters/2') })
     await locationDetailLoader({ params: { locationId: '3' }, request: new Request('https://example.com/locations/3') })
@@ -102,5 +116,8 @@ describe('loaders API requests', () => {
     expect(apiMocks.fetchApiResources).toHaveBeenNthCalledWith(2, 'character', [1], expect.any(AbortSignal))
     expect(apiMocks.fetchApiResource).toHaveBeenNthCalledWith(3, 'episode', 4, expect.any(AbortSignal))
     expect(apiMocks.fetchApiResources).toHaveBeenNthCalledWith(3, 'character', [1, 2], expect.any(AbortSignal))
+    expect(detailsMocks.fetchDetailsResource).toHaveBeenNthCalledWith(1, 'characters', 2, expect.any(AbortSignal))
+    expect(detailsMocks.fetchDetailsResource).toHaveBeenNthCalledWith(2, 'locations', 3, expect.any(AbortSignal))
+    expect(detailsMocks.fetchDetailsResource).toHaveBeenNthCalledWith(3, 'episodes', 4, expect.any(AbortSignal))
   })
 })

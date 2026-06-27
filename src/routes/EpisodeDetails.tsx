@@ -4,9 +4,11 @@ import CharacterCard from "../components/CharacterCard";
 import { EpisodeDetailsLoaderData } from "../loaders";
 import { getEpisodeSeasonImage } from "../media";
 import DetailLinkGrid from "../components/DetailLinkGrid";
+import DetailsTextPanel from "../components/DetailsTextPanel";
+import { isDisplayableDetails } from "../details";
 
 export default function EpisodeDetails() {
-    const { episode, characters } = useLoaderData() as EpisodeDetailsLoaderData;
+    const { episode, characters, details } = useLoaderData() as EpisodeDetailsLoaderData;
     const image = getEpisodeSeasonImage(episode.episode);
 
     const DetailFacts: DetailFacts[] = [
@@ -16,7 +18,15 @@ export default function EpisodeDetails() {
     ]
 
     return (
-        <DetailsLayout title={episode.name} image={image} facts={DetailFacts} childrenTitle="Characters" recordLabel="Episode Record" variant="episode">
+        <DetailsLayout
+            title={episode.name}
+            image={image}
+            facts={DetailFacts}
+            childrenTitle="Characters"
+            recordLabel="Episode Record"
+            variant="episode"
+            intro={isDisplayableDetails(details) ? <DetailsTextPanel details={details} /> : undefined}
+        >
             <DetailLinkGrid
                 items={characters}
                 getPath={(character) => `/characters/${character.id}`}

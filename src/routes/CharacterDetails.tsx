@@ -4,9 +4,11 @@ import DetailsLayout, { DetailFacts } from "../components/DetailsLayout";
 import { CharacterDetailsLoaderData } from "../loaders";
 import { parseApiUrlId } from "../api";
 import DetailLinkGrid from "../components/DetailLinkGrid";
+import DetailsTextPanel from "../components/DetailsTextPanel";
+import { isDisplayableDetails } from "../details";
 
 export default function CharacterDetails() {
-    const { character: char, episodes } = useLoaderData() as CharacterDetailsLoaderData;
+    const { character: char, episodes, details } = useLoaderData() as CharacterDetailsLoaderData;
     const originId = parseApiUrlId(char.origin.url);
     const locationId = parseApiUrlId(char.location.url);
 
@@ -19,7 +21,15 @@ export default function CharacterDetails() {
     ]
 
     return (
-        <DetailsLayout title={char.name} image={char.image} facts={facts} childrenTitle="Episodes" recordLabel="Character Record" variant="character">
+        <DetailsLayout
+            title={char.name}
+            image={char.image}
+            facts={facts}
+            childrenTitle="Episodes"
+            recordLabel="Character Record"
+            variant="character"
+            intro={isDisplayableDetails(details) ? <DetailsTextPanel details={details} /> : undefined}
+        >
             <DetailLinkGrid
                 items={episodes}
                 getPath={(episode) => `/episodes/${episode.id}`}

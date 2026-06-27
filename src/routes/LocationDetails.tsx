@@ -5,9 +5,11 @@ import { LocationDetailsLoaderData } from "../loaders";
 import { getLocationImage } from "../media";
 import DetailLinkGrid from "../components/DetailLinkGrid";
 import { cx, ui } from "../styles/ui";
+import DetailsTextPanel from "../components/DetailsTextPanel";
+import { isDisplayableDetails } from "../details";
 
 export default function LocationDetails() {
-    const { location, residents } = useLoaderData() as LocationDetailsLoaderData;
+    const { location, residents, details } = useLoaderData() as LocationDetailsLoaderData;
     const facts:DetailFacts[] = [
         { type: "Type", value: location.type },
         { type: "Dimension", value: location.dimension },
@@ -15,7 +17,15 @@ export default function LocationDetails() {
     ]
 
     return (
-        <DetailsLayout title={location.name} image={getLocationImage(location.type)} facts={facts} childrenTitle="Residents" recordLabel="Location Record" variant="location">
+        <DetailsLayout
+            title={location.name}
+            image={getLocationImage(location.type)}
+            facts={facts}
+            childrenTitle="Residents"
+            recordLabel="Location Record"
+            variant="location"
+            intro={isDisplayableDetails(details) ? <DetailsTextPanel details={details} /> : undefined}
+        >
             {residents.length > 0 ? (
                 <DetailLinkGrid
                     items={residents}

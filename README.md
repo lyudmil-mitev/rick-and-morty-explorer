@@ -5,7 +5,7 @@ Rick and Morty 100 years! Rick and Morty 20 Seasons!
 
 ## [Open in GitHub Pages](https://lyudmil-mitev.github.io/rick-and-morty-explorer/)
 
-This is a React application built with React, React Router v7, TailwindCSS, Vite, Vitest, and static data prepared from the Kaggle `robbroadhead/rick-and-morty-api-dataset` export. That Kaggle dataset is itself sourced from the Rick and Morty API.
+This is a React application built with React, React Router v7, TailwindCSS, Vite, Vitest, and static data prepared from Kaggle exports. Base records come from `robbroadhead/rick-and-morty-api-dataset`, which is itself sourced from the Rick and Morty API. Detail descriptions, episode synopses, and source links come from `robbroadhead/rick-and-morty-details-fandom-wiki-dataset`.
 
 ## Features
 - Simple responsive design implemented with TailwindCSS
@@ -24,7 +24,7 @@ I have annotated the project structure below
 ├── package.json
 ├── README.md
 ├── scripts
-│   └── prepare-kaggle-dataset.mjs # Downloads the Kaggle dataset and copies it into public/data/rick-and-morty
+│   └── prepare-kaggle-dataset.mjs # Downloads Kaggle datasets and prepares public/data/rick-and-morty
 ├── src
 │   ├── api.ts # Dataset-backed resource helpers and URL/id parsing utilities
 │   ├── components
@@ -38,7 +38,8 @@ I have annotated the project structure below
 │   │   ├── Pagination.tsx # Pagination component for Characters, Locations and Episodes
 │   │   └── TabBar.tsx # Main navigation tab bar
 │   ├── index.css # Global CSS file, includes TailwindCSS and custom styles
-│   ├── dataset.ts # Loads and parses the Kaggle CSV dataset, builds in-memory indexes
+│   ├── dataset.ts # Loads and parses the base Kaggle CSV dataset, builds in-memory indexes
+│   ├── details.ts # Fetches one on-demand details JSON file for a character, location, or episode
 │   ├── filterOptions.ts # Shared filter select options derived from the dataset
 │   ├── loaders.ts # Route loaders for list/detail pages and related-resource loading
 │   ├── main.tsx # Main entrypoint for React, Routes are configured here
@@ -75,7 +76,9 @@ The Kaggle dataset is prepared locally or in CI with:
 npm run dataset:prepare
 ```
 
-That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built from the Rick and Morty API, then copies the CSVs and character images into `public/data/rick-and-morty/` so Vite serves them as static assets. The running app reads those generated static files; it does not call the live Rick and Morty API while users browse the site.
+That command downloads `robbroadhead/rick-and-morty-api-dataset`, which is built from the Rick and Morty API, then copies the CSVs and character images into `public/data/rick-and-morty/` so Vite serves them as static assets. It also downloads `robbroadhead/rick-and-morty-details-fandom-wiki-dataset`, stores the source-material CSVs under `public/data/rick-and-morty/details-source-material/`, and generates per-record JSON files under `public/data/rick-and-morty/details/`.
+
+The running app reads generated static files only; it does not call the live Rick and Morty API or Fandom while users browse the site. List pages load only the base CSV-derived dataset. Detail pages fetch one details JSON file on demand for the current character, location, or episode, so the browser does not need to load every description and synopsis into memory.
 
 `npm run dev` checks for those generated assets before starting Vite. If they are missing, it first tries to download a `.zip` dataset asset from the latest GitHub release, which works anonymously for public releases. You can override that URL with `DATASET_RELEASE_URL`.
 
@@ -135,5 +138,6 @@ npm run build
 - The light-mode alien landscape SVG image is adapted from [work by Bence Szabo](https://codepen.io/finnhvman/pen/bGopgee)
 - This project includes posters for seasons from [TVMaze](https://www.tvmaze.com/)
 - This project uses the [Rick and Morty API](https://rickandmortyapi.com/) through the Kaggle dataset [`robbroadhead/rick-and-morty-api-dataset`](https://www.kaggle.com/datasets/robbroadhead/rick-and-morty-api-dataset)
+- Detail text and source links come from [`robbroadhead/rick-and-morty-details-fandom-wiki-dataset`](https://www.kaggle.com/datasets/robbroadhead/rick-and-morty-details-fandom-wiki-dataset), gathered from the [Rick and Morty Wiki](https://rickandmorty.fandom.com/). Fandom wiki text is licensed under [CC BY-SA](https://www.fandom.com/licensing).
 
 ![Mr Poopybutthole logo](public/mr_pbh.webp)

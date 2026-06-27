@@ -47,13 +47,28 @@ export default function About() {
                     <section className={panelClass}>
                         <h2 className="text-xl font-bold text-slate-950 dark:text-white">Data and Ownership</h2>
                         <p className="mt-3 leading-7">
-                            Data is downloaded from{" "}
+                            Base records are downloaded from{" "}
                             <a className={ui.link} href="https://www.kaggle.com/datasets/robbroadhead/rick-and-morty-api-dataset" target="_blank" rel="noreferrer">
                                 Kaggle&apos;s Rick and Morty API dataset
                             </a>
                             , which is sourced from the{" "}
                             <a className={ui.link} href="https://rickandmortyapi.com/" target="_blank" rel="noreferrer">
                                 Rick and Morty API
+                            </a>
+                            .
+                        </p>
+                        <p className="mt-3 leading-7">
+                            Detail text and source links are downloaded from{" "}
+                            <a className={ui.link} href="https://www.kaggle.com/datasets/robbroadhead/rick-and-morty-details-fandom-wiki-dataset" target="_blank" rel="noreferrer">
+                                Kaggle&apos;s Rick and Morty details Fandom Wiki dataset
+                            </a>
+                            , gathered from the{" "}
+                            <a className={ui.link} href="https://rickandmorty.fandom.com/" target="_blank" rel="noreferrer">
+                                Rick and Morty Wiki
+                            </a>
+                            . Fandom wiki text is licensed under{" "}
+                            <a className={ui.link} href="https://www.fandom.com/licensing" target="_blank" rel="noreferrer">
+                                CC BY-SA
                             </a>
                             .
                         </p>
