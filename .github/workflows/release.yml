@@ -1,0 +1,75 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  dataset:
+    name: Package dataset backup
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prepare dataset
+        run: npm run dataset:prepare
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+
+      - name: Verify prepared details
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises'
+
+          const manifest = JSON.parse(await readFile('public/data/rick-and-morty/manifest.json', 'utf8'))
+          const details = manifest.details
+
+          if (!details?.counts?.characters || !details?.counts?.locations || !details?.counts?.episodes) {
+            throw new Error('Prepared dataset is missing detail JSON counts.')
+          }
+
+          console.log(`Prepared details: ${details.counts.characters} characters, ${details.counts.locations} locations, ${details.counts.episodes} episodes`)
+          NODE
+
+      - name: Package dataset
+        run: |
+          cd public/data
+          zip -qr "$GITHUB_WORKSPACE/rick-and-morty-dataset-${GITHUB_REF_NAME}.zip" rick-and-morty
+
+      - name: Write release notes
+        run: |
+          cat > release-notes.md <<'EOF'
+          Dataset backup for Rick and Morty Explorer.
+
+          Includes:
+          - Base Kaggle API dataset CSVs and character images
+          - Prepared detail JSON generated from the Fandom Wiki details Kaggle dataset
+          EOF
+
+      - name: Publish release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          asset="rick-and-morty-dataset-${GITHUB_REF_NAME}.zip"
+
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" "$asset" --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" "$asset" --title "$GITHUB_REF_NAME" --notes-file release-notes.md --latest
+          fi
