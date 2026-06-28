@@ -39,10 +39,33 @@ function assetUrl(path: string) {
 
 const swipeMinDistance = 48;
 const swipeAxisLockDistance = 12;
+const dragResistanceMax = 190;
 
 const splashLayoutCss = `
 .splash-title.schwifty {
   font-size: 8.25rem;
+}
+
+.splash-carousel-stage {
+  --splash-drag-offset: 0px;
+}
+
+.splash-carousel[data-dragging="true"] .splash-portal-card {
+  transition:
+    opacity 180ms ease,
+    filter 180ms ease;
+}
+
+.splash-portal-card[data-slot="active"] {
+  transform: translate3d(calc(-50% + var(--splash-drag-offset)), 0, 0) scale(1);
+}
+
+.splash-portal-card[data-slot="left"] {
+  transform: translate3d(calc(-50% - clamp(8rem, 30vw, 21rem) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
+}
+
+.splash-portal-card[data-slot="right"] {
+  transform: translate3d(calc(-50% + clamp(8rem, 30vw, 21rem) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
 }
 
 .splash-card-cta {
@@ -115,11 +138,11 @@ const splashLayoutCss = `
   }
 
   .splash-portal-card[data-slot="left"] {
-    transform: translate3d(calc(-50% - clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
+    transform: translate3d(calc(-50% - clamp(7rem, 24vw, 8.5rem) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
   }
 
   .splash-portal-card[data-slot="right"] {
-    transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
+    transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
   }
 
   .splash-carousel-controls {
@@ -236,6 +259,10 @@ function getSlot(index: number, activeIndex: number): CarouselSlot {
     return "active";
 }
 
+function clampDragOffset(deltaX: number) {
+    return Math.max(-dragResistanceMax, Math.min(dragResistanceMax, deltaX));
+}
+
 function releasePointerCaptureSafely(element: HTMLDivElement, pointerId: number) {
     if (typeof element.hasPointerCapture === "function" && element.hasPointerCapture(pointerId)) {
         element.releasePointerCapture?.(pointerId);
@@ -247,6 +274,7 @@ export default function HomeSplash() {
     const navigate = useNavigate();
     const theme = outletContext?.theme ?? "dark";
     const [activeIndex, setActiveIndex] = useState(0);
+    const [dragOffset, setDragOffset] = useState(0);
     const dragState = useRef<DragState | null>(null);
     const didSwipe = useRef(false);
 
@@ -265,6 +293,7 @@ export default function HomeSplash() {
 
         event.currentTarget.setPointerCapture?.(event.pointerId);
         didSwipe.current = false;
+        setDragOffset(0);
         dragState.current = {
             pointerId: event.pointerId,
             startX: event.clientX,
@@ -292,6 +321,10 @@ export default function HomeSplash() {
             state.hasMovedHorizontally = true;
             didSwipe.current = true;
         }
+
+        if (state.hasMovedHorizontally) {
+            setDragOffset(clampDragOffset(deltaX));
+        }
     }
 
     function handleCarouselPointerUp(event: PointerEvent<HTMLDivElement>) {
@@ -308,6 +341,7 @@ export default function HomeSplash() {
         const deltaY = event.clientY - state.startY;
         const absoluteDeltaX = Math.abs(deltaX);
         const absoluteDeltaY = Math.abs(deltaY);
+        setDragOffset(0);
 
         if (absoluteDeltaX < swipeMinDistance || absoluteDeltaX <= absoluteDeltaY) {
             return;
@@ -325,6 +359,7 @@ export default function HomeSplash() {
         const state = dragState.current;
         dragState.current = null;
         didSwipe.current = false;
+        setDragOffset(0);
 
         if (state !== null && state.pointerId === event.pointerId) {
             releasePointerCaptureSafely(event.currentTarget, event.pointerId);
@@ -417,6 +452,9 @@ export default function HomeSplash() {
     const splashStyle: CSSProperties = {
         backgroundImage: splashBackgroundImage[theme],
     };
+    const carouselDragStyle = {
+        "--splash-drag-offset": `${dragOffset}px`,
+    } as CSSProperties;
 
     return (
         <section
@@ -432,13 +470,14 @@ export default function HomeSplash() {
                     role="region"
                     aria-label="Portal destinations"
                     tabIndex={0}
+                    data-dragging={dragOffset !== 0 ? "true" : "false"}
                     onKeyDown={handleCarouselKeyDown}
                     onPointerDown={handleCarouselPointerDown}
                     onPointerMove={handleCarouselPointerMove}
                     onPointerUp={handleCarouselPointerUp}
                     onPointerCancel={handleCarouselPointerCancel}
                 >
-                    <div className="splash-carousel-stage">
+                    <div className="splash-carousel-stage" style={carouselDragStyle}>
                         {destinations.map((destination, index) => {
                             const slot = getSlot(index, activeIndex);
                             const isActive = slot === "active";
