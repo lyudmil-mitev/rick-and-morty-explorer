@@ -105,12 +105,14 @@ describe('HomeSplash', () => {
 
         fireEvent.pointerDown(carousel, { pointerId: 1, clientX: 260 });
         fireEvent.pointerMove(carousel, { pointerId: 1, clientX: 200 });
+        expect(carousel.getAttribute('data-drag-direction')).toBe('next');
         fireEvent.pointerUp(carousel, { pointerId: 1, clientX: 200 });
 
         expect(screen.getByRole('status').textContent).toContain('Active portal: Locations');
 
         fireEvent.pointerDown(carousel, { pointerId: 2, clientX: 120 });
         fireEvent.pointerMove(carousel, { pointerId: 2, clientX: 180 });
+        expect(carousel.getAttribute('data-drag-direction')).toBe('previous');
         fireEvent.pointerUp(carousel, { pointerId: 2, clientX: 180 });
 
         expect(screen.getByRole('status').textContent).toContain('Active portal: Characters');
