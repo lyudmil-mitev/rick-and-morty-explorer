@@ -5,9 +5,9 @@ const panelClass = cx("p-5 sm:p-6", ui.panel);
 
 export default function About() {
     return (
-        <section className="px-4 pb-10 pt-5 text-left sm:px-6 lg:px-8">
-            <article className="mx-auto grid max-w-5xl grid-cols-[7rem_1fr] gap-4 text-slate-700 dark:text-slate-200 sm:grid-cols-[9rem_1fr] sm:gap-6 lg:grid-cols-[16rem_1fr] lg:items-start">
-                <header className="col-span-2 space-y-3">
+        <section className="overflow-hidden px-4 pb-10 pt-5 text-left sm:px-6 lg:px-8">
+            <article className="mx-auto grid max-w-5xl grid-cols-1 gap-5 text-slate-700 dark:text-slate-200 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-6 lg:grid-cols-[16rem_minmax(0,1fr)] lg:items-start">
+                <header className="space-y-3 sm:col-span-2">
                     <p className={ui.eyebrow}>Fan project file</p>
                     <h1 className="text-3xl font-extrabold leading-tight text-slate-950 dark:text-white sm:text-4xl">
                         Rick and Morty Explorer
@@ -17,15 +17,15 @@ export default function About() {
                     </p>
                 </header>
 
-                <aside className="sticky top-4 w-full self-start rounded-lg border border-lime-400/25 bg-white/60 p-3 shadow-inner dark:bg-slate-900/40 lg:top-6">
+                <aside className="w-full self-start sm:sticky sm:top-4 lg:top-6">
                     <img
                         src={MrPbhImage}
                         alt="Mr. Poopybutthole"
-                        className="mx-auto h-56 w-full rounded-lg object-contain object-top sm:h-72 lg:h-auto lg:aspect-square"
+                        className="mx-auto h-48 w-full max-w-xs object-contain object-top sm:h-72 sm:max-w-none lg:h-auto lg:aspect-square"
                     />
                 </aside>
 
-                <div className="space-y-6">
+                <div className="min-w-0 space-y-6">
                     <section className={panelClass}>
                         <h2 className="text-xl font-bold text-slate-950 dark:text-white">Project</h2>
                         <p className="mt-3 leading-7">
