@@ -37,9 +37,9 @@ function assetUrl(path: string) {
     return `${import.meta.env.BASE_URL}${path}`;
 }
 
-const swipeMinDistance = 48;
+const swipeMinDistance = 84;
 const swipeAxisLockDistance = 12;
-const dragResistanceMax = 190;
+const dragResistanceMax = 130;
 
 const splashLayoutCss = `
 .splash-title.schwifty {
@@ -50,7 +50,7 @@ const splashLayoutCss = `
   --splash-drag-offset: 0px;
 }
 
-.splash-carousel[data-dragging="true"] .splash-portal-card {
+.splash-carousel[data-dragging="true"] .splash-portal-card[data-slot="active"] {
   transition:
     opacity 180ms ease,
     filter 180ms ease;
@@ -61,11 +61,11 @@ const splashLayoutCss = `
 }
 
 .splash-portal-card[data-slot="left"] {
-  transform: translate3d(calc(-50% - clamp(8rem, 30vw, 21rem) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
+  transform: translate3d(calc(-50% - clamp(8rem, 30vw, 21rem)), 2.25rem, 0) scale(0.82);
 }
 
 .splash-portal-card[data-slot="right"] {
-  transform: translate3d(calc(-50% + clamp(8rem, 30vw, 21rem) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
+  transform: translate3d(calc(-50% + clamp(8rem, 30vw, 21rem)), 2.25rem, 0) scale(0.82);
 }
 
 .splash-card-cta {
@@ -138,11 +138,11 @@ const splashLayoutCss = `
   }
 
   .splash-portal-card[data-slot="left"] {
-    transform: translate3d(calc(-50% - clamp(7rem, 24vw, 8.5rem) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
+    transform: translate3d(calc(-50% - clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
   }
 
   .splash-portal-card[data-slot="right"] {
-    transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
+    transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
   }
 
   .splash-carousel-controls {
