@@ -341,17 +341,26 @@ export default function HomeSplash() {
 
         if (index !== activeIndex) {
             setActiveIndex(index);
-        }
-    }
-
-    function handleCardKeyDown(event: KeyboardEvent<HTMLDivElement>, index: number) {
-        if (event.target !== event.currentTarget || index === activeIndex) {
             return;
         }
 
-        if (event.key === "Enter" || event.key === " ") {
+        navigate(destinations[index].path);
+    }
+
+    function handleCardKeyDown(event: KeyboardEvent<HTMLDivElement>, index: number) {
+        if (event.target !== event.currentTarget) {
+            return;
+        }
+
+        if (index !== activeIndex && (event.key === "Enter" || event.key === " ")) {
             event.preventDefault();
             setActiveIndex(index);
+            return;
+        }
+
+        if (index === activeIndex && event.key === "Enter") {
+            event.preventDefault();
+            navigate(destinations[index].path);
         }
     }
 
@@ -440,9 +449,9 @@ export default function HomeSplash() {
                                     )}
                                     data-slot={slot}
                                     data-active={isActive ? "true" : "false"}
-                                    role={isActive ? undefined : "button"}
-                                    tabIndex={isActive ? undefined : 0}
-                                    aria-label={isActive ? undefined : `Show ${destination.label} portal`}
+                                    role={isActive ? "link" : "button"}
+                                    tabIndex={0}
+                                    aria-label={isActive ? `Open ${destination.label} portal` : `Show ${destination.label} portal`}
                                     onClick={(event) => handleCardClick(event, index)}
                                     onKeyDown={(event) => handleCardKeyDown(event, index)}
                                 >
@@ -452,7 +461,12 @@ export default function HomeSplash() {
                                             <p className="text-xs font-black uppercase tracking-wide text-slate-600 dark:text-slate-300">{destination.eyebrow}</p>
                                             <h3 id={`splash-card-title-${destination.id}`} className="mt-2 text-2xl font-extrabold text-slate-950 dark:text-white sm:text-3xl">{destination.label}</h3>
                                             <p className="splash-card-description mt-3 text-sm leading-6 text-slate-700 dark:text-slate-200 sm:text-base">{destination.description}</p>
-                                            <Link className="splash-card-cta" to={destination.path} aria-label={`Explore ${destination.label}`}>
+                                            <Link
+                                                className="splash-card-cta"
+                                                to={destination.path}
+                                                aria-label={`Explore ${destination.label}`}
+                                                onClick={(event) => event.stopPropagation()}
+                                            >
                                                 Explore {destination.label}
                                             </Link>
                                         </div>
