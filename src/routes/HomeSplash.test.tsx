@@ -102,10 +102,17 @@ describe('HomeSplash', () => {
         renderHomeSplash();
 
         const carousel = screen.getByRole('region', { name: 'Portal destinations' });
+        const stage = carousel.querySelector('.splash-carousel-stage');
+
+        if (!(stage instanceof HTMLElement)) {
+            throw new Error('Could not find splash carousel stage');
+        }
 
         fireEvent.pointerDown(carousel, { pointerId: 1, clientX: 260 });
         fireEvent.pointerMove(carousel, { pointerId: 1, clientX: 200 });
         expect(carousel.getAttribute('data-drag-direction')).toBe('next');
+        expect(stage.style.getPropertyValue('--splash-drag-offset')).toBe('-60px');
+        expect(stage.style.getPropertyValue('--splash-wrap-drag-offset')).toBe('120px');
         fireEvent.pointerUp(carousel, { pointerId: 1, clientX: 200 });
 
         expect(screen.getByRole('status').textContent).toContain('Active portal: Locations');
@@ -113,6 +120,8 @@ describe('HomeSplash', () => {
         fireEvent.pointerDown(carousel, { pointerId: 2, clientX: 120 });
         fireEvent.pointerMove(carousel, { pointerId: 2, clientX: 180 });
         expect(carousel.getAttribute('data-drag-direction')).toBe('previous');
+        expect(stage.style.getPropertyValue('--splash-drag-offset')).toBe('60px');
+        expect(stage.style.getPropertyValue('--splash-wrap-drag-offset')).toBe('-120px');
         fireEvent.pointerUp(carousel, { pointerId: 2, clientX: 180 });
 
         expect(screen.getByRole('status').textContent).toContain('Active portal: Characters');
