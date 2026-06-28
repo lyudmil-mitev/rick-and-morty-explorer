@@ -49,6 +49,7 @@ const splashLayoutCss = `
 
 .splash-carousel-stage {
   --splash-drag-offset: 0px;
+  --splash-wrap-drag-offset: 0px;
 }
 
 .splash-carousel[data-dragging="true"] .splash-portal-card {
@@ -69,12 +70,22 @@ const splashLayoutCss = `
   transform: translate3d(calc(-50% + clamp(8rem, 30vw, 21rem)), 2.25rem, 0) scale(0.82);
 }
 
-.splash-carousel[data-drag-direction="previous"] .splash-portal-card[data-slot="left"] {
-  transform: translate3d(calc(-50% - clamp(8rem, 30vw, 21rem) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
+.splash-carousel[data-drag-direction="previous"] .splash-portal-card[data-slot="left"],
+.splash-carousel[data-drag-direction="next"] .splash-portal-card[data-slot="right"] {
+  transform: translate3d(calc(var(--splash-card-resting-x) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
 }
 
-.splash-carousel[data-drag-direction="next"] .splash-portal-card[data-slot="right"] {
-  transform: translate3d(calc(-50% + clamp(8rem, 30vw, 21rem) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
+.splash-carousel[data-drag-direction="previous"] .splash-portal-card[data-slot="right"],
+.splash-carousel[data-drag-direction="next"] .splash-portal-card[data-slot="left"] {
+  transform: translate3d(calc(var(--splash-card-resting-x) + var(--splash-wrap-drag-offset)), 2.25rem, 0) scale(0.82);
+}
+
+.splash-portal-card[data-slot="left"] {
+  --splash-card-resting-x: calc(-50% - clamp(8rem, 30vw, 21rem));
+}
+
+.splash-portal-card[data-slot="right"] {
+  --splash-card-resting-x: calc(-50% + clamp(8rem, 30vw, 21rem));
 }
 
 .splash-card-cta {
@@ -147,19 +158,23 @@ const splashLayoutCss = `
   }
 
   .splash-portal-card[data-slot="left"] {
-    transform: translate3d(calc(-50% - clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
+    --splash-card-resting-x: calc(-50% - clamp(7rem, 24vw, 8.5rem));
+    transform: translate3d(var(--splash-card-resting-x), 2.8rem, 0) scale(0.72);
   }
 
   .splash-portal-card[data-slot="right"] {
-    transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
+    --splash-card-resting-x: calc(-50% + clamp(7rem, 24vw, 8.5rem));
+    transform: translate3d(var(--splash-card-resting-x), 2.8rem, 0) scale(0.72);
   }
 
-  .splash-carousel[data-drag-direction="previous"] .splash-portal-card[data-slot="left"] {
-    transform: translate3d(calc(-50% - clamp(7rem, 24vw, 8.5rem) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
-  }
-
+  .splash-carousel[data-drag-direction="previous"] .splash-portal-card[data-slot="left"],
   .splash-carousel[data-drag-direction="next"] .splash-portal-card[data-slot="right"] {
-    transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
+    transform: translate3d(calc(var(--splash-card-resting-x) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
+  }
+
+  .splash-carousel[data-drag-direction="previous"] .splash-portal-card[data-slot="right"],
+  .splash-carousel[data-drag-direction="next"] .splash-portal-card[data-slot="left"] {
+    transform: translate3d(calc(var(--splash-card-resting-x) + var(--splash-wrap-drag-offset)), 2.8rem, 0) scale(0.72);
   }
 
   .splash-carousel-controls {
@@ -471,6 +486,7 @@ export default function HomeSplash() {
     };
     const carouselDragStyle = {
         "--splash-drag-offset": `${dragOffset}px`,
+        "--splash-wrap-drag-offset": `${-2 * dragOffset}px`,
     } as CSSProperties;
     const dragDirection: DragDirection = dragOffset < 0 ? "next" : dragOffset > 0 ? "previous" : "none";
 
