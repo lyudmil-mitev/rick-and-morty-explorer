@@ -109,20 +109,20 @@ describe('HomeSplash', () => {
         }
 
         fireEvent.pointerDown(carousel, { pointerId: 1, clientX: 260 });
-        fireEvent.pointerMove(carousel, { pointerId: 1, clientX: 200 });
+        fireEvent.pointerMove(carousel, { pointerId: 1, clientX: 120 });
         expect(carousel.getAttribute('data-drag-direction')).toBe('next');
-        expect(stage.style.getPropertyValue('--splash-drag-offset')).toBe('-60px');
-        expect(stage.style.getPropertyValue('--splash-wrap-drag-offset')).toBe('120px');
-        fireEvent.pointerUp(carousel, { pointerId: 1, clientX: 200 });
+        expect(stage.style.getPropertyValue('--splash-drag-offset')).toBe('-130px');
+        expect(stage.style.getPropertyValue('--splash-wrap-drag-offset')).toBe('260px');
+        fireEvent.pointerUp(carousel, { pointerId: 1, clientX: 120 });
 
         expect(screen.getByRole('status').textContent).toContain('Active portal: Locations');
 
         fireEvent.pointerDown(carousel, { pointerId: 2, clientX: 120 });
-        fireEvent.pointerMove(carousel, { pointerId: 2, clientX: 180 });
+        fireEvent.pointerMove(carousel, { pointerId: 2, clientX: 260 });
         expect(carousel.getAttribute('data-drag-direction')).toBe('previous');
-        expect(stage.style.getPropertyValue('--splash-drag-offset')).toBe('60px');
-        expect(stage.style.getPropertyValue('--splash-wrap-drag-offset')).toBe('-120px');
-        fireEvent.pointerUp(carousel, { pointerId: 2, clientX: 180 });
+        expect(stage.style.getPropertyValue('--splash-drag-offset')).toBe('130px');
+        expect(stage.style.getPropertyValue('--splash-wrap-drag-offset')).toBe('-260px');
+        fireEvent.pointerUp(carousel, { pointerId: 2, clientX: 260 });
 
         expect(screen.getByRole('status').textContent).toContain('Active portal: Characters');
     });
