@@ -40,8 +40,64 @@ function assetUrl(path: string) {
 const swipeMinDistance = 48;
 const swipeAxisLockDistance = 12;
 
-const mobileSplashLayoutCss = `
+const splashLayoutCss = `
+.splash-title.schwifty {
+  font-size: 8.25rem;
+}
+
+.splash-card-cta {
+  position: relative;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-top: 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(8, 186, 227, 0.34);
+  background: rgba(251, 250, 242, 0.92);
+  padding: 0.58rem 1rem;
+  color: #0f172a;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 0.7rem 1.5rem rgba(15, 23, 42, 0.14);
+  transition: border-color 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.splash-card-cta:hover,
+.splash-card-cta:focus-visible {
+  border-color: rgba(132, 204, 22, 0.82);
+  color: #3f6212;
+  transform: translateY(-1px);
+}
+
+.splash-card-cta:focus-visible {
+  outline: 2px solid rgba(190, 242, 100, 0.9);
+  outline-offset: 0.18rem;
+}
+
+:root.dark .splash-card-cta {
+  border-color: rgba(103, 232, 249, 0.32);
+  background: rgba(15, 23, 42, 0.88);
+  color: #f8fafc;
+  box-shadow: 0 0.7rem 1.5rem rgba(0, 0, 0, 0.34);
+}
+
+:root.dark .splash-card-cta:hover,
+:root.dark .splash-card-cta:focus-visible {
+  border-color: rgba(190, 242, 100, 0.82);
+  color: #bef264;
+}
+
 @media (max-width: 760px) {
+  .splash-title.schwifty {
+    font-size: 3rem;
+  }
+
   .splash-carousel {
     overflow: visible;
   }
@@ -65,6 +121,18 @@ const mobileSplashLayoutCss = `
 
   .splash-carousel-controls {
     width: min(calc(72vw - 1.5rem), 18.5rem);
+  }
+}
+
+@media (min-width: 480px) and (max-width: 760px) {
+  .splash-title.schwifty {
+    font-size: 3.75rem;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1023px) {
+  .splash-title.schwifty {
+    font-size: 6rem;
   }
 }
 `;
@@ -188,7 +256,7 @@ export default function HomeSplash() {
     }
 
     function handleCarouselPointerDown(event: PointerEvent<HTMLDivElement>) {
-        if (event.target instanceof Element && event.target.closest("button")) {
+        if (event.target instanceof Element && event.target.closest("button, a")) {
             return;
         }
 
@@ -260,7 +328,11 @@ export default function HomeSplash() {
         }
     }
 
-    function handleCardClick(event: MouseEvent<HTMLAnchorElement>, index: number) {
+    function handleCardClick(event: MouseEvent<HTMLDivElement>, index: number) {
+        if (event.target instanceof Element && event.target.closest("a")) {
+            return;
+        }
+
         if (didSwipe.current) {
             event.preventDefault();
             didSwipe.current = false;
@@ -268,6 +340,16 @@ export default function HomeSplash() {
         }
 
         if (index !== activeIndex) {
+            setActiveIndex(index);
+        }
+    }
+
+    function handleCardKeyDown(event: KeyboardEvent<HTMLDivElement>, index: number) {
+        if (event.target !== event.currentTarget || index === activeIndex) {
+            return;
+        }
+
+        if (event.key === "Enter" || event.key === " ") {
             event.preventDefault();
             setActiveIndex(index);
         }
@@ -329,7 +411,7 @@ export default function HomeSplash() {
             className="splash-page relative isolate min-h-[calc(100vh-4.5rem)] overflow-hidden px-4 pb-12 pt-20 text-center text-slate-950 dark:text-white sm:px-6 sm:pb-16 sm:pt-20 lg:px-8"
             style={splashStyle}
         >
-            <style>{mobileSplashLayoutCss}</style>
+            <style>{splashLayoutCss}</style>
             <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center">
                 <SchwiftyTitle className="splash-title" revealOnMount />
 
@@ -350,27 +432,32 @@ export default function HomeSplash() {
                             const isActive = slot === "active";
 
                             return (
-                                <Link
+                                <div
                                     key={destination.id}
-                                    to={destination.path}
                                     className={cx(
                                         "splash-portal-card",
                                         `splash-portal-card--${destination.id}`,
                                     )}
                                     data-slot={slot}
                                     data-active={isActive ? "true" : "false"}
-                                    aria-label={`${destination.label}: ${destination.description}`}
+                                    role={isActive ? undefined : "button"}
+                                    tabIndex={isActive ? undefined : 0}
+                                    aria-label={isActive ? undefined : `Show ${destination.label} portal`}
                                     onClick={(event) => handleCardClick(event, index)}
+                                    onKeyDown={(event) => handleCardKeyDown(event, index)}
                                 >
-                                    <article className="splash-portal-card-inner portal-hover">
+                                    <article className="splash-portal-card-inner portal-hover" aria-labelledby={`splash-card-title-${destination.id}`}>
                                         <BubbleCloud images={destination.images} label={`${destination.label} preview images`} />
                                         <div className="splash-card-content">
                                             <p className="text-xs font-black uppercase tracking-wide text-slate-600 dark:text-slate-300">{destination.eyebrow}</p>
-                                            <h3 className="mt-2 text-2xl font-extrabold text-slate-950 dark:text-white sm:text-3xl">{destination.label}</h3>
+                                            <h3 id={`splash-card-title-${destination.id}`} className="mt-2 text-2xl font-extrabold text-slate-950 dark:text-white sm:text-3xl">{destination.label}</h3>
                                             <p className="splash-card-description mt-3 text-sm leading-6 text-slate-700 dark:text-slate-200 sm:text-base">{destination.description}</p>
+                                            <Link className="splash-card-cta" to={destination.path} aria-label={`Explore ${destination.label}`}>
+                                                Explore {destination.label}
+                                            </Link>
                                         </div>
                                     </article>
-                                </Link>
+                                </div>
                             );
                         })}
                         <div className="splash-carousel-controls">
