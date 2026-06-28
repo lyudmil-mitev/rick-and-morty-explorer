@@ -51,46 +51,49 @@ const splashLayoutCss = `
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.35rem;
   margin-top: 1rem;
-  border-radius: 999px;
-  border: 1px solid rgba(8, 186, 227, 0.34);
-  background: rgba(251, 250, 242, 0.92);
-  padding: 0.58rem 1rem;
-  color: #0f172a;
+  overflow: hidden;
+  border-radius: 0.375rem;
+  background: rgba(165, 243, 252, 0.4);
+  padding: 0.72rem 1.35rem;
+  color: #334155;
   font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
+  font-weight: 700;
+  letter-spacing: 0.025em;
   line-height: 1;
   text-decoration: none;
-  text-transform: uppercase;
-  box-shadow: 0 0.7rem 1.5rem rgba(15, 23, 42, 0.14);
-  transition: border-color 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+  box-shadow: 0 0.8rem 1.6rem rgba(8, 145, 178, 0.12);
+  transition: background-color 200ms ease, color 200ms ease, text-shadow 200ms ease, transform 200ms ease, box-shadow 200ms ease;
 }
 
 .splash-card-cta:hover,
 .splash-card-cta:focus-visible {
-  border-color: rgba(132, 204, 22, 0.82);
-  color: #3f6212;
+  background: rgba(165, 243, 252, 0.62);
+  color: #0f172a;
+  text-shadow: 0 0 8px rgba(183, 255, 68, 0.65);
   transform: translateY(-1px);
 }
 
 .splash-card-cta:focus-visible {
-  outline: 2px solid rgba(190, 242, 100, 0.9);
-  outline-offset: 0.18rem;
+  outline: none;
+  box-shadow: 0 0 0 2px #a3e635, 0 0 0 4px #eef2ed, 0 0.8rem 1.6rem rgba(8, 145, 178, 0.12);
 }
 
 :root.dark .splash-card-cta {
-  border-color: rgba(103, 232, 249, 0.32);
-  background: rgba(15, 23, 42, 0.88);
-  color: #f8fafc;
-  box-shadow: 0 0.7rem 1.5rem rgba(0, 0, 0, 0.34);
+  background: rgba(103, 232, 249, 0.1);
+  color: #f1f5f9;
+  box-shadow: 0 0.8rem 1.6rem rgba(190, 242, 100, 0.1);
 }
 
 :root.dark .splash-card-cta:hover,
 :root.dark .splash-card-cta:focus-visible {
-  border-color: rgba(190, 242, 100, 0.82);
-  color: #bef264;
+  background: rgba(103, 232, 249, 0.16);
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(183, 255, 68, 0.85);
+}
+
+:root.dark .splash-card-cta:focus-visible {
+  box-shadow: 0 0 0 2px #bef264, 0 0 0 4px #020617, 0 0.8rem 1.6rem rgba(190, 242, 100, 0.1);
 }
 
 @media (max-width: 760px) {
@@ -458,9 +461,9 @@ export default function HomeSplash() {
                                     <article className="splash-portal-card-inner portal-hover" aria-labelledby={`splash-card-title-${destination.id}`}>
                                         <BubbleCloud images={destination.images} label={`${destination.label} preview images`} />
                                         <div className="splash-card-content">
-                                            <p className="text-xs font-black uppercase tracking-wide text-slate-600 dark:text-slate-300">{destination.eyebrow}</p>
-                                            <h3 id={`splash-card-title-${destination.id}`} className="mt-2 text-2xl font-extrabold text-slate-950 dark:text-white sm:text-3xl">{destination.label}</h3>
-                                            <p className="splash-card-description mt-3 text-sm leading-6 text-slate-700 dark:text-slate-200 sm:text-base">{destination.description}</p>
+                                            <h3 id={`splash-card-title-${destination.id}`} className="text-2xl font-extrabold text-slate-950 dark:text-white sm:text-3xl">{destination.label}</h3>
+                                            <p className="mt-1 text-xs font-black uppercase tracking-wide text-slate-600 dark:text-slate-300">{destination.eyebrow}</p>
+                                            <p className="splash-card-description mt-4 text-sm leading-6 text-slate-700 dark:text-slate-200 sm:text-base">{destination.description}</p>
                                             <Link
                                                 className="splash-card-cta"
                                                 to={destination.path}
