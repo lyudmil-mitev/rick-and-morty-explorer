@@ -140,6 +140,16 @@ describe('HomeSplash', () => {
         });
     });
 
+    it('navigates when the active card body is clicked', async () => {
+        const router = renderHomeSplashRouter('/');
+
+        fireEvent.click(screen.getByRole('link', { name: 'Open Characters portal' }));
+
+        await waitFor(() => {
+            expect(router.state.location.pathname).toBe('/characters');
+        });
+    });
+
     it('selects a background card before its CTA navigates', async () => {
         const router = renderHomeSplashRouter('/');
         const locationCard = screen.getByRole('button', { name: 'Show Locations portal' });
@@ -148,6 +158,16 @@ describe('HomeSplash', () => {
 
         expect(router.state.location.pathname).toBe('/');
         expect(screen.getByRole('status').textContent).toContain('Active portal: Locations');
+
+        fireEvent.click(screen.getByRole('link', { name: 'Explore Locations' }));
+
+        await waitFor(() => {
+            expect(router.state.location.pathname).toBe('/locations');
+        });
+    });
+
+    it('lets a background card CTA navigate without selecting the card first', async () => {
+        const router = renderHomeSplashRouter('/');
 
         fireEvent.click(screen.getByRole('link', { name: 'Explore Locations' }));
 
