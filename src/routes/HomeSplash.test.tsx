@@ -104,12 +104,14 @@ describe('HomeSplash', () => {
         const carousel = screen.getByRole('region', { name: 'Portal destinations' });
 
         fireEvent.pointerDown(carousel, { pointerId: 1, clientX: 260 });
-        fireEvent.pointerUp(carousel, { pointerId: 1, clientX: 120 });
+        fireEvent.pointerMove(carousel, { pointerId: 1, clientX: 200 });
+        fireEvent.pointerUp(carousel, { pointerId: 1, clientX: 200 });
 
         expect(screen.getByRole('status').textContent).toContain('Active portal: Locations');
 
         fireEvent.pointerDown(carousel, { pointerId: 2, clientX: 120 });
-        fireEvent.pointerUp(carousel, { pointerId: 2, clientX: 260 });
+        fireEvent.pointerMove(carousel, { pointerId: 2, clientX: 180 });
+        fireEvent.pointerUp(carousel, { pointerId: 2, clientX: 180 });
 
         expect(screen.getByRole('status').textContent).toContain('Active portal: Characters');
     });
