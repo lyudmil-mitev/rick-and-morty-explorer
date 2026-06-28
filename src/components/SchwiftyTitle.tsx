@@ -28,7 +28,7 @@ export default function SchwiftyTitle({
                     )}
                     aria-hidden="true"
                 >
-                    Rick and Morty <span className="schwifty-title-mobile-break">Explorer</span>
+                    Rick and Morty <span className="schwifty-title-mobile-break max-[760px]:block">Explorer</span>
                 </span>
             </button>
         </h1>
