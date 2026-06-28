@@ -6,7 +6,7 @@ const panelClass = cx("p-5 sm:p-6", ui.panel);
 export default function About() {
     return (
         <section className="px-4 pb-10 pt-5 text-left sm:px-6 lg:px-8">
-            <article className="mx-auto grid max-w-5xl grid-cols-[4.75rem_minmax(0,1fr)] gap-x-3 gap-y-5 text-slate-700 dark:text-slate-200 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-6 lg:grid-cols-[16rem_minmax(0,1fr)] lg:items-start">
+            <article className="mx-auto grid max-w-5xl grid-cols-[4rem_minmax(0,1fr)] gap-x-2 gap-y-5 text-slate-700 dark:text-slate-200 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-6 lg:grid-cols-[16rem_minmax(0,1fr)] lg:items-start">
                 <header className="col-span-2 space-y-3">
                     <p className={ui.eyebrow}>Fan project file</p>
                     <h1 className="text-3xl font-extrabold leading-tight text-slate-950 dark:text-white sm:text-4xl">
@@ -21,7 +21,7 @@ export default function About() {
                     <img
                         src={MrPbhImage}
                         alt="Mr. Poopybutthole"
-                        className="mx-auto h-40 w-full object-contain object-top sm:h-72 lg:h-auto lg:aspect-square"
+                        className="mx-auto h-36 w-full object-contain object-top sm:h-72 lg:h-auto lg:aspect-square"
                     />
                 </aside>
 
