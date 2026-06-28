@@ -9,6 +9,7 @@ import SchwiftyTitle from "../components/SchwiftyTitle";
 type DestinationId = "characters" | "locations" | "episodes";
 type CarouselSlot = "left" | "active" | "right";
 type Theme = "light" | "dark";
+type DragDirection = "previous" | "next" | "none";
 type RootOutletContext = {
     theme: Theme;
 }
@@ -50,7 +51,7 @@ const splashLayoutCss = `
   --splash-drag-offset: 0px;
 }
 
-.splash-carousel[data-dragging="true"] .splash-portal-card[data-slot="active"] {
+.splash-carousel[data-dragging="true"] .splash-portal-card {
   transition:
     opacity 180ms ease,
     filter 180ms ease;
@@ -66,6 +67,14 @@ const splashLayoutCss = `
 
 .splash-portal-card[data-slot="right"] {
   transform: translate3d(calc(-50% + clamp(8rem, 30vw, 21rem)), 2.25rem, 0) scale(0.82);
+}
+
+.splash-carousel[data-drag-direction="previous"] .splash-portal-card[data-slot="left"] {
+  transform: translate3d(calc(-50% - clamp(8rem, 30vw, 21rem) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
+}
+
+.splash-carousel[data-drag-direction="next"] .splash-portal-card[data-slot="right"] {
+  transform: translate3d(calc(-50% + clamp(8rem, 30vw, 21rem) + var(--splash-drag-offset)), 2.25rem, 0) scale(0.82);
 }
 
 .splash-card-cta {
@@ -143,6 +152,14 @@ const splashLayoutCss = `
 
   .splash-portal-card[data-slot="right"] {
     transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
+  }
+
+  .splash-carousel[data-drag-direction="previous"] .splash-portal-card[data-slot="left"] {
+    transform: translate3d(calc(-50% - clamp(7rem, 24vw, 8.5rem) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
+  }
+
+  .splash-carousel[data-drag-direction="next"] .splash-portal-card[data-slot="right"] {
+    transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem) + var(--splash-drag-offset)), 2.8rem, 0) scale(0.72);
   }
 
   .splash-carousel-controls {
@@ -455,6 +472,7 @@ export default function HomeSplash() {
     const carouselDragStyle = {
         "--splash-drag-offset": `${dragOffset}px`,
     } as CSSProperties;
+    const dragDirection: DragDirection = dragOffset < 0 ? "next" : dragOffset > 0 ? "previous" : "none";
 
     return (
         <section
@@ -471,6 +489,7 @@ export default function HomeSplash() {
                     aria-label="Portal destinations"
                     tabIndex={0}
                     data-dragging={dragOffset !== 0 ? "true" : "false"}
+                    data-drag-direction={dragDirection}
                     onKeyDown={handleCarouselKeyDown}
                     onPointerDown={handleCarouselPointerDown}
                     onPointerMove={handleCarouselPointerMove}
