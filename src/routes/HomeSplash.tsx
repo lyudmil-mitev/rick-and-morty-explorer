@@ -26,9 +26,19 @@ type Destination = {
     images: BubbleImage[];
 }
 
+type DragState = {
+    pointerId: number;
+    startX: number;
+    startY: number;
+    hasMovedHorizontally: boolean;
+}
+
 function assetUrl(path: string) {
     return `${import.meta.env.BASE_URL}${path}`;
 }
+
+const swipeMinDistance = 48;
+const swipeAxisLockDistance = 12;
 
 const mobileSplashLayoutCss = `
 @media (max-width: 760px) {
@@ -155,12 +165,18 @@ function getSlot(index: number, activeIndex: number): CarouselSlot {
     return "active";
 }
 
+function releasePointerCaptureSafely(element: HTMLDivElement, pointerId: number) {
+    if (element.hasPointerCapture(pointerId)) {
+        element.releasePointerCapture(pointerId);
+    }
+}
+
 export default function HomeSplash() {
     const outletContext = useOutletContext<Partial<RootOutletContext> | null>();
     const navigate = useNavigate();
     const theme = outletContext?.theme ?? "dark";
     const [activeIndex, setActiveIndex] = useState(0);
-    const dragStartX = useRef<number | null>(null);
+    const dragState = useRef<DragState | null>(null);
     const didSwipe = useRef(false);
 
     function showPrevious() {
@@ -176,20 +192,53 @@ export default function HomeSplash() {
             return;
         }
 
+        event.currentTarget.setPointerCapture(event.pointerId);
         didSwipe.current = false;
-        dragStartX.current = event.clientX;
+        dragState.current = {
+            pointerId: event.pointerId,
+            startX: event.clientX,
+            startY: event.clientY,
+            hasMovedHorizontally: false,
+        };
     }
 
-    function handleCarouselPointerUp(event: PointerEvent<HTMLDivElement>) {
-        const startX = dragStartX.current;
-        dragStartX.current = null;
-
-        if (startX === null) {
+    function handleCarouselPointerMove(event: PointerEvent<HTMLDivElement>) {
+        const state = dragState.current;
+        if (state === null || state.pointerId !== event.pointerId) {
             return;
         }
 
-        const deltaX = event.clientX - startX;
-        if (Math.abs(deltaX) < 48) {
+        const deltaX = event.clientX - state.startX;
+        const deltaY = event.clientY - state.startY;
+        const absoluteDeltaX = Math.abs(deltaX);
+        const absoluteDeltaY = Math.abs(deltaY);
+
+        if (
+            !state.hasMovedHorizontally &&
+            absoluteDeltaX > swipeAxisLockDistance &&
+            absoluteDeltaX > absoluteDeltaY
+        ) {
+            state.hasMovedHorizontally = true;
+            didSwipe.current = true;
+        }
+    }
+
+    function handleCarouselPointerUp(event: PointerEvent<HTMLDivElement>) {
+        const state = dragState.current;
+        dragState.current = null;
+
+        if (state === null || state.pointerId !== event.pointerId) {
+            return;
+        }
+
+        releasePointerCaptureSafely(event.currentTarget, event.pointerId);
+
+        const deltaX = event.clientX - state.startX;
+        const deltaY = event.clientY - state.startY;
+        const absoluteDeltaX = Math.abs(deltaX);
+        const absoluteDeltaY = Math.abs(deltaY);
+
+        if (absoluteDeltaX < swipeMinDistance || absoluteDeltaX <= absoluteDeltaY) {
             return;
         }
 
@@ -201,9 +250,14 @@ export default function HomeSplash() {
         }
     }
 
-    function handleCarouselPointerCancel() {
-        dragStartX.current = null;
+    function handleCarouselPointerCancel(event: PointerEvent<HTMLDivElement>) {
+        const state = dragState.current;
+        dragState.current = null;
         didSwipe.current = false;
+
+        if (state !== null && state.pointerId === event.pointerId) {
+            releasePointerCaptureSafely(event.currentTarget, event.pointerId);
+        }
     }
 
     function handleCardClick(event: MouseEvent<HTMLAnchorElement>, index: number) {
@@ -280,12 +334,13 @@ export default function HomeSplash() {
                 <SchwiftyTitle className="splash-title" revealOnMount />
 
                 <div
-                    className="splash-carousel mt-8 w-full sm:mt-10"
+                    className="splash-carousel mt-8 w-full touch-pan-y select-none sm:mt-10"
                     role="region"
                     aria-label="Portal destinations"
                     tabIndex={0}
                     onKeyDown={handleCarouselKeyDown}
                     onPointerDown={handleCarouselPointerDown}
+                    onPointerMove={handleCarouselPointerMove}
                     onPointerUp={handleCarouselPointerUp}
                     onPointerCancel={handleCarouselPointerCancel}
                 >
