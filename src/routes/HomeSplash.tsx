@@ -234,8 +234,8 @@ function getSlot(index: number, activeIndex: number): CarouselSlot {
 }
 
 function releasePointerCaptureSafely(element: HTMLDivElement, pointerId: number) {
-    if (element.hasPointerCapture(pointerId)) {
-        element.releasePointerCapture(pointerId);
+    if (typeof element.hasPointerCapture === "function" && element.hasPointerCapture(pointerId)) {
+        element.releasePointerCapture?.(pointerId);
     }
 }
 
