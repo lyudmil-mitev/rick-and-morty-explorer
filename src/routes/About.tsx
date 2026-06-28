@@ -17,7 +17,7 @@ export default function About() {
                     </p>
                 </header>
 
-                <aside className="w-full self-start sm:sticky sm:top-4 lg:top-6">
+                <aside className="sticky top-4 w-full self-start lg:top-6">
                     <img
                         src={MrPbhImage}
                         alt="Mr. Poopybutthole"
