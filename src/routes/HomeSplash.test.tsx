@@ -6,7 +6,7 @@ import HomeSplash from './HomeSplash';
 function renderHomeSplash() {
     return render(
         <MemoryRouter>
-            <HomeSplash />,
+            <HomeSplash />
         </MemoryRouter>,
     );
 }
