@@ -37,7 +37,7 @@ function assetUrl(path: string) {
     return `${import.meta.env.BASE_URL}${path}`;
 }
 
-const swipeMinDistance = 84;
+const swipeMinDistance = 42;
 const swipeAxisLockDistance = 12;
 const dragResistanceMax = 130;
 
