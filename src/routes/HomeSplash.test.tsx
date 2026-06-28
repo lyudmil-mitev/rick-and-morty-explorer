@@ -23,6 +23,17 @@ function renderHomeSplashRouter(initialEntry = '/') {
     return router;
 }
 
+function getPortalCard(linkName: string) {
+    const link = screen.getByRole('link', { name: linkName });
+    const card = link.closest('.splash-portal-card');
+
+    if (!(card instanceof HTMLElement)) {
+        throw new Error(`Could not find portal card for ${linkName}`);
+    }
+
+    return card;
+}
+
 describe('HomeSplash', () => {
     it('renders the splash title and destination links without the old intro copy', () => {
         renderHomeSplash();
@@ -33,9 +44,9 @@ describe('HomeSplash', () => {
         expect(screen.queryByText('Choose a portal')).toBeNull();
         expect(screen.getByRole('img', { name: 'Characters preview images' })).toBeDefined();
 
-        expect(screen.getByRole('link', { name: /Characters: Variants/ }).getAttribute('href')).toBe('/characters');
-        expect(screen.getByRole('link', { name: /Locations: Planets/ }).getAttribute('href')).toBe('/locations');
-        expect(screen.getByRole('link', { name: /Episodes: Season-by-season/ }).getAttribute('href')).toBe('/episodes');
+        expect(screen.getByRole('link', { name: 'Explore Characters' }).getAttribute('href')).toBe('/characters');
+        expect(screen.getByRole('link', { name: 'Explore Locations' }).getAttribute('href')).toBe('/locations');
+        expect(screen.getByRole('link', { name: 'Explore Episodes' }).getAttribute('href')).toBe('/episodes');
     });
 
     it('replays the title animation when the title control is clicked', () => {
@@ -107,42 +118,52 @@ describe('HomeSplash', () => {
         renderHomeSplash();
 
         const carousel = screen.getByRole('region', { name: 'Portal destinations' });
-        const characterCard = within(carousel).getByRole('link', { name: /Characters: Variants/ });
-        const locationCard = within(carousel).getByRole('link', { name: /Locations: Planets/ });
+        const characterCard = within(carousel).getByRole('link', { name: 'Explore Characters' }).closest('.splash-portal-card');
+        const locationCard = within(carousel).getByRole('link', { name: 'Explore Locations' }).closest('.splash-portal-card');
 
-        expect(characterCard.getAttribute('data-active')).toBe('true');
-        expect(locationCard.getAttribute('data-active')).toBe('false');
+        expect(characterCard?.getAttribute('data-active')).toBe('true');
+        expect(locationCard?.getAttribute('data-active')).toBe('false');
 
         fireEvent.click(screen.getByRole('button', { name: 'Show next portal' }));
 
-        expect(characterCard.getAttribute('data-active')).toBe('false');
-        expect(locationCard.getAttribute('data-active')).toBe('true');
+        expect(characterCard?.getAttribute('data-active')).toBe('false');
+        expect(locationCard?.getAttribute('data-active')).toBe('true');
     });
 
-    it('navigates when the active card is clicked', async () => {
+    it('navigates when the active card CTA is clicked', async () => {
         const router = renderHomeSplashRouter('/');
 
-        fireEvent.click(screen.getByRole('link', { name: /Characters: Variants/ }));
+        fireEvent.click(screen.getByRole('link', { name: 'Explore Characters' }));
 
         await waitFor(() => {
             expect(router.state.location.pathname).toBe('/characters');
         });
     });
 
-    it('selects a background card before navigating on a second click', async () => {
+    it('selects a background card before its CTA navigates', async () => {
         const router = renderHomeSplashRouter('/');
-        const locationCard = screen.getByRole('link', { name: /Locations: Planets/ });
+        const locationCard = screen.getByRole('button', { name: 'Show Locations portal' });
 
         fireEvent.click(locationCard);
 
         expect(router.state.location.pathname).toBe('/');
         expect(screen.getByRole('status').textContent).toContain('Active portal: Locations');
 
-        fireEvent.click(locationCard);
+        fireEvent.click(screen.getByRole('link', { name: 'Explore Locations' }));
 
         await waitFor(() => {
             expect(router.state.location.pathname).toBe('/locations');
         });
+    });
+
+    it('selects a background card with keyboard before its CTA navigates', () => {
+        renderHomeSplash();
+        const locationCard = screen.getByRole('button', { name: 'Show Locations portal' });
+
+        fireEvent.keyDown(locationCard, { key: 'Enter' });
+
+        expect(screen.getByRole('status').textContent).toContain('Active portal: Locations');
+        expect(getPortalCard('Explore Locations').getAttribute('data-active')).toBe('true');
     });
 
     it('navigates to the active card when Enter is pressed on the carousel', async () => {
