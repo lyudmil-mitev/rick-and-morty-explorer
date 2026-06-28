@@ -1,7 +1,7 @@
 {
   "dataset": "robbroadhead/rick-and-morty-api-dataset",
-  "generatedAt": "2026-06-28T12:37:56.662Z",
-  "cacheVersion": "robbroadhead/rick-and-morty-api-dataset:1782650276662",
+  "generatedAt": "2026-06-28T12:43:26.716Z",
+  "cacheVersion": "robbroadhead/rick-and-morty-api-dataset:1782650606716",
   "files": [
     "characters.csv",
     "locations.csv",
