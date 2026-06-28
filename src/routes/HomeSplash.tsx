@@ -30,6 +30,35 @@ function assetUrl(path: string) {
     return `${import.meta.env.BASE_URL}${path}`;
 }
 
+const mobileSplashLayoutCss = `
+@media (max-width: 760px) {
+  .splash-carousel {
+    overflow: visible;
+  }
+
+  .splash-carousel-stage {
+    margin-inline: -1rem;
+    overflow: visible;
+  }
+
+  .splash-portal-card {
+    width: min(72vw, 20rem);
+  }
+
+  .splash-portal-card[data-slot="left"] {
+    transform: translate3d(calc(-50% - clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
+  }
+
+  .splash-portal-card[data-slot="right"] {
+    transform: translate3d(calc(-50% + clamp(7rem, 24vw, 8.5rem)), 2.8rem, 0) scale(0.72);
+  }
+
+  .splash-carousel-controls {
+    width: min(calc(72vw - 1.5rem), 18.5rem);
+  }
+}
+`;
+
 const characterFiles = [
     ["001-rick-sanchez.jpeg", "Rick Sanchez"],
     ["002-morty-smith.jpeg", "Morty Smith"],
@@ -246,6 +275,7 @@ export default function HomeSplash() {
             className="splash-page relative isolate min-h-[calc(100vh-4.5rem)] overflow-hidden px-4 pb-12 pt-20 text-center text-slate-950 dark:text-white sm:px-6 sm:pb-16 sm:pt-20 lg:px-8"
             style={splashStyle}
         >
+            <style>{mobileSplashLayoutCss}</style>
             <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center">
                 <SchwiftyTitle className="splash-title" revealOnMount />
 
