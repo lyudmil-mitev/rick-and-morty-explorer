@@ -260,7 +260,7 @@ export default function HomeSplash() {
             return;
         }
 
-        event.currentTarget.setPointerCapture(event.pointerId);
+        event.currentTarget.setPointerCapture?.(event.pointerId);
         didSwipe.current = false;
         dragState.current = {
             pointerId: event.pointerId,
