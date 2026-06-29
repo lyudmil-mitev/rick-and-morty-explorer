@@ -1,10 +1,10 @@
 import { Link, useNavigate, useOutletContext } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import type { CSSProperties, KeyboardEvent, MouseEvent, PointerEvent } from "react";
-import { splashBackgroundImage } from "../components/backgroundImages";
 import { getEpisodeSeasonImage, getLocationImage } from "../media";
 import { cx } from "../styles/ui";
 import SchwiftyTitle from "../components/SchwiftyTitle";
+import ShaderBackground from "../components/ShaderBackground";
 
 type DestinationId = "characters" | "locations" | "episodes";
 type CarouselSlot = "left" | "active" | "right";
@@ -488,9 +488,6 @@ export default function HomeSplash() {
         return () => document.removeEventListener("keydown", handleDocumentKeyDown);
     }, [activeIndex, navigate]);
 
-    const splashStyle: CSSProperties = {
-        backgroundImage: splashBackgroundImage[theme],
-    };
     const carouselDragStyle = {
         "--splash-drag-offset": `${dragOffset}px`,
         "--splash-wrap-drag-offset": `${-2 * dragOffset}px`,
@@ -500,9 +497,9 @@ export default function HomeSplash() {
     return (
         <section
             className="splash-page relative isolate min-h-[calc(100vh-4.5rem)] overflow-hidden px-4 pb-12 pt-20 text-center text-slate-950 dark:text-white sm:px-6 sm:pb-16 sm:pt-20 lg:px-8"
-            style={splashStyle}
         >
             <style>{splashLayoutCss}</style>
+            <ShaderBackground theme={theme} variant="splash" />
             <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center">
                 <SchwiftyTitle className="splash-title" revealOnMount />
 
