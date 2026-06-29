@@ -134,8 +134,6 @@ npm run build
 - This is a fan project for educational purpose and is in no way affiliated to them.
 - The data and images are used without claim of ownership and belong to their respective owners.
 - The title font is made and [generously provided by John Izaak](https://www.deviantart.com/jonizaak/art/Get-Schwifty-A-Rick-and-Morty-font-638073728)
-- The deep space background SVG image is adapted from [work by Bence Szabo](https://codepen.io/finnhvman/pen/bGOYpbO)
-- The light-mode alien landscape SVG image is adapted from [work by Bence Szabo](https://codepen.io/finnhvman/pen/bGopgee)
 - This project includes posters for seasons from [TVMaze](https://www.tvmaze.com/)
 - This project uses the [Rick and Morty API](https://rickandmortyapi.com/) through the Kaggle dataset [`robbroadhead/rick-and-morty-api-dataset`](https://www.kaggle.com/datasets/robbroadhead/rick-and-morty-api-dataset)
 - Detail text and source links come from [`robbroadhead/rick-and-morty-details-fandom-wiki-dataset`](https://www.kaggle.com/datasets/robbroadhead/rick-and-morty-details-fandom-wiki-dataset), gathered from the [Rick and Morty Wiki](https://rickandmorty.fandom.com/). Fandom wiki text is licensed under [CC BY-SA](https://www.fandom.com/licensing).

@@ -6,8 +6,6 @@ uniform vec3 iResolution;
 uniform float iTime;
 uniform float iVariant;
 
-#define SVG_W 1600.0
-#define SVG_H 360.0
 #define TAU 6.28318530718
 
 float sat(float x) { return clamp(x, 0.0, 1.0); }
@@ -20,149 +18,179 @@ float hash12(vec2 p)
     return fract((q.x + q.y) * q.z);
 }
 
-vec2 hash22(vec2 p)
-{
-    return vec2(hash12(p), hash12(p + 17.37));
-}
-
-vec2 grad2(vec2 cell)
-{
-    float a = TAU * hash12(cell);
-    return vec2(cos(a), sin(a));
-}
-
-float perlin2(vec2 p)
+float valueNoise(vec2 p)
 {
     vec2 i = floor(p);
     vec2 f = fract(p);
     vec2 u = f * f * (3.0 - 2.0 * f);
 
-    float n00 = dot(grad2(i), f);
-    float n10 = dot(grad2(i + vec2(1.0, 0.0)), f - vec2(1.0, 0.0));
-    float n01 = dot(grad2(i + vec2(0.0, 1.0)), f - vec2(0.0, 1.0));
-    float n11 = dot(grad2(i + vec2(1.0, 1.0)), f - vec2(1.0, 1.0));
+    float a = hash12(i);
+    float b = hash12(i + vec2(1.0, 0.0));
+    float c = hash12(i + vec2(0.0, 1.0));
+    float d = hash12(i + vec2(1.0, 1.0));
 
-    return mix(mix(n00, n10, u.x), mix(n01, n11, u.x), u.y);
+    return mix(mix(a, b, u.x), mix(c, d, u.x), u.y);
 }
 
 float fbm(vec2 p)
 {
     float sum = 0.0;
-    float amp = 0.5;
+    float amp = 0.56;
 
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 5; i++)
     {
-        sum += amp * perlin2(p);
-        p = mat2(1.62, 1.12, -1.12, 1.62) * p;
-        amp *= 0.5;
+        sum += amp * valueNoise(p);
+        p = mat2(1.58, 1.04, -1.04, 1.58) * p + 7.3;
+        amp *= 0.52;
     }
 
-    return 0.5 + 0.5 * sum;
+    return sum;
 }
 
-vec2 svgCoords(vec2 fragCoord)
+vec2 sceneUv(vec2 fragCoord)
 {
-    vec2 uv = fragCoord.xy / iResolution.xy;
-    uv.y = 1.0 - uv.y;
-
-    float viewAspect = SVG_W / SVG_H;
-    float screenAspect = iResolution.x / iResolution.y;
-    vec2 p;
-
-    if (screenAspect < viewAspect)
-    {
-        float visibleW = SVG_H * screenAspect;
-        p.x = SVG_W * 0.5 + (uv.x - 0.5) * visibleW;
-        p.y = uv.y * SVG_H;
-    }
-    else
-    {
-        float visibleH = SVG_W / screenAspect;
-        p.x = uv.x * SVG_W;
-        p.y = SVG_H * 0.5 + (uv.y - 0.5) * visibleH;
-    }
-
-    return p;
+    vec2 uv = fragCoord / iResolution.xy;
+    uv = uv * 2.0 - 1.0;
+    uv.x *= iResolution.x / iResolution.y;
+    return uv;
 }
 
-float ridge(vec2 p, float scale, float amp, float base, float seed)
+vec3 sky(vec2 uv)
 {
-    float broad = fbm(vec2(p.x * scale + seed, seed * 0.37));
-    float broken = fbm(vec2(p.x * scale * 3.1 - seed * 0.4, 12.0 + seed));
-    float spires = pow(abs(perlin2(vec2(p.x * scale * 5.2 + seed, 4.0))), 1.55);
-    return base - amp * (0.62 * broad + 0.28 * broken + 0.20 * spires);
-}
-
-float terrainMask(vec2 p, float height, float softness)
-{
-    return smoothstep(height - softness, height + softness, p.y);
-}
-
-vec3 drawTerrain(vec3 col, vec2 p, float height, float softness, vec3 color, vec3 highlight, float density)
-{
-    float mask = terrainMask(p, height, softness);
-    float texture = fbm(vec2(p.x * 0.012 + density, p.y * 0.032 - density));
-    float veins = smoothstep(0.54, 0.86, fbm(vec2(p.x * 0.026 - density * 2.0, p.y * 0.020)));
-    vec3 terrain = mix(color, highlight, texture * 0.34 + veins * 0.16);
-    return mix(col, terrain, mask);
-}
-
-vec3 skyColor(vec2 p)
-{
-    float y = sat(p.y / SVG_H);
-    vec3 top = vec3(0.84, 1.00, 0.65);
-    vec3 mid = vec3(0.45, 0.94, 0.78);
+    float y = sat(uv.y * 0.5 + 0.5);
+    vec3 top = vec3(0.84, 1.00, 0.63);
+    vec3 mid = vec3(0.43, 0.94, 0.76);
     vec3 low = vec3(0.91, 0.95, 0.88);
 
-    vec3 sky = mix(top, mid, smoothstep(0.00, 0.52, y));
-    sky = mix(sky, low, smoothstep(0.48, 1.00, y));
+    vec3 col = mix(low, mid, smoothstep(0.05, 0.62, y));
+    col = mix(col, top, smoothstep(0.52, 1.0, y));
 
-    float haze = 0.12 * sin(p.x * 0.004 + 0.7) + 0.08 * sin(p.x * 0.011 - 1.6);
-    vec3 cyanGlow = vec3(0.03, 0.73, 0.89);
-    vec3 limeGlow = vec3(0.71, 1.00, 0.27);
-    vec3 roseGlow = vec3(1.00, 0.24, 0.60);
+    float haze = 0.12 * sin(uv.x * 2.0 + 0.7) + 0.08 * sin(uv.x * 5.6 - 1.6);
+    col = mix(col, vec3(0.03, 0.73, 0.89), 0.10 * smoothstep(0.20, 0.82, 1.0 - y));
+    col = mix(col, vec3(0.71, 1.00, 0.27), 0.10 * smoothstep(0.18, 0.86, y + haze));
+    col = mix(col, vec3(1.00, 0.24, 0.60), 0.07 * smoothstep(0.35, 1.0, uv.x));
 
-    sky = mix(sky, cyanGlow, 0.11 * smoothstep(0.08, 0.78, 1.0 - y));
-    sky = mix(sky, limeGlow, 0.12 * smoothstep(0.18, 0.82, y + haze));
-    sky = mix(sky, roseGlow, 0.08 * smoothstep(0.52, 0.98, p.x / SVG_W));
+    float sun = exp(-length((uv - vec2(-0.82, 0.46)) / vec2(0.36, 0.16)));
+    float moon = exp(-length((uv - vec2(1.10, 0.30)) / vec2(0.24, 0.12)));
+    col += vec3(0.90, 1.00, 0.60) * sun * 0.15;
+    col += vec3(0.00, 0.65, 0.85) * moon * 0.09;
 
-    float sun = exp(-length((p - vec2(SVG_W * 0.22, SVG_H * 0.18)) / vec2(220.0, 72.0)));
-    float moon = exp(-length((p - vec2(SVG_W * 0.78, SVG_H * 0.28)) / vec2(125.0, 52.0)));
-    sky += vec3(0.90, 1.00, 0.60) * sun * 0.16;
-    sky += vec3(0.00, 0.65, 0.85) * moon * 0.10;
+    return sat(col);
+}
 
-    float fine = fbm(p * 0.012 + vec2(1.2, 4.1));
-    sky *= 0.96 + 0.08 * fine;
+float ridgeHeight(float x, float seed, float roughness)
+{
+    float broad = fbm(vec2(x * 0.62 + seed, seed * 0.31));
+    float broken = fbm(vec2(x * 1.85 - seed * 0.4, seed + 11.0));
+    float spires = pow(abs(valueNoise(vec2(x * 4.4 + seed, 2.0)) - 0.5) * 2.0, 1.8);
+    return 0.45 * broad + roughness * 0.32 * broken + 0.20 * spires;
+}
 
-    return sat(sky);
+vec4 mountainLayer(vec2 uv, float z, float seed, float baseY, vec3 lowColor, vec3 highColor)
+{
+    float depth = mix(3.35, 0.46, z);
+    float scale = 1.0 / depth;
+    vec2 layerUv = uv / scale + vec2(sin(seed * 2.4) * 0.58, 0.0);
+    float ridge = baseY + mix(0.42, 0.26, z) - ridgeHeight(layerUv.x, seed, mix(0.70, 1.10, z)) * mix(0.66, 1.04, z);
+    float softness = mix(0.014, 0.005, z);
+    float mask = 1.0 - smoothstep(ridge - softness, ridge + softness, uv.y);
+    float crest = exp(-abs(uv.y - ridge) / mix(0.020, 0.008, z));
+
+    float texture = fbm(layerUv * vec2(2.4, 5.2) + seed);
+    float veins = smoothstep(0.62, 0.94, fbm(layerUv * vec2(7.0, 3.2) - seed));
+    vec3 terrain = mix(lowColor, highColor, texture * 0.42 + veins * 0.16);
+    terrain = mix(terrain, terrain * vec3(0.42, 0.58, 0.54), crest * mix(0.32, 0.62, z));
+
+    float atmospheric = smoothstep(0.0, 1.0, 1.0 - z);
+    terrain = mix(terrain, vec3(0.72, 0.96, 0.72), atmospheric * 0.24);
+
+    return vec4(sat(terrain), mask * mix(0.58, 1.0, z));
+}
+
+vec4 cloudLayer(vec2 uv, float z, float seed)
+{
+    float depth = mix(3.20, 0.42, z);
+    float scale = 1.0 / depth;
+    vec2 layerUv = uv / scale + vec2(sin(seed) * 0.8, cos(seed * 1.7) * 0.22);
+    layerUv.y += mix(0.48, 0.18, z);
+
+    float body = fbm(layerUv * vec2(1.4, 2.4) + seed * 1.7);
+    float puff = fbm(layerUv * vec2(3.5, 5.2) - seed * 0.9);
+    float shape = smoothstep(0.48, 0.92, body * 0.72 + puff * 0.36);
+    float verticalWindow = smoothstep(-0.34, 0.06, layerUv.y) * (1.0 - smoothstep(0.38, 0.74, layerUv.y));
+    float alpha = shape * verticalWindow * smoothstep(0.0, 0.32, z) * (1.0 - smoothstep(0.86, 1.0, z));
+
+    vec3 shade = mix(vec3(0.78, 0.96, 0.86), vec3(1.0, 1.0, 0.90), puff * 0.45 + z * 0.20);
+    shade = mix(shade, vec3(0.58, 0.90, 0.80), smoothstep(0.04, 0.42, layerUv.y) * 0.32);
+
+    return vec4(sat(shade), alpha * 0.42);
+}
+
+vec3 mountains(vec2 uv)
+{
+    vec3 col = sky(uv);
+    float travel = iTime * 0.026;
+    float banner = iVariant;
+    vec2 scene = uv * mix(1.82, 1.0, banner);
+    float splashLift = mix(0.42, 0.0, banner);
+
+    for (int i = 0; i < 5; i++)
+    {
+        float layer = float(i);
+        float phase = hash12(vec2(layer * 8.1, layer + 0.6));
+        float cycle = floor(phase + travel);
+        float z = fract(phase + travel);
+        float fade = smoothstep(0.0, 0.28, z) * (1.0 - smoothstep(0.90, 1.0, z));
+        float bannerLift = mix(0.0, 0.16, banner);
+
+        vec3 low = mix(vec3(0.18, 0.50, 0.42), vec3(0.04, 0.24, 0.29), z);
+        vec3 high = mix(vec3(0.58, 0.83, 0.48), vec3(0.18, 0.56, 0.34), z);
+        vec4 ridge = mountainLayer(
+            scene,
+            z,
+            layer + 2.0 + cycle * 5.3,
+            mix(0.06, -0.18, z) + bannerLift + splashLift,
+            low,
+            high
+        );
+
+        col = mix(col, ridge.rgb, ridge.a * fade);
+
+        float haze = fade * smoothstep(-0.78, 0.12, scene.y) * (1.0 - z) * mix(0.10, 0.18, banner);
+        col = mix(col, vec3(0.80, 0.98, 0.75), haze);
+    }
+
+    return col;
+}
+
+vec3 flyClouds(vec2 uv, vec3 col)
+{
+    float travel = iTime * 0.038;
+    vec2 scene = uv * mix(1.62, 1.0, iVariant);
+
+    for (int i = 0; i < 4; i++)
+    {
+        float layer = float(i);
+        float phase = hash12(vec2(layer * 11.9, layer + 3.1));
+        float z = fract(phase + travel);
+        vec4 cloud = cloudLayer(scene, z, layer + 1.0 + floor(phase + travel) * 6.1);
+        col = mix(col, cloud.rgb, cloud.a);
+    }
+
+    return col;
 }
 
 void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
-    vec2 p = svgCoords(fragCoord);
-    vec3 col = skyColor(p);
+    vec2 uv = sceneUv(fragCoord);
+    vec3 col = mountains(uv);
+    col = flyClouds(uv, col);
 
-    float cloud = fbm(vec2(p.x * 0.006, p.y * 0.018 + 11.0));
-    float mist = smoothstep(0.35, 0.82, cloud) * smoothstep(0.88, 0.32, p.y / SVG_H);
-    col = mix(col, vec3(0.94, 1.00, 0.86), mist * 0.22);
+    float lowerHaze = smoothstep(-0.92, 0.02, uv.y) * 0.20;
+    col = mix(col, vec3(0.84, 0.98, 0.78), lowerHaze);
 
-    float farHeight = ridge(p + vec2(40.0, 0.0), 0.0032, 110.0, 310.0, 2.0);
-    float midHeight = ridge(p + vec2(-90.0, 0.0), 0.0048, 126.0, 338.0, 9.0);
-    float nearHeight = ridge(p + vec2(120.0, 0.0), 0.0068, 142.0, 374.0, 15.0);
-
-    col = drawTerrain(col, p, farHeight, 4.0, vec3(0.17, 0.49, 0.42), vec3(0.58, 0.83, 0.48), 2.3);
-
-    float fogBand = smoothstep(farHeight - 42.0, farHeight + 18.0, p.y) * smoothstep(farHeight + 110.0, farHeight + 22.0, p.y);
-    col = mix(col, vec3(0.77, 0.98, 0.76), fogBand * 0.24);
-
-    col = drawTerrain(col, p, midHeight, 3.0, vec3(0.09, 0.38, 0.37), vec3(0.40, 0.75, 0.38), 7.7);
-    col = drawTerrain(col, p, nearHeight, 2.4, vec3(0.04, 0.25, 0.30), vec3(0.18, 0.55, 0.35), 13.1);
-
-    float groundGlow = smoothstep(nearHeight - 16.0, nearHeight + 20.0, p.y);
-    col = mix(col, vec3(0.03, 0.18, 0.22), groundGlow * 0.18);
-
-    float vignette = smoothstep(0.78, 0.18, length((p / vec2(SVG_W, SVG_H)) - vec2(0.5, 0.50)));
-    col *= mix(0.90, 1.07, vignette);
+    float vignette = smoothstep(1.32, 0.18, length(uv * vec2(0.76, 1.08)));
+    col *= mix(1.0, mix(0.91, 1.06, vignette), iVariant);
 
     fragColor = vec4(sat(col), 1.0);
 }

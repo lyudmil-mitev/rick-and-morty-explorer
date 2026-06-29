@@ -201,11 +201,11 @@
 }
 
 .shader-background--splash .shader-background__overlay {
-  background: radial-gradient(circle at 50% 42%, rgba(251, 250, 242, 0) 0 50vmin, rgba(251, 250, 242, 0.92) 64vmin, rgba(251, 250, 242, 0.99) 100vmax);
+  background: transparent;
 }
 
 :root.dark .shader-background--splash .shader-background__overlay {
-  background: radial-gradient(circle at 50% 42%, rgba(0, 0, 0, 0) 0 50vmin, rgba(0, 0, 0, 0.92) 64vmin, rgba(0, 0, 0, 0.99) 100vmax);
+  background: transparent;
 }
 
 .splash-title.schwifty {

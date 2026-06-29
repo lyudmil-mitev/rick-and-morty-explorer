@@ -95,13 +95,6 @@ export default function About() {
                             </a>
                             .
                         </p>
-                        <p className="mt-3 leading-7">
-                            The light-mode alien landscape SVG image is adapted from{" "}
-                            <a className={ui.link} href="https://codepen.io/finnhvman/pen/bGopgee" target="_blank" rel="noreferrer">
-                                work by Bence Szabo
-                            </a>
-                            .
-                        </p>
                     </section>
                 </div>
             </article>
