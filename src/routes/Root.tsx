@@ -61,14 +61,14 @@ function ThemeToggle({
         <button
             type="button"
             className={cx(
-                "inline-flex h-10 items-center gap-2 rounded-full border border-cyan-700/25 bg-[#fbfaf2]/85 px-2.5 pr-3 text-xs font-bold text-slate-800 shadow-lg shadow-cyan-950/10 backdrop-blur transition hover:border-lime-500/70 hover:text-slate-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#eef2ed] dark:border-cyan-300/25 dark:bg-slate-950/85 dark:text-slate-100 dark:shadow-black/25 dark:hover:border-lime-300/70 dark:hover:text-lime-200 dark:focus-visible:ring-lime-300 dark:focus-visible:ring-offset-slate-950",
+                "inline-flex h-10 items-center gap-2 rounded-full border border-cyan-700/25 bg-[#fbfaf2]/85 px-2.5 pr-3 text-xs font-bold text-slate-800 shadow-lg shadow-cyan-950/10 backdrop-blur transition hover:border-lime-500/70 hover:text-slate-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#eef2ed] dark:border-cyan-500/30 dark:bg-slate-950/85 dark:text-slate-100 dark:shadow-black/25 dark:hover:border-lime-300/70 dark:hover:text-lime-200 dark:focus-visible:ring-lime-300 dark:focus-visible:ring-offset-slate-950",
                 className,
             )}
             onClick={onToggle}
             aria-label={`Switch to ${nextTheme} theme`}
             aria-pressed={theme === "dark"}
         >
-            <span className="relative h-6 w-11 rounded-full border border-cyan-700/30 bg-cyan-50 shadow-inner dark:border-cyan-300/35 dark:bg-slate-900">
+            <span className="relative h-6 w-11 rounded-full border border-cyan-700/30 bg-cyan-50 shadow-inner dark:border-cyan-500/35 dark:bg-slate-900">
                 <span className={cx(
                     "absolute top-1/2 h-4 w-4 -translate-y-1/2 rounded-full bg-lime-300 shadow-[0_0_10px_rgba(190,242,100,0.8)] transition-[left]",
                     theme === "dark" ? "left-[1.45rem]" : "left-1",

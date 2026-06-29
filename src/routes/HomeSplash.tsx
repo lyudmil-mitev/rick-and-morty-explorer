@@ -32,6 +32,7 @@ type DragState = {
     startX: number;
     startY: number;
     hasMovedHorizontally: boolean;
+    hasPointerCapture: boolean;
 }
 
 function assetUrl(path: string) {
@@ -44,7 +45,8 @@ const dragResistanceMax = 130;
 
 const splashLayoutCss = `
 .splash-title.schwifty {
-  font-size: 8.25rem;
+  max-width: calc(100vw - 2rem);
+  font-size: clamp(4.5rem, 6.8vw, 7rem);
 }
 
 .splash-carousel-stage {
@@ -190,7 +192,7 @@ const splashLayoutCss = `
 
 @media (min-width: 761px) and (max-width: 1023px) {
   .splash-title.schwifty {
-    font-size: 6rem;
+    font-size: clamp(4.25rem, 6.7vw, 5rem);
   }
 }
 `;
@@ -323,7 +325,6 @@ export default function HomeSplash() {
             return;
         }
 
-        event.currentTarget.setPointerCapture?.(event.pointerId);
         didSwipe.current = false;
         setDragOffset(0);
         dragState.current = {
@@ -331,6 +332,7 @@ export default function HomeSplash() {
             startX: event.clientX,
             startY: event.clientY,
             hasMovedHorizontally: false,
+            hasPointerCapture: false,
         };
     }
 
@@ -352,6 +354,11 @@ export default function HomeSplash() {
         ) {
             state.hasMovedHorizontally = true;
             didSwipe.current = true;
+
+            if (!state.hasPointerCapture) {
+                event.currentTarget.setPointerCapture?.(event.pointerId);
+                state.hasPointerCapture = true;
+            }
         }
 
         if (state.hasMovedHorizontally) {
