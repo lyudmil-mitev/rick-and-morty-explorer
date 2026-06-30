@@ -129,7 +129,7 @@ export default function ShaderBackground({
     }
 
     function resizeCanvas() {
-      const renderScale = theme === "light" && mobileQuery.matches ? mobileRenderScale : 1;
+      const renderScale = mobileQuery.matches ? mobileRenderScale : 1;
       const dpr = Math.min(window.devicePixelRatio || 1, maxDpr) * renderScale;
       const rect = renderCanvas.getBoundingClientRect();
       const width = Math.max(1, Math.floor(rect.width * dpr));
