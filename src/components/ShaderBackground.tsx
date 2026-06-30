@@ -27,7 +27,7 @@ const mobileSplashSceneYOffset = -0.78;
 const bannerSceneYOffset = -0.34;
 const mobileMediaQuery = "(max-width: 760px)";
 const startupSpeedMultiplier = 5;
-const startupSpeedRampMs = 900;
+const startupSpeedRampMs = 3600;
 
 function clamp01(value: number) {
   return Math.max(0, Math.min(1, value));
