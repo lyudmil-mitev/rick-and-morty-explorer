@@ -370,6 +370,7 @@ uniform vec3 iResolution;
 uniform float iTime;
 uniform float iVariant;
 uniform float iSceneYOffset;
+uniform float iRenderOffsetY;
 
 float sat(float x) { return clamp(x, 0.0, 1.0); }
 vec3 sat(vec3 x) { return clamp(x, 0.0, 1.0); }
@@ -469,7 +470,7 @@ float mountainTexture(vec2 p)
 
 vec2 sceneUv(vec2 fragCoord)
 {
-    vec2 uv = fragCoord / iResolution.xy;
+    vec2 uv = (fragCoord + vec2(0.0, iRenderOffsetY)) / iResolution.xy;
     uv = uv * 2.0 - 1.0;
     uv.x *= iResolution.x / iResolution.y;
     uv.y += iSceneYOffset;
