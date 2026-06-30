@@ -1,0 +1,18 @@
+.schwifty {
+  -webkit-text-fill-color: #08BAE3;
+  -webkit-text-stroke: 0.018em #000;
+  text-shadow:
+    -2px 0 0 #000,
+    0 -2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 0 10px rgba(50, 255, 0, 1),
+    0 0 0.85rem rgba(8, 186, 227, 0.45);
+}
+
+.schwifty-title-trigger,
+.schwifty-title-text {
+  -webkit-text-fill-color: inherit;
+  -webkit-text-stroke: inherit;
+  text-shadow: inherit;
+}
