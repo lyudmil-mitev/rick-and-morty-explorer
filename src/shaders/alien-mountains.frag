@@ -175,13 +175,22 @@ float mountainEdgeWidth(float z)
     return pixel * mix(1.85, 1.10, z);
 }
 
-vec4 mountainLayer(vec2 uv, float z, float seed, float baseY, vec3 lowColor, vec3 highColor)
+float mountainEdgeDistance(vec2 uv, float z, float seed, float baseY)
 {
     float depth = mix(4.25, 0.66, z);
     float scale = 1.0 / depth;
     vec2 layerUv = uv / scale + vec2(sin(seed * 2.4) * 0.58, seed * 0.035);
     float ridge = ridgeY(layerUv.x, z, seed, baseY);
-    float edgeDistance = uv.y - ridge;
+
+    return uv.y - ridge;
+}
+
+vec4 mountainLayer(vec2 uv, float z, float seed, float baseY, vec3 lowColor, vec3 highColor)
+{
+    float depth = mix(4.25, 0.66, z);
+    float scale = 1.0 / depth;
+    vec2 layerUv = uv / scale + vec2(sin(seed * 2.4) * 0.58, seed * 0.035);
+    float edgeDistance = mountainEdgeDistance(uv, z, seed, baseY);
     float edgeWidth = mountainEdgeWidth(z);
     float mask = 1.0 - smoothstep(-edgeWidth, edgeWidth, edgeDistance);
     float bodyShade = smoothstep(-0.12, 0.92, -layerUv.y + mix(0.36, 0.12, z));
@@ -215,37 +224,39 @@ vec4 cloudLayer(vec2 uv, float z, float seed)
     return vec4(sat(shade), alpha * 0.34);
 }
 
-vec3 windStreaks(vec2 uv, vec3 col)
+float ridgeParticleStreak(vec2 uv, float edgeDistance, float z, float seed, float fade, float banner)
 {
-    float banner = iVariant;
-    vec2 scene = uv * mix(1.48, 1.0, banner);
-    float skyWindow = smoothstep(-0.54, 0.06, uv.y) * (1.0 - smoothstep(1.00, 1.28, uv.y));
-    float lowerFade = mix(0.65, 0.34, banner);
-    float streaks = 0.0;
+    float originBand = smoothstep(0.004, 0.030, edgeDistance) * (1.0 - smoothstep(0.22, 0.55, edgeDistance));
+    float depthMask = smoothstep(0.06, 0.82, z) * (1.0 - smoothstep(0.98, 1.0, z));
+    vec2 flow = uv * vec2(1.0, 1.35);
+    flow.x += iTime * mix(0.70, 1.36, z) + seed * 0.13;
+    flow.y += flow.x * mix(-0.22, -0.12, hash12(vec2(seed, 1.8)));
 
-    for (int i = 0; i < 4; i++)
+    float laneScale = mix(28.0, 46.0, hash12(vec2(seed, 2.6)));
+    float lane = flow.y * laneScale + seed * 3.7;
+    float laneId = floor(lane);
+    float centerLine = fract(lane) - 0.5;
+    float line = exp(-centerLine * centerLine * mix(340.0, 680.0, hash12(vec2(seed, 4.9))));
+    float segment = smoothstep(0.30, 0.82, valueNoise(vec2(flow.x * mix(1.4, 2.6, z), laneId + seed)));
+    float spark = smoothstep(0.70, 0.98, hash12(vec2(laneId, floor(flow.x * mix(10.0, 18.0, z)) + seed)));
+    float gust = 0.76 + 0.24 * sin(flow.x * 8.0 + iTime * mix(3.2, 5.8, z) + seed);
+
+    return line * max(segment, spark * 0.8) * gust * originBand * depthMask * fade * mix(0.90, 1.18, banner);
+}
+
+vec3 applyRidgeParticles(vec2 uv, vec3 col, float edgeDistance, float z, float seed, float fade, float banner)
+{
+    float particles = 0.0;
+
+    for (int i = 0; i < 3; i++)
     {
-        float layer = float(i);
-        float seed = layer * 7.13 + 3.7;
-        float laneScale = mix(4.0, 7.5, hash12(vec2(seed, 1.4)));
-        vec2 flow = scene * vec2(1.0, 1.45);
-        flow.x += iTime * mix(0.18, 0.46, hash12(vec2(seed, 3.1)));
-        flow.y += flow.x * mix(-0.10, -0.045, hash12(vec2(seed, 5.6)));
-
-        float lane = flow.y * laneScale + seed;
-        float laneId = floor(lane);
-        float centerLine = fract(lane) - 0.5;
-        float thinLine = exp(-centerLine * centerLine * mix(260.0, 460.0, hash12(vec2(seed, 7.2))));
-        float segment = smoothstep(0.46, 0.92, valueNoise(vec2(flow.x * mix(0.28, 0.48, hash12(vec2(seed, 8.5))), laneId + seed)));
-        float gust = 0.74 + 0.26 * sin(flow.x * 4.2 + iTime * mix(1.3, 2.4, hash12(vec2(seed, 9.6))) + seed);
-
-        streaks += thinLine * segment * gust * mix(0.45, 0.85, hash12(vec2(seed, 11.2)));
+        particles += ridgeParticleStreak(uv, edgeDistance, z, seed + float(i) * 13.17, fade, banner);
     }
 
-    float amount = sat(streaks) * skyWindow * lowerFade * mix(0.030, 0.042, banner);
-    vec3 windColor = mix(vec3(0.86, 1.00, 0.82), vec3(0.62, 0.98, 0.92), smoothstep(-0.2, 0.9, uv.y));
+    particles = sat(particles) * mix(0.20, 0.30, banner);
+    vec3 particleColor = vec3(0.025, 0.16, 0.15);
 
-    return sat(col + windColor * amount);
+    return mix(col, particleColor, particles);
 }
 
 vec3 mountains(vec2 uv)
@@ -272,6 +283,8 @@ vec3 mountains(vec2 uv)
             {
                 float fade = smoothstep(0.0, 0.18, z) * (1.0 - smoothstep(0.985, 1.0, z));
                 float bannerLift = mix(0.0, 0.16, banner);
+                float baseY = mix(0.06, -0.18, z) + bannerLift + splashLift;
+                float seed = layer + 2.0 + cycle * 5.3;
                 float palette = smoothstep(0.0, 1.0, z);
 
                 vec3 low = mix(vec3(0.37, 0.62, 0.54), vec3(0.035, 0.21, 0.25), palette);
@@ -279,8 +292,8 @@ vec3 mountains(vec2 uv)
                 vec4 ridge = mountainLayer(
                     scene,
                     z,
-                    layer + 2.0 + cycle * 5.3,
-                    mix(0.06, -0.18, z) + bannerLift + splashLift,
+                    seed,
+                    baseY,
                     low,
                     high
                 );
@@ -288,6 +301,9 @@ vec3 mountains(vec2 uv)
                 float farFog = 1.0 - smoothstep(0.04, 0.30, z);
                 vec3 ridgeColor = mix(vec3(0.74, 0.94, 0.70), ridge.rgb, 1.0 - farFog * 0.55);
                 col = mix(col, ridgeColor, ridge.a * fade);
+
+                float edgeDistance = mountainEdgeDistance(scene, z, seed, baseY);
+                col = applyRidgeParticles(scene, col, edgeDistance, z, seed, fade, banner);
 
                 float haze = fade * smoothstep(-0.78, 0.12, scene.y) * (1.0 - z) * mix(0.055, 0.08, banner);
                 col = mix(col, vec3(0.80, 0.98, 0.75), haze);
@@ -319,7 +335,6 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
     vec2 uv = sceneUv(fragCoord);
     vec3 col = mountains(uv);
-    col = windStreaks(uv, col);
     col = flyClouds(uv, col);
 
     float lowerHaze = smoothstep(-0.92, 0.02, uv.y) * 0.20;
