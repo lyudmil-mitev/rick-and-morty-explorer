@@ -23,6 +23,8 @@ const targetFrameIntervalByTheme: Record<Theme, number> = {
 
 const mobileRenderScale = 0.55;
 const mobileSplashRenderHeightRatio = 0.55;
+const mobileSplashSceneYOffset = -0.78;
+const bannerSceneYOffset = -0.34;
 const mobileMediaQuery = "(max-width: 760px)";
 
 export default function ShaderBackground({
@@ -177,7 +179,13 @@ export default function ShaderBackground({
 
     function syncSceneOffset() {
       if (sceneYOffsetLocation !== null) {
-        const sceneYOffset = theme === "light" && variant === "splash" && mobileQuery.matches ? -0.78 : 0;
+        const sceneYOffset = theme !== "light"
+          ? 0
+          : variant === "banner"
+            ? bannerSceneYOffset
+            : mobileQuery.matches
+              ? mobileSplashSceneYOffset
+              : 0;
         renderGl.uniform1f(sceneYOffsetLocation, sceneYOffset);
       }
     }
