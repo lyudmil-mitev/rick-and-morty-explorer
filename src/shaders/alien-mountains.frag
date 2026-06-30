@@ -5,6 +5,7 @@ precision highp float;
 uniform vec3 iResolution;
 uniform float iTime;
 uniform float iVariant;
+uniform float iSceneYOffset;
 
 float sat(float x) { return clamp(x, 0.0, 1.0); }
 vec3 sat(vec3 x) { return clamp(x, 0.0, 1.0); }
@@ -107,6 +108,7 @@ vec2 sceneUv(vec2 fragCoord)
     vec2 uv = fragCoord / iResolution.xy;
     uv = uv * 2.0 - 1.0;
     uv.x *= iResolution.x / iResolution.y;
+    uv.y += iSceneYOffset;
     return uv;
 }
 
