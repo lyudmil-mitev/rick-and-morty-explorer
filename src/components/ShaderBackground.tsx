@@ -22,6 +22,7 @@ const targetFrameIntervalByTheme: Record<Theme, number> = {
 };
 
 const mobileRenderScale = 0.55;
+const mobileSplashRenderHeightRatio = 0.55;
 const mobileMediaQuery = "(max-width: 760px)";
 
 export default function ShaderBackground({
@@ -60,6 +61,7 @@ export default function ShaderBackground({
     const timeLocation = renderGl.getUniformLocation(program, "iTime");
     const variantLocation = renderGl.getUniformLocation(program, "iVariant");
     const sceneYOffsetLocation = renderGl.getUniformLocation(program, "iSceneYOffset");
+    const renderOffsetLocation = renderGl.getUniformLocation(program, "iRenderOffsetY");
     const buffer = renderGl.createBuffer();
 
     if (buffer === null) {
@@ -95,7 +97,9 @@ export default function ShaderBackground({
     let lastRenderedAt = 0;
     let lastWidth = 0;
     let lastHeight = 0;
+    let lastFullHeight = 0;
     let lastDpr = 0;
+    let lastRenderOffsetY = 0;
     let isDocumentVisible = document.visibilityState === "visible";
     let isCanvasVisible = true;
     let needsDraw = true;
@@ -129,17 +133,31 @@ export default function ShaderBackground({
     }
 
     function resizeCanvas() {
+      const isCroppedMobileSplash = theme === "light" && variant === "splash" && mobileQuery.matches;
+      const renderHeightRatio = isCroppedMobileSplash ? mobileSplashRenderHeightRatio : 1;
       const renderScale = mobileQuery.matches ? mobileRenderScale : 1;
       const dpr = Math.min(window.devicePixelRatio || 1, maxDpr) * renderScale;
-      const rect = renderCanvas.getBoundingClientRect();
+      const rect = renderCanvas.parentElement?.getBoundingClientRect() ?? renderCanvas.getBoundingClientRect();
       const width = Math.max(1, Math.floor(rect.width * dpr));
-      const height = Math.max(1, Math.floor(rect.height * dpr));
-      const changed = width !== lastWidth || height !== lastHeight || dpr !== lastDpr;
+      const fullHeight = Math.max(1, Math.floor(rect.height * dpr));
+      const height = Math.max(1, Math.floor(fullHeight * renderHeightRatio));
+      const renderOffsetY = fullHeight - height;
+      const changed = width !== lastWidth
+        || height !== lastHeight
+        || fullHeight !== lastFullHeight
+        || dpr !== lastDpr
+        || renderOffsetY !== lastRenderOffsetY;
+
+      renderCanvas.style.height = isCroppedMobileSplash ? `${mobileSplashRenderHeightRatio * 100}%` : "";
+      renderCanvas.style.bottom = isCroppedMobileSplash ? "auto" : "";
+      renderCanvas.style.top = "0";
 
       if (changed) {
         lastWidth = width;
         lastHeight = height;
+        lastFullHeight = fullHeight;
         lastDpr = dpr;
+        lastRenderOffsetY = renderOffsetY;
 
         if (renderCanvas.width !== width || renderCanvas.height !== height) {
           renderCanvas.width = width;
@@ -147,7 +165,11 @@ export default function ShaderBackground({
           renderGl.viewport(0, 0, width, height);
         }
 
-        renderGl.uniform3f(resolutionLocation, width, height, dpr);
+        renderGl.uniform3f(resolutionLocation, width, fullHeight, dpr);
+
+        if (renderOffsetLocation !== null) {
+          renderGl.uniform1f(renderOffsetLocation, renderOffsetY);
+        }
       }
 
       return changed;
@@ -246,13 +268,20 @@ export default function ShaderBackground({
       reducedMotionQuery.removeEventListener?.("change", handleMotionPreferenceChange);
       mobileQuery.removeEventListener?.("change", handleMobileChange);
 
+      renderCanvas.style.height = "";
+      renderCanvas.style.bottom = "";
+      renderCanvas.style.top = "";
       renderGl.deleteBuffer(buffer);
       renderGl.deleteProgram(program);
     };
   }, [theme, variant]);
 
   return (
-    <div className={cx("shader-background", `shader-background--${variant}`)} aria-hidden="true">
+    <div
+      className={cx("shader-background", `shader-background--${variant}`, `shader-background--${theme}`)}
+      aria-hidden="true"
+      style={theme === "light" && variant === "splash" ? { backgroundColor: "#173f35" } : undefined}
+    >
       <canvas ref={canvasRef} className="shader-background__canvas" />
       <div className="shader-background__overlay" />
     </div>
