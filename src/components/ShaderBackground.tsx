@@ -26,6 +26,16 @@ const mobileSplashRenderHeightRatio = 0.55;
 const mobileSplashSceneYOffset = -0.78;
 const bannerSceneYOffset = -0.34;
 const mobileMediaQuery = "(max-width: 760px)";
+const startupSpeedMultiplier = 5;
+const startupSpeedRampMs = 900;
+
+function clamp01(value: number) {
+  return Math.max(0, Math.min(1, value));
+}
+
+function easeOutCubic(value: number) {
+  return 1 - Math.pow(1 - value, 3);
+}
 
 export default function ShaderBackground({
   theme,
@@ -64,6 +74,7 @@ export default function ShaderBackground({
     const variantLocation = renderGl.getUniformLocation(program, "iVariant");
     const sceneYOffsetLocation = renderGl.getUniformLocation(program, "iSceneYOffset");
     const renderOffsetLocation = renderGl.getUniformLocation(program, "iRenderOffsetY");
+    const starTrailLocation = renderGl.getUniformLocation(program, "iStarTrailAmount");
     const buffer = renderGl.createBuffer();
 
     if (buffer === null) {
@@ -97,6 +108,8 @@ export default function ShaderBackground({
     let animationFrame = 0;
     let frameTimer: number | undefined;
     let lastRenderedAt = 0;
+    let lastAnimationAt = startedAt;
+    let shaderTimeSeconds = 0;
     let lastWidth = 0;
     let lastHeight = 0;
     let lastFullHeight = 0;
@@ -132,6 +145,21 @@ export default function ShaderBackground({
       }
 
       animationFrame = requestAnimationFrame(render);
+    }
+
+    function getStartupMotion(now: number) {
+      if (reducedMotionQuery.matches) {
+        return { speed: 1, trailAmount: 0, active: false };
+      }
+
+      const progress = clamp01((now - startedAt) / startupSpeedRampMs);
+      const trailAmount = 1 - easeOutCubic(progress);
+
+      return {
+        speed: 1 + (startupSpeedMultiplier - 1) * trailAmount,
+        trailAmount,
+        active: progress < 1,
+      };
     }
 
     function resizeCanvas() {
@@ -204,16 +232,25 @@ export default function ShaderBackground({
         return;
       }
 
+      const startupMotion = getStartupMotion(now);
+      const frameDeltaSeconds = Math.min(0.05, Math.max(0, (now - lastAnimationAt) / 1000));
+      lastAnimationAt = now;
+      shaderTimeSeconds += frameDeltaSeconds * startupMotion.speed;
+
       needsDraw = resizeCanvas() || needsDraw;
       syncSceneOffset();
 
-      renderGl.uniform1f(timeLocation, (now - startedAt) / 1000);
+      if (starTrailLocation !== null) {
+        renderGl.uniform1f(starTrailLocation, theme === "dark" ? startupMotion.trailAmount : 0);
+      }
+
+      renderGl.uniform1f(timeLocation, shaderTimeSeconds);
       renderGl.drawArrays(renderGl.TRIANGLES, 0, 6);
 
       needsDraw = false;
       lastRenderedAt = now;
 
-      if (!reducedMotionQuery.matches) {
+      if (!reducedMotionQuery.matches || startupMotion.active) {
         scheduleRender();
       }
     }
@@ -223,6 +260,7 @@ export default function ShaderBackground({
 
       if (isDocumentVisible) {
         needsDraw = true;
+        lastAnimationAt = performance.now();
         scheduleRender();
       } else {
         cancelScheduledRender();
@@ -252,6 +290,7 @@ export default function ShaderBackground({
 
           if (isCanvasVisible) {
             needsDraw = true;
+            lastAnimationAt = performance.now();
             scheduleRender();
           } else {
             cancelScheduledRender();
