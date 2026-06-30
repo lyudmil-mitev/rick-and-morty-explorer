@@ -1,12 +1,10 @@
 #ifdef GL_ES
-precision highp float;
+precision mediump float;
 #endif
 
 uniform vec3 iResolution;
 uniform float iTime;
 uniform float iVariant;
-
-#define TAU 6.28318530718
 
 float sat(float x) { return clamp(x, 0.0, 1.0); }
 vec3 sat(vec3 x) { return clamp(x, 0.0, 1.0); }
@@ -37,7 +35,22 @@ float fbm(vec2 p)
     float sum = 0.0;
     float amp = 0.56;
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 4; i++)
+    {
+        sum += amp * valueNoise(p);
+        p = mat2(1.58, 1.04, -1.04, 1.58) * p + 7.3;
+        amp *= 0.52;
+    }
+
+    return sum;
+}
+
+float fbmFast(vec2 p)
+{
+    float sum = 0.0;
+    float amp = 0.58;
+
+    for (int i = 0; i < 3; i++)
     {
         sum += amp * valueNoise(p);
         p = mat2(1.58, 1.04, -1.04, 1.58) * p + 7.3;
@@ -55,6 +68,12 @@ vec2 sceneUv(vec2 fragCoord)
     return uv;
 }
 
+float ellipseGlow(vec2 uv, vec2 center, vec2 radius, float strength)
+{
+    vec2 d = (uv - center) / radius;
+    return 1.0 / (1.0 + dot(d, d) * strength);
+}
+
 vec3 sky(vec2 uv)
 {
     float y = sat(uv.y * 0.5 + 0.5);
@@ -70,10 +89,10 @@ vec3 sky(vec2 uv)
     col = mix(col, vec3(0.71, 1.00, 0.27), 0.10 * smoothstep(0.18, 0.86, y + haze));
     col = mix(col, vec3(1.00, 0.24, 0.60), 0.07 * smoothstep(0.35, 1.0, uv.x));
 
-    float sun = exp(-length((uv - vec2(-0.82, 0.46)) / vec2(0.36, 0.16)));
-    float moon = exp(-length((uv - vec2(1.10, 0.30)) / vec2(0.24, 0.12)));
-    col += vec3(0.90, 1.00, 0.60) * sun * 0.15;
-    col += vec3(0.00, 0.65, 0.85) * moon * 0.09;
+    float sun = ellipseGlow(uv, vec2(-0.82, 0.46), vec2(0.36, 0.16), 2.2);
+    float moon = ellipseGlow(uv, vec2(1.10, 0.30), vec2(0.24, 0.12), 2.6);
+    col += vec3(0.90, 1.00, 0.60) * sun * 0.12;
+    col += vec3(0.00, 0.65, 0.85) * moon * 0.07;
 
     return sat(col);
 }
@@ -81,7 +100,7 @@ vec3 sky(vec2 uv)
 float ridgeHeight(float x, float seed, float roughness)
 {
     float broad = fbm(vec2(x * 0.62 + seed, seed * 0.31));
-    float broken = fbm(vec2(x * 1.85 - seed * 0.4, seed + 11.0));
+    float broken = fbmFast(vec2(x * 1.85 - seed * 0.4, seed + 11.0));
     float spires = pow(abs(valueNoise(vec2(x * 4.4 + seed, 2.0)) - 0.5) * 2.0, 1.8);
     return 0.45 * broad + roughness * 0.32 * broken + 0.20 * spires;
 }
@@ -94,11 +113,11 @@ vec4 mountainLayer(vec2 uv, float z, float seed, float baseY, vec3 lowColor, vec
     float ridge = baseY + mix(0.42, 0.26, z) - ridgeHeight(layerUv.x, seed, mix(0.70, 1.10, z)) * mix(0.66, 1.04, z);
     float softness = mix(0.014, 0.005, z);
     float mask = 1.0 - smoothstep(ridge - softness, ridge + softness, uv.y);
-    float crest = exp(-abs(uv.y - ridge) / mix(0.020, 0.008, z));
+    float crest = 1.0 - smoothstep(0.0, mix(0.040, 0.016, z), abs(uv.y - ridge));
 
-    float texture = fbm(layerUv * vec2(2.4, 5.2) + seed);
-    float veins = smoothstep(0.62, 0.94, fbm(layerUv * vec2(7.0, 3.2) - seed));
-    vec3 terrain = mix(lowColor, highColor, texture * 0.42 + veins * 0.16);
+    float texture = fbmFast(layerUv * vec2(2.4, 5.2) + seed);
+    float veins = smoothstep(0.58, 0.92, valueNoise(layerUv * vec2(7.0, 3.2) - seed));
+    vec3 terrain = mix(lowColor, highColor, texture * 0.44 + veins * 0.14);
     terrain = mix(terrain, terrain * vec3(0.42, 0.58, 0.54), crest * mix(0.32, 0.62, z));
 
     float atmospheric = smoothstep(0.0, 1.0, 1.0 - z);
@@ -114,9 +133,9 @@ vec4 cloudLayer(vec2 uv, float z, float seed)
     vec2 layerUv = uv / scale + vec2(sin(seed) * 0.8, cos(seed * 1.7) * 0.22);
     layerUv.y += mix(0.48, 0.18, z);
 
-    float body = fbm(layerUv * vec2(1.4, 2.4) + seed * 1.7);
-    float puff = fbm(layerUv * vec2(3.5, 5.2) - seed * 0.9);
-    float shape = smoothstep(0.48, 0.92, body * 0.72 + puff * 0.36);
+    float body = fbmFast(layerUv * vec2(1.4, 2.4) + seed * 1.7);
+    float puff = valueNoise(layerUv * vec2(3.5, 5.2) - seed * 0.9);
+    float shape = smoothstep(0.46, 0.88, body * 0.76 + puff * 0.30);
     float verticalWindow = smoothstep(-0.34, 0.06, layerUv.y) * (1.0 - smoothstep(0.38, 0.74, layerUv.y));
     float alpha = shape * verticalWindow * smoothstep(0.0, 0.32, z) * (1.0 - smoothstep(0.86, 1.0, z));
 
@@ -134,10 +153,10 @@ vec3 mountains(vec2 uv)
     vec2 scene = uv * mix(1.82, 1.0, banner);
     float splashLift = mix(0.42, 0.0, banner);
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 4; i++)
     {
         float layer = float(i);
-        float phase = hash12(vec2(layer * 8.1, layer + 0.6));
+        float phase = fract(layer * 0.318 + 0.17);
         float cycle = floor(phase + travel);
         float z = fract(phase + travel);
         float fade = smoothstep(0.0, 0.28, z) * (1.0 - smoothstep(0.90, 1.0, z));
@@ -168,10 +187,10 @@ vec3 flyClouds(vec2 uv, vec3 col)
     float travel = iTime * 0.038;
     vec2 scene = uv * mix(1.62, 1.0, iVariant);
 
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 3; i++)
     {
         float layer = float(i);
-        float phase = hash12(vec2(layer * 11.9, layer + 3.1));
+        float phase = fract(layer * 0.271 + 0.43);
         float z = fract(phase + travel);
         vec4 cloud = cloudLayer(scene, z, layer + 1.0 + floor(phase + travel) * 6.1);
         col = mix(col, cloud.rgb, cloud.a);
