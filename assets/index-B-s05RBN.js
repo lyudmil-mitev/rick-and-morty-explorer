@@ -619,12 +619,12 @@ vec4 cloudLayer(vec2 uv, float z, float seed)
 
 float ridgeTrailPoint(vec2 uv, float edgeDistance, float z, float seed, float fade, float banner)
 {
-    float ridgeBand = smoothstep(0.006, 0.022, edgeDistance) * (1.0 - smoothstep(0.16, 0.30, edgeDistance));
-    float depthMask = smoothstep(0.08, 0.76, z) * (1.0 - smoothstep(0.96, 1.0, z));
-    float scaleX = mix(6.0, 9.5, z);
-    float scaleY = mix(17.0, 24.0, z);
+    float ridgeBand = smoothstep(-0.006, 0.018, edgeDistance) * (1.0 - smoothstep(0.28, 0.48, edgeDistance));
+    float depthMask = smoothstep(0.05, 0.72, z) * (1.0 - smoothstep(0.97, 1.0, z));
+    float scaleX = mix(3.6, 5.8, z);
+    float scaleY = mix(8.0, 12.5, z);
     vec2 particleUv = vec2(
-        uv.x * scaleX + iTime * mix(0.42, 0.78, z) + seed * 0.19,
+        uv.x * scaleX + iTime * mix(0.46, 0.92, z) + seed * 0.19,
         edgeDistance * scaleY
     );
     vec2 baseCell = floor(particleUv);
@@ -637,7 +637,7 @@ float ridgeTrailPoint(vec2 uv, float edgeDistance, float z, float seed, float fa
             vec2 cell = baseCell + vec2(float(x), float(y));
             float chance = hash12(cell + seed * 2.3);
 
-            if (chance > mix(0.045, 0.070, banner))
+            if (chance > mix(0.24, 0.32, banner))
             {
                 continue;
             }
@@ -645,19 +645,19 @@ float ridgeTrailPoint(vec2 uv, float edgeDistance, float z, float seed, float fa
             vec2 rnd = hash22(cell + seed * 4.7);
             vec2 pointPos = cell + rnd;
             vec2 d = particleUv - pointPos;
-            float size = mix(0.040, 0.070, hash12(cell + seed * 6.1)) * mix(0.86, 1.22, z);
+            float size = mix(0.10, 0.16, hash12(cell + seed * 6.1)) * mix(0.92, 1.28, z);
             float core = exp(-dot(d, d) / (size * size));
-            vec2 tailDir = normalize(vec2(-1.0, 0.24));
+            vec2 tailDir = normalize(vec2(-1.0, 0.22));
             float along = dot(d, tailDir);
             float behind = max(0.0, along);
             float cross = length(d - tailDir * along);
-            float tailLength = mix(0.42, 0.74, z);
-            float tailWidth = size * 0.55;
+            float tailLength = mix(0.82, 1.28, z);
+            float tailWidth = size * 0.72;
             float tail = step(0.0, along)
                 * (1.0 - smoothstep(0.0, tailLength, behind))
                 * exp(-(cross * cross) / (tailWidth * tailWidth));
 
-            particles += core * 1.12 + tail * 0.54;
+            particles += core * 1.35 + tail * 0.82;
         }
     }
 
@@ -667,9 +667,9 @@ float ridgeTrailPoint(vec2 uv, float edgeDistance, float z, float seed, float fa
 vec3 applyRidgeParticles(vec2 uv, vec3 col, float edgeDistance, float z, float seed, float fade, float banner)
 {
     float particles = ridgeTrailPoint(uv, edgeDistance, z, seed, fade, banner);
-    particles *= mix(0.18, 0.24, banner);
+    particles *= mix(0.52, 0.68, banner);
 
-    return mix(col, vec3(0.025, 0.16, 0.15), particles);
+    return mix(col, vec3(0.005, 0.070, 0.075), particles);
 }
 
 vec3 mountains(vec2 uv)
