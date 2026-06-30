@@ -4,6 +4,7 @@ import ScrollToTop from '../components/ScrollToTop'
 import { Link, Outlet, useLocation, useMatches } from 'react-router-dom'
 import { useLayoutEffect, useState } from 'react'
 import "./Root.css"
+import "./browser-fixes.css"
 import { cx } from '../styles/ui'
 
 type Theme = "light" | "dark";
