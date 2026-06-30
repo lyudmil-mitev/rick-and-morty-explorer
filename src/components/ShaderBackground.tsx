@@ -27,6 +27,7 @@ const mobileSplashSceneYOffset = -0.78;
 const bannerSceneYOffset = -0.34;
 const mobileMediaQuery = "(max-width: 760px)";
 const startupSpeedMultiplier = 5;
+const starStartupSpeedMultiplier = startupSpeedMultiplier * 3;
 const startupSpeedRampMs = 3600;
 
 function clamp01(value: number) {
@@ -71,6 +72,7 @@ export default function ShaderBackground({
     const positionLocation = renderGl.getAttribLocation(program, "aPosition");
     const resolutionLocation = renderGl.getUniformLocation(program, "iResolution");
     const timeLocation = renderGl.getUniformLocation(program, "iTime");
+    const starTimeLocation = renderGl.getUniformLocation(program, "iStarTime");
     const variantLocation = renderGl.getUniformLocation(program, "iVariant");
     const sceneYOffsetLocation = renderGl.getUniformLocation(program, "iSceneYOffset");
     const renderOffsetLocation = renderGl.getUniformLocation(program, "iRenderOffsetY");
@@ -110,6 +112,7 @@ export default function ShaderBackground({
     let lastRenderedAt = 0;
     let lastAnimationAt = startedAt;
     let shaderTimeSeconds = 0;
+    let starTimeSeconds = 0;
     let lastWidth = 0;
     let lastHeight = 0;
     let lastFullHeight = 0;
@@ -149,7 +152,7 @@ export default function ShaderBackground({
 
     function getStartupMotion(now: number) {
       if (reducedMotionQuery.matches) {
-        return { speed: 1, trailAmount: 0, active: false };
+        return { speed: 1, starSpeed: 1, trailAmount: 0, active: false };
       }
 
       const progress = clamp01((now - startedAt) / startupSpeedRampMs);
@@ -157,6 +160,7 @@ export default function ShaderBackground({
 
       return {
         speed: 1 + (startupSpeedMultiplier - 1) * trailAmount,
+        starSpeed: 1 + (starStartupSpeedMultiplier - 1) * trailAmount,
         trailAmount,
         active: progress < 1,
       };
@@ -236,12 +240,17 @@ export default function ShaderBackground({
       const frameDeltaSeconds = Math.min(0.05, Math.max(0, (now - lastAnimationAt) / 1000));
       lastAnimationAt = now;
       shaderTimeSeconds += frameDeltaSeconds * startupMotion.speed;
+      starTimeSeconds += frameDeltaSeconds * startupMotion.starSpeed;
 
       needsDraw = resizeCanvas() || needsDraw;
       syncSceneOffset();
 
       if (starTrailLocation !== null) {
         renderGl.uniform1f(starTrailLocation, theme === "dark" ? startupMotion.trailAmount : 0);
+      }
+
+      if (starTimeLocation !== null) {
+        renderGl.uniform1f(starTimeLocation, theme === "dark" ? starTimeSeconds : shaderTimeSeconds);
       }
 
       renderGl.uniform1f(timeLocation, shaderTimeSeconds);
