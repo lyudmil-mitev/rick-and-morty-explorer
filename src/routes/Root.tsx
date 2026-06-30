@@ -89,7 +89,7 @@ export default function Root() {
         const root = document.documentElement;
         root.classList.toggle("dark", theme === "dark");
         root.classList.toggle("light", theme === "light");
-        root.style.colorScheme = theme;
+        root.style.colorScheme = theme === "light" ? "only light" : "dark";
         window.localStorage.setItem("theme", theme);
     }, [theme]);
 
