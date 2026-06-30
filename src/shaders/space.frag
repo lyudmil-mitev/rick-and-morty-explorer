@@ -4,6 +4,7 @@ precision highp float;
 
 uniform vec3 iResolution;
 uniform float iTime;
+uniform float iStarTime;
 uniform float iVariant;
 uniform float iStarTrailAmount;
 
@@ -309,7 +310,7 @@ vec3 starLayer(vec2 fragCoord, vec2 uv, float z, float seed)
             }
 
             float phase = hash12(cell + 41.0) * TAU;
-            float twinkle = 0.88 + 0.24 * sin(iTime * mix(0.8, 3.8, mag) + phase);
+            float twinkle = 0.88 + 0.24 * sin(iStarTime * mix(0.8, 3.8, mag) + phase);
 
             float temp = hash12(cell + 59.0);
             vec3 starColor = mix(vec3(1.0, 0.80, 0.58), vec3(0.70, 0.82, 1.0), temp);
@@ -327,7 +328,7 @@ vec3 starLayer(vec2 fragCoord, vec2 uv, float z, float seed)
                 float along = dot(d, radial);
                 float behind = -along;
                 float cross = length(d - radial * along);
-                float trailLength = mix(8.0, 70.0, trailAmount) * mix(0.72, 1.50, magSqrt) * nearBoost;
+                float trailLength = mix(16.0, 140.0, trailAmount) * mix(0.72, 1.50, magSqrt) * nearBoost;
                 float trailWidth = mix(0.42, 1.32, magSqrt) * nearBoost;
                 float tail = step(0.0, behind) * (1.0 - smoothstep(0.0, trailLength, behind));
                 float glow = exp(-(cross * cross) / (trailWidth * trailWidth)) * tail * trailAmount;
@@ -347,7 +348,7 @@ vec3 starLayer(vec2 fragCoord, vec2 uv, float z, float seed)
 vec3 stars(vec2 fragCoord, vec2 uv)
 {
     vec3 col = vec3(0.0);
-    float travel = iTime * 0.018;
+    float travel = iStarTime * 0.018;
 
     for (int i = 0; i < STAR_LAYERS; i++)
     {
