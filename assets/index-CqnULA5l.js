@@ -20,6 +20,12 @@ uniform float iVariant;
 
 #define TAU 6.28318530718
 
+// Tuning knobs.
+// Original was effectively: FBM 5, nebula layers 5, star layers 7.
+#define FBM_OCTAVES 4
+#define NEBULA_LAYERS 4
+#define STAR_LAYERS 5
+
 float hash12(vec2 p)
 {
     vec3 q = fract(vec3(p.xyx) * vec3(0.1031, 0.11369, 0.13787));
@@ -50,11 +56,12 @@ float fbm(vec2 p)
 {
     float sum = 0.0;
     float amp = 0.56;
+    mat2 m = mat2(1.58, 1.06, -1.06, 1.58);
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < FBM_OCTAVES; i++)
     {
         sum += amp * valueNoise(p);
-        p = mat2(1.58, 1.06, -1.06, 1.58) * p + 8.7;
+        p = m * p + 8.7;
         amp *= 0.52;
     }
 
@@ -75,26 +82,46 @@ vec4 nebulaLayer(vec2 uv, float seed)
 
     float broad = fbm(p * 0.82 + vec2(-1.7, 0.4));
     float detail = fbm(p * 2.15 + vec2(4.1, -2.6));
+
     float folds = fbm(vec2(
         p.x * 1.1 + broad * 1.7,
         p.y * 1.35 - detail * 1.2
     ));
-    float clusters = fbm(p * 1.18 + vec2(folds * 1.8 - 3.2, broad * 1.4 + 2.6));
+
+    float clusters = fbm(
+        p * 1.18 + vec2(folds * 1.8 - 3.2, broad * 1.4 + 2.6)
+    );
 
     float structure = broad * 0.62 + folds * 0.56;
     float voids = smoothstep(0.28, 0.62, 1.0 - structure + (1.0 - detail) * 0.24);
     float cloud = smoothstep(0.38, 0.94, structure) * (1.0 - voids * 0.82);
     float core = smoothstep(0.50, 0.96, broad * 0.58 + detail * 0.22 + folds * 0.52) * (1.0 - voids * 0.55);
+
     float activeCloud = cloud * (1.0 - voids * 0.62);
+
     float coolRegion = 1.0 - smoothstep(0.34, 0.58, clusters);
     float roseRegion = smoothstep(0.28, 0.50, clusters) * (1.0 - smoothstep(0.62, 0.82, clusters));
     float warmRegion = smoothstep(0.58, 0.86, clusters);
-    float tealMask = activeCloud * coolRegion * smoothstep(0.42, 0.84, detail + (1.0 - broad) * 0.24) * (1.0 - warmRegion * 0.55);
-    float blueMask = activeCloud * coolRegion * smoothstep(0.30, 0.74, 1.0 - broad + folds * 0.16);
-    float roseMask = activeCloud * roseRegion * smoothstep(0.36, 0.78, broad + folds * 0.25);
-    float magentaMask = core * roseRegion * smoothstep(0.56, 0.98, folds + detail * 0.28);
-    float warmMask = activeCloud * warmRegion * smoothstep(0.34, 0.82, broad + detail * 0.22);
-    float tealBridge = activeCloud * smoothstep(0.24, 0.56, detail) * smoothstep(0.24, 0.62, 1.0 - abs(clusters - 0.46) * 2.0);
+
+    float tealMask = activeCloud * coolRegion
+        * smoothstep(0.42, 0.84, detail + (1.0 - broad) * 0.24)
+        * (1.0 - warmRegion * 0.55);
+
+    float blueMask = activeCloud * coolRegion
+        * smoothstep(0.30, 0.74, 1.0 - broad + folds * 0.16);
+
+    float roseMask = activeCloud * roseRegion
+        * smoothstep(0.36, 0.78, broad + folds * 0.25);
+
+    float magentaMask = core * roseRegion
+        * smoothstep(0.56, 0.98, folds + detail * 0.28);
+
+    float warmMask = activeCloud * warmRegion
+        * smoothstep(0.34, 0.82, broad + detail * 0.22);
+
+    float tealBridge = activeCloud
+        * smoothstep(0.24, 0.56, detail)
+        * smoothstep(0.24, 0.62, 1.0 - abs(clusters - 0.46) * 2.0);
 
     vec3 deep = vec3(0.006, 0.010, 0.060);
     vec3 shadow = vec3(0.018, 0.026, 0.105);
@@ -129,14 +156,21 @@ vec3 nebula(vec2 uv)
     float travel = iTime * 0.018;
     vec2 viewUv = uv;
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < NEBULA_LAYERS; i++)
     {
         float layer = float(i);
         float phase = hash12(vec2(layer * 9.7, layer + 1.4));
         float cycle = floor(phase + travel);
         float z = fract(phase + travel);
-        float depth = mix(mix(3.20, 2.35, iVariant), mix(0.46, 0.34, iVariant), z);
+
+        float depth = mix(
+            mix(3.20, 2.35, iVariant),
+            mix(0.46, 0.34, iVariant),
+            z
+        );
+
         float scale = 1.0 / depth;
+
         float fadeIn = smoothstep(0.00, 0.34, z);
         float fadeOut = 1.0 - smoothstep(0.88, 1.0, z);
         float alpha = fadeIn * fadeOut;
@@ -145,22 +179,60 @@ vec3 nebula(vec2 uv)
             sin(layer * 2.31) * 0.18,
             cos(layer * 1.77) * 0.12
         );
+
         vec2 parallax = layerOffset * (1.0 - z) + vec2(
             sin((cycle + layer) * 1.83),
             cos((cycle - layer) * 1.41)
         ) * 0.10;
+
         float bannerZoom = mix(1.0, 0.42, iVariant);
         vec2 layerUv = viewUv * bannerZoom / scale + parallax;
-        vec4 cloud = nebulaLayer(layerUv, layer + 1.0 + cycle * 6.7);
-        vec4 leftCloud = nebulaLayer(layerUv + vec2(-0.74, 0.14), layer + 17.0 + cycle * 6.7);
-        vec4 rightCloud = nebulaLayer(layerUv + vec2(0.74, -0.12), layer + 31.0 + cycle * 6.7);
-        vec4 farLeftCloud = nebulaLayer(layerUv + vec2(-1.42, -0.04), layer + 43.0 + cycle * 6.7);
-        vec4 farRightCloud = nebulaLayer(layerUv + vec2(1.42, 0.08), layer + 59.0 + cycle * 6.7);
-        float sideBlend = iVariant * smoothstep(0.02, 0.92, abs(uv.x));
-        vec4 sideCloud = max(max(leftCloud, rightCloud), max(farLeftCloud, farRightCloud) * 0.88);
-        cloud = mix(cloud, sideCloud, sideBlend * 0.86);
 
-        col = mix(col, cloud.rgb, cloud.a * alpha * mix(0.76, 1.24, iVariant));
+        vec4 cloud = nebulaLayer(layerUv, layer + 1.0 + cycle * 6.7);
+
+        // Optimization:
+        // Side clouds are expensive, so only compute them when the variant
+        // and screen position actually need them.
+        if (iVariant > 0.001)
+        {
+            float sideBlend = iVariant * smoothstep(0.02, 0.92, abs(uv.x));
+
+            if (sideBlend > 0.001)
+            {
+                vec4 leftCloud = nebulaLayer(
+                    layerUv + vec2(-0.74, 0.14),
+                    layer + 17.0 + cycle * 6.7
+                );
+
+                vec4 rightCloud = nebulaLayer(
+                    layerUv + vec2(0.74, -0.12),
+                    layer + 31.0 + cycle * 6.7
+                );
+
+                vec4 sideCloud = max(leftCloud, rightCloud);
+
+                // Far side clouds are only useful close to the sides.
+                if (abs(uv.x) > 0.52)
+                {
+                    vec4 farLeftCloud = nebulaLayer(
+                        layerUv + vec2(-1.42, -0.04),
+                        layer + 43.0 + cycle * 6.7
+                    );
+
+                    vec4 farRightCloud = nebulaLayer(
+                        layerUv + vec2(1.42, 0.08),
+                        layer + 59.0 + cycle * 6.7
+                    );
+
+                    sideCloud = max(sideCloud, max(farLeftCloud, farRightCloud) * 0.88);
+                }
+
+                cloud = mix(cloud, sideCloud, sideBlend * 0.86);
+            }
+        }
+
+        // Slightly boosted because we reduced nebula layer count from 5 to 4.
+        col = mix(col, cloud.rgb, cloud.a * alpha * mix(0.90, 1.40, iVariant));
     }
 
     float vignette = smoothstep(
@@ -168,6 +240,7 @@ vec3 nebula(vec2 uv)
         0.18,
         length(viewUv * vec2(0.78, mix(1.12, 0.92, iVariant)))
     );
+
     col *= 0.72 + 0.42 * vignette;
 
     return clamp(col, 0.0, 1.0);
@@ -176,17 +249,28 @@ vec3 nebula(vec2 uv)
 vec3 starLayer(vec2 fragCoord, vec2 uv, float z, float seed)
 {
     vec3 col = vec3(0.0);
+
     float depth = mix(4.60, 0.38, z);
     float scale = 1.0 / depth;
+
     vec2 center = iResolution.xy * 0.5;
     vec2 layerOffset = vec2(sin(seed * 5.17), cos(seed * 4.31)) * 180.0;
+
     float cellSize = mix(24.0, 39.0, hash12(vec2(seed, 3.7)));
+
     vec2 projected = (fragCoord - center) / scale + center + layerOffset * (1.0 - z);
     vec2 p = projected / cellSize + vec2(seed * 19.13, seed * -27.41);
     vec2 baseCell = floor(p);
+
     float fadeIn = smoothstep(0.0, 0.42, z);
     float fadeOut = 1.0 - smoothstep(0.985, 1.0, z);
     float layerFade = fadeIn * fadeOut;
+
+    // Optimization:
+    // These were previously recomputed inside the 3x3 cell loop.
+    float by = uv.y / 0.72;
+    float band = exp(-(by * by));
+    float density = (0.007 + 0.019 * band) * mix(0.80, 1.28, hash12(vec2(seed, 9.2)));
 
     for (int y = -1; y <= 1; y++)
     {
@@ -194,34 +278,46 @@ vec3 starLayer(vec2 fragCoord, vec2 uv, float z, float seed)
         {
             vec2 cell = baseCell + vec2(float(x), float(y));
             vec2 rnd = hash22(cell);
+
             vec2 starWorld = (cell + rnd - vec2(seed * 19.13, seed * -27.41)) * cellSize;
             vec2 starPos = (starWorld - center - layerOffset * (1.0 - z)) * scale + center;
-
-            float band = exp(-pow(uv.y / 0.72, 2.0));
-            float density = (0.007 + 0.019 * band) * mix(0.80, 1.28, hash12(vec2(seed, 9.2)));
 
             if (hash12(cell + 11.3) < density)
             {
                 vec2 d = fragCoord - starPos;
                 float dist2 = dot(d, d);
-                float mag = pow(hash12(cell + 23.7), 6.0);
+
+                // pow(r, 6.0) replaced with multiplications.
+                float r = hash12(cell + 23.7);
+                float r2 = r * r;
+                float mag = r2 * r2 * r2;
+
                 float nearBoost = mix(0.70, 1.55, z);
-                float radius = mix(0.30, 1.18, pow(mag, 0.43)) * nearBoost;
+
+                float magSqrt = sqrt(max(mag, 0.00001));
+                float radius = mix(0.30, 1.18, magSqrt) * nearBoost;
+
                 float core = exp(-dist2 / (radius * radius));
 
-                float spikeLength = mix(2.0, 11.5, pow(mag, 0.56)) * nearBoost;
-                float spikeWidth = mix(0.055, 0.34, pow(mag, 0.48)) * nearBoost;
+                float spikeLength = mix(2.0, 11.5, sqrt(magSqrt)) * nearBoost;
+                float spikeWidth = mix(0.055, 0.34, magSqrt) * nearBoost;
+
                 float h = exp(-abs(d.x) / spikeLength) * exp(-(d.y * d.y) / spikeWidth);
                 float v = exp(-abs(d.y) / spikeLength) * exp(-(d.x * d.x) / spikeWidth);
                 float spikes = (h + v) * mix(0.08, 0.38, mag);
 
                 float phase = hash12(cell + 41.0) * TAU;
                 float twinkle = 0.88 + 0.24 * sin(iTime * mix(0.8, 3.8, mag) + phase);
+
                 float temp = hash12(cell + 59.0);
                 vec3 starColor = mix(vec3(1.0, 0.80, 0.58), vec3(0.70, 0.82, 1.0), temp);
                 starColor = mix(starColor, vec3(1.0, 0.96, 0.90), 0.64);
 
-                col += starColor * twinkle * mix(0.12, 2.25, mag) * layerFade * (core * 1.55 + spikes);
+                col += starColor
+                    * twinkle
+                    * mix(0.12, 2.25, mag)
+                    * layerFade
+                    * (core * 1.55 + spikes);
             }
         }
     }
@@ -234,20 +330,23 @@ vec3 stars(vec2 fragCoord, vec2 uv)
     vec3 col = vec3(0.0);
     float travel = iTime * 0.018;
 
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < STAR_LAYERS; i++)
     {
         float layer = float(i);
         float phase = hash12(vec2(layer * 13.7, layer + 4.2));
         float z = fract(phase + travel);
+
         col += starLayer(fragCoord, uv, z, layer + 2.0);
     }
 
-    return col * 0.74;
+    // Slightly boosted because star layer count was reduced from 7 to 5.
+    return col * 0.92;
 }
 
 void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
     vec2 uv = spaceUv(fragCoord);
+
     vec3 col = nebula(uv);
     col += stars(fragCoord, uv);
 
