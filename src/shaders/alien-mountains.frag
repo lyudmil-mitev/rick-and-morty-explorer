@@ -18,11 +18,6 @@ float hash12(vec2 p)
     return fract((q.x + q.y) * q.z);
 }
 
-vec2 hash22(vec2 p)
-{
-    return vec2(hash12(p), hash12(p + 37.17));
-}
-
 float valueNoise(vec2 p)
 {
     vec2 i = floor(p);
@@ -180,22 +175,13 @@ float mountainEdgeWidth(float z)
     return pixel * mix(1.85, 1.10, z);
 }
 
-float mountainEdgeDistance(vec2 uv, float z, float seed, float baseY)
-{
-    float depth = mix(4.25, 0.66, z);
-    float scale = 1.0 / depth;
-    vec2 layerUv = uv / scale + vec2(sin(seed * 2.4) * 0.58, seed * 0.035);
-    float ridge = ridgeY(layerUv.x, z, seed, baseY);
-
-    return uv.y - ridge;
-}
-
 vec4 mountainLayer(vec2 uv, float z, float seed, float baseY, vec3 lowColor, vec3 highColor)
 {
     float depth = mix(4.25, 0.66, z);
     float scale = 1.0 / depth;
     vec2 layerUv = uv / scale + vec2(sin(seed * 2.4) * 0.58, seed * 0.035);
-    float edgeDistance = mountainEdgeDistance(uv, z, seed, baseY);
+    float ridge = ridgeY(layerUv.x, z, seed, baseY);
+    float edgeDistance = uv.y - ridge;
     float edgeWidth = mountainEdgeWidth(z);
     float mask = 1.0 - smoothstep(-edgeWidth, edgeWidth, edgeDistance);
     float bodyShade = smoothstep(-0.12, 0.92, -layerUv.y + mix(0.36, 0.12, z));
@@ -229,61 +215,6 @@ vec4 cloudLayer(vec2 uv, float z, float seed)
     return vec4(sat(shade), alpha * 0.34);
 }
 
-float ridgeTrailPoint(vec2 uv, float edgeDistance, float z, float seed, float fade, float banner)
-{
-    float ridgeBand = smoothstep(-0.006, 0.018, edgeDistance) * (1.0 - smoothstep(0.28, 0.48, edgeDistance));
-    float depthMask = smoothstep(0.05, 0.72, z) * (1.0 - smoothstep(0.97, 1.0, z));
-    float scaleX = mix(3.6, 5.8, z);
-    float scaleY = mix(8.0, 12.5, z);
-    vec2 particleUv = vec2(
-        uv.x * scaleX + iTime * mix(0.46, 0.92, z) + seed * 0.19,
-        edgeDistance * scaleY
-    );
-    vec2 baseCell = floor(particleUv);
-    float particles = 0.0;
-
-    for (int y = -1; y <= 1; y++)
-    {
-        for (int x = -1; x <= 1; x++)
-        {
-            vec2 cell = baseCell + vec2(float(x), float(y));
-            float chance = hash12(cell + seed * 2.3);
-
-            if (chance > mix(0.24, 0.32, banner))
-            {
-                continue;
-            }
-
-            vec2 rnd = hash22(cell + seed * 4.7);
-            vec2 pointPos = cell + rnd;
-            vec2 d = particleUv - pointPos;
-            float size = mix(0.10, 0.16, hash12(cell + seed * 6.1)) * mix(0.92, 1.28, z);
-            float core = exp(-dot(d, d) / (size * size));
-            vec2 tailDir = normalize(vec2(-1.0, 0.22));
-            float along = dot(d, tailDir);
-            float behind = max(0.0, along);
-            float cross = length(d - tailDir * along);
-            float tailLength = mix(0.82, 1.28, z);
-            float tailWidth = size * 0.72;
-            float tail = step(0.0, along)
-                * (1.0 - smoothstep(0.0, tailLength, behind))
-                * exp(-(cross * cross) / (tailWidth * tailWidth));
-
-            particles += core * 1.35 + tail * 0.82;
-        }
-    }
-
-    return sat(particles) * ridgeBand * depthMask * fade;
-}
-
-vec3 applyRidgeParticles(vec2 uv, vec3 col, float edgeDistance, float z, float seed, float fade, float banner)
-{
-    float particles = ridgeTrailPoint(uv, edgeDistance, z, seed, fade, banner);
-    particles *= mix(0.52, 0.68, banner);
-
-    return mix(col, vec3(0.005, 0.070, 0.075), particles);
-}
-
 vec3 mountains(vec2 uv)
 {
     vec3 col = sky(uv);
@@ -308,8 +239,6 @@ vec3 mountains(vec2 uv)
             {
                 float fade = smoothstep(0.0, 0.18, z) * (1.0 - smoothstep(0.985, 1.0, z));
                 float bannerLift = mix(0.0, 0.16, banner);
-                float baseY = mix(0.06, -0.18, z) + bannerLift + splashLift;
-                float seed = layer + 2.0 + cycle * 5.3;
                 float palette = smoothstep(0.0, 1.0, z);
 
                 vec3 low = mix(vec3(0.37, 0.62, 0.54), vec3(0.035, 0.21, 0.25), palette);
@@ -317,8 +246,8 @@ vec3 mountains(vec2 uv)
                 vec4 ridge = mountainLayer(
                     scene,
                     z,
-                    seed,
-                    baseY,
+                    layer + 2.0 + cycle * 5.3,
+                    mix(0.06, -0.18, z) + bannerLift + splashLift,
                     low,
                     high
                 );
@@ -326,9 +255,6 @@ vec3 mountains(vec2 uv)
                 float farFog = 1.0 - smoothstep(0.04, 0.30, z);
                 vec3 ridgeColor = mix(vec3(0.74, 0.94, 0.70), ridge.rgb, 1.0 - farFog * 0.55);
                 col = mix(col, ridgeColor, ridge.a * fade);
-
-                float edgeDistance = mountainEdgeDistance(scene, z, seed, baseY);
-                col = applyRidgeParticles(scene, col, edgeDistance, z, seed, fade, banner);
 
                 float haze = fade * smoothstep(-0.78, 0.12, scene.y) * (1.0 - z) * mix(0.055, 0.08, banner);
                 col = mix(col, vec3(0.80, 0.98, 0.75), haze);
