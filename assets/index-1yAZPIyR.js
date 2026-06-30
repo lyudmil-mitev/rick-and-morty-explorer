@@ -532,13 +532,21 @@ float ridgeY(float x, float z, float seed, float baseY)
         - ridgeHeight(x, seed, mix(0.70, 1.10, z)) * mix(0.78, 1.22, z);
 }
 
+float mountainEdgeWidth(float z)
+{
+    float pixel = 2.0 / max(iResolution.y, 1.0);
+    return pixel * mix(1.85, 1.10, z);
+}
+
 vec4 mountainLayer(vec2 uv, float z, float seed, float baseY, vec3 lowColor, vec3 highColor)
 {
     float depth = mix(4.25, 0.66, z);
     float scale = 1.0 / depth;
     vec2 layerUv = uv / scale + vec2(sin(seed * 2.4) * 0.58, seed * 0.035);
     float ridge = ridgeY(layerUv.x, z, seed, baseY);
-    float mask = step(uv.y, ridge);
+    float edgeDistance = uv.y - ridge;
+    float edgeWidth = mountainEdgeWidth(z);
+    float mask = 1.0 - smoothstep(-edgeWidth, edgeWidth, edgeDistance);
     float bodyShade = smoothstep(-0.12, 0.92, -layerUv.y + mix(0.36, 0.12, z));
 
     vec3 ridgeColor = mix(highColor, lowColor, 0.42 + z * 0.20);
