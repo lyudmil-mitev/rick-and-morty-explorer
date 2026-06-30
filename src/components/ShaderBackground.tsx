@@ -37,12 +37,11 @@ export default function ShaderBackground({
       return;
     }
 
-    const isHeavyShader = theme === "light";
     const gl = canvas.getContext("webgl", {
       alpha: false,
       antialias: false,
       depth: false,
-      powerPreference: isHeavyShader ? "low-power" : "high-performance",
+      powerPreference: "low-power",
       stencil: false,
     });
 
@@ -214,11 +213,7 @@ export default function ShaderBackground({
     intersectionObserver?.observe(renderCanvas);
     document.addEventListener("visibilitychange", handleVisibilityChange);
 
-    if ("addEventListener" in reducedMotionQuery) {
-      reducedMotionQuery.addEventListener("change", handleMotionPreferenceChange);
-    } else {
-      reducedMotionQuery.addListener(handleMotionPreferenceChange);
-    }
+    reducedMotionQuery.addEventListener?.("change", handleMotionPreferenceChange);
 
     scheduleRender();
 
@@ -228,11 +223,7 @@ export default function ShaderBackground({
       intersectionObserver?.disconnect();
       document.removeEventListener("visibilitychange", handleVisibilityChange);
 
-      if ("removeEventListener" in reducedMotionQuery) {
-        reducedMotionQuery.removeEventListener("change", handleMotionPreferenceChange);
-      } else {
-        reducedMotionQuery.removeListener(handleMotionPreferenceChange);
-      }
+      reducedMotionQuery.removeEventListener?.("change", handleMotionPreferenceChange);
 
       renderGl.deleteBuffer(buffer);
       renderGl.deleteProgram(program);
