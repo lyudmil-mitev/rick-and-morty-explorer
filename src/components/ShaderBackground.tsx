@@ -11,6 +11,16 @@ const shaders: Record<Theme, string> = {
   light: alienMountainsShader,
 };
 
+const maxDprByTheme: Record<Theme, number> = {
+  dark: 2,
+  light: 1.25,
+};
+
+const targetFrameIntervalByTheme: Record<Theme, number> = {
+  dark: 0,
+  light: 1000 / 30,
+};
+
 export default function ShaderBackground({
   theme,
   variant,
@@ -28,9 +38,10 @@ export default function ShaderBackground({
     }
 
     const gl = canvas.getContext("webgl", {
+      alpha: false,
       antialias: false,
       depth: false,
-      powerPreference: "high-performance",
+      powerPreference: "low-power",
       stencil: false,
     });
 
@@ -46,6 +57,11 @@ export default function ShaderBackground({
     const timeLocation = renderGl.getUniformLocation(program, "iTime");
     const variantLocation = renderGl.getUniformLocation(program, "iVariant");
     const buffer = renderGl.createBuffer();
+
+    if (buffer === null) {
+      renderGl.deleteProgram(program);
+      return;
+    }
 
     renderGl.useProgram(program);
     renderGl.bindBuffer(renderGl.ARRAY_BUFFER, buffer);
@@ -63,35 +79,152 @@ export default function ShaderBackground({
     );
     renderGl.enableVertexAttribArray(positionLocation);
     renderGl.vertexAttribPointer(positionLocation, 2, renderGl.FLOAT, false, 0, 0);
+    renderGl.uniform1f(variantLocation, variant === "banner" ? 1 : 0);
 
+    const maxDpr = maxDprByTheme[theme];
+    const targetFrameInterval = targetFrameIntervalByTheme[theme];
+    const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
     const startedAt = performance.now();
     let animationFrame = 0;
+    let frameTimer: number | undefined;
+    let lastRenderedAt = 0;
+    let lastWidth = 0;
+    let lastHeight = 0;
+    let lastDpr = 0;
+    let isDocumentVisible = document.visibilityState === "visible";
+    let isCanvasVisible = true;
+    let needsDraw = true;
 
-    function render(now: number) {
-      const dpr = Math.min(window.devicePixelRatio || 1, 2);
-      const rect = renderCanvas.getBoundingClientRect();
-      const width = Math.max(1, Math.floor(rect.width * dpr));
-      const height = Math.max(1, Math.floor(rect.height * dpr));
-
-      if (renderCanvas.width !== width || renderCanvas.height !== height) {
-        renderCanvas.width = width;
-        renderCanvas.height = height;
-        renderGl.viewport(0, 0, width, height);
+    function cancelScheduledRender() {
+      if (animationFrame !== 0) {
+        cancelAnimationFrame(animationFrame);
+        animationFrame = 0;
       }
 
-      renderGl.useProgram(program);
-      renderGl.uniform3f(resolutionLocation, width, height, dpr);
-      renderGl.uniform1f(timeLocation, (now - startedAt) / 1000);
-      renderGl.uniform1f(variantLocation, variant === "banner" ? 1 : 0);
-      renderGl.drawArrays(renderGl.TRIANGLES, 0, 6);
+      if (frameTimer !== undefined) {
+        clearTimeout(frameTimer);
+        frameTimer = undefined;
+      }
+    }
+
+    function scheduleRender(delay = 0) {
+      if (animationFrame !== 0 || frameTimer !== undefined) {
+        return;
+      }
+
+      if (delay > 0) {
+        frameTimer = window.setTimeout(() => {
+          frameTimer = undefined;
+          animationFrame = requestAnimationFrame(render);
+        }, delay);
+        return;
+      }
 
       animationFrame = requestAnimationFrame(render);
     }
 
-    animationFrame = requestAnimationFrame(render);
+    function resizeCanvas() {
+      const dpr = Math.min(window.devicePixelRatio || 1, maxDpr);
+      const rect = renderCanvas.getBoundingClientRect();
+      const width = Math.max(1, Math.floor(rect.width * dpr));
+      const height = Math.max(1, Math.floor(rect.height * dpr));
+      const changed = width !== lastWidth || height !== lastHeight || dpr !== lastDpr;
+
+      if (changed) {
+        lastWidth = width;
+        lastHeight = height;
+        lastDpr = dpr;
+
+        if (renderCanvas.width !== width || renderCanvas.height !== height) {
+          renderCanvas.width = width;
+          renderCanvas.height = height;
+          renderGl.viewport(0, 0, width, height);
+        }
+
+        renderGl.uniform3f(resolutionLocation, width, height, dpr);
+      }
+
+      return changed;
+    }
+
+    function render(now: number) {
+      animationFrame = 0;
+
+      if (!isDocumentVisible || !isCanvasVisible) {
+        return;
+      }
+
+      const frameAge = now - lastRenderedAt;
+
+      if (targetFrameInterval > 0 && !needsDraw && frameAge < targetFrameInterval) {
+        scheduleRender(targetFrameInterval - frameAge);
+        return;
+      }
+
+      needsDraw = resizeCanvas() || needsDraw;
+
+      renderGl.uniform1f(timeLocation, (now - startedAt) / 1000);
+      renderGl.drawArrays(renderGl.TRIANGLES, 0, 6);
+
+      needsDraw = false;
+      lastRenderedAt = now;
+
+      if (!reducedMotionQuery.matches) {
+        scheduleRender();
+      }
+    }
+
+    function handleVisibilityChange() {
+      isDocumentVisible = document.visibilityState === "visible";
+
+      if (isDocumentVisible) {
+        needsDraw = true;
+        scheduleRender();
+      } else {
+        cancelScheduledRender();
+      }
+    }
+
+    function handleMotionPreferenceChange() {
+      needsDraw = true;
+      scheduleRender();
+    }
+
+    const resizeObserver = typeof ResizeObserver === "undefined"
+      ? null
+      : new ResizeObserver(() => {
+          needsDraw = true;
+          scheduleRender();
+        });
+    const intersectionObserver = typeof IntersectionObserver === "undefined"
+      ? null
+      : new IntersectionObserver((entries) => {
+          isCanvasVisible = entries[0]?.isIntersecting ?? true;
+
+          if (isCanvasVisible) {
+            needsDraw = true;
+            scheduleRender();
+          } else {
+            cancelScheduledRender();
+          }
+        });
+
+    resizeObserver?.observe(renderCanvas);
+    intersectionObserver?.observe(renderCanvas);
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    reducedMotionQuery.addEventListener?.("change", handleMotionPreferenceChange);
+
+    scheduleRender();
 
     return () => {
-      cancelAnimationFrame(animationFrame);
+      cancelScheduledRender();
+      resizeObserver?.disconnect();
+      intersectionObserver?.disconnect();
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+
+      reducedMotionQuery.removeEventListener?.("change", handleMotionPreferenceChange);
+
       renderGl.deleteBuffer(buffer);
       renderGl.deleteProgram(program);
     };

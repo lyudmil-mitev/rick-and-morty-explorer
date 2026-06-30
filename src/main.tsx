@@ -14,12 +14,18 @@ import LocationDetails from './routes/LocationDetails.tsx'
 import ErrorPage from './routes/ErrorPage.tsx'
 import About from './routes/About.tsx'
 import HomeSplash from './routes/HomeSplash.tsx'
+import LoadingSpinner from './components/LoadingSpinner.tsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
+    hydrateFallbackElement: (
+      <main className="flex min-h-screen items-center justify-center bg-[#eef2ed] text-slate-950 dark:bg-[#070b18] dark:text-white">
+        <LoadingSpinner />
+      </main>
+    ),
     children: [
       {
         index: true,
