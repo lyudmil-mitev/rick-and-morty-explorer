@@ -328,9 +328,12 @@ vec3 starLayer(vec2 fragCoord, vec2 uv, float z, float seed)
                 float along = dot(d, radial);
                 float behind = -along;
                 float cross = length(d - radial * along);
-                float trailLength = mix(16.0, 140.0, trailAmount) * mix(0.72, 1.50, magSqrt) * nearBoost;
+                float trailLength = mix(18.0, 180.0, trailAmount) * mix(0.72, 1.50, magSqrt) * nearBoost;
                 float trailWidth = mix(0.42, 1.32, magSqrt) * nearBoost;
-                float tail = step(0.0, behind) * (1.0 - smoothstep(0.0, trailLength, behind));
+                float trailProgress = clamp(behind / trailLength, 0.0, 1.0);
+                float tail = step(0.0, behind)
+                    * exp(-trailProgress * trailProgress * 2.1)
+                    * (1.0 - smoothstep(0.72, 1.0, trailProgress));
                 float glow = exp(-(cross * cross) / (trailWidth * trailWidth)) * tail * trailAmount;
 
                 col += starColor
