@@ -603,6 +603,39 @@ vec4 cloudLayer(vec2 uv, float z, float seed)
     return vec4(sat(shade), alpha * 0.34);
 }
 
+vec3 windStreaks(vec2 uv, vec3 col)
+{
+    float banner = iVariant;
+    vec2 scene = uv * mix(1.48, 1.0, banner);
+    float skyWindow = smoothstep(-0.54, 0.06, uv.y) * (1.0 - smoothstep(1.00, 1.28, uv.y));
+    float lowerFade = mix(0.65, 0.34, banner);
+    float streaks = 0.0;
+
+    for (int i = 0; i < 4; i++)
+    {
+        float layer = float(i);
+        float seed = layer * 7.13 + 3.7;
+        float laneScale = mix(4.0, 7.5, hash12(vec2(seed, 1.4)));
+        vec2 flow = scene * vec2(1.0, 1.45);
+        flow.x += iTime * mix(0.18, 0.46, hash12(vec2(seed, 3.1)));
+        flow.y += flow.x * mix(-0.10, -0.045, hash12(vec2(seed, 5.6)));
+
+        float lane = flow.y * laneScale + seed;
+        float laneId = floor(lane);
+        float centerLine = fract(lane) - 0.5;
+        float thinLine = exp(-centerLine * centerLine * mix(260.0, 460.0, hash12(vec2(seed, 7.2))));
+        float segment = smoothstep(0.46, 0.92, valueNoise(vec2(flow.x * mix(0.28, 0.48, hash12(vec2(seed, 8.5))), laneId + seed)));
+        float gust = 0.74 + 0.26 * sin(flow.x * 4.2 + iTime * mix(1.3, 2.4, hash12(vec2(seed, 9.6))) + seed);
+
+        streaks += thinLine * segment * gust * mix(0.45, 0.85, hash12(vec2(seed, 11.2)));
+    }
+
+    float amount = sat(streaks) * skyWindow * lowerFade * mix(0.030, 0.042, banner);
+    vec3 windColor = mix(vec3(0.86, 1.00, 0.82), vec3(0.62, 0.98, 0.92), smoothstep(-0.2, 0.9, uv.y));
+
+    return sat(col + windColor * amount);
+}
+
 vec3 mountains(vec2 uv)
 {
     vec3 col = sky(uv);
@@ -674,6 +707,7 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
     vec2 uv = sceneUv(fragCoord);
     vec3 col = mountains(uv);
+    col = windStreaks(uv, col);
     col = flyClouds(uv, col);
 
     float lowerHaze = smoothstep(-0.92, 0.02, uv.y) * 0.20;
