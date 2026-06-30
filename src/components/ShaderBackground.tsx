@@ -21,11 +21,8 @@ const targetFrameIntervalByTheme: Record<Theme, number> = {
   light: 1000 / 30,
 };
 
-const fullMotionFrameInterval = 1000 / 60;
-const minimumAdaptiveRenderScale = 0.55;
-const adaptiveRenderScaleStep = 0.15;
-const slowFrameLimit = 8;
-const stableFrameLimit = 120;
+const mobileRenderScale = 0.55;
+const mobileMediaQuery = "(max-width: 760px)";
 
 export default function ShaderBackground({
   theme,
@@ -91,7 +88,7 @@ export default function ShaderBackground({
     const maxDpr = maxDprByTheme[theme];
     const targetFrameInterval = targetFrameIntervalByTheme[theme];
     const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const mobileQuery = window.matchMedia("(max-width: 760px)");
+    const mobileQuery = window.matchMedia(mobileMediaQuery);
     const startedAt = performance.now();
     let animationFrame = 0;
     let frameTimer: number | undefined;
@@ -99,9 +96,6 @@ export default function ShaderBackground({
     let lastWidth = 0;
     let lastHeight = 0;
     let lastDpr = 0;
-    let renderScale = 1;
-    let slowFrameCount = 0;
-    let stableFrameCount = 0;
     let isDocumentVisible = document.visibilityState === "visible";
     let isCanvasVisible = true;
     let needsDraw = true;
@@ -135,6 +129,7 @@ export default function ShaderBackground({
     }
 
     function resizeCanvas() {
+      const renderScale = theme === "light" && mobileQuery.matches ? mobileRenderScale : 1;
       const dpr = Math.min(window.devicePixelRatio || 1, maxDpr) * renderScale;
       const rect = renderCanvas.getBoundingClientRect();
       const width = Math.max(1, Math.floor(rect.width * dpr));
@@ -165,56 +160,6 @@ export default function ShaderBackground({
       }
     }
 
-    function resetAdaptiveQuality() {
-      slowFrameCount = 0;
-      stableFrameCount = 0;
-
-      if (renderScale !== 1) {
-        renderScale = 1;
-        needsDraw = true;
-      }
-    }
-
-    function adaptRenderQuality(frameAge: number) {
-      if (!mobileQuery.matches || reducedMotionQuery.matches || lastRenderedAt === 0) {
-        if (!mobileQuery.matches) {
-          resetAdaptiveQuality();
-        }
-
-        return;
-      }
-
-      const frameBudget = targetFrameInterval || fullMotionFrameInterval;
-      const slowFrame = frameAge > frameBudget * 1.35;
-      const stableFrame = frameAge < frameBudget * 1.08;
-
-      if (slowFrame) {
-        slowFrameCount += 1;
-        stableFrameCount = 0;
-      } else if (stableFrame) {
-        stableFrameCount += 1;
-        slowFrameCount = 0;
-      } else {
-        slowFrameCount = 0;
-        stableFrameCount = Math.max(0, stableFrameCount - 1);
-      }
-
-      if (slowFrameCount >= slowFrameLimit && renderScale > minimumAdaptiveRenderScale) {
-        renderScale = Math.max(minimumAdaptiveRenderScale, renderScale - adaptiveRenderScaleStep);
-        slowFrameCount = 0;
-        stableFrameCount = 0;
-        needsDraw = true;
-        return;
-      }
-
-      if (stableFrameCount >= stableFrameLimit && renderScale < 1) {
-        renderScale = Math.min(1, renderScale + adaptiveRenderScaleStep);
-        slowFrameCount = 0;
-        stableFrameCount = 0;
-        needsDraw = true;
-      }
-    }
-
     function render(now: number) {
       animationFrame = 0;
 
@@ -236,7 +181,6 @@ export default function ShaderBackground({
       renderGl.drawArrays(renderGl.TRIANGLES, 0, 6);
 
       needsDraw = false;
-      adaptRenderQuality(frameAge);
       lastRenderedAt = now;
 
       if (!reducedMotionQuery.matches) {
@@ -256,16 +200,11 @@ export default function ShaderBackground({
     }
 
     function handleMotionPreferenceChange() {
-      resetAdaptiveQuality();
       needsDraw = true;
       scheduleRender();
     }
 
     function handleMobileChange() {
-      if (!mobileQuery.matches) {
-        resetAdaptiveQuality();
-      }
-
       needsDraw = true;
       scheduleRender();
     }
