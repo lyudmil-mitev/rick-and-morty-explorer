@@ -5,6 +5,7 @@ precision highp float;
 uniform vec3 iResolution;
 uniform float iTime;
 uniform float iVariant;
+uniform float iStarTrailAmount;
 
 #define TAU 6.28318530718
 
@@ -260,6 +261,7 @@ vec3 starLayer(vec2 fragCoord, vec2 uv, float z, float seed)
     float by = uv.y / 0.72;
     float band = exp(-(by * by));
     float density = (0.007 + 0.019 * band) * mix(0.80, 1.28, hash12(vec2(seed, 9.2)));
+    float trailAmount = clamp(iStarTrailAmount, 0.0, 1.0);
 
     for (int y = -1; y <= 1; y++)
     {
@@ -318,6 +320,24 @@ vec3 starLayer(vec2 fragCoord, vec2 uv, float z, float seed)
                 * mix(0.12, 2.25, mag)
                 * layerFade
                 * (core * 1.55 + spikes);
+
+            if (trailAmount > 0.001 && mag > 0.0008)
+            {
+                vec2 radial = normalize(starPos - center + vec2(0.0001));
+                float along = dot(d, radial);
+                float behind = -along;
+                float cross = length(d - radial * along);
+                float trailLength = mix(8.0, 70.0, trailAmount) * mix(0.72, 1.50, magSqrt) * nearBoost;
+                float trailWidth = mix(0.42, 1.32, magSqrt) * nearBoost;
+                float tail = step(0.0, behind) * (1.0 - smoothstep(0.0, trailLength, behind));
+                float glow = exp(-(cross * cross) / (trailWidth * trailWidth)) * tail * trailAmount;
+
+                col += starColor
+                    * twinkle
+                    * mix(0.42, 3.20, mag)
+                    * layerFade
+                    * glow;
+            }
         }
     }
 
