@@ -18,6 +18,11 @@ float hash12(vec2 p)
     return fract((q.x + q.y) * q.z);
 }
 
+vec2 hash22(vec2 p)
+{
+    return vec2(hash12(p), hash12(p + 37.17));
+}
+
 float valueNoise(vec2 p)
 {
     vec2 i = floor(p);
@@ -224,39 +229,59 @@ vec4 cloudLayer(vec2 uv, float z, float seed)
     return vec4(sat(shade), alpha * 0.34);
 }
 
-float ridgeParticleStreak(vec2 uv, float edgeDistance, float z, float seed, float fade, float banner)
+float ridgeTrailPoint(vec2 uv, float edgeDistance, float z, float seed, float fade, float banner)
 {
-    float originBand = smoothstep(0.004, 0.030, edgeDistance) * (1.0 - smoothstep(0.22, 0.55, edgeDistance));
-    float depthMask = smoothstep(0.06, 0.82, z) * (1.0 - smoothstep(0.98, 1.0, z));
-    vec2 flow = uv * vec2(1.0, 1.35);
-    flow.x += iTime * mix(0.70, 1.36, z) + seed * 0.13;
-    flow.y += flow.x * mix(-0.22, -0.12, hash12(vec2(seed, 1.8)));
+    float ridgeBand = smoothstep(0.006, 0.022, edgeDistance) * (1.0 - smoothstep(0.16, 0.30, edgeDistance));
+    float depthMask = smoothstep(0.08, 0.76, z) * (1.0 - smoothstep(0.96, 1.0, z));
+    float scaleX = mix(6.0, 9.5, z);
+    float scaleY = mix(17.0, 24.0, z);
+    vec2 particleUv = vec2(
+        uv.x * scaleX + iTime * mix(0.42, 0.78, z) + seed * 0.19,
+        edgeDistance * scaleY
+    );
+    vec2 baseCell = floor(particleUv);
+    float particles = 0.0;
 
-    float laneScale = mix(28.0, 46.0, hash12(vec2(seed, 2.6)));
-    float lane = flow.y * laneScale + seed * 3.7;
-    float laneId = floor(lane);
-    float centerLine = fract(lane) - 0.5;
-    float line = exp(-centerLine * centerLine * mix(340.0, 680.0, hash12(vec2(seed, 4.9))));
-    float segment = smoothstep(0.30, 0.82, valueNoise(vec2(flow.x * mix(1.4, 2.6, z), laneId + seed)));
-    float spark = smoothstep(0.70, 0.98, hash12(vec2(laneId, floor(flow.x * mix(10.0, 18.0, z)) + seed)));
-    float gust = 0.76 + 0.24 * sin(flow.x * 8.0 + iTime * mix(3.2, 5.8, z) + seed);
+    for (int y = -1; y <= 1; y++)
+    {
+        for (int x = -1; x <= 1; x++)
+        {
+            vec2 cell = baseCell + vec2(float(x), float(y));
+            float chance = hash12(cell + seed * 2.3);
 
-    return line * max(segment, spark * 0.8) * gust * originBand * depthMask * fade * mix(0.90, 1.18, banner);
+            if (chance > mix(0.045, 0.070, banner))
+            {
+                continue;
+            }
+
+            vec2 rnd = hash22(cell + seed * 4.7);
+            vec2 pointPos = cell + rnd;
+            vec2 d = particleUv - pointPos;
+            float size = mix(0.040, 0.070, hash12(cell + seed * 6.1)) * mix(0.86, 1.22, z);
+            float core = exp(-dot(d, d) / (size * size));
+            vec2 tailDir = normalize(vec2(-1.0, 0.24));
+            float along = dot(d, tailDir);
+            float behind = max(0.0, along);
+            float cross = length(d - tailDir * along);
+            float tailLength = mix(0.42, 0.74, z);
+            float tailWidth = size * 0.55;
+            float tail = step(0.0, along)
+                * (1.0 - smoothstep(0.0, tailLength, behind))
+                * exp(-(cross * cross) / (tailWidth * tailWidth));
+
+            particles += core * 1.12 + tail * 0.54;
+        }
+    }
+
+    return sat(particles) * ridgeBand * depthMask * fade;
 }
 
 vec3 applyRidgeParticles(vec2 uv, vec3 col, float edgeDistance, float z, float seed, float fade, float banner)
 {
-    float particles = 0.0;
+    float particles = ridgeTrailPoint(uv, edgeDistance, z, seed, fade, banner);
+    particles *= mix(0.18, 0.24, banner);
 
-    for (int i = 0; i < 3; i++)
-    {
-        particles += ridgeParticleStreak(uv, edgeDistance, z, seed + float(i) * 13.17, fade, banner);
-    }
-
-    particles = sat(particles) * mix(0.20, 0.30, banner);
-    vec3 particleColor = vec3(0.025, 0.16, 0.15);
-
-    return mix(col, particleColor, particles);
+    return mix(col, vec3(0.025, 0.16, 0.15), particles);
 }
 
 vec3 mountains(vec2 uv)
