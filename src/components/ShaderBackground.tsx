@@ -29,6 +29,17 @@ const mobileMediaQuery = "(max-width: 760px)";
 const startupSpeedMultiplier = 5;
 const starStartupSpeedMultiplier = startupSpeedMultiplier * 3;
 const startupSpeedRampMs = 3600;
+const interactionTargetSelector = [
+  "a[href]",
+  "button",
+  "input",
+  "select",
+  "textarea",
+  "summary",
+  '[role="button"]',
+  '[role="link"]',
+  '[tabindex]:not([tabindex="-1"])',
+].join(",");
 
 function clamp01(value: number) {
   return Math.max(0, Math.min(1, value));
@@ -36,6 +47,10 @@ function clamp01(value: number) {
 
 function easeOutCubic(value: number) {
   return 1 - Math.pow(1 - value, 3);
+}
+
+function isInteractionTarget(target: EventTarget | null) {
+  return target instanceof Element && target.closest(interactionTargetSelector) !== null;
 }
 
 export default function ShaderBackground({
@@ -106,11 +121,11 @@ export default function ShaderBackground({
     const targetFrameInterval = targetFrameIntervalByTheme[theme];
     const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
     const mobileQuery = window.matchMedia(mobileMediaQuery);
-    const startedAt = performance.now();
+    let motionStartedAt = performance.now();
     let animationFrame = 0;
     let frameTimer: number | undefined;
     let lastRenderedAt = 0;
-    let lastAnimationAt = startedAt;
+    let lastAnimationAt = motionStartedAt;
     let shaderTimeSeconds = 0;
     let starTimeSeconds = 0;
     let lastWidth = 0;
@@ -150,12 +165,22 @@ export default function ShaderBackground({
       animationFrame = requestAnimationFrame(render);
     }
 
+    function restartStartupMotion() {
+      if (reducedMotionQuery.matches) {
+        return;
+      }
+
+      motionStartedAt = performance.now();
+      needsDraw = true;
+      scheduleRender();
+    }
+
     function getStartupMotion(now: number) {
       if (reducedMotionQuery.matches) {
         return { speed: 1, starSpeed: 1, trailAmount: 0, active: false };
       }
 
-      const progress = clamp01((now - startedAt) / startupSpeedRampMs);
+      const progress = clamp01((now - motionStartedAt) / startupSpeedRampMs);
       const trailAmount = 1 - easeOutCubic(progress);
 
       return {
@@ -276,6 +301,18 @@ export default function ShaderBackground({
       }
     }
 
+    function handleDocumentPointerDown(event: PointerEvent) {
+      if (isInteractionTarget(event.target)) {
+        restartStartupMotion();
+      }
+    }
+
+    function handleDocumentKeyDown(event: KeyboardEvent) {
+      if ((event.key === "Enter" || event.key === " ") && isInteractionTarget(event.target)) {
+        restartStartupMotion();
+      }
+    }
+
     function handleMotionPreferenceChange() {
       needsDraw = true;
       scheduleRender();
@@ -309,6 +346,8 @@ export default function ShaderBackground({
     resizeObserver?.observe(renderCanvas);
     intersectionObserver?.observe(renderCanvas);
     document.addEventListener("visibilitychange", handleVisibilityChange);
+    document.addEventListener("pointerdown", handleDocumentPointerDown, true);
+    document.addEventListener("keydown", handleDocumentKeyDown, true);
 
     reducedMotionQuery.addEventListener?.("change", handleMotionPreferenceChange);
     mobileQuery.addEventListener?.("change", handleMobileChange);
@@ -320,6 +359,8 @@ export default function ShaderBackground({
       resizeObserver?.disconnect();
       intersectionObserver?.disconnect();
       document.removeEventListener("visibilitychange", handleVisibilityChange);
+      document.removeEventListener("pointerdown", handleDocumentPointerDown, true);
+      document.removeEventListener("keydown", handleDocumentKeyDown, true);
 
       reducedMotionQuery.removeEventListener?.("change", handleMotionPreferenceChange);
       mobileQuery.removeEventListener?.("change", handleMobileChange);
